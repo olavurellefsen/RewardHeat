@@ -1,0 +1,10 @@
+name: rewardheat
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pandas
+  - python=3.7
+  - xlrd
+  - openpyxl
+
