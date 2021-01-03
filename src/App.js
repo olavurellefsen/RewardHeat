@@ -57,6 +57,7 @@ export const changeScenario = (name, value) => ({
 const default_scenario = scenarioCombinations.scenarioCombinations.scenarioOptions[0].name;
 const default_countries = ['no','se','dk', "fi"];
 const options = []
+
 scenarioCombinations.scenarioCombinations.scenarioOptions
   .filter(s => !s.opt0 && !s.op1 && !s.opt2 && !s.opt3)
   .forEach(s => {
@@ -88,7 +89,9 @@ export class App extends React.Component {
     location: PropTypes.object,
   }
   UpdateScenarioNames = () => {
+    
     this.setState(state => {
+      console.log("state: ", state)
       return {
         scenarioSelection:
           state.scenarioSelectionNoOptions +
@@ -99,6 +102,7 @@ export class App extends React.Component {
       }
     })
     this.setState(state => {
+      
       return {
         scenarioSelection2:
           state.scenarioSelectionNoOptions2 !== ''
