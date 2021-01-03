@@ -46,7 +46,6 @@ export const ScenarioNameContainer = styled.div`
   display: flex;
   flex:1;
   align-self: stretch;
-  ${'' /* border: 1px solid pink; */}
   align-items: center;
   padding: ${props => (props.narrowVersion ? "0px" : "0 12px 0 15px")};
   justify-content: ${props => (props.narrowVersion ? "center" : "flex-start")};

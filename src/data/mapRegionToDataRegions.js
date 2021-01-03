@@ -1,13 +1,8 @@
 export default [
     {
-        country: "Sweden",
-        path_id : "se", 
-        data_regions: ["SE"],
-    }, 
-    {
-        country: "Norway",
-        path_id : "no", 
-        data_regions: ["NO"],
+        country: "Germany",
+        path_id : "de", 
+        data_regions: ["DE"],
     }, 
     {
         country: "Denmark",
@@ -15,19 +10,33 @@ export default [
         data_regions: ["DK"],
     }, 
     {
-        country: "Finland",
-        path_id : "fi", 
-        data_regions: ["FI"],
+        country: "France",
+        path_id : "fr", 
+        data_regions: ["FR"],
     },
     {
-        country: "Iceland",
-        path_id : "is", 
-        data_regions: [],
+        country: "Croatia",
+        path_id : "hr", 
+        data_regions: ["HR"],
     },
     {
         country: "Faroe Islands",
         path_id : "fo", 
         data_regions: [],
+    },
+    {
+        country: "Italy",
+        path_id : "it", 
+        data_regions: ["IT"],
+    },{
+        country: "Netherlands",
+        path_id : "nl", 
+        data_regions: ["NL"],
+    },
+    {
+        country: "Sweden",
+        path_id : "se", 
+        data_regions: ["SE"],
     },
 ]
 

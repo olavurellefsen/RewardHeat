@@ -34,7 +34,7 @@ export function createAccumulatedData(data, scenario, percentage, chartName, sel
                 })
               }
               if (selectedDataRegions.includes(r.region)) {//Only include selected countries
-                console.log("indicatorGroup.indicatorGroup", indicatorGroup.indicatorGroup)
+                //console.log("indicatorGroup.indicatorGroup", indicatorGroup.indicatorGroup)
                 indicatorGroup.indicatorGroupValues.forEach((value, index) => {
                   if (accumulatedData[indicatorGroup.indicatorGroup][index].year !== value.year ) {
                      //Extra check we rely on the two arrays being indexed the same way
