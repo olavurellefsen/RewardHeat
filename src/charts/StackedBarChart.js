@@ -163,8 +163,8 @@ const StackedBarChart = props => {
           x={90}
           y={0}
           orientation="horizontal"
-          gutter={gutter}
-          rowGutter={rowGutter}
+          gutter={0}
+          rowGutter={0}
           symbolSpacer={4}
           itemsPerRow={5}
           style={{
