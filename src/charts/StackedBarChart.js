@@ -114,8 +114,8 @@ const StackedBarChart = props => {
       <ChartTitle>{chartTitle}</ChartTitle>
       <VictoryChart
         domainPadding={20}
-        width={380}
-        height={380}
+        width={750}
+        height={750}
         padding={{ left: 80, right: 50, top: 50, bottom: 50 }}
         theme={VictoryTheme.material}
         // domain={{ y: yDomain }} //removed to fix issue with axis labels not being updated
@@ -166,7 +166,7 @@ const StackedBarChart = props => {
           gutter={gutter}
           rowGutter={rowGutter}
           symbolSpacer={4}
-          itemsPerRow={3}
+          itemsPerRow={5}
           style={{
             title: { fontSize: 14, leftPadding: -10 },
           }}
