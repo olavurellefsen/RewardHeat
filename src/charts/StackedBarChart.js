@@ -178,11 +178,6 @@ const StackedBarChart = props => {
               fill: colors[i],
             }))}
           labelComponent={<VictoryLabel style={{ fontSize: '12px' }} />}
-          /*dataComponent={<foreignObject style={{border: "1px solid pink"}} 
-          dx={-70}
-          dy={-15}
-        width="30"
-        height="30"><p><input style={{position: "relative", top: "-20px", left: "5px"}} type="checkbox"></input></p></foreignObject>}*/
         />
         
         <VictoryGroup offset={10} style={{ data: { width: 10 } }}>
