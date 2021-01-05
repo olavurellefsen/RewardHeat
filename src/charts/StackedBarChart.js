@@ -45,7 +45,7 @@ const StackedBarChart = props => {
   const chartTitle = props.chartTitle
   const combinedChart = props.combinedChart
 
-  let gutter, rowGutter
+  /* let gutter, rowGutter
   if (
     !process.env.NODE_ENV ||
     process.env.NODE_ENV === 'development' ||
@@ -57,7 +57,7 @@ const StackedBarChart = props => {
     gutter = -40
     rowGutter = -5
   }
-
+ */
    let maxY2 = 1
    
   // let minY2 = 0
