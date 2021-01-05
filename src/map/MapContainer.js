@@ -6,7 +6,6 @@ import { ReactComponent as Regions } from './regions.svg'
 const activeCountries = ['dk', 'de', 'fr', 'hr', 'it', 'nl', 'se',]
 
 const countryColorsCSS = props =>{
-  console.log("countryColors props: ", props)
   return(
   props.countries.map(
     country => `
@@ -31,7 +30,6 @@ const MapContainer = (props) => (
     <Regions
       onClick={event => {
         const id = event.target.id
-        console.log("map id: ", id)
         if (id && activeCountries.includes(id)) {
           event.preventDefault()
           props.selectCountry(id)

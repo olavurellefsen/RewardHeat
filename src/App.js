@@ -55,7 +55,8 @@ export const changeScenario = (name, value) => ({
   [name]: value,
 })
 const default_scenario = scenarioCombinations.scenarioCombinations.scenarioOptions[0].name;
-const default_countries = ['dk', 'de', 'fr', 'hr', 'it', 'nl', 'se',];
+/* const default_countries = ['dk', 'de', 'fr', 'hr', 'it', 'nl', 'se',]; */
+const default_countries = ['dk'];
 const options = []
 
 scenarioCombinations.scenarioCombinations.scenarioOptions
@@ -180,15 +181,25 @@ export class App extends React.Component {
   }
 
   selectCountry = country => {
-    let newSelectedCountries = this.state.selectedCountries
+    /* let newSelectedCountries = this.state.selectedCountries
     if (newSelectedCountries.includes(country)) {
       newSelectedCountries = newSelectedCountries.filter(c => c !== country)
     } else {
       newSelectedCountries.push(country)
-    }
-    this.setState({
+    } */
+    /* this.setState({
       selectedCountries: newSelectedCountries,
-    })
+    }) */
+    if(this.state.selectedCountries.includes(country)) {
+      this.setState({
+        selectedCountries: [],
+      })
+    } else {
+      this.setState({
+        selectedCountries: country,
+      })
+    }
+    
   }
   
   render() {

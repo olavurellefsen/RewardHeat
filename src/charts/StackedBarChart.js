@@ -26,6 +26,14 @@ const ChartHeader = styled(VictoryLabel)`
 `
 ChartHeader.displayName = 'ChartHeader'
 
+const ChartTitle = styled.div`
+  margin-left: 70px;
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+
+`
+
 const StackedBarChart = props => {
   //const { t } = useTranslation()
   const stackedBar = props.stackedBar
@@ -51,6 +59,7 @@ const StackedBarChart = props => {
   }
 
    let maxY2 = 1
+   
   // let minY2 = 0
   // if (combinedChart === true) {
   //   maxY2 = props.maxY2
@@ -77,6 +86,18 @@ const StackedBarChart = props => {
     maxY = Math.round(Math.max(maxY, totalYearValuesScenario1[year],
       scenario2 ? totalYearValuesScenario2[year] : -Infinity))
   })
+  //console.log("chartname: ", chartName)
+  //console.log("maxY before: ", maxY)
+  let t = 1
+  let i = 0
+  let range = [2,4,10]
+  while(t < maxY) {
+    t = range[i%3]*Math.pow(range[2], Math.floor(i/3))
+    i++
+  }
+  maxY = t
+  //console.log("maxY after: ", maxY)
+  //console.log("-------------------")
   
   let legends = new Set()
   
@@ -87,9 +108,10 @@ const StackedBarChart = props => {
       legends.add(group.indicatorGroup)
     })
   })
-  
+
   return (
     <div>
+      <ChartTitle>{chartTitle}</ChartTitle>
       <VictoryChart
         domainPadding={20}
         width={380}
@@ -98,7 +120,7 @@ const StackedBarChart = props => {
         theme={VictoryTheme.material}
         // domain={{ y: yDomain }} //removed to fix issue with axis labels not being updated
       >
-        <ChartHeader x={90} y={24} text={chartTitle} />
+        
         <VictoryAxis key={0} tickValues={periods} tickFormat={periods} />
         <VictoryAxis
           dependentAxis
@@ -139,7 +161,7 @@ const StackedBarChart = props => {
         )}
         <VictoryLegend
           x={90}
-          y={50}
+          y={0}
           orientation="horizontal"
           gutter={gutter}
           rowGutter={rowGutter}
@@ -155,8 +177,14 @@ const StackedBarChart = props => {
                 .substr(0, 16),
               fill: colors[i],
             }))}
-          labelComponent={<VictoryLabel style={{ fontSize: '9px' }} />}
+          labelComponent={<VictoryLabel style={{ fontSize: '12px' }} />}
+          /*dataComponent={<foreignObject style={{border: "1px solid pink"}} 
+          dx={-70}
+          dy={-15}
+        width="30"
+        height="30"><p><input style={{position: "relative", top: "-20px", left: "5px"}} type="checkbox"></input></p></foreignObject>}*/
         />
+        
         <VictoryGroup offset={10} style={{ data: { width: 10 } }}>
           <VictoryStack>
             {Object.keys(accumulatedDataScenario1).map((chartGroupName, i) => (
