@@ -196,7 +196,7 @@ export class App extends React.Component {
       })
     } else {
       this.setState({
-        selectedCountries: country,
+        selectedCountries: [country],
       })
     }
     
