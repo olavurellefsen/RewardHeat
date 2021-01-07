@@ -120,11 +120,11 @@ const StackedBarChart = props => {
         theme={VictoryTheme.material}
         // domain={{ y: yDomain }} //removed to fix issue with axis labels not being updated
       >
-        
+        <VictoryLabel></VictoryLabel>
         <VictoryAxis key={0} tickValues={periods} tickFormat={periods} />
         <VictoryAxis
           dependentAxis
-          axisLabelComponent={<VictoryLabel dx={120} />}
+          axisLabelComponent={<VictoryLabel dx={120} dy={-30} />}
           key={2}
           offsetX={80}
           tickFormat={tick =>

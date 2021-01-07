@@ -61,11 +61,11 @@
     "Technology Optimism_ccs_bio": "Technology Optimism"
   },
   "tabs": {
-    "tab1": "REWARDHeat",
-    "tab2": "Heat",
+    "tab1": "Chart",
+    "tab2": "Cost",
     "mobile": {
       "tab1": "REWARD",
-      "tab2": "Heat"
+      "tab2": "Cost"
     }
   },
   "welcome-text": {
