@@ -251,7 +251,6 @@ export class App extends React.Component {
                 path="/tab2"
                 render={() => (
                   <ChartsTab2
-                    scenarioSelection={this.state}
                     closeWelcome={this.CloseWelcomeWidget}
                     selectedCountries={this.state.selectedCountries}
                   />

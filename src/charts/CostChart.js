@@ -1,6 +1,6 @@
 import React from 'react'
-import PropTypes from 'prop-types'
-import styled from 'styled-components'
+//import PropTypes from 'prop-types'
+//import styled from 'styled-components'
 
 /* import csv from "csv-parser"
 import fs from "fs" */
@@ -9,13 +9,13 @@ import {
   VictoryChart,
   VictoryLabel,
   VictoryLegend,
-  VictoryGroup,
+  //VictoryGroup,
   VictoryStack,
   VictoryTheme,
   VictoryAxis,
   VictoryScatter,
   VictoryBar,
-  VictoryTooltip,
+  //VictoryTooltip,
 } from 'victory'
 /* const csv = require('csv-parser')
 const fs = require('fs')
@@ -55,10 +55,13 @@ const costData = [
   {x:"b", y: -0.9108517 }
 ]
 
-const CostChart = () => {
-  
+const CostChart = ({title, costChartData}) => {
+  console.log("title: ", title)
+  console.log("costChartData: ", costChartData)
+  console.log("costChartData[3]?.PV: ", costChartData[3]?.PV)
+  console.log("costChartData[7]?.PV: ", costChartData[7]?.PV)
   return(
-    <div>
+    <div> 
     <VictoryChart
         domainPadding={20}
         width={550}
@@ -84,13 +87,41 @@ const CostChart = () => {
           tickFormat={[-1,-0.75, -0.5, -0.25, 0, 0.25, 0.5, 0.75,1]}
           tickValues={[-1,-0.75, -0.5, -0.25, 0, 0.25, 0.5, 0.75,1]}
           label="MEUR/PJ"
-
         />
       <VictoryStack>
-        <VictoryBar data={tempData1} barRatio={1.2} barWidth={100} />
-        <VictoryBar data={tempData2} barRatio={1.2} barWidth={100} />
-        <VictoryBar data={tempData3} barRatio={1.2} barWidth={100} />
+      <VictoryBar 
+          data={tempData1} 
+          barRatio={1.2} barWidth={100} /><VictoryBar 
+          data={tempData2} 
+          barRatio={1.2} barWidth={100} />
+        <VictoryBar 
+          data={tempData3} 
+          barRatio={1.2} barWidth={100} />
+        {/* <VictoryBar 
+          data={[{ x: "p", y: 0 },
+            { x: "a", y: costChartData[0]?.PV },
+            { x: "f", y: 0 },
+            { x: "g", y: 0 },
+            { x: "b", y: costChartData[4]?.PV }]} 
+          barRatio={1.2} barWidth={100} />
+        <VictoryBar 
+          data={[{ x: "a", y: costChartData[1]?.PV },
+            { x: "b", y: costChartData[5]?.PV }]}
+          barRatio={1.2} 
+          barWidth={100} />
+        <VictoryBar 
+          data={[{x:"a", y: costChartData[2]?.PV },
+            {x:"b", y: costChartData[6]?.PV }]} 
+          barRatio={1.2} 
+          barWidth={100} /> */}
       </VictoryStack>
+      {/* <VictoryScatter 
+        data={[
+          {x:"a", y: costChartData[3]?.PV },
+          {x:"b", y: costChartData[7]?.PV }
+        ]
+        }
+      /> */}
       <VictoryScatter 
         data={costData}
       />
