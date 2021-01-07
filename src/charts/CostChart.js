@@ -32,28 +32,28 @@ fs.createReadStream("costData.csv")
     // ]
   });
  */
-const tempData1 = [
+/* const tempData1 = [
   { x: "p", y: 0 },
   { x: "a", y: -0.04031654 },
   { x: "f", y: 0 },
   { x: "g", y: 0 },
   { x: "b", y: -0.483883132 },
   
-]
-const tempData2 = [
+] */
+/* const tempData2 = [
   { x: "a", y: -0.110320442 },
   { x: "b", y: -0.101214871 },
   
-]
-const tempData3 = [
+] */
+/* const tempData3 = [
   { x: "a", y: 0.077793704 },
   { x: "b", y: -0.325753697 },
   
-]
-const costData = [
+] */
+/* const costData = [
   {x:"a", y: -0.072843277 },
   {x:"b", y: -0.9108517 }
-]
+] */
 
 const CostChart = ({title, costChartData}) => {
   console.log("title: ", title)
@@ -89,42 +89,54 @@ const CostChart = ({title, costChartData}) => {
           label="MEUR/PJ"
         />
       <VictoryStack>
-      <VictoryBar 
+        {/* <VictoryBar 
+          key="bar1"
           data={tempData1} 
-          barRatio={1.2} barWidth={100} /><VictoryBar 
+          barRatio={1.2} barWidth={100} />
+        <VictoryBar
+          key="bar2" 
           data={tempData2} 
           barRatio={1.2} barWidth={100} />
-        <VictoryBar 
+        <VictoryBar
+          key="bar3" 
           data={tempData3} 
-          barRatio={1.2} barWidth={100} />
-        {/* <VictoryBar 
+          barRatio={1.2} barWidth={100} /> */}
+        <VictoryBar 
           data={[{ x: "p", y: 0 },
-            { x: "a", y: costChartData[0]?.PV },
+            { x: "a", y: parseFloat(costChartData[0]?.PV) },
             { x: "f", y: 0 },
             { x: "g", y: 0 },
-            { x: "b", y: costChartData[4]?.PV }]} 
+            { x: "b", y: parseFloat(costChartData[4]?.PV) }]} 
           barRatio={1.2} barWidth={100} />
         <VictoryBar 
-          data={[{ x: "a", y: costChartData[1]?.PV },
-            { x: "b", y: costChartData[5]?.PV }]}
+          data={[{ x: "a", y: parseFloat(costChartData[1]?.PV) },
+            { x: "b", y: parseFloat(costChartData[5]?.PV) }]}
           barRatio={1.2} 
           barWidth={100} />
         <VictoryBar 
-          data={[{x:"a", y: costChartData[2]?.PV },
-            {x:"b", y: costChartData[6]?.PV }]} 
+          data={[{x:"a", y: parseFloat(costChartData[2]?.PV) },
+            {x:"b", y: parseFloat(costChartData[6]?.PV) }]} 
           barRatio={1.2} 
-          barWidth={100} /> */}
+          barWidth={100} />
       </VictoryStack>
       {/* <VictoryScatter 
         data={[
-          {x:"a", y: costChartData[3]?.PV },
-          {x:"b", y: costChartData[7]?.PV }
+          {x:"a", y: -0.072843277 },
+  {x:"b", y: -0.9108517 }
         ]
         }
       /> */}
       <VictoryScatter 
-        data={costData}
+        key="scatter"
+        data={[
+          {x:"a", y: parseFloat(costChartData[3]?.PV) },
+          {x:"b", y: parseFloat(costChartData[7]?.PV) }
+        ]
+        }
       />
+      {/* <VictoryScatter 
+        data={costData}
+      /> */}
     <VictoryLegend
           x={90}
           y={0}

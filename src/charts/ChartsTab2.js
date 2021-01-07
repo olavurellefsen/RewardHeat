@@ -2,11 +2,11 @@
 //import PropTypes from 'prop-types'
 import { MainArea, Flex } from './Charts.style'
 import CostChart from './CostChart'
-//import { csv } from "d3"
+import { csv } from "d3"
 import mapRegionToDataRegions from "../data/mapRegionToDataRegions"
 
 const Charts = ({selectedCountries, costData}) => {
-  const [regionData] = useState([])
+  const [regionData, setRegionData] = useState([])
   let selectedDataRegions = [] 
   mapRegionToDataRegions.forEach((mapRegion) => {
       if(selectedCountries.includes(mapRegion.path_id)) {
@@ -17,20 +17,18 @@ const Charts = ({selectedCountries, costData}) => {
   })
 
   useEffect(() => {
-    console.log("getting data ")
-
-    /* csv("costData.csv").then(data=>
+    csv("costData.csv").then(data=>
       {
-        console.log("data csv: ", data)
         let newRegionData = []
         data.forEach(row => {
           if (row.Region === selectedDataRegions[0])
             newRegionData.push(row)
         })
-        setRegionData(newRegionData)
+        if (JSON.stringify(newRegionData) !== JSON.stringify(regionData))
+          setRegionData(newRegionData)
       }
-    ) */
-  }, [selectedCountries, selectedDataRegions])
+    )
+  }, [selectedCountries, selectedDataRegions, regionData])
   console.log("region data: ", regionData)
   return (
     <MainArea>
