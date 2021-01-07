@@ -1,7 +1,7 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
-import { csv } from "d3"
+
 /* import csv from "csv-parser"
 import fs from "fs" */
 
@@ -34,14 +34,14 @@ fs.createReadStream("costData.csv")
  */
 const tempData1 = [
   { x: "p", y: 0 },
-  { x: "a", y: 0.04031654 },
+  { x: "a", y: -0.04031654 },
   { x: "f", y: 0 },
   { x: "g", y: 0 },
   { x: "b", y: -0.483883132 },
   
 ]
 const tempData2 = [
-  { x: "a", y: 0.110320442 },
+  { x: "a", y: -0.110320442 },
   { x: "b", y: -0.101214871 },
   
 ]
@@ -51,14 +51,12 @@ const tempData3 = [
   
 ]
 const costData = [
-  {x:"a", y:0.072843277 },
-  {x:"b", y:-0.9108517 }
+  {x:"a", y: -0.072843277 },
+  {x:"b", y: -0.9108517 }
 ]
 
 const CostChart = () => {
-  useEffect(() => {
-    csv("costData.csv").then(data=>{console.log("data: ", data)})
-  }, [])
+  
   return(
     <div>
     <VictoryChart
@@ -72,7 +70,7 @@ const CostChart = () => {
       <VictoryLabel x={90} y={24} text="DE_Climate High_ Average annual cost changes 2020-2050" />
       <VictoryAxis key={0} 
         tickValues={["p", "a","f","g", "b", "q"]} 
-        tickFormat={["", "CL_UEH compare to CL_NoLTHS","","", "CL_LTDH_UEH compared to CL_NoLTHS", ""]} 
+        tickFormat={["", "CH_UEH compare to CH_NoLTHS","","", "CH_LTDH_UEH compared to CH_NoLTHS", ""]} 
         tickLabelComponent={<VictoryLabel dy={190}/>}
         axisLabelComponent={<VictoryLabel dy={220} dx={0}/>}
         label="Climate High"/>
