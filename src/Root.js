@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { BrowserRouter as Router } from 'react-router-dom'
 import App from './App'
-import 'typeface-roboto'
+import "@fontsource/open-sans"
 import { createGlobalStyle } from "styled-components"
 
 export default class Root extends Component {
@@ -20,7 +20,7 @@ const GlobalStyle = createGlobalStyle`
     height: 100%
   }
   body, #root, #root>div {
-    font-family: Roboto;
+    font-family: Open Sans;
     font-size: 1em;
     margin: 0px;
     width: 100%;

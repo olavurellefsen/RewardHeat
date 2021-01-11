@@ -16,6 +16,8 @@ import {
 import {createAccumulatedData} from './Tools'
 import {colors, colors2} from './chartColors'
 import periods from './../data/years'
+import "@fontsource/ropa-sans"
+import "@fontsource/open-sans"
 
 const ChartHeader = styled(VictoryLabel)`
   text-anchor: start;
@@ -31,7 +33,7 @@ const ChartTitle = styled.div`
   margin-top: 20px;
   font-size: 18px;
   font-weight: bold;
-
+  font-family: Ropa Sans;
 `
 
 const StackedBarChart = props => {
@@ -177,7 +179,7 @@ const StackedBarChart = props => {
                 .substr(0, 16),
               fill: colors[i],
             }))}
-          labelComponent={<VictoryLabel style={{ fontSize: '12px' }} />}
+          labelComponent={<VictoryLabel style={{ fontSize: '12px', fontFamily: "Open Sans" }} />}
         />
         
         <VictoryGroup offset={10} style={{ data: { width: 10 } }}>

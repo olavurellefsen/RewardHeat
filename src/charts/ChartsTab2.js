@@ -34,12 +34,18 @@ const Charts = ({selectedCountries, costData}) => {
     <MainArea>
       <Flex>
         {<CostChart 
-          title="Climate High_ Average annual cost changes 2020-2050"
+          title="Average annual cost changes 2020-2050"
+          subTitle="Climate High"
           costChartData={regionData?.slice(0,8)}
+          bar1Subtitle="CH_UEH compare to CH_NoLTHS"
+          bar2Subtitle="CH_LTDH_UEH compared to CH_NoLTHS"
         ></CostChart>}
         {<CostChart 
-          title="Climate Low_ Average annual cost changes 2020-2050"
+          title="Average annual cost changes 2020-2050"
+          subTitle="Climate Low"
           costChartData={regionData?.slice(8,16)}
+          bar1Subtitle="CL_UEH compare to CL_NoLTHS"
+          bar2Subtitle="CL_LTDH_UEH compared to CL_NoLTHS"
         />}
       </Flex>
     </MainArea>

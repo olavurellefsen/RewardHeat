@@ -55,7 +55,7 @@ export const changeScenario = (name, value) => ({
   [name]: value,
 })
 const default_scenario = scenarioCombinations.scenarioCombinations.scenarioOptions[0].name;
-/* const default_countries = ['dk', 'de', 'fr', 'hr', 'it', 'nl', 'se',]; */
+const countries = ['dk', 'de', 'fr', 'hr', 'it', 'nl', 'se',];
 const default_countries = ['dk'];
 const options = []
 
@@ -215,6 +215,7 @@ export class App extends React.Component {
               toggleDifference={this.ToggleDifference}
               options={this.state.options}
               toggleOption={this.ToggleOption}
+              countries={countries}
               selectedCountries={this.state.selectedCountries}
               selectCountry={this.selectCountry}
             />
@@ -226,6 +227,7 @@ export class App extends React.Component {
               toggleDifference={this.ToggleDifference}
               options={this.state.options}
               toggleOption={this.ToggleOption}
+              countries={countries}
               selectedCountries={this.state.selectedCountries}
               selectCountry={this.selectCountry}
             />

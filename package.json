@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fontsource/open-sans": "^4.1.0",
+    "@fontsource/ropa-sans": "^4.1.0",
     "@fortawesome/fontawesome-svg-core": "^1.2.30",
     "@fortawesome/free-brands-svg-icons": "^5.14.0",
     "@fortawesome/free-regular-svg-icons": "^5.14.0",
@@ -23,7 +25,6 @@
     "react-tooltip": "^4.2.9",
     "styled-components": "^5.1.1",
     "styled-components-breakpoint": "^2.1.1",
-    "typeface-roboto": "0.0.75",
     "victory": "^35.0.8"
   },
   "scripts": {

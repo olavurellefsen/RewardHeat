@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import "@fontsource/ropa-sans"
 
 export const ScenarioList = styled.div`
   display: flex;
@@ -10,10 +11,11 @@ export const ScenarioDivider = styled.div`
 `;
 
 export const ScenarioHeader = styled.div`
-  font-size: ${props => (props.narrowVersion ? "10px" : "16px")};
-  padding: ${props => (props.narrowVersion ? "5px" : "0 12px 0 15px")};
+  font-size: ${props => (props.narrowVersion ? "10px" : "20px")};
+  padding: ${props => (props.narrowVersion ? "8px" : "0 12px 0 15px")};
   margin: 0px 0px 5px 0px;
   text-align: center;
+  font-family: Ropa Sans;
 `;
 
 export const ScenarioOption = styled.div`
@@ -22,19 +24,19 @@ export const ScenarioOption = styled.div`
   font-size: ${props => (props.narrowVersion ? "0.7em" : "0.9em")};
   display: flex;
   flex-direction: ${props => (props.narrowVersion ? "column" : "row")};
-  align-items: center;
-  height: 36px;
+  align-items: flex-start;
+  ${'' /* height: 36px; */}
   padding: ${props => (props.narrowVersion ? "5px" : "0 12px 0 0px")};
   position: relative;
   width: 100%;
   border-radius: 0;
   background-color: ${props =>
-    props.selected ? "#b50404" : props.selected2 ? "green" : "inherit"};
+    props.selected ? "#285c6a" : props.selected2 ? "#ff5555" : "inherit"};
   color: ${props =>
     props.selected ? "white" : props.selected2 ? "white" : "rgb(184,176,183)"};
   &:hover {
     background-color: ${props =>
-      props.selected ? "#b50404" : props.selected2 ? "green" : "#555"};
+      props.selected ? "#285c6a" : props.selected2 ? "#ff5555" : "#555"};
     > * {
       font-weight: ${props =>
         props.selected ? "bold" : props.selected2 ? "bold" : "normal"};
@@ -44,11 +46,11 @@ export const ScenarioOption = styled.div`
 `;
 export const ScenarioNameContainer = styled.div`
   display: flex;
-  flex:1;
+  ${'' /* flex:1; */}
   align-self: stretch;
   align-items: center;
-  padding: ${props => (props.narrowVersion ? "0px" : "0 12px 0 15px")};
-  justify-content: ${props => (props.narrowVersion ? "center" : "flex-start")};
+  padding: ${props => (props.narrowVersion ? "0px" : "5px 12px 5px 15px")};
+  justify-content: ${props => (props.narrowVersion ? "flex-start" : "flex-start")};
   &:hover {
     cursor: pointer
   }

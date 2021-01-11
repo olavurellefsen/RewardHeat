@@ -1,9 +1,7 @@
 import React from 'react'
 //import PropTypes from 'prop-types'
-//import styled from 'styled-components'
-
-/* import csv from "csv-parser"
-import fs from "fs" */
+import styled from 'styled-components'
+import "@fontsource/ropa-sans"
 
 import {
   VictoryChart,
@@ -17,51 +15,22 @@ import {
   VictoryBar,
   //VictoryTooltip,
 } from 'victory'
-/* const csv = require('csv-parser')
-const fs = require('fs')
-const results = [];
 
-fs.createReadStream("costData.csv")
-  .pipe(csv())
-  .on('data', (data) => results.push(data))
-  .on('end', () => {
-    console.log(results);
-    // [
-    //   { NAME: 'Daffy Duck', AGE: '24' },
-    //   { NAME: 'Bugs Bunny', AGE: '22' }
-    // ]
-  });
- */
-/* const tempData1 = [
-  { x: "p", y: 0 },
-  { x: "a", y: -0.04031654 },
-  { x: "f", y: 0 },
-  { x: "g", y: 0 },
-  { x: "b", y: -0.483883132 },
-  
-] */
-/* const tempData2 = [
-  { x: "a", y: -0.110320442 },
-  { x: "b", y: -0.101214871 },
-  
-] */
-/* const tempData3 = [
-  { x: "a", y: 0.077793704 },
-  { x: "b", y: -0.325753697 },
-  
-] */
-/* const costData = [
-  {x:"a", y: -0.072843277 },
-  {x:"b", y: -0.9108517 }
-] */
 
-const CostChart = ({title, costChartData}) => {
+const CostChart = ({
+    title, 
+    subTitle,
+    costChartData,
+    bar1Subtitle,
+    bar2Subtitle
+  }) => {
   console.log("title: ", title)
   console.log("costChartData: ", costChartData)
   console.log("costChartData[3]?.PV: ", costChartData[3]?.PV)
   console.log("costChartData[7]?.PV: ", costChartData[7]?.PV)
   return(
-    <div> 
+    <Container> 
+    <Title x={150} y={16} text={title} style={{fontSize: "18px", fontFamily: "Ropa Sans"}}/>
     <VictoryChart
         domainPadding={20}
         width={550}
@@ -70,37 +39,23 @@ const CostChart = ({title, costChartData}) => {
         theme={VictoryTheme.material}
         // domain={{ y: yDomain }} //removed to fix issue with axis labels not being updated
       >
-      <VictoryLabel x={90} y={24} text="DE_Climate High_ Average annual cost changes 2020-2050" />
+      
       <VictoryAxis key={0} 
-        tickValues={["p", "a","f","g", "b", "q"]} 
-        tickFormat={["", "CH_UEH compare to CH_NoLTHS","","", "CH_LTDH_UEH compared to CH_NoLTHS", ""]} 
-        tickLabelComponent={<VictoryLabel dy={190}/>}
-        axisLabelComponent={<VictoryLabel dy={220} dx={0}/>}
-        label="Climate High"/>
-      {/* <VictoryAxis 
-        axisLabelComponent={<VictoryLabel dy={20} label="asd"/>}/> */}
+        tickValues={["p","a","f","g","b","q"]} 
+        tickFormat={["", bar1Subtitle,"","", bar2Subtitle, ""]} 
+        tickLabelComponent={<BarSubtitle dy={-120} style={{fontSize: "12px", fontFamily: "Open Sans"}}/>}
+        axisLabelComponent={<VictoryLabel dy={-160} dx={0} style={{fontSize: "16px", fontFamily: "Open Sans"}}/>}
+        label={subTitle}/>
       <VictoryAxis
           dependentAxis
-          axisLabelComponent={<VictoryLabel dx={0} dy={-35}/>}
+          axisLabelComponent={<VictoryLabel dx={0} dy={-35} style={{fontFamily: "Open Sans"}}/>}
           key={2}
           offsetX={80}
-          tickFormat={[-1,-0.75, -0.5, -0.25, 0, 0.25, 0.5, 0.75,1]}
-          tickValues={[-1,-0.75, -0.5, -0.25, 0, 0.25, 0.5, 0.75,1]}
+          tickFormat={[-2.25,-2,-1.75,-1.5,-1.25,-1,-0.75, -0.5, -0.25, 0, 0.25, 0.5, 0.75]}
+          tickValues={[-2.25,-2,-1.75,-1.5,-1.25,-1,-0.75, -0.5, -0.25, 0, 0.25, 0.5, 0.75]}
           label="MEUR/PJ"
         />
       <VictoryStack>
-        {/* <VictoryBar 
-          key="bar1"
-          data={tempData1} 
-          barRatio={1.2} barWidth={100} />
-        <VictoryBar
-          key="bar2" 
-          data={tempData2} 
-          barRatio={1.2} barWidth={100} />
-        <VictoryBar
-          key="bar3" 
-          data={tempData3} 
-          barRatio={1.2} barWidth={100} /> */}
         <VictoryBar 
           data={[{ x: "p", y: 0 },
             { x: "a", y: parseFloat(costChartData[0]?.PV) },
@@ -119,13 +74,6 @@ const CostChart = ({title, costChartData}) => {
           barRatio={1.2} 
           barWidth={100} />
       </VictoryStack>
-      {/* <VictoryScatter 
-        data={[
-          {x:"a", y: -0.072843277 },
-  {x:"b", y: -0.9108517 }
-        ]
-        }
-      /> */}
       <VictoryScatter 
         key="scatter"
         data={[
@@ -134,12 +82,9 @@ const CostChart = ({title, costChartData}) => {
         ]
         }
       />
-      {/* <VictoryScatter 
-        data={costData}
-      /> */}
     <VictoryLegend
-          x={90}
-          y={0}
+          x={140}
+          y={540}
           orientation="horizontal"
           gutter={0}
           rowGutter={0}
@@ -154,11 +99,29 @@ const CostChart = ({title, costChartData}) => {
             {name: "Capital costs"}, 
             {name: "Net"}
           ]}
-          labelComponent={<VictoryLabel style={{ fontSize: '12px' }} />}
+          labelComponent={<VictoryLabel style={{ fontSize: '12px', fontFamily: "Open Sans" }} />}
         />
     </VictoryChart>
-    </div>
+    </Container>
     )
 }
+const Container = styled.div`
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`
+
+const BarSubtitle = styled(VictoryLabel)`
+  ${'' /* text-anchor: start;
+  fill: #000000;
+  font-family: inherit; */}
+  font-size: 18px;
+  font-weight: bold;
+`
+const Title = styled(VictoryLabel)`
+  font-size: 24px;
+  font-weight: bold;
+`
 
 export default CostChart

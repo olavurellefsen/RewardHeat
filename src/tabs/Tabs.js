@@ -16,7 +16,7 @@ const TabLayout = styled.div`
     width: 100%;
     padding-left: 20px;
     color: white;
-    background: rgb(80, 80, 80);
+    background: rgb(176, 176, 176);
     visibility: visible;
   `}
 `;
@@ -35,7 +35,7 @@ const TabItem = styled(Link)`
     text-decoration: underline;
     cursor: pointer;
   }
-  color: ${props => (props.selected ? "black" : "inherit")};
+  color: ${props => (props.selected ? "#ff5555" : "#285c6a")};
   background: ${props => (props.selected ? "white" : "inherit")};
 `;
 
