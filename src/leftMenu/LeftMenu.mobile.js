@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import ScenarioSelectionList from "../scenarioSelection/ScenarioSelectionList";
 import ToggleSwitch from "./ToggleSwitch";
 import { useTranslation } from "react-i18next";
-import MapContainer from "../map/MapContainer";
+//import MapContainer from "../map/MapContainer";
 import CountryList from "../map/CountryList";
 import "@fontsource/ropa-sans"
 

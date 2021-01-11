@@ -8,14 +8,14 @@ const CountryList = ({
   selectCountry,
   narrowVersion = false
 }) => {
-  console.log("countries: ", countries)
-  console.log("mapRegions: ", mapRegions)
-  console.log("selectedCountries: ", selectedCountries)
+  //console.log("countries: ", countries)
+  //console.log("mapRegions: ", mapRegions)
+  //console.log("selectedCountries: ", selectedCountries)
   return (
     <Container>
       {countries.map((country, i)=>{
-        console.log("country name: ", mapRegions.find((region)=>region.path_id === country).country)
-        console.log("country === selectedCountries[0]: ", country === selectedCountries[0])
+        //console.log("country name: ", mapRegions.find((region)=>region.path_id === country).country)
+        //console.log("country === selectedCountries[0]: ", country === selectedCountries[0])
         return(
           <CountryContainer
             onClick={()=>{selectCountry(country)}}
@@ -50,11 +50,7 @@ const Flag = styled.img`
   padding: 3px;
 `
 const Radio = styled.input`
-color: green;
 &:checked {
-  background-color: red;
-  color: pink;
-  border: 1px solid pink;
 }
 &:hover {
   ${'' /* color: black;
