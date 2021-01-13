@@ -53,11 +53,11 @@ function Welcome(props) {
   const { t } = useTranslation();
   return (
     <AlertContainer>
-      <AlertTitle>{t("welcome-text.welcome-1")}</AlertTitle>
+      <AlertTitle>{t("welcome-text-" + props.tab + ".welcome-1")}</AlertTitle>
       <AlertBody>
-        <AlertBodyParagraph>{t("welcome-text.welcome-2")}</AlertBodyParagraph>
-        <AlertBodyParagraph>{t("welcome-text.welcome-3")}</AlertBodyParagraph>
-        <AlertBodyParagraph>{t("welcome-text.welcome-4")}</AlertBodyParagraph>
+        <AlertBodyParagraph>{t("welcome-text-" + props.tab + ".welcome-2")}</AlertBodyParagraph>
+        <AlertBodyParagraph>{t("welcome-text-" + props.tab + ".welcome-3")}</AlertBodyParagraph>
+        <AlertBodyParagraph>{t("welcome-text-" + props.tab + ".welcome-4")}</AlertBodyParagraph>
       </AlertBody>
       <CloseWindowIcon
         onClick={event => props.closeWelcome(event, "showWelcome", false)}

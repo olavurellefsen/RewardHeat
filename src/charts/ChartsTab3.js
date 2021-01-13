@@ -1,11 +1,12 @@
 ﻿import React, { useState, useEffect } from 'react'
 //import PropTypes from 'prop-types'
 import { MainArea, Flex } from './Charts.style'
+import Welcome from '../alert/Welcome'
 import CostChart from './CostChart'
 import { csv } from "d3"
 import mapRegionToDataRegions from "../data/mapRegionToDataRegions"
 
-const Charts = ({selectedCountries, costData}) => {
+const Charts = ({selectedCountries, costData, closeWelcome, scenarioSelection}) => {
   const [regionData, setRegionData] = useState([])
   let selectedDataRegions = [] 
   mapRegionToDataRegions.forEach((mapRegion) => {
@@ -32,6 +33,9 @@ const Charts = ({selectedCountries, costData}) => {
   console.log("region data: ", regionData)
   return (
     <MainArea>
+      {scenarioSelection.showWelcome === true && (
+        <Welcome closeWelcome={closeWelcome} tab="tab3"/>
+      )}
       <Flex>
         {<CostChart 
           title={"Average annual cost changes 2020-2050 " + mapRegionToDataRegions.find((region)=>region.path_id === selectedCountries[0]).country}

@@ -8,7 +8,7 @@ const Charts = props => {
   return (
     <MainArea>
       {props.scenarioSelection.showWelcome === true && (
-        <Welcome closeWelcome={props.closeWelcome} />
+        <Welcome closeWelcome={props.closeWelcome} tab="tab2"/>
       )}
       
       
