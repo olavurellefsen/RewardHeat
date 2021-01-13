@@ -51,9 +51,11 @@ const MainSwitch = styled(Switch)`
   align-content: flex-start;
 `
 
-export const changeScenario = (name, value) => ({
+export const changeScenario = (name, value) => {
+  console.log("change name and value: ", {name, value})
+  return({
   [name]: value,
-})
+})}
 const default_scenario = scenarioCombinations.scenarioCombinations.scenarioOptions[0].name;
 const countries = ['hr', 'dk', 'fr', 'de', 'it', 'nl', 'se' ];
 
@@ -94,10 +96,18 @@ export class App extends React.Component {
     
     this.setState(state => {
       console.log("state: ", state)
+      /* return {
+        scenarioSelection:
+          state.scenarioSelectionNoOptions +
+          (state.options[state.scenarioSelectionNoOptions].opt0 ? '_cns' : '') +
+          (state.options[state.scenarioSelectionNoOptions].opt1 ? '_bio' : '') +
+          (state.options[state.scenarioSelectionNoOptions].opt2 ? '_ELC' : '') +
+          (state.options[state.scenarioSelectionNoOptions].opt3 ? '_SAC' : ''),
+      } */
       return {
         scenarioSelection:
           state.scenarioSelectionNoOptions +
-          (state.options[state.scenarioSelectionNoOptions].op0 ? '_cns' : '') +
+          (state.options[state.scenarioSelectionNoOptions].opt0 ? '_cns' : '') +
           (state.options[state.scenarioSelectionNoOptions].opt1 ? '_bio' : '') +
           (state.options[state.scenarioSelectionNoOptions].opt2 ? '_ELC' : '') +
           (state.options[state.scenarioSelectionNoOptions].opt3 ? '_SAC' : ''),

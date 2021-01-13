@@ -1,42 +1,43 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { useTranslation } from "react-i18next";
-//import ReactTooltip from "react-tooltip";
+import ReactTooltip from "react-tooltip";
 import {
   ScenarioList,
   ScenarioDivider,
   ScenarioHeader,
   ScenarioOption,
   MenuSeparatorLine,
-  //IconContainer,
-  //Icon,
+  IconContainer,
+  Icon,
   ScenarioNameContainer
 } from "./ScenarioSelectionList.style";
-/* import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faLeaf,
   faDatabase,
   faBolt,
   faCar,
   faUserFriends
-} from "@fortawesome/free-solid-svg-icons"; */
+} from "@fortawesome/free-solid-svg-icons";
 
-/* function cancelBubble(e) {
+function cancelBubble(e) {
   //Stop propagation to the underlying div
   //(used to prevent onclick for scenario being fired when clicking on an option)
   e.cancelBubble = true;
   if (e.stopPropagation) e.stopPropagation();
-} */
+}
 
 const ScenarioSelectionList = props => {
   const { t } = useTranslation();
   const handleChange = (event, value) => {
     props.updateScenarioSelection(event, props.name, value);
   };
-  //const scenarioSwitches = props.options;
+  const scenarioSwitches = props.options;
   const { scenarioCombinations, dimensionTitle, narrowVersion } = props;
   let stringValue = props.selectedValue.toString();
   let stringValue2 = props.selectedValue2.toString();
+  console.log("scenarioCombinations: ", scenarioCombinations)
   let scenarioOptions = scenarioCombinations.scenarioOptions
     .filter(s => !s.opt0 && !s.opt1 && !s.opt2 && !s.opt3) //ensure that each scenario is only listed once
     .map(option => {
@@ -69,7 +70,7 @@ const ScenarioSelectionList = props => {
                 //t("scenario." + option.ultra_short_description)
                 }
             </ScenarioNameContainer>
-            {/* <IconContainer narrowVersion={narrowVersion}>
+            <IconContainer narrowVersion={narrowVersion}>
               <Icon
                 available={
                   scenarioCombinations.optionsAvailable[optionValue].opt0
@@ -162,7 +163,7 @@ const ScenarioSelectionList = props => {
                 type="dark"
                 effect="solid"
               />
-            </IconContainer> */}
+            </IconContainer>
           </ScenarioOption>
         );
       }
