@@ -42,6 +42,7 @@ const ScenarioSelectionList = props => {
     .filter(s => !s.opt0 && !s.opt1 && !s.opt2 && !s.opt3) //ensure that each scenario is only listed once
     .map(option => {
       let optionValue = option.nameNoOptions;
+      console.log("optionValue: ", optionValue)
       if (optionValue === "division_line") {
         return <MenuSeparatorLine key={option.id} />;
       } else {

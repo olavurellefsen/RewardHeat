@@ -68,8 +68,14 @@ export default {
 				}, 
 			], 
 			optionsAvailable:  {
-				"ClimHi": {"opt0": true, "opt1": true, "opt2": true, "opt3": true},
-				"ClimLo": {"opt0": true, "opt1": true, "opt2": true, "opt3": true},
+				"ClimHi_ConvlDH_NoLTHS": {"opt0": true, "opt1": true, "opt2": true},
+				"ClimHi_ConvlDH_LTHS": {"opt0": true, "opt1": true, "opt2": true},
+				"ClimHi_LTDH_LTHS": {"opt0": true, "opt1": true, "opt2": true},
+				"ClimLo_ConvlDH_noLTHS": {"opt0": true, "opt1": true, "opt2": true},
+				"ClimLo_ConvlDH_LTHS": {"opt0": true, "opt1": true, "opt2": true},
+				"ClimLo_LTDH_LTHS": {"opt0": true, "opt1": true, "opt2": true},
+				"ClimHi_LTDH_LTHS_CO2Free_2030": {"opt0": true, "opt1": true, "opt2": true},
+				"ClimHi_LTDH_LTHS_CO2Free_ELC": {"opt0": true, "opt1": true, "opt2": true},
 		 }
 	 }
  };
