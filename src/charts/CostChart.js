@@ -13,7 +13,7 @@ import {
   VictoryAxis,
   VictoryScatter,
   VictoryBar,
-  //VictoryTooltip,
+  VictoryTooltip,
 } from 'victory'
 
 
@@ -43,7 +43,7 @@ const CostChart = ({
       <VictoryAxis key={0} 
         tickValues={["p","a","f","g","b","q"]} 
         tickFormat={["", bar1Subtitle,"","", bar2Subtitle, ""]} 
-        tickLabelComponent={<BarSubtitle dy={-120} style={{fontSize: "12px", fontFamily: "Open Sans"}}/>}
+        tickLabelComponent={<BarSubtitle dy={-110} style={{fontSize: "12px", fontFamily: "Open Sans"}}/>}
         axisLabelComponent={<VictoryLabel dy={-160} dx={0} style={{fontSize: "16px", fontFamily: "Open Sans"}}/>}
         label={subTitle}/>
       <VictoryAxis
@@ -58,27 +58,36 @@ const CostChart = ({
       <VictoryStack>
         <VictoryBar 
           data={[{ x: "p", y: 0 },
-            { x: "a", y: parseFloat(costChartData[0]?.PV) },
+            { x: "a", y: parseFloat(costChartData[0]?.PV), label: "Variable costs: " + parseFloat(costChartData[0]?.PV) },
             { x: "f", y: 0 },
             { x: "g", y: 0 },
-            { x: "b", y: parseFloat(costChartData[4]?.PV) }]} 
-          barRatio={1.2} barWidth={100} />
+            { x: "b", y: parseFloat(costChartData[4]?.PV), label: "Variable costs: " + parseFloat(costChartData[4]?.PV) }]} 
+          barRatio={1.2} barWidth={100}
+          labelComponent={<VictoryTooltip />}
+           />
         <VictoryBar 
-          data={[{ x: "a", y: parseFloat(costChartData[1]?.PV) },
-            { x: "b", y: parseFloat(costChartData[5]?.PV) }]}
+          data={[{ x: "a", y: parseFloat(costChartData[1]?.PV), label: "Fixed O&M costs: " + parseFloat(costChartData[1]?.PV) },
+                 { x: "b", y: parseFloat(costChartData[5]?.PV), label: "Fixed O&M costs: " + parseFloat(costChartData[5]?.PV) }
+          ]}
           barRatio={1.2} 
-          barWidth={100} />
+          barWidth={100} 
+          labelComponent={<VictoryTooltip />}
+        />
         <VictoryBar 
-          data={[{x:"a", y: parseFloat(costChartData[2]?.PV) },
-            {x:"b", y: parseFloat(costChartData[6]?.PV) }]} 
+          data={[{x:"a", y: parseFloat(costChartData[2]?.PV), label: "Capital costs: " + parseFloat(costChartData[2]?.PV) },
+                 {x:"b", y: parseFloat(costChartData[6]?.PV), label: "Capital costs: " + parseFloat(costChartData[6]?.PV) }]} 
           barRatio={1.2} 
-          barWidth={100} />
+          barWidth={100} 
+          labelComponent={<VictoryTooltip />}  
+        />
       </VictoryStack>
       <VictoryScatter 
         key="scatter"
+        style={{ data: { fill: "black" } }}
+        labelComponent={<VictoryTooltip />}
         data={[
-          {x:"a", y: parseFloat(costChartData[3]?.PV) },
-          {x:"b", y: parseFloat(costChartData[7]?.PV) }
+          {x:"a", y: parseFloat(costChartData[3]?.PV), label: "Net: " + parseFloat(costChartData[3]?.PV) },
+          {x:"b", y: parseFloat(costChartData[7]?.PV), label: "Net: " + parseFloat(costChartData[7]?.PV) }
         ]
         }
       />
@@ -86,20 +95,25 @@ const CostChart = ({
           x={140}
           y={540}
           orientation="horizontal"
-          gutter={0}
+          gutter={20}
           rowGutter={0}
-          symbolSpacer={4}
+          symbolSpacer={6}
           itemsPerRow={4}
           style={{
-            title: { fontSize: 14, leftPadding: -10 },
+            title: { fontSize: 12, leftPadding: -10 },
           }}
           data={[
             {name: "Variable costs"}, 
             {name: "Fixed O&M costs"}, 
             {name: "Capital costs"}, 
-            {name: "Net"}
+            {name: "Net", symbol: { fill: "black" }}
           ]}
-          labelComponent={<VictoryLabel style={{ fontSize: '12px', fontFamily: "Open Sans" }} />}
+          labelComponent={<VictoryLabel style={{ 
+              fontSize: '14px', 
+              fontFamily: "Open Sans",
+              margin: '10px',
+            }} />
+          }
         />
     </VictoryChart>
     </Container>

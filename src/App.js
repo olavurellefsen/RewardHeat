@@ -55,8 +55,9 @@ export const changeScenario = (name, value) => ({
   [name]: value,
 })
 const default_scenario = scenarioCombinations.scenarioCombinations.scenarioOptions[0].name;
-const countries = ['dk', 'de', 'fr', 'hr', 'it', 'nl', 'se',];
-const default_countries = ['dk'];
+const countries = ['hr', 'dk', 'fr', 'de', 'it', 'nl', 'se' ];
+
+const default_countries = ['hr'];
 const options = []
 
 scenarioCombinations.scenarioCombinations.scenarioOptions
@@ -243,6 +244,7 @@ export class App extends React.Component {
                 path="/"
                 render={() => (
                   <ChartsTab1
+                    countries={countries}
                     scenarioSelection={this.state}
                     closeWelcome={this.CloseWelcomeWidget}
                     selectedCountries={this.state.selectedCountries}
@@ -253,6 +255,7 @@ export class App extends React.Component {
                 path="/tab2"
                 render={() => (
                   <ChartsTab2
+                    scenarioSelection={this.state}
                     closeWelcome={this.CloseWelcomeWidget}
                     selectedCountries={this.state.selectedCountries}
                   />
@@ -262,6 +265,7 @@ export class App extends React.Component {
                 path="/tab3"
                 render={() => (
                   <ChartsTab3
+                    countries={countries}
                     scenarioSelection={this.state}
                     closeWelcome={this.CloseWelcomeWidget}
                     selectedCountries={this.state.selectedCountries}

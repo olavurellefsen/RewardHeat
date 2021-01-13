@@ -1,6 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 import mapRegions from "../data/mapRegionToDataRegions"
+import Radio from "./Radio"
 
 const CountryList = ({
   countries, 
@@ -18,7 +19,8 @@ const CountryList = ({
         //console.log("country === selectedCountries[0]: ", country === selectedCountries[0])
         return(
           <CountryContainer
-            onClick={()=>{selectCountry(country)}}
+            onClick={()=>{
+              selectCountry(country)}}
           >
             <Radio 
               type="radio" 
@@ -45,17 +47,11 @@ const CountryContainer = styled.div`
   padding: 2px;
   align-items: center;
   margin-left: 15px;
+  z-index: 10;
 `
 const Flag = styled.img`
   padding: 3px;
 `
-const Radio = styled.input`
-&:checked {
-}
-&:hover {
-  ${'' /* color: black;
-  background-color: red; */}
-}
-`
+
 
 export default CountryList

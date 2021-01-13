@@ -61,11 +61,13 @@
     "Technology Optimism_ccs_bio": "Technology Optimism"
   },
   "tabs": {
-    "tab1": "Chart",
-    "tab2": "Cost",
+    "tab1": "Main results",
+    "tab2": "Emission",
+    "tab3": "Cost",
     "mobile": {
-      "tab1": "REWARD",
-      "tab2": "Cost"
+      "tab1": "Main",
+      "tab2": "Emission",
+      "tab3": "Cost"
     }
   },
   "welcome-text": {

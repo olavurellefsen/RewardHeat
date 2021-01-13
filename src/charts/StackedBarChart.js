@@ -18,6 +18,7 @@ import {colors, colors2} from './chartColors'
 import periods from './../data/years'
 import "@fontsource/ropa-sans"
 import "@fontsource/open-sans"
+import mapRegions from "../data/mapRegionToDataRegions"
 
 const ChartHeader = styled(VictoryLabel)`
   text-anchor: start;
@@ -113,7 +114,7 @@ const StackedBarChart = props => {
 
   return (
     <div>
-      <ChartTitle>{chartTitle}</ChartTitle>
+      <ChartTitle>{chartTitle} ---  {mapRegions.find((countryCode)=>countryCode.path_id === props.selectedCountries[0]).country}</ChartTitle>
       <VictoryChart
         domainPadding={20}
         width={550}
@@ -182,7 +183,7 @@ const StackedBarChart = props => {
           labelComponent={<VictoryLabel style={{ fontSize: '12px', fontFamily: "Open Sans" }} />}
         />
         
-        <VictoryGroup offset={10} style={{ data: { width: 10 } }}>
+        <VictoryGroup offset={15} style={{ data: { width: 15 } }}>
           <VictoryStack>
             {Object.keys(accumulatedDataScenario1).map((chartGroupName, i) => (
                 <VictoryBar
@@ -218,6 +219,7 @@ const StackedBarChart = props => {
               {Object.keys(accumulatedDataScenario2).map((chartGroupName, i) => (
                   <VictoryBar
                     key={chartGroupName}
+                    barRatio={1} barWidth={15}
                     data={accumulatedDataScenario2[chartGroupName].map(
                       chartGroupValue => ({
                         ...chartGroupValue,

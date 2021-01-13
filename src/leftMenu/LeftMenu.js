@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import styled from "styled-components";
 import breakpoint from "styled-components-breakpoint";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import ScenarioSelectionList from "../scenarioSelection/ScenarioSelectionList";
 import ToggleSwitch from "./ToggleSwitch";
 import { useTranslation } from "react-i18next";
@@ -153,7 +153,7 @@ const Header = styled.div`
 `;
 function ScenarioSelectionMenu(props) {
   const { t } = useTranslation();
-
+  const location = useLocation()
   // const toggleLanguage = e => {
   //   e.preventDefault();
   //   if (language === "en") {
@@ -211,7 +211,7 @@ function ScenarioSelectionMenu(props) {
         selectCountry={props.selectCountry}
         />
       <MenuSeparatorLine />
-      <ScenarioSelection>
+      {location.pathname !== "/tab3" && <><ScenarioSelection>
         <ScenarioSelectionList
           updateScenarioSelection={props.updateScenarioSelection}
           name="scenarioSelection"
@@ -249,7 +249,7 @@ function ScenarioSelectionMenu(props) {
       >
         {t("general.red-minus-green")}
       </ScenarioDifferenceText>
-      <MenuSeparatorLine />
+      <MenuSeparatorLine /></>}
       <MenuFooter>
         <CopyrightNotice>
           <Header> {t("general.developed-by")}</Header>
