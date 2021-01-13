@@ -1,5 +1,6 @@
 export default 
  	 [ 
+		"Annual system cost (MEUR)",
 		"District heat capacity (GW)",
 		"District heat production (PJ)",
 		"End-use devices capacity (GW)",
