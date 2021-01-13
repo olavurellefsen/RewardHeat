@@ -6,7 +6,9 @@ import { Link } from "react-router-dom";
 import ScenarioSelectionList from "../scenarioSelection/ScenarioSelectionList";
 import ToggleSwitch from "./ToggleSwitch";
 import { useTranslation } from "react-i18next";
-import MapContainer from "../map/MapContainer";
+//import MapContainer from "../map/MapContainer";
+import CountryList from "../map/CountryList";
+import "@fontsource/ropa-sans"
 
 const MenuLayout = styled.div`
   display: none;
@@ -110,12 +112,14 @@ const MenuFooter = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: auto;
 `;
 
 const CopyrightNotice = styled.div`
   font-size: 8px;
   padding: 2px;
   margin: 0;
+  
 `;
 
 const ExternalLink = styled.a`
@@ -126,11 +130,17 @@ const ExternalLink = styled.a`
   }
 `;
 const Header = styled.div`
-  font-size: ${props => (props.narrowVersion ? "10px" : "12px")};
-  font-weight: bold;
+  font-size: ${props => (props.narrowVersion ? "10px" : "20px")};
   padding: ${props => (props.narrowVersion ? "5px" : "0 12px 0 15px")};
   margin: 0px 0px 5px 0px;
-  text-align: center;
+  align-self: flex-start;
+  font-family: Ropa Sans;
+`;
+const LinkLogo = styled.img`
+  padding: 0px;
+  max-width: 40px;
+  border: 0;
+  align-self: center;
 `;
 const CopyrightItem = styled.div`
   font-size: ${props => (props.narrowVersion ? "10px" : "12px")};
@@ -186,10 +196,16 @@ function ScenarioSelectionMenu(props) {
       </MenuHeader>
       <MenuSeparatorLine />
       <Header narrowVersion={true}> {t("general.countries")}</Header>
-      <MapContainer
+      {/* <MapContainer
         selectedCountries={props.selectedCountries}
         selectCountry={props.selectCountry}
-      />
+      /> */}
+      <CountryList 
+        countries={props.countries}
+        selectedCountries={props.selectedCountries}
+        selectCountry={props.selectCountry}
+        narrowVersion={true}
+        />
       <MenuSeparatorLine />
       <ScenarioSelection>
         <ScenarioSelectionList
@@ -223,36 +239,18 @@ function ScenarioSelectionMenu(props) {
       >
         {t("general.red-minus-green")}
       </ScenarioDifferenceText>
-      {/* <MenuSeparatorLine />
-        <ToggleDifference onClick={e => toggleLanguage(e)}>
-        <ToggleLanguageText selected={language === "dk"}>
-          Danish
-        </ToggleLanguageText>
-        <ToggleSwitch checked={language !== "dk"} dimmed={false} />
-        <ToggleLanguageText selected={language === "en"}>
-          English
-        </ToggleLanguageText>
-      </ToggleDifference> */}
+      
       <MenuFooter>
-        <ExternalLink href="https://www.nordicenergy.org">
-          <AppLogo
-            src="./images/nordic_energy_research_cropped.png"
-            alt="Nordic Energy Research"
-          />
-        </ExternalLink>
         <CopyrightNotice>
-          <Header> {t("general.developed-by")}</Header>
+          <Header narrowVersion={true}> {t("general.developed-by")}</Header>
           <CopyrightItem>
             <ExternalLink href="http://www.tokni.com">
               <AppLogo src="./images/tokni.png" alt="Tøkni" data-tip="Tøkni - Nordic Software Consultancy"/>
             </ExternalLink>
           </CopyrightItem>
           <CopyrightItem>
-            <ExternalLink href="https://energymodelling.club/">
-              <AppLogo src="./images/emc.png" alt="Energy Modelling Club" maxWidth="75px" data-tip="Energy Modelling Club"/>
-            </ExternalLink>
             <ExternalLink href="https://energymodellinglab.com/">
-              <AppLogo src="./images/eml.png" alt="Energy Modelling Lab" maxWidth="75px" data-tip="Energy Modelling Lab"/>
+              <LinkLogo src="./images/eml.png" alt="Energy Modelling Lab" maxWidth="75px" data-tip="Energy Modelling Lab"/>
             </ExternalLink>
           </CopyrightItem>
         </CopyrightNotice>

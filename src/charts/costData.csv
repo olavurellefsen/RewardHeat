@@ -1,0 +1,113 @@
+Scenario,Region,Commodity,Period,PV
+ClimHi_ConvDH_LTHS_compared_to_ClimHi_ConvDH_NoLTHS,DE,Variable costs ,-,-0.04031654
+ClimHi_ConvDH_LTHS_compared_to_ClimHi_ConvDH_NoLTHS,DE,Fixed O&M costs,-,-0.110320442
+ClimHi_ConvDH_LTHS_compared_to_ClimHi_ConvDH_NoLTHS,DE,Capital costs ,-,0.077793704
+ClimHi_ConvDH_LTHS_compared_to_ClimHi_ConvDH_NoLTHS,DE,Net ,-,-0.072843277
+ClimHi_LTDH_LTHS_compared_to_ClimHi_ConvDH_NoLTHS,DE,Variable costs ,-,-0.483883132
+ClimHi_LTDH_LTHS_compared_to_ClimHi_ConvDH_NoLTHS,DE,Fixed O&M costs,-,-0.101214871
+ClimHi_LTDH_LTHS_compared_to_ClimHi_ConvDH_NoLTHS,DE,Capital costs ,-,-0.325753697
+ClimHi_LTDH_LTHS_compared_to_ClimHi_ConvDH_NoLTHS,DE,Net ,-,-0.9108517
+ClimLo_ConvDH_LTHS_compared_to_ClimLo_ConvDH_NoLTHS,DE,Variable costs ,-,-0.174540158
+ClimLo_ConvDH_LTHS_compared_to_ClimLo_ConvDH_NoLTHS,DE,Fixed O&M costs,-,-0.001996211
+ClimLo_ConvDH_LTHS_compared_to_ClimLo_ConvDH_NoLTHS,DE,Capital costs ,-,0.03828094
+ClimLo_ConvDH_LTHS_compared_to_ClimLo_ConvDH_NoLTHS,DE,Net ,-,-0.138255428
+ClimLo_LTDH_LTHS_compared_to_ClimLo_ConvDH_NoLTHS,DE,Variable costs ,-,-0.987802502
+ClimLo_LTDH_LTHS_compared_to_ClimLo_ConvDH_NoLTHS,DE,Fixed O&M costs,-,0.000801386
+ClimLo_LTDH_LTHS_compared_to_ClimLo_ConvDH_NoLTHS,DE,Capital costs ,-,0.357511264
+ClimLo_LTDH_LTHS_compared_to_ClimLo_ConvDH_NoLTHS,DE,Net ,-,-0.629489851
+ClimHi_ConvDH_LTHS_compared_to_ClimHi_ConvDH_NoLTHS,DK,Variable costs ,-,-0.281551213
+ClimHi_ConvDH_LTHS_compared_to_ClimHi_ConvDH_NoLTHS,DK,Fixed O&M costs,-,0.073540801
+ClimHi_ConvDH_LTHS_compared_to_ClimHi_ConvDH_NoLTHS,DK,Capital costs ,-,0.196935106
+ClimHi_ConvDH_LTHS_compared_to_ClimHi_ConvDH_NoLTHS,DK,Net ,-,-0.011075306
+ClimHi_LTDH_LTHS_compared_to_ClimHi_ConvDH_NoLTHS,DK,Variable costs ,-,-0.155429207
+ClimHi_LTDH_LTHS_compared_to_ClimHi_ConvDH_NoLTHS,DK,Fixed O&M costs,-,-0.104999338
+ClimHi_LTDH_LTHS_compared_to_ClimHi_ConvDH_NoLTHS,DK,Capital costs ,-,-0.574338518
+ClimHi_LTDH_LTHS_compared_to_ClimHi_ConvDH_NoLTHS,DK,Net ,-,-0.834767064
+ClimLo_ConvDH_LTHS_compared_to_ClimLo_ConvDH_NoLTHS,DK,Variable costs ,-,-0.033278128
+ClimLo_ConvDH_LTHS_compared_to_ClimLo_ConvDH_NoLTHS,DK,Fixed O&M costs,-,0.010111813
+ClimLo_ConvDH_LTHS_compared_to_ClimLo_ConvDH_NoLTHS,DK,Capital costs ,-,0.031974408
+ClimLo_ConvDH_LTHS_compared_to_ClimLo_ConvDH_NoLTHS,DK,Net ,-,0.008808092
+ClimLo_LTDH_LTHS_compared_to_ClimLo_ConvDH_NoLTHS,DK,Variable costs ,-,-1.019109172
+ClimLo_LTDH_LTHS_compared_to_ClimLo_ConvDH_NoLTHS,DK,Fixed O&M costs,-,0.048676137
+ClimLo_LTDH_LTHS_compared_to_ClimLo_ConvDH_NoLTHS,DK,Capital costs ,-,0.322399755
+ClimLo_LTDH_LTHS_compared_to_ClimLo_ConvDH_NoLTHS,DK,Net ,-,-0.64803328
+ClimHi_ConvDH_LTHS_compared_to_ClimHi_ConvDH_NoLTHS,FR,Variable costs ,-,-0.044559186
+ClimHi_ConvDH_LTHS_compared_to_ClimHi_ConvDH_NoLTHS,FR,Fixed O&M costs,-,-0.044744941
+ClimHi_ConvDH_LTHS_compared_to_ClimHi_ConvDH_NoLTHS,FR,Capital costs ,-,0.021208359
+ClimHi_ConvDH_LTHS_compared_to_ClimHi_ConvDH_NoLTHS,FR,Net ,-,-0.068095768
+ClimHi_LTDH_LTHS_compared_to_ClimHi_ConvDH_NoLTHS,FR,Variable costs ,-,-0.368559272
+ClimHi_LTDH_LTHS_compared_to_ClimHi_ConvDH_NoLTHS,FR,Fixed O&M costs,-,-0.131114664
+ClimHi_LTDH_LTHS_compared_to_ClimHi_ConvDH_NoLTHS,FR,Capital costs ,-,-0.194778197
+ClimHi_LTDH_LTHS_compared_to_ClimHi_ConvDH_NoLTHS,FR,Net ,-,-0.694452133
+ClimLo_ConvDH_LTHS_compared_to_ClimLo_ConvDH_NoLTHS,FR,Variable costs ,-,-0.067342879
+ClimLo_ConvDH_LTHS_compared_to_ClimLo_ConvDH_NoLTHS,FR,Fixed O&M costs,-,-0.017550943
+ClimLo_ConvDH_LTHS_compared_to_ClimLo_ConvDH_NoLTHS,FR,Capital costs ,-,-0.025998769
+ClimLo_ConvDH_LTHS_compared_to_ClimLo_ConvDH_NoLTHS,FR,Net ,-,-0.110892591
+ClimLo_LTDH_LTHS_compared_to_ClimLo_ConvDH_NoLTHS,FR,Variable costs ,-,-0.599990006
+ClimLo_LTDH_LTHS_compared_to_ClimLo_ConvDH_NoLTHS,FR,Fixed O&M costs,-,-0.027883749
+ClimLo_LTDH_LTHS_compared_to_ClimLo_ConvDH_NoLTHS,FR,Capital costs ,-,0.074600818
+ClimLo_LTDH_LTHS_compared_to_ClimLo_ConvDH_NoLTHS,FR,Net ,-,-0.553272937
+ClimHi_ConvDH_LTHS_compared_to_ClimHi_ConvDH_NoLTHS,HR,Variable costs ,-,-0.086964165
+ClimHi_ConvDH_LTHS_compared_to_ClimHi_ConvDH_NoLTHS,HR,Fixed O&M costs,-,-0.003923162
+ClimHi_ConvDH_LTHS_compared_to_ClimHi_ConvDH_NoLTHS,HR,Capital costs ,-,0.068740259
+ClimHi_ConvDH_LTHS_compared_to_ClimHi_ConvDH_NoLTHS,HR,Net ,-,-0.022147067
+ClimHi_LTDH_LTHS_compared_to_ClimHi_ConvDH_NoLTHS,HR,Variable costs ,-,-0.680515691
+ClimHi_LTDH_LTHS_compared_to_ClimHi_ConvDH_NoLTHS,HR,Fixed O&M costs,-,-0.035431195
+ClimHi_LTDH_LTHS_compared_to_ClimHi_ConvDH_NoLTHS,HR,Capital costs ,-,-0.082336742
+ClimHi_LTDH_LTHS_compared_to_ClimHi_ConvDH_NoLTHS,HR,Net ,-,-0.798283627
+ClimLo_ConvDH_LTHS_compared_to_ClimLo_ConvDH_NoLTHS,HR,Variable costs ,-,0.011729555
+ClimLo_ConvDH_LTHS_compared_to_ClimLo_ConvDH_NoLTHS,HR,Fixed O&M costs,-,-0.009511155
+ClimLo_ConvDH_LTHS_compared_to_ClimLo_ConvDH_NoLTHS,HR,Capital costs ,-,-0.028010264
+ClimLo_ConvDH_LTHS_compared_to_ClimLo_ConvDH_NoLTHS,HR,Net ,-,-0.025791864
+ClimLo_LTDH_LTHS_compared_to_ClimLo_ConvDH_NoLTHS,HR,Variable costs ,-,-0.670326464
+ClimLo_LTDH_LTHS_compared_to_ClimLo_ConvDH_NoLTHS,HR,Fixed O&M costs,-,-0.017297521
+ClimLo_LTDH_LTHS_compared_to_ClimLo_ConvDH_NoLTHS,HR,Capital costs ,-,0.073714015
+ClimLo_LTDH_LTHS_compared_to_ClimLo_ConvDH_NoLTHS,HR,Net ,-,-0.613909969
+ClimHi_ConvDH_LTHS_compared_to_ClimHi_ConvDH_NoLTHS,IT,Variable costs ,-,-0.091541623
+ClimHi_ConvDH_LTHS_compared_to_ClimHi_ConvDH_NoLTHS,IT,Fixed O&M costs,-,-0.102886307
+ClimHi_ConvDH_LTHS_compared_to_ClimHi_ConvDH_NoLTHS,IT,Capital costs ,-,0.068993188
+ClimHi_ConvDH_LTHS_compared_to_ClimHi_ConvDH_NoLTHS,IT,Net ,-,-0.125434743
+ClimHi_LTDH_LTHS_compared_to_ClimHi_ConvDH_NoLTHS,IT,Variable costs ,-,-0.680562762
+ClimHi_LTDH_LTHS_compared_to_ClimHi_ConvDH_NoLTHS,IT,Fixed O&M costs,-,-0.133334337
+ClimHi_LTDH_LTHS_compared_to_ClimHi_ConvDH_NoLTHS,IT,Capital costs ,-,-0.140207666
+ClimHi_LTDH_LTHS_compared_to_ClimHi_ConvDH_NoLTHS,IT,Net ,-,-0.954104765
+ClimLo_ConvDH_LTHS_compared_to_ClimLo_ConvDH_NoLTHS,IT,Variable costs ,-,-0.352344412
+ClimLo_ConvDH_LTHS_compared_to_ClimLo_ConvDH_NoLTHS,IT,Fixed O&M costs,-,-0.002536109
+ClimLo_ConvDH_LTHS_compared_to_ClimLo_ConvDH_NoLTHS,IT,Capital costs ,-,0.200991867
+ClimLo_ConvDH_LTHS_compared_to_ClimLo_ConvDH_NoLTHS,IT,Net ,-,-0.153888654
+ClimLo_LTDH_LTHS_compared_to_ClimLo_ConvDH_NoLTHS,IT,Variable costs ,-,-0.865783803
+ClimLo_LTDH_LTHS_compared_to_ClimLo_ConvDH_NoLTHS,IT,Fixed O&M costs,-,-0.014216056
+ClimLo_LTDH_LTHS_compared_to_ClimLo_ConvDH_NoLTHS,IT,Capital costs ,-,0.174685207
+ClimLo_LTDH_LTHS_compared_to_ClimLo_ConvDH_NoLTHS,IT,Net ,-,-0.705314652
+ClimHi_ConvDH_LTHS_compared_to_ClimHi_ConvDH_NoLTHS,NL,Variable costs ,-,-0.231944962
+ClimHi_ConvDH_LTHS_compared_to_ClimHi_ConvDH_NoLTHS,NL,Fixed O&M costs,-,-0.094647365
+ClimHi_ConvDH_LTHS_compared_to_ClimHi_ConvDH_NoLTHS,NL,Capital costs ,-,0.083255409
+ClimHi_ConvDH_LTHS_compared_to_ClimHi_ConvDH_NoLTHS,NL,Net ,-,-0.243336917
+ClimHi_LTDH_LTHS_compared_to_ClimHi_ConvDH_NoLTHS,NL,Variable costs ,-,0.005686903
+ClimHi_LTDH_LTHS_compared_to_ClimHi_ConvDH_NoLTHS,NL,Fixed O&M costs,-,-0.05617221
+ClimHi_LTDH_LTHS_compared_to_ClimHi_ConvDH_NoLTHS,NL,Capital costs ,-,-0.952983749
+ClimHi_LTDH_LTHS_compared_to_ClimHi_ConvDH_NoLTHS,NL,Net ,-,-1.003469056
+ClimLo_ConvDH_LTHS_compared_to_ClimLo_ConvDH_NoLTHS,NL,Variable costs ,-,-0.142951263
+ClimLo_ConvDH_LTHS_compared_to_ClimLo_ConvDH_NoLTHS,NL,Fixed O&M costs,-,-0.001386009
+ClimLo_ConvDH_LTHS_compared_to_ClimLo_ConvDH_NoLTHS,NL,Capital costs ,-,0.067848694
+ClimLo_ConvDH_LTHS_compared_to_ClimLo_ConvDH_NoLTHS,NL,Net ,-,-0.076488578
+ClimLo_LTDH_LTHS_compared_to_ClimLo_ConvDH_NoLTHS,NL,Variable costs ,-,-0.650869652
+ClimLo_LTDH_LTHS_compared_to_ClimLo_ConvDH_NoLTHS,NL,Fixed O&M costs,-,-0.02605027
+ClimLo_LTDH_LTHS_compared_to_ClimLo_ConvDH_NoLTHS,NL,Capital costs ,-,0.125498048
+ClimLo_LTDH_LTHS_compared_to_ClimLo_ConvDH_NoLTHS,NL,Net ,-,-0.551421874
+ClimHi_ConvDH_LTHS_compared_to_ClimHi_ConvDH_NoLTHS,SE,Variable costs ,-,0.525923426
+ClimHi_ConvDH_LTHS_compared_to_ClimHi_ConvDH_NoLTHS,SE,Fixed O&M costs,-,-0.358366943
+ClimHi_ConvDH_LTHS_compared_to_ClimHi_ConvDH_NoLTHS,SE,Capital costs ,-,-0.267763317
+ClimHi_ConvDH_LTHS_compared_to_ClimHi_ConvDH_NoLTHS,SE,Net ,-,-0.100206834
+ClimHi_LTDH_LTHS_compared_to_ClimHi_ConvDH_NoLTHS,SE,Variable costs ,-,-1.94613831
+ClimHi_LTDH_LTHS_compared_to_ClimHi_ConvDH_NoLTHS,SE,Fixed O&M costs,-,-0.391854066
+ClimHi_LTDH_LTHS_compared_to_ClimHi_ConvDH_NoLTHS,SE,Capital costs ,-,0.534240515
+ClimHi_LTDH_LTHS_compared_to_ClimHi_ConvDH_NoLTHS,SE,Net ,-,-1.803751861
+ClimLo_ConvDH_LTHS_compared_to_ClimLo_ConvDH_NoLTHS,SE,Variable costs ,-,-0.660686293
+ClimLo_ConvDH_LTHS_compared_to_ClimLo_ConvDH_NoLTHS,SE,Fixed O&M costs,-,-0.410439289
+ClimLo_ConvDH_LTHS_compared_to_ClimLo_ConvDH_NoLTHS,SE,Capital costs ,-,-0.109882076
+ClimLo_ConvDH_LTHS_compared_to_ClimLo_ConvDH_NoLTHS,SE,Net ,-,-1.181007658
+ClimLo_LTDH_LTHS_compared_to_ClimLo_ConvDH_NoLTHS,SE,Variable costs ,-,-1.90624902
+ClimLo_LTDH_LTHS_compared_to_ClimLo_ConvDH_NoLTHS,SE,Fixed O&M costs,-,-0.420337609
+ClimLo_LTDH_LTHS_compared_to_ClimLo_ConvDH_NoLTHS,SE,Capital costs ,-,0.468657311
+ClimLo_LTDH_LTHS_compared_to_ClimLo_ConvDH_NoLTHS,SE,Net ,-,-1.857929318

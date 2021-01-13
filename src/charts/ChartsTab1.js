@@ -16,7 +16,7 @@ const Charts = props => {
   return (
     <MainArea>
       {props.scenarioSelection.showWelcome === true && (
-        <Welcome closeWelcome={props.closeWelcome} />
+        <Welcome closeWelcome={props.closeWelcome} tab="tab1" />
       )}
       {(props.scenarioSelection.showDifference === false ||
         (props.scenarioSelection.showDifference === true &&
@@ -32,11 +32,11 @@ const Charts = props => {
                 selectedScenario2={selectedScenario2}
                 selectedCountries={selectedCountries}
                 combinedChart={false}
-                label="PJ"
                 minY={0}
                 maxY={1500}
                 stackedBar={stackedBar}
                 //line={line}
+                countries={props.countries}
               />
             )
           }
@@ -54,11 +54,11 @@ const Charts = props => {
                 selectedScenario2={selectedScenario2}
                 selectedCountries={selectedCountries}
                 combinedChart={false}
-                label="PJ"
                 minY={-1}
                 maxY={1}
                 stackedBar={stackedBar}
                 //line={line}
+                countries={props.countries}
               />
             )
           }

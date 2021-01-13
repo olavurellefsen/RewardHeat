@@ -16,7 +16,7 @@ const TabLayout = styled.div`
     width: 100%;
     padding-left: 20px;
     color: white;
-    background: rgb(80, 80, 80);
+    background: rgb(176, 176, 176);
     visibility: visible;
   `}
 `;
@@ -35,7 +35,7 @@ const TabItem = styled(Link)`
     text-decoration: underline;
     cursor: pointer;
   }
-  color: ${props => (props.selected ? "black" : "inherit")};
+  color: ${props => (props.selected ? "#ff5555" : "#285c6a")};
   background: ${props => (props.selected ? "white" : "inherit")};
 `;
 
@@ -46,9 +46,12 @@ function Tabs(props) {
       <TabItem to="/" selected={props.selectedChartgroup === "/"}>
         {t("tabs.tab1")}
       </TabItem>
-      {/* <TabItem to="/tab2" selected={props.selectedChartgroup === "/tab2"}>
+      <TabItem to="/tab2" selected={props.selectedChartgroup === "/tab2"}>
         {t("tabs.tab2")}
-      </TabItem> */}
+      </TabItem>
+      <TabItem to="/tab3" selected={props.selectedChartgroup === "/tab3"}>
+        {t("tabs.tab3")}
+      </TabItem>
     </TabLayout>
   );
 }

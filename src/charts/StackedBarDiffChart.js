@@ -201,32 +201,51 @@ const StackedBarChart = props => {
         />
         <VictoryGroup offset={10} style={{ data: { width: 10 } }}>
           <VictoryStack>
-            {Object.keys(diffData).map((indicatorName, i) => (
-              <VictoryBar
-                key={indicatorName}
-                data={diffData[indicatorName].map(chartGroupValue => ({
-                  ...chartGroupValue,
-                  label:
-                    'Difference: ' +
-                    indicatorName +
-                    ': ' +
-                    (props.YPercentage
-                      ? (
-                          (chartGroupValue.total * 100) /
-                          props.divideValues
-                        ).toFixed(0) + '%'
-                      : (chartGroupValue.total / props.divideValues).toFixed(
-                          0
-                        )),
-                }))}
-                x="year"
-                y={datum => maxValue === 0 ? 0 : datum['total'] / maxValue}
-                labelComponent={<VictoryTooltip />}
-                style={{
-                  data: { fill: colors[i] },
-                }}
-              />
-            ))}
+            {Object.keys(diffData).map((indicatorName, i) => {
+              console.log("indicatorName: ", indicatorName)
+              console.log("bars: ", diffData[indicatorName])
+              return(
+                <VictoryBar
+                  key={indicatorName}
+                  data={diffData[indicatorName].map(chartGroupValue => {
+                    console.log("return: ", {
+                    ...chartGroupValue,
+                    label:
+                      'Difference: ' +
+                      indicatorName +
+                      ': ' +
+                      (props.YPercentage
+                        ? (
+                            (chartGroupValue.total * 100) /
+                            props.divideValues
+                          ).toFixed(0) + '%'
+                        : (chartGroupValue.total / props.divideValues).toFixed(
+                            1
+                          )),
+                  })
+                    return({
+                    ...chartGroupValue,
+                    label:
+                      'Difference: ' +
+                      indicatorName +
+                      ': ' +
+                      (props.YPercentage
+                        ? (
+                            (chartGroupValue.total * 100) /
+                            props.divideValues
+                          ).toFixed(0) + '%'
+                        : (chartGroupValue.total / props.divideValues).toFixed(
+                            1
+                          )),
+                  })})}
+                  x="year"
+                  y={datum => maxValue === 0 ? 0 : datum['total'] / maxValue}
+                  labelComponent={<VictoryTooltip />}
+                  style={{
+                    data: { fill: colors[i] },
+                  }}
+                />
+            )})}
           </VictoryStack>
         </VictoryGroup>
       </VictoryChart>

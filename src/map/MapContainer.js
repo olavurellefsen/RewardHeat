@@ -10,8 +10,8 @@ const countryColorsCSS = props =>{
   props.countries.map(
     country => `
     #${country} {
-      fill:  ${props.selectedCountries.includes(country) ? 'red' : '#cccccc'};
-      :hover {fill: #80b3c3;}
+      fill:  ${props.selectedCountries.includes(country) ? 'rgb(179,107,92)' : '#cccccc'};
+      :hover {fill: rgb(84, 94, 102);}
     }
     `
 ))
@@ -19,8 +19,8 @@ const countryColorsCSS = props =>{
 
  const StyledRegions = styled.div`
   ${props => countryColorsCSS(props)}
-  fill: #616161;
-  stroke: red;
+  fill: rgb(129, 102, 96);
+  stroke: rgb(129, 102, 96);
   stroke-width: 0.46875;
   stroke-miterlimit: 22.9256;
   position: relative;

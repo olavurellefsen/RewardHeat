@@ -1,77 +1,62 @@
-﻿import React from 'react'
-import PropTypes from 'prop-types'
-import Welcome from '../alert/Welcome'
-import StackedBarChart from './StackedBarChart'
-import StackedBarDiffChart from './StackedBarDiffChart'
+﻿import React, { useState, useEffect } from 'react'
+//import PropTypes from 'prop-types'
 import { MainArea, Flex } from './Charts.style'
-import stackedBar from '../data/stackedBarTab3'
-//import line from '../data/line'
-import indicators from '../data/indicatorsTab3'
+import Welcome from '../alert/Welcome'
+import CostChart from './CostChart'
+import { csv } from "d3"
+import mapRegionToDataRegions from "../data/mapRegionToDataRegions"
 
-const Charts = props => {
-  const selectedScenario = props.scenarioSelection.scenarioSelection
-  const selectedScenario2 = props.scenarioSelection.scenarioSelection2
-  const selectedCountries = props.selectedCountries
+const Charts = ({selectedCountries, costData, closeWelcome, scenarioSelection}) => {
+  const [regionData, setRegionData] = useState([])
+  let selectedDataRegions = [] 
+  mapRegionToDataRegions.forEach((mapRegion) => {
+      if(selectedCountries.includes(mapRegion.path_id)) {
+      mapRegion.data_regions.forEach((dataRegion) => {
+        selectedDataRegions.push(dataRegion)
+      })
+    }
+  })
 
+  useEffect(() => {
+    csv("costData.csv").then(data=>
+      {
+        let newRegionData = []
+        data.forEach(row => {
+          if (row.Region === selectedDataRegions[0])
+            newRegionData.push(row)
+        })
+        if (JSON.stringify(newRegionData) !== JSON.stringify(regionData))
+          setRegionData(newRegionData)
+      }
+    )
+  }, [selectedCountries, selectedDataRegions, regionData])
+  console.log("region data: ", regionData)
   return (
     <MainArea>
-      {props.scenarioSelection.showWelcome === true && (
-        <Welcome closeWelcome={props.closeWelcome} />
+      {scenarioSelection.showWelcome === true && (
+        <Welcome closeWelcome={closeWelcome} tab="tab3"/>
       )}
-      {(props.scenarioSelection.showDifference === false ||
-        (props.scenarioSelection.showDifference === true &&
-          selectedScenario2 === '')) && (
-        <Flex>
-          {
-            indicators.map((i, index) => 
-              <StackedBarChart
-                key={i+' '+index}
-                chartName={i}
-                chartTitle={i}
-                selectedScenario={selectedScenario}
-                selectedScenario2={selectedScenario2}
-                selectedCountries={selectedCountries}
-                combinedChart={false}
-                label="PJ"
-                minY={0}
-                maxY={1500}
-                stackedBar={stackedBar}
-                //line={line}
-              />
-            )
-          }
-        </Flex>
-      )}
-      {props.scenarioSelection.showDifference === true &&
-        selectedScenario2 !== '' && (
-        <Flex>
-          {
-            indicators.map(i => 
-              <StackedBarDiffChart
-                chartName={i}
-                chartTitle={i}
-                selectedScenario={selectedScenario}
-                selectedScenario2={selectedScenario2}
-                selectedCountries={selectedCountries}
-                combinedChart={false}
-                label="PJ"
-                minY={-1}
-                maxY={1}
-                stackedBar={stackedBar}
-                //line={line}
-              />
-            )
-          }
-          </Flex>
-        )}
+      <Flex>
+        {<CostChart 
+          title={"Average annual cost changes 2020-2050 " + mapRegionToDataRegions.find((region)=>region.path_id === selectedCountries[0]).country}
+          subTitle="WEO-SD"
+          costChartData={regionData?.slice(0,8)}
+          bar1Subtitle={["Transition DH compared to", "Conventional DH"]}
+          bar2Subtitle={["4th Generation DH compared to", "Conventional DH"]}
+        ></CostChart>}
+        {<CostChart 
+          title={"Average annual cost changes 2020-2050 "  + mapRegionToDataRegions.find((region)=>region.path_id === selectedCountries[0]).country}
+          subTitle="WEO-NP"
+          costChartData={regionData?.slice(8,16)}
+          bar1Subtitle={["Transition DH compared to", "Conventional DH"]}
+          bar2Subtitle={["4th Generation DH compared to", "Conventional DH"]}
+        />}
+      </Flex>
     </MainArea>
   )
 }
 
-Charts.propTypes = {
-  scenarioSelection: PropTypes.object.isRequired,
-  closeWelcome: PropTypes.func.isRequired,
-  selectedCountries: PropTypes.array.isRequired,
-}
+/* Charts.propTypes = {
+} */
 
 export default Charts
