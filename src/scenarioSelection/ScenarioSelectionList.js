@@ -34,15 +34,23 @@ const ScenarioSelectionList = props => {
     props.updateScenarioSelection(event, props.name, value);
   };
   const scenarioSwitches = props.options;
+
   const { scenarioCombinations, dimensionTitle, narrowVersion } = props;
   let stringValue = props.selectedValue.toString();
   let stringValue2 = props.selectedValue2.toString();
-  console.log("scenarioCombinations: ", scenarioCombinations)
+  //console.log("scenarioSwitches: ", scenarioSwitches)
+  //console.log("scenarioCombinations: ", scenarioCombinations)
   let scenarioOptions = scenarioCombinations.scenarioOptions
-    .filter(s => !s.opt0 && !s.opt1 && !s.opt2 && !s.opt3) //ensure that each scenario is only listed once
+    .filter(s => {
+      //console.log("s: ", !s.opt0 && !s.opt1 && !s.opt2 && !s.opt3)
+      //console.log("s.opt0: ", s.opt0)
+      return(s.opt0 && !s.opt1 && !s.opt2 && !s.opt3)
+    }) //ensure that each scenario is only listed once
     .map(option => {
+      /* let optionValue = option.nameNoOptions; */
       let optionValue = option.nameNoOptions;
-      console.log("optionValue: ", optionValue)
+      let scenarioName = option.nameNoOptions;
+      //console.log("option.nameNoOptions: ", option.nameNoOptions)
       if (optionValue === "division_line") {
         return <MenuSeparatorLine key={option.id} />;
       } else {
@@ -89,7 +97,7 @@ const ScenarioSelectionList = props => {
                     ? t("options.unavailable")
                     : "")
                 }
-                selected={scenarioSwitches[optionValue].opt0}
+                selected={scenarioSwitches[scenarioName].opt0}
               >
                 <FontAwesomeIcon icon={faDatabase} />
               </Icon>
@@ -110,7 +118,7 @@ const ScenarioSelectionList = props => {
                     ? t("options.unavailable")
                     : "")
                 }
-                selected={scenarioSwitches[optionValue].opt1}
+                selected={scenarioSwitches[scenarioName].opt1}
               >
                 <FontAwesomeIcon icon={faLeaf} />
               </Icon>
@@ -131,7 +139,7 @@ const ScenarioSelectionList = props => {
                     ? t("options.unavailable")
                     : "")
                 }
-                selected={scenarioSwitches[optionValue].opt2}
+                selected={scenarioSwitches[scenarioName].opt2}
               >
                 <FontAwesomeIcon icon={faBolt} />
                 <FontAwesomeIcon icon={faCar} />
@@ -153,7 +161,7 @@ const ScenarioSelectionList = props => {
                     ? t("options.unavailable")
                     : "")
                 }
-                selected={scenarioSwitches[optionValue].opt3}
+                selected={scenarioSwitches[scenarioName].opt3}
               >
                 <FontAwesomeIcon icon={faUserFriends} />
                 <FontAwesomeIcon icon={faCar} />

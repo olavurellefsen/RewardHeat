@@ -1,26 +1,80 @@
 ﻿import React from 'react'
 import PropTypes from 'prop-types'
 import Welcome from '../alert/Welcome'
-import { MainArea } from './Charts.style'
+import StackedBarChart from './StackedBarChart'
+import StackedBarDiffChart from './StackedBarDiffChart'
+import { MainArea, Flex } from './Charts.style'
+import stackedBar from '../data/stackedBarTab2'
+//import line from '../data/line'
+import indicators from '../data/indicatorsTab2'
 
 const Charts = props => {
-  //const selectedCountries = props.selectedCountries
+  const selectedScenario = props.scenarioSelection.scenarioSelection
+  const selectedScenario2 = props.scenarioSelection.scenarioSelection2
+  const selectedCountries = props.selectedCountries
+
   return (
     <MainArea>
       {props.scenarioSelection.showWelcome === true && (
-        <Welcome closeWelcome={props.closeWelcome} tab="tab2"/>
+        <Welcome closeWelcome={props.closeWelcome} tab="tab2" />
       )}
-      
-      
+      {(props.scenarioSelection.showDifference === false ||
+        (props.scenarioSelection.showDifference === true &&
+          selectedScenario2 === '')) && (
+        <Flex>
+          {
+            indicators.map((i, index) => 
+              <StackedBarChart
+                key={i+' '+index}
+                chartName={i}
+                chartTitle={i}
+                selectedScenario={selectedScenario}
+                selectedScenario2={selectedScenario2}
+                selectedCountries={selectedCountries}
+                combinedChart={false}
+                minY={0}
+                maxY={1500}
+                stackedBar={stackedBar}
+                //line={line}
+                countries={props.countries}
+              />
+            )
+          }
+        </Flex>
+      )}
+      {props.scenarioSelection.showDifference === true &&
+        selectedScenario2 !== '' && (
+        <Flex>
+          {
+            indicators.map(i => 
+              <StackedBarDiffChart
+                chartName={i}
+                chartTitle={i}
+                selectedScenario={selectedScenario}
+                selectedScenario2={selectedScenario2}
+                selectedCountries={selectedCountries}
+                combinedChart={false}
+                minY={-1}
+                maxY={1}
+                stackedBar={stackedBar}
+                //line={line}
+                countries={props.countries}
+              />
+            )
+          }
+          </Flex>
+        )}
     </MainArea>
   )
 }
 
 Charts.propTypes = {
+  scenarioSelection: PropTypes.object.isRequired,
   closeWelcome: PropTypes.func.isRequired,
   selectedCountries: PropTypes.array.isRequired,
 }
 
 export default Charts
+
 
 
