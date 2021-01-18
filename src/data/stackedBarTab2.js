@@ -2,4923 +2,6 @@ export default {
   "data": {
     "scenarios": [
       {
-        "scenario": "4thGenerationDH_Ambitious",
-        "indicators": [
-          {
-            "indicator": "District Heat production air pollution (kt)",
-            "regions": [
-              {
-                "region": "DE",
-                "indicatorGroups": [
-                  {
-                    "indicatorGroup": "NOX",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 7.5220256732
-                      },
-                      {
-                        "year": 2020,
-                        "total": 19.6651128036
-                      },
-                      {
-                        "year": 2025,
-                        "total": 24.2832367151
-                      },
-                      {
-                        "year": 2030,
-                        "total": 4.3146169623
-                      },
-                      {
-                        "year": 2035,
-                        "total": 4.0019968872
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "PM2.5",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 0.1046284367
-                      },
-                      {
-                        "year": 2020,
-                        "total": 0.1506554924
-                      },
-                      {
-                        "year": 2025,
-                        "total": 0.1599233986
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.0251166792
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.0165631134
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "SO2",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 1.2049131349
-                      },
-                      {
-                        "year": 2020,
-                        "total": 2.2400861901
-                      },
-                      {
-                        "year": 2025,
-                        "total": 2.8059537538
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.6173132115
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.5591461616
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "region": "DK",
-                "indicatorGroups": [
-                  {
-                    "indicatorGroup": "NOX",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 5.6812467697
-                      },
-                      {
-                        "year": 2020,
-                        "total": 3.9969941084
-                      },
-                      {
-                        "year": 2025,
-                        "total": 4.6410714878
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.6958467335
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.5945264098
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.4460785243
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.195578304
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.8958706537
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "PM2.5",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 0.2468951213
-                      },
-                      {
-                        "year": 2020,
-                        "total": 0.0684755606
-                      },
-                      {
-                        "year": 2025,
-                        "total": 0.0642222335
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.0069009282
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.0059444235
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0044893976
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.001879076
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.006273604
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "SO2",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 3.0699439878
-                      },
-                      {
-                        "year": 2020,
-                        "total": 0.8051272266
-                      },
-                      {
-                        "year": 2025,
-                        "total": 0.7314662528
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.2602528202
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.2224267947
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.167117565
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0734712147
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.1545922774
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "region": "FR",
-                "indicatorGroups": [
-                  {
-                    "indicatorGroup": "NOX",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 3.4385015415
-                      },
-                      {
-                        "year": 2020,
-                        "total": 11.2542414362
-                      },
-                      {
-                        "year": 2025,
-                        "total": 11.3802181084
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.211979978
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.1028504205
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "PM2.5",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 0.058497406
-                      },
-                      {
-                        "year": 2020,
-                        "total": 0.0318011823
-                      },
-                      {
-                        "year": 2025,
-                        "total": 0.0530403758
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.0071316252
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.0035658126
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "SO2",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 0.8370746859
-                      },
-                      {
-                        "year": 2020,
-                        "total": 0.9101711944
-                      },
-                      {
-                        "year": 2025,
-                        "total": 0.9726991431
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.0501099576
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.0250549788
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "region": "HR",
-                "indicatorGroups": [
-                  {
-                    "indicatorGroup": "NOX",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 0.4718175395
-                      },
-                      {
-                        "year": 2020,
-                        "total": 0.4164196729
-                      },
-                      {
-                        "year": 2025,
-                        "total": 0.4027239188
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.0063288796
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.0095988007
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0095988007
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0039907102
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "PM2.5",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 0.0023463982
-                      },
-                      {
-                        "year": 2020,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2025,
-                        "total": 0.0009253715
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.0005794418
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.00087882
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.00087882
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "SO2",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 0.0284602103
-                      },
-                      {
-                        "year": 2020,
-                        "total": 0.0234246116
-                      },
-                      {
-                        "year": 2025,
-                        "total": 0.0245533815
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.002146368
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.0032553248
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0032553248
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0013534043
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "region": "IT",
-                "indicatorGroups": [
-                  {
-                    "indicatorGroup": "NOX",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 1.2085886114
-                      },
-                      {
-                        "year": 2020,
-                        "total": 10.6214589086
-                      },
-                      {
-                        "year": 2025,
-                        "total": 9.4665964582
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.541122893
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.3095658364
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "PM2.5",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 0.022791695
-                      },
-                      {
-                        "year": 2020,
-                        "total": 0.0666728866
-                      },
-                      {
-                        "year": 2025,
-                        "total": 0.0749024212
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.0088083537
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.0044041769
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "SO2",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 0.2961527975
-                      },
-                      {
-                        "year": 2020,
-                        "total": 0.4152015129
-                      },
-                      {
-                        "year": 2025,
-                        "total": 0.4060663361
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.056664956
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.0295609627
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "region": "NL",
-                "indicatorGroups": [
-                  {
-                    "indicatorGroup": "NOX",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 0.7843402294
-                      },
-                      {
-                        "year": 2020,
-                        "total": 1.8230950521
-                      },
-                      {
-                        "year": 2025,
-                        "total": 2.8365712589
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.3426765755
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.5615442512
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "PM2.5",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 0.0023927402
-                      },
-                      {
-                        "year": 2020,
-                        "total": 0.0062378548
-                      },
-                      {
-                        "year": 2025,
-                        "total": 0.0103103565
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.0012186222
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.0019495556
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "SO2",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 0.0468251794
-                      },
-                      {
-                        "year": 2020,
-                        "total": 0.1118402365
-                      },
-                      {
-                        "year": 2025,
-                        "total": 0.1701901525
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.0215896554
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.0354361454
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "region": "SE",
-                "indicatorGroups": [
-                  {
-                    "indicatorGroup": "NOX",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 6.1396136314
-                      },
-                      {
-                        "year": 2020,
-                        "total": 5.4629600383
-                      },
-                      {
-                        "year": 2025,
-                        "total": 4.9652810367
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.8139766859
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.5145189903
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "PM2.5",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 0.5221075449
-                      },
-                      {
-                        "year": 2020,
-                        "total": 0.1537513015
-                      },
-                      {
-                        "year": 2025,
-                        "total": 0.1086821271
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.221194854
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.1132826405
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "SO2",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 2.4479574253
-                      },
-                      {
-                        "year": 2020,
-                        "total": 0.6850087568
-                      },
-                      {
-                        "year": 2025,
-                        "total": 0.5782956679
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.3865453987
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.2100560926
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "indicator": "Heating devices air pollution (kt)",
-            "regions": [
-              {
-                "region": "DE",
-                "indicatorGroups": [
-                  {
-                    "indicatorGroup": "NOX",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 168.6144804946
-                      },
-                      {
-                        "year": 2020,
-                        "total": 136.6165583368
-                      },
-                      {
-                        "year": 2025,
-                        "total": 47.0448624908
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "PM2.5",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 36.5766720329
-                      },
-                      {
-                        "year": 2020,
-                        "total": 38.0909206798
-                      },
-                      {
-                        "year": 2025,
-                        "total": 17.4954325261
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "SO2",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 238.1185390807
-                      },
-                      {
-                        "year": 2020,
-                        "total": 179.5767384925
-                      },
-                      {
-                        "year": 2025,
-                        "total": 68.4793585859
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "region": "DK",
-                "indicatorGroups": [
-                  {
-                    "indicatorGroup": "NOX",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 6.4825356195
-                      },
-                      {
-                        "year": 2020,
-                        "total": 5.274328615
-                      },
-                      {
-                        "year": 2025,
-                        "total": 2.298112077
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "PM2.5",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 6.409604302
-                      },
-                      {
-                        "year": 2020,
-                        "total": 7.239434145
-                      },
-                      {
-                        "year": 2025,
-                        "total": 3.2994450899
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "SO2",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 7.4211453497
-                      },
-                      {
-                        "year": 2020,
-                        "total": 4.7706761845
-                      },
-                      {
-                        "year": 2025,
-                        "total": 1.5954363379
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "region": "FR",
-                "indicatorGroups": [
-                  {
-                    "indicatorGroup": "NOX",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 130.1926787398
-                      },
-                      {
-                        "year": 2020,
-                        "total": 91.8398635198
-                      },
-                      {
-                        "year": 2025,
-                        "total": 37.6804134175
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "PM2.5",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 35.2864554346
-                      },
-                      {
-                        "year": 2020,
-                        "total": 42.6914658374
-                      },
-                      {
-                        "year": 2025,
-                        "total": 20.7556989016
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "SO2",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 124.1667653908
-                      },
-                      {
-                        "year": 2020,
-                        "total": 74.6065706261
-                      },
-                      {
-                        "year": 2025,
-                        "total": 28.8896084426
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "region": "HR",
-                "indicatorGroups": [
-                  {
-                    "indicatorGroup": "NOX",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 4.9954670832
-                      },
-                      {
-                        "year": 2020,
-                        "total": 3.9167627449
-                      },
-                      {
-                        "year": 2025,
-                        "total": 1.82591229
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.0985966243
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "PM2.5",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 8.4822537271
-                      },
-                      {
-                        "year": 2020,
-                        "total": 7.3538529203
-                      },
-                      {
-                        "year": 2025,
-                        "total": 3.986436764
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.1835556848
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "SO2",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 4.0452659771
-                      },
-                      {
-                        "year": 2020,
-                        "total": 3.0942070557
-                      },
-                      {
-                        "year": 2025,
-                        "total": 1.6681605136
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.0740590029
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "region": "IT",
-                "indicatorGroups": [
-                  {
-                    "indicatorGroup": "NOX",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 95.4347675283
-                      },
-                      {
-                        "year": 2020,
-                        "total": 72.3862211435
-                      },
-                      {
-                        "year": 2025,
-                        "total": 25.5921597031
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "PM2.5",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 24.68046745
-                      },
-                      {
-                        "year": 2020,
-                        "total": 32.4397066273
-                      },
-                      {
-                        "year": 2025,
-                        "total": 16.226186012
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "SO2",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 23.5019928328
-                      },
-                      {
-                        "year": 2020,
-                        "total": 17.0812734418
-                      },
-                      {
-                        "year": 2025,
-                        "total": 8.5393820583
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "region": "NL",
-                "indicatorGroups": [
-                  {
-                    "indicatorGroup": "NOX",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 18.4541924174
-                      },
-                      {
-                        "year": 2020,
-                        "total": 14.8615345039
-                      },
-                      {
-                        "year": 2025,
-                        "total": 5.1388646802
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "PM2.5",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 2.3893351383
-                      },
-                      {
-                        "year": 2020,
-                        "total": 2.4992095286
-                      },
-                      {
-                        "year": 2025,
-                        "total": 1.2432888139
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "SO2",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 1.6069853971
-                      },
-                      {
-                        "year": 2020,
-                        "total": 1.3170839679
-                      },
-                      {
-                        "year": 2025,
-                        "total": 0.6587874564
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "region": "SE",
-                "indicatorGroups": [
-                  {
-                    "indicatorGroup": "NOX",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 6.3491295828
-                      },
-                      {
-                        "year": 2020,
-                        "total": 3.5207551182
-                      },
-                      {
-                        "year": 2025,
-                        "total": 1.6967186029
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "PM2.5",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 5.0639263202
-                      },
-                      {
-                        "year": 2020,
-                        "total": 4.051132806
-                      },
-                      {
-                        "year": 2025,
-                        "total": 1.8445218008
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "SO2",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 6.6642602238
-                      },
-                      {
-                        "year": 2020,
-                        "total": 2.5871844263
-                      },
-                      {
-                        "year": 2025,
-                        "total": 1.2822930482
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "scenario": "4thGenerationDH_WEO-NP",
-        "indicators": [
-          {
-            "indicator": "District Heat production air pollution (kt)",
-            "regions": [
-              {
-                "region": "DE",
-                "indicatorGroups": [
-                  {
-                    "indicatorGroup": "NOX",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 9.3901364127
-                      },
-                      {
-                        "year": 2020,
-                        "total": 18.3392632656
-                      },
-                      {
-                        "year": 2025,
-                        "total": 33.9133893203
-                      },
-                      {
-                        "year": 2030,
-                        "total": 47.7369562151
-                      },
-                      {
-                        "year": 2035,
-                        "total": 29.6490963083
-                      },
-                      {
-                        "year": 2040,
-                        "total": 27.1129284258
-                      },
-                      {
-                        "year": 2045,
-                        "total": 23.7479462106
-                      },
-                      {
-                        "year": 2050,
-                        "total": 22.0498579787
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "PM2.5",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 0.110587628
-                      },
-                      {
-                        "year": 2020,
-                        "total": 0.1468455527
-                      },
-                      {
-                        "year": 2025,
-                        "total": 1.1868562123
-                      },
-                      {
-                        "year": 2030,
-                        "total": 1.9299595756
-                      },
-                      {
-                        "year": 2035,
-                        "total": 1.9130768164
-                      },
-                      {
-                        "year": 2040,
-                        "total": 1.6258500766
-                      },
-                      {
-                        "year": 2045,
-                        "total": 1.4335492537
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.9953254529
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "SO2",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 1.4305176236
-                      },
-                      {
-                        "year": 2020,
-                        "total": 2.1687683524
-                      },
-                      {
-                        "year": 2025,
-                        "total": 10.9039238123
-                      },
-                      {
-                        "year": 2030,
-                        "total": 19.9117021122
-                      },
-                      {
-                        "year": 2035,
-                        "total": 19.3203159294
-                      },
-                      {
-                        "year": 2040,
-                        "total": 16.4656765679
-                      },
-                      {
-                        "year": 2045,
-                        "total": 14.412450185
-                      },
-                      {
-                        "year": 2050,
-                        "total": 10.2707848733
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "region": "DK",
-                "indicatorGroups": [
-                  {
-                    "indicatorGroup": "NOX",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 5.6759247485
-                      },
-                      {
-                        "year": 2020,
-                        "total": 3.9706346155
-                      },
-                      {
-                        "year": 2025,
-                        "total": 4.361277437
-                      },
-                      {
-                        "year": 2030,
-                        "total": 4.4529058907
-                      },
-                      {
-                        "year": 2035,
-                        "total": 4.147964467
-                      },
-                      {
-                        "year": 2040,
-                        "total": 4.1003086954
-                      },
-                      {
-                        "year": 2045,
-                        "total": 3.3968859604
-                      },
-                      {
-                        "year": 2050,
-                        "total": 2.9690985829
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "PM2.5",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 0.1809806247
-                      },
-                      {
-                        "year": 2020,
-                        "total": 0.0784308606
-                      },
-                      {
-                        "year": 2025,
-                        "total": 0.1304752021
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.1294271244
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.1169384878
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0992487842
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0719181923
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0462335625
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "SO2",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 2.1915465841
-                      },
-                      {
-                        "year": 2020,
-                        "total": 0.8951134558
-                      },
-                      {
-                        "year": 2025,
-                        "total": 1.114989042
-                      },
-                      {
-                        "year": 2030,
-                        "total": 1.1653667859
-                      },
-                      {
-                        "year": 2035,
-                        "total": 1.0662969546
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.9934617312
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.6610820433
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.4322790836
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "region": "FR",
-                "indicatorGroups": [
-                  {
-                    "indicatorGroup": "NOX",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 3.4385015415
-                      },
-                      {
-                        "year": 2020,
-                        "total": 9.0782787197
-                      },
-                      {
-                        "year": 2025,
-                        "total": 22.2634187798
-                      },
-                      {
-                        "year": 2030,
-                        "total": 28.8321970577
-                      },
-                      {
-                        "year": 2035,
-                        "total": 21.5815726714
-                      },
-                      {
-                        "year": 2040,
-                        "total": 19.4296843301
-                      },
-                      {
-                        "year": 2045,
-                        "total": 16.3284590068
-                      },
-                      {
-                        "year": 2050,
-                        "total": 13.8255102628
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "PM2.5",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 0.058497406
-                      },
-                      {
-                        "year": 2020,
-                        "total": 0.0291671262
-                      },
-                      {
-                        "year": 2025,
-                        "total": 0.7698792595
-                      },
-                      {
-                        "year": 2030,
-                        "total": 1.215413861
-                      },
-                      {
-                        "year": 2035,
-                        "total": 1.1788465125
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.9957813607
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.9043587989
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.65768862
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "SO2",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 0.8370746859
-                      },
-                      {
-                        "year": 2020,
-                        "total": 0.743721879
-                      },
-                      {
-                        "year": 2025,
-                        "total": 6.1226902005
-                      },
-                      {
-                        "year": 2030,
-                        "total": 10.8007915435
-                      },
-                      {
-                        "year": 2035,
-                        "total": 10.5644736823
-                      },
-                      {
-                        "year": 2040,
-                        "total": 8.9726515553
-                      },
-                      {
-                        "year": 2045,
-                        "total": 8.0652567196
-                      },
-                      {
-                        "year": 2050,
-                        "total": 5.9618080022
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "region": "HR",
-                "indicatorGroups": [
-                  {
-                    "indicatorGroup": "NOX",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 0.4718175395
-                      },
-                      {
-                        "year": 2020,
-                        "total": 0.4063140308
-                      },
-                      {
-                        "year": 2025,
-                        "total": 0.5933837096
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.9166886715
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.6681366109
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.6085179719
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.4822394457
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.4194681708
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "PM2.5",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 0.0023463982
-                      },
-                      {
-                        "year": 2020,
-                        "total": 0.0008206638
-                      },
-                      {
-                        "year": 2025,
-                        "total": 0.0168442624
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.0367273876
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.0353060003
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0299893306
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0275365626
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0212271365
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "SO2",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 0.0284602103
-                      },
-                      {
-                        "year": 2020,
-                        "total": 0.0334975106
-                      },
-                      {
-                        "year": 2025,
-                        "total": 0.1524451654
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.3328550221
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.3226184533
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.2741036797
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.2513606908
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.1930473388
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "region": "IT",
-                "indicatorGroups": [
-                  {
-                    "indicatorGroup": "NOX",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 1.2085886114
-                      },
-                      {
-                        "year": 2020,
-                        "total": 10.5986474287
-                      },
-                      {
-                        "year": 2025,
-                        "total": 19.3919816007
-                      },
-                      {
-                        "year": 2030,
-                        "total": 29.2590269283
-                      },
-                      {
-                        "year": 2035,
-                        "total": 22.0053701539
-                      },
-                      {
-                        "year": 2040,
-                        "total": 21.2542948186
-                      },
-                      {
-                        "year": 2045,
-                        "total": 17.7023261479
-                      },
-                      {
-                        "year": 2050,
-                        "total": 19.3296338264
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "PM2.5",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 0.022791695
-                      },
-                      {
-                        "year": 2020,
-                        "total": 0.0688372768
-                      },
-                      {
-                        "year": 2025,
-                        "total": 0.6973953977
-                      },
-                      {
-                        "year": 2030,
-                        "total": 1.0335220844
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.9813122165
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.7872720746
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.702076483
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.3836049728
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "SO2",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 0.2961527975
-                      },
-                      {
-                        "year": 2020,
-                        "total": 0.4435372213
-                      },
-                      {
-                        "year": 2025,
-                        "total": 4.8187842033
-                      },
-                      {
-                        "year": 2030,
-                        "total": 8.3945250314
-                      },
-                      {
-                        "year": 2035,
-                        "total": 8.2493213291
-                      },
-                      {
-                        "year": 2040,
-                        "total": 6.5219776547
-                      },
-                      {
-                        "year": 2045,
-                        "total": 5.8489159295
-                      },
-                      {
-                        "year": 2050,
-                        "total": 2.9460266852
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "region": "NL",
-                "indicatorGroups": [
-                  {
-                    "indicatorGroup": "NOX",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 0.7843402294
-                      },
-                      {
-                        "year": 2020,
-                        "total": 1.3519491219
-                      },
-                      {
-                        "year": 2025,
-                        "total": 4.4543745264
-                      },
-                      {
-                        "year": 2030,
-                        "total": 7.5248550769
-                      },
-                      {
-                        "year": 2035,
-                        "total": 5.2849573328
-                      },
-                      {
-                        "year": 2040,
-                        "total": 4.7177412068
-                      },
-                      {
-                        "year": 2045,
-                        "total": 3.9128879739
-                      },
-                      {
-                        "year": 2050,
-                        "total": 3.5575365601
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "PM2.5",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 0.0023927402
-                      },
-                      {
-                        "year": 2020,
-                        "total": 0.0045153711
-                      },
-                      {
-                        "year": 2025,
-                        "total": 0.2224297815
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.4115117324
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.3859136488
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.3332851239
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.2907563023
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.1672915695
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "SO2",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 0.0468251794
-                      },
-                      {
-                        "year": 2020,
-                        "total": 0.0836639042
-                      },
-                      {
-                        "year": 2025,
-                        "total": 1.487323144
-                      },
-                      {
-                        "year": 2030,
-                        "total": 3.1761302934
-                      },
-                      {
-                        "year": 2035,
-                        "total": 3.1118138929
-                      },
-                      {
-                        "year": 2040,
-                        "total": 2.6918817838
-                      },
-                      {
-                        "year": 2045,
-                        "total": 2.3412080927
-                      },
-                      {
-                        "year": 2050,
-                        "total": 1.3972045322
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "region": "SE",
-                "indicatorGroups": [
-                  {
-                    "indicatorGroup": "NOX",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 6.5379097467
-                      },
-                      {
-                        "year": 2020,
-                        "total": 3.3886349246
-                      },
-                      {
-                        "year": 2025,
-                        "total": 3.1317741571
-                      },
-                      {
-                        "year": 2030,
-                        "total": 3.2681270926
-                      },
-                      {
-                        "year": 2035,
-                        "total": 3.0366147307
-                      },
-                      {
-                        "year": 2040,
-                        "total": 2.5666184935
-                      },
-                      {
-                        "year": 2045,
-                        "total": 2.4839856285
-                      },
-                      {
-                        "year": 2050,
-                        "total": 2.4059280952
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "PM2.5",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 1.1963197625
-                      },
-                      {
-                        "year": 2020,
-                        "total": 0.3126060293
-                      },
-                      {
-                        "year": 2025,
-                        "total": 0.2350151571
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.2002077532
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.1495679001
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0396615596
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0396572275
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0400967729
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "SO2",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 2.2299665357
-                      },
-                      {
-                        "year": 2020,
-                        "total": 0.7026438422
-                      },
-                      {
-                        "year": 2025,
-                        "total": 0.5847715238
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.5449301354
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.4507958209
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.2521350519
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.2468942392
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.2450869239
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "indicator": "Heating devices air pollution (kt)",
-            "regions": [
-              {
-                "region": "DE",
-                "indicatorGroups": [
-                  {
-                    "indicatorGroup": "NOX",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 162.6172412488
-                      },
-                      {
-                        "year": 2020,
-                        "total": 130.3920633266
-                      },
-                      {
-                        "year": 2025,
-                        "total": 49.4762950082
-                      },
-                      {
-                        "year": 2030,
-                        "total": 1.0213940018
-                      },
-                      {
-                        "year": 2035,
-                        "total": 1.0213940018
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.8528037163
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.2042788004
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "PM2.5",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 48.1800511837
-                      },
-                      {
-                        "year": 2020,
-                        "total": 37.8530418896
-                      },
-                      {
-                        "year": 2025,
-                        "total": 18.9949595915
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.0013972558
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.0013972558
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0011666262
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0011666262
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "SO2",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 204.5167065571
-                      },
-                      {
-                        "year": 2020,
-                        "total": 167.127748472
-                      },
-                      {
-                        "year": 2025,
-                        "total": 71.5350795565
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "region": "DK",
-                "indicatorGroups": [
-                  {
-                    "indicatorGroup": "NOX",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 5.6392281016
-                      },
-                      {
-                        "year": 2020,
-                        "total": 4.6052007245
-                      },
-                      {
-                        "year": 2025,
-                        "total": 2.1876366674
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.0937845351
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.0937845351
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0937845351
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "PM2.5",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 7.8151949518
-                      },
-                      {
-                        "year": 2020,
-                        "total": 7.2127968882
-                      },
-                      {
-                        "year": 2025,
-                        "total": 3.0396826093
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.0003699452
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.0003699452
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0003699452
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "SO2",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 4.5151359782
-                      },
-                      {
-                        "year": 2020,
-                        "total": 3.2651384311
-                      },
-                      {
-                        "year": 2025,
-                        "total": 1.5571231737
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "region": "FR",
-                "indicatorGroups": [
-                  {
-                    "indicatorGroup": "NOX",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 130.1926787398
-                      },
-                      {
-                        "year": 2020,
-                        "total": 93.8927615791
-                      },
-                      {
-                        "year": 2025,
-                        "total": 43.3620429084
-                      },
-                      {
-                        "year": 2030,
-                        "total": 4.1507857354
-                      },
-                      {
-                        "year": 2035,
-                        "total": 4.1507857354
-                      },
-                      {
-                        "year": 2040,
-                        "total": 3.8268068795
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.7653613759
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "PM2.5",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 35.2864554346
-                      },
-                      {
-                        "year": 2020,
-                        "total": 42.7647836252
-                      },
-                      {
-                        "year": 2025,
-                        "total": 19.9301006763
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.00829535
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.00829535
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0076478779
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0076478779
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "SO2",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 124.1667653908
-                      },
-                      {
-                        "year": 2020,
-                        "total": 78.1991422299
-                      },
-                      {
-                        "year": 2025,
-                        "total": 29.8589067459
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "region": "HR",
-                "indicatorGroups": [
-                  {
-                    "indicatorGroup": "NOX",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 4.9954670832
-                      },
-                      {
-                        "year": 2020,
-                        "total": 4.3341190268
-                      },
-                      {
-                        "year": 2025,
-                        "total": 1.9962409613
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.0214970659
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.0214970659
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0214970659
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0042994132
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "PM2.5",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 8.4822537271
-                      },
-                      {
-                        "year": 2020,
-                        "total": 7.3845884605
-                      },
-                      {
-                        "year": 2025,
-                        "total": 3.6769631042
-                      },
-                      {
-                        "year": 2030,
-                        "total": 4.13319e-05
-                      },
-                      {
-                        "year": 2035,
-                        "total": 4.13319e-05
-                      },
-                      {
-                        "year": 2040,
-                        "total": 4.13319e-05
-                      },
-                      {
-                        "year": 2045,
-                        "total": 4.13319e-05
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "SO2",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 4.0452659771
-                      },
-                      {
-                        "year": 2020,
-                        "total": 4.3462759012
-                      },
-                      {
-                        "year": 2025,
-                        "total": 1.5430093328
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "region": "IT",
-                "indicatorGroups": [
-                  {
-                    "indicatorGroup": "NOX",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 95.4347675283
-                      },
-                      {
-                        "year": 2020,
-                        "total": 73.8410907597
-                      },
-                      {
-                        "year": 2025,
-                        "total": 33.8088686966
-                      },
-                      {
-                        "year": 2030,
-                        "total": 2.1033536029
-                      },
-                      {
-                        "year": 2035,
-                        "total": 2.1033536029
-                      },
-                      {
-                        "year": 2040,
-                        "total": 1.9855327319
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.4206707206
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "PM2.5",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 24.68046745
-                      },
-                      {
-                        "year": 2020,
-                        "total": 32.4916662564
-                      },
-                      {
-                        "year": 2025,
-                        "total": 16.2502434512
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.0063012391
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.0063012391
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0059482706
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0059482706
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "SO2",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 23.5019928328
-                      },
-                      {
-                        "year": 2020,
-                        "total": 19.5129840862
-                      },
-                      {
-                        "year": 2025,
-                        "total": 8.5393820583
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "region": "NL",
-                "indicatorGroups": [
-                  {
-                    "indicatorGroup": "NOX",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 18.4541924174
-                      },
-                      {
-                        "year": 2020,
-                        "total": 16.384941976
-                      },
-                      {
-                        "year": 2025,
-                        "total": 8.4231082292
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.5162796244
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.4734431991
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.2408956571
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "PM2.5",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 2.3893351383
-                      },
-                      {
-                        "year": 2020,
-                        "total": 2.5036661082
-                      },
-                      {
-                        "year": 2025,
-                        "total": 1.2213511037
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.0014191304
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.0013013832
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0006621651
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "SO2",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 1.6069853971
-                      },
-                      {
-                        "year": 2020,
-                        "total": 1.3170839679
-                      },
-                      {
-                        "year": 2025,
-                        "total": 0.6503797329
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "region": "SE",
-                "indicatorGroups": [
-                  {
-                    "indicatorGroup": "NOX",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 6.0947639288
-                      },
-                      {
-                        "year": 2020,
-                        "total": 3.5207551182
-                      },
-                      {
-                        "year": 2025,
-                        "total": 1.687822469
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.0470021309
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0470021309
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "PM2.5",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 6.0860066352
-                      },
-                      {
-                        "year": 2020,
-                        "total": 4.051132806
-                      },
-                      {
-                        "year": 2025,
-                        "total": 1.8347878512
-                      },
-                      {
-                        "year": 2030,
-                        "total": 9.26529e-05
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2040,
-                        "total": 9.26529e-05
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "SO2",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 5.6551504214
-                      },
-                      {
-                        "year": 2020,
-                        "total": 2.5871844263
-                      },
-                      {
-                        "year": 2025,
-                        "total": 1.2807937277
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "scenario": "4thGenerationDH_WEO-SD",
-        "indicators": [
-          {
-            "indicator": "District Heat production air pollution (kt)",
-            "regions": [
-              {
-                "region": "DE",
-                "indicatorGroups": [
-                  {
-                    "indicatorGroup": "NOX",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 7.5220256732
-                      },
-                      {
-                        "year": 2020,
-                        "total": 21.0176927787
-                      },
-                      {
-                        "year": 2025,
-                        "total": 27.5834591424
-                      },
-                      {
-                        "year": 2030,
-                        "total": 34.3359944306
-                      },
-                      {
-                        "year": 2035,
-                        "total": 23.658222347
-                      },
-                      {
-                        "year": 2040,
-                        "total": 21.0823320185
-                      },
-                      {
-                        "year": 2045,
-                        "total": 13.2041861577
-                      },
-                      {
-                        "year": 2050,
-                        "total": 19.297815796
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "PM2.5",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 0.1046284367
-                      },
-                      {
-                        "year": 2020,
-                        "total": 0.1528797107
-                      },
-                      {
-                        "year": 2025,
-                        "total": 0.1705777903
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.2169356649
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.2102442761
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.1914068361
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.1581027958
-                      },
-                      {
-                        "year": 2050,
-                        "total": 2.0314299458
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "SO2",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 1.2049131349
-                      },
-                      {
-                        "year": 2020,
-                        "total": 2.2406536127
-                      },
-                      {
-                        "year": 2025,
-                        "total": 2.4395627962
-                      },
-                      {
-                        "year": 2030,
-                        "total": 2.9125104348
-                      },
-                      {
-                        "year": 2035,
-                        "total": 3.0028354922
-                      },
-                      {
-                        "year": 2040,
-                        "total": 2.800327106
-                      },
-                      {
-                        "year": 2045,
-                        "total": 1.8228306657
-                      },
-                      {
-                        "year": 2050,
-                        "total": 7.0820231109
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "region": "DK",
-                "indicatorGroups": [
-                  {
-                    "indicatorGroup": "NOX",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 5.6812467697
-                      },
-                      {
-                        "year": 2020,
-                        "total": 4.1035474132
-                      },
-                      {
-                        "year": 2025,
-                        "total": 4.0701647887
-                      },
-                      {
-                        "year": 2030,
-                        "total": 3.9491964998
-                      },
-                      {
-                        "year": 2035,
-                        "total": 3.7131225299
-                      },
-                      {
-                        "year": 2040,
-                        "total": 3.3614717364
-                      },
-                      {
-                        "year": 2045,
-                        "total": 2.2327456729
-                      },
-                      {
-                        "year": 2050,
-                        "total": 1.858882419
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "PM2.5",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 0.2468951213
-                      },
-                      {
-                        "year": 2020,
-                        "total": 0.06044985
-                      },
-                      {
-                        "year": 2025,
-                        "total": 0.0392885238
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.0375346838
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.0367300467
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.03499175
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.026650362
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0245132845
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "SO2",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 3.0699439878
-                      },
-                      {
-                        "year": 2020,
-                        "total": 0.6617389489
-                      },
-                      {
-                        "year": 2025,
-                        "total": 0.3514473421
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.3623246813
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.4055253021
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.4119308442
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.2443145476
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.2453586408
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "region": "FR",
-                "indicatorGroups": [
-                  {
-                    "indicatorGroup": "NOX",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 3.4385015415
-                      },
-                      {
-                        "year": 2020,
-                        "total": 11.2063626158
-                      },
-                      {
-                        "year": 2025,
-                        "total": 15.547761889
-                      },
-                      {
-                        "year": 2030,
-                        "total": 20.564034299
-                      },
-                      {
-                        "year": 2035,
-                        "total": 18.3720048561
-                      },
-                      {
-                        "year": 2040,
-                        "total": 15.392196735
-                      },
-                      {
-                        "year": 2045,
-                        "total": 9.2400731506
-                      },
-                      {
-                        "year": 2050,
-                        "total": 3.3142978006
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "PM2.5",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 0.058497406
-                      },
-                      {
-                        "year": 2020,
-                        "total": 0.0294810729
-                      },
-                      {
-                        "year": 2025,
-                        "total": 0.0490754379
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.0653412251
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.068706137
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0649516943
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.042864689
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0196685493
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "SO2",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 0.8370746859
-                      },
-                      {
-                        "year": 2020,
-                        "total": 0.7140934314
-                      },
-                      {
-                        "year": 2025,
-                        "total": 0.8020725414
-                      },
-                      {
-                        "year": 2030,
-                        "total": 1.0605848208
-                      },
-                      {
-                        "year": 2035,
-                        "total": 1.0639716266
-                      },
-                      {
-                        "year": 2040,
-                        "total": 1.1504889496
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.6632360885
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.2700754074
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "region": "HR",
-                "indicatorGroups": [
-                  {
-                    "indicatorGroup": "NOX",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 0.4718175395
-                      },
-                      {
-                        "year": 2020,
-                        "total": 0.4453987985
-                      },
-                      {
-                        "year": 2025,
-                        "total": 0.4802991721
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.8288066691
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.6689068802
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.5181198558
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.2785949976
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.3579037059
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "PM2.5",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 0.0023463982
-                      },
-                      {
-                        "year": 2020,
-                        "total": 0.0008547677
-                      },
-                      {
-                        "year": 2025,
-                        "total": 0.0017726455
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.0022490995
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.0029076818
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0017792404
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0251679164
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "SO2",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 0.0284602103
-                      },
-                      {
-                        "year": 2020,
-                        "total": 0.0320301656
-                      },
-                      {
-                        "year": 2025,
-                        "total": 0.0337285786
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.0418753999
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.0387505869
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0350530908
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0164808978
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.2013433308
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "region": "IT",
-                "indicatorGroups": [
-                  {
-                    "indicatorGroup": "NOX",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 1.2085886114
-                      },
-                      {
-                        "year": 2020,
-                        "total": 8.5995282455
-                      },
-                      {
-                        "year": 2025,
-                        "total": 17.6677295576
-                      },
-                      {
-                        "year": 2030,
-                        "total": 27.2955848769
-                      },
-                      {
-                        "year": 2035,
-                        "total": 24.1461366086
-                      },
-                      {
-                        "year": 2040,
-                        "total": 18.6423922703
-                      },
-                      {
-                        "year": 2045,
-                        "total": 10.5083184946
-                      },
-                      {
-                        "year": 2050,
-                        "total": 13.2291463877
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "PM2.5",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 0.022791695
-                      },
-                      {
-                        "year": 2020,
-                        "total": 0.0566241514
-                      },
-                      {
-                        "year": 2025,
-                        "total": 0.1333647096
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.2081642927
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.1860314042
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.1379196039
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0801349559
-                      },
-                      {
-                        "year": 2050,
-                        "total": 1.0151030608
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "SO2",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 0.2961527975
-                      },
-                      {
-                        "year": 2020,
-                        "total": 0.3693106369
-                      },
-                      {
-                        "year": 2025,
-                        "total": 0.6129281564
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.9724485767
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.9191202636
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.7283255015
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.4246922987
-                      },
-                      {
-                        "year": 2050,
-                        "total": 6.3784630971
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "region": "NL",
-                "indicatorGroups": [
-                  {
-                    "indicatorGroup": "NOX",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 0.7843402294
-                      },
-                      {
-                        "year": 2020,
-                        "total": 1.3214396934
-                      },
-                      {
-                        "year": 2025,
-                        "total": 2.9135038045
-                      },
-                      {
-                        "year": 2030,
-                        "total": 4.7506166807
-                      },
-                      {
-                        "year": 2035,
-                        "total": 4.7433954614
-                      },
-                      {
-                        "year": 2040,
-                        "total": 3.2828009361
-                      },
-                      {
-                        "year": 2045,
-                        "total": 1.698648581
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.7804272826
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "PM2.5",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 0.0023927402
-                      },
-                      {
-                        "year": 2020,
-                        "total": 0.0041817025
-                      },
-                      {
-                        "year": 2025,
-                        "total": 0.0102618284
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.0170201513
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.0169834012
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0118691678
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0061120726
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0096742313
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "SO2",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 0.0468251794
-                      },
-                      {
-                        "year": 2020,
-                        "total": 0.081511078
-                      },
-                      {
-                        "year": 2025,
-                        "total": 0.1773996268
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.3025623287
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.3031038045
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.211865363
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.1088648179
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.1072919715
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "region": "SE",
-                "indicatorGroups": [
-                  {
-                    "indicatorGroup": "NOX",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 6.1396136314
-                      },
-                      {
-                        "year": 2020,
-                        "total": 5.5024335588
-                      },
-                      {
-                        "year": 2025,
-                        "total": 4.7782801144
-                      },
-                      {
-                        "year": 2030,
-                        "total": 4.6430286864
-                      },
-                      {
-                        "year": 2035,
-                        "total": 3.9090820482
-                      },
-                      {
-                        "year": 2040,
-                        "total": 3.1900883775
-                      },
-                      {
-                        "year": 2045,
-                        "total": 2.6634255965
-                      },
-                      {
-                        "year": 2050,
-                        "total": 2.0909096864
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "PM2.5",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 0.5221075449
-                      },
-                      {
-                        "year": 2020,
-                        "total": 0.1343057003
-                      },
-                      {
-                        "year": 2025,
-                        "total": 0.0689958304
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.0964962525
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.0631373904
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0413575506
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0401058184
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0381057306
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "SO2",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 2.4479574253
-                      },
-                      {
-                        "year": 2020,
-                        "total": 0.6427807124
-                      },
-                      {
-                        "year": 2025,
-                        "total": 0.5067077443
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.5266226713
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.4128856651
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.3172255439
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.2649527969
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.2084591445
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "indicator": "Heating devices air pollution (kt)",
-            "regions": [
-              {
-                "region": "DE",
-                "indicatorGroups": [
-                  {
-                    "indicatorGroup": "NOX",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 168.6144804946
-                      },
-                      {
-                        "year": 2020,
-                        "total": 118.6497693511
-                      },
-                      {
-                        "year": 2025,
-                        "total": 47.8107824217
-                      },
-                      {
-                        "year": 2030,
-                        "total": 1.0213940018
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "PM2.5",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 36.5766720329
-                      },
-                      {
-                        "year": 2020,
-                        "total": 37.4042918013
-                      },
-                      {
-                        "year": 2025,
-                        "total": 17.2824529868
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.0013972558
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "SO2",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 238.1185390807
-                      },
-                      {
-                        "year": 2020,
-                        "total": 143.643160521
-                      },
-                      {
-                        "year": 2025,
-                        "total": 71.1424754731
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "region": "DK",
-                "indicatorGroups": [
-                  {
-                    "indicatorGroup": "NOX",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 6.4825356195
-                      },
-                      {
-                        "year": 2020,
-                        "total": 4.6052007245
-                      },
-                      {
-                        "year": 2025,
-                        "total": 2.1876366674
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.0937845351
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "PM2.5",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 6.409604302
-                      },
-                      {
-                        "year": 2020,
-                        "total": 7.2127968882
-                      },
-                      {
-                        "year": 2025,
-                        "total": 3.0396826093
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.0003699452
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "SO2",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 7.4211453497
-                      },
-                      {
-                        "year": 2020,
-                        "total": 3.2651384311
-                      },
-                      {
-                        "year": 2025,
-                        "total": 1.5571231737
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "region": "FR",
-                "indicatorGroups": [
-                  {
-                    "indicatorGroup": "NOX",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 130.1926787398
-                      },
-                      {
-                        "year": 2020,
-                        "total": 85.1985529763
-                      },
-                      {
-                        "year": 2025,
-                        "total": 42.370664087
-                      },
-                      {
-                        "year": 2030,
-                        "total": 4.1507857354
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "PM2.5",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 35.2864554346
-                      },
-                      {
-                        "year": 2020,
-                        "total": 42.4542761751
-                      },
-                      {
-                        "year": 2025,
-                        "total": 17.4187549636
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.00829535
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "SO2",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 124.1667653908
-                      },
-                      {
-                        "year": 2020,
-                        "total": 62.9842771749
-                      },
-                      {
-                        "year": 2025,
-                        "total": 29.3141571662
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "region": "HR",
-                "indicatorGroups": [
-                  {
-                    "indicatorGroup": "NOX",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 4.9954670832
-                      },
-                      {
-                        "year": 2020,
-                        "total": 3.9167627449
-                      },
-                      {
-                        "year": 2025,
-                        "total": 1.9089192517
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.0214970659
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "PM2.5",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 8.4822537271
-                      },
-                      {
-                        "year": 2020,
-                        "total": 7.3538529203
-                      },
-                      {
-                        "year": 2025,
-                        "total": 3.3767740461
-                      },
-                      {
-                        "year": 2030,
-                        "total": 4.13319e-05
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "SO2",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 4.0452659771
-                      },
-                      {
-                        "year": 2020,
-                        "total": 3.0942070557
-                      },
-                      {
-                        "year": 2025,
-                        "total": 1.4775180506
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "region": "IT",
-                "indicatorGroups": [
-                  {
-                    "indicatorGroup": "NOX",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 95.4347675283
-                      },
-                      {
-                        "year": 2020,
-                        "total": 72.3862211435
-                      },
-                      {
-                        "year": 2025,
-                        "total": 32.0098498496
-                      },
-                      {
-                        "year": 2030,
-                        "total": 2.1033536029
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "PM2.5",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 24.68046745
-                      },
-                      {
-                        "year": 2020,
-                        "total": 32.4397066273
-                      },
-                      {
-                        "year": 2025,
-                        "total": 13.8624168855
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.0063012391
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "SO2",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 23.5019928328
-                      },
-                      {
-                        "year": 2020,
-                        "total": 17.0812734418
-                      },
-                      {
-                        "year": 2025,
-                        "total": 8.3292463646
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "region": "NL",
-                "indicatorGroups": [
-                  {
-                    "indicatorGroup": "NOX",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 18.4541924174
-                      },
-                      {
-                        "year": 2020,
-                        "total": 15.5762665534
-                      },
-                      {
-                        "year": 2025,
-                        "total": 7.7566912464
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.5162796244
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "PM2.5",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 2.3893351383
-                      },
-                      {
-                        "year": 2020,
-                        "total": 2.5013004073
-                      },
-                      {
-                        "year": 2025,
-                        "total": 0.6393307731
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.0014191304
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "SO2",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 1.6069853971
-                      },
-                      {
-                        "year": 2020,
-                        "total": 1.3170839679
-                      },
-                      {
-                        "year": 2025,
-                        "total": 0.4898508711
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0
-                      }
-                    ]
-                  }
-                ]
-              },
-              {
-                "region": "SE",
-                "indicatorGroups": [
-                  {
-                    "indicatorGroup": "NOX",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 6.3491295828
-                      },
-                      {
-                        "year": 2020,
-                        "total": 3.4640146842
-                      },
-                      {
-                        "year": 2025,
-                        "total": 1.7629378826
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.0470021309
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "PM2.5",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 5.0639263202
-                      },
-                      {
-                        "year": 2020,
-                        "total": 4.0510141033
-                      },
-                      {
-                        "year": 2025,
-                        "total": 2.0355829562
-                      },
-                      {
-                        "year": 2030,
-                        "total": 9.26529e-05
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0
-                      }
-                    ]
-                  },
-                  {
-                    "indicatorGroup": "SO2",
-                    "indicatorGroupValues": [
-                      {
-                        "year": 2015,
-                        "total": 6.6642602238
-                      },
-                      {
-                        "year": 2020,
-                        "total": 2.5871844263
-                      },
-                      {
-                        "year": 2025,
-                        "total": 1.3117529172
-                      },
-                      {
-                        "year": 2030,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2035,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2040,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2045,
-                        "total": 0.0
-                      },
-                      {
-                        "year": 2050,
-                        "total": 0.0
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
         "scenario": "ConventionalDH_Ambitious",
         "indicators": [
           {
@@ -9773,6 +4856,4923 @@ export default {
                       {
                         "year": 2030,
                         "total": 0.0
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "SO2",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 6.6642602238
+                      },
+                      {
+                        "year": 2020,
+                        "total": 2.5871844263
+                      },
+                      {
+                        "year": 2025,
+                        "total": 1.3117529172
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "scenario": "FutureDH_Ambitious",
+        "indicators": [
+          {
+            "indicator": "District Heat production air pollution (kt)",
+            "regions": [
+              {
+                "region": "DE",
+                "indicatorGroups": [
+                  {
+                    "indicatorGroup": "NOX",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 7.5220256732
+                      },
+                      {
+                        "year": 2020,
+                        "total": 19.6651128036
+                      },
+                      {
+                        "year": 2025,
+                        "total": 24.2832367151
+                      },
+                      {
+                        "year": 2030,
+                        "total": 4.3146169623
+                      },
+                      {
+                        "year": 2035,
+                        "total": 4.0019968872
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "PM2.5",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 0.1046284367
+                      },
+                      {
+                        "year": 2020,
+                        "total": 0.1506554924
+                      },
+                      {
+                        "year": 2025,
+                        "total": 0.1599233986
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.0251166792
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.0165631134
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "SO2",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 1.2049131349
+                      },
+                      {
+                        "year": 2020,
+                        "total": 2.2400861901
+                      },
+                      {
+                        "year": 2025,
+                        "total": 2.8059537538
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.6173132115
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.5591461616
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "region": "DK",
+                "indicatorGroups": [
+                  {
+                    "indicatorGroup": "NOX",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 5.6812467697
+                      },
+                      {
+                        "year": 2020,
+                        "total": 3.9969941084
+                      },
+                      {
+                        "year": 2025,
+                        "total": 4.6410714878
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.6958467335
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.5945264098
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.4460785243
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.195578304
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.8958706537
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "PM2.5",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 0.2468951213
+                      },
+                      {
+                        "year": 2020,
+                        "total": 0.0684755606
+                      },
+                      {
+                        "year": 2025,
+                        "total": 0.0642222335
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.0069009282
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.0059444235
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0044893976
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.001879076
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.006273604
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "SO2",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 3.0699439878
+                      },
+                      {
+                        "year": 2020,
+                        "total": 0.8051272266
+                      },
+                      {
+                        "year": 2025,
+                        "total": 0.7314662528
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.2602528202
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.2224267947
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.167117565
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0734712147
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.1545922774
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "region": "FR",
+                "indicatorGroups": [
+                  {
+                    "indicatorGroup": "NOX",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 3.4385015415
+                      },
+                      {
+                        "year": 2020,
+                        "total": 11.2542414362
+                      },
+                      {
+                        "year": 2025,
+                        "total": 11.3802181084
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.211979978
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.1028504205
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "PM2.5",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 0.058497406
+                      },
+                      {
+                        "year": 2020,
+                        "total": 0.0318011823
+                      },
+                      {
+                        "year": 2025,
+                        "total": 0.0530403758
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.0071316252
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.0035658126
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "SO2",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 0.8370746859
+                      },
+                      {
+                        "year": 2020,
+                        "total": 0.9101711944
+                      },
+                      {
+                        "year": 2025,
+                        "total": 0.9726991431
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.0501099576
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.0250549788
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "region": "HR",
+                "indicatorGroups": [
+                  {
+                    "indicatorGroup": "NOX",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 0.4718175395
+                      },
+                      {
+                        "year": 2020,
+                        "total": 0.4164196729
+                      },
+                      {
+                        "year": 2025,
+                        "total": 0.4027239188
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.0063288796
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.0095988007
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0095988007
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0039907102
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "PM2.5",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 0.0023463982
+                      },
+                      {
+                        "year": 2020,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2025,
+                        "total": 0.0009253715
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.0005794418
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.00087882
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.00087882
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "SO2",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 0.0284602103
+                      },
+                      {
+                        "year": 2020,
+                        "total": 0.0234246116
+                      },
+                      {
+                        "year": 2025,
+                        "total": 0.0245533815
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.002146368
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.0032553248
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0032553248
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0013534043
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "region": "IT",
+                "indicatorGroups": [
+                  {
+                    "indicatorGroup": "NOX",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 1.2085886114
+                      },
+                      {
+                        "year": 2020,
+                        "total": 10.6214589086
+                      },
+                      {
+                        "year": 2025,
+                        "total": 9.4665964582
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.541122893
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.3095658364
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "PM2.5",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 0.022791695
+                      },
+                      {
+                        "year": 2020,
+                        "total": 0.0666728866
+                      },
+                      {
+                        "year": 2025,
+                        "total": 0.0749024212
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.0088083537
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.0044041769
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "SO2",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 0.2961527975
+                      },
+                      {
+                        "year": 2020,
+                        "total": 0.4152015129
+                      },
+                      {
+                        "year": 2025,
+                        "total": 0.4060663361
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.056664956
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.0295609627
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "region": "NL",
+                "indicatorGroups": [
+                  {
+                    "indicatorGroup": "NOX",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 0.7843402294
+                      },
+                      {
+                        "year": 2020,
+                        "total": 1.8230950521
+                      },
+                      {
+                        "year": 2025,
+                        "total": 2.8365712589
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.3426765755
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.5615442512
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "PM2.5",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 0.0023927402
+                      },
+                      {
+                        "year": 2020,
+                        "total": 0.0062378548
+                      },
+                      {
+                        "year": 2025,
+                        "total": 0.0103103565
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.0012186222
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.0019495556
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "SO2",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 0.0468251794
+                      },
+                      {
+                        "year": 2020,
+                        "total": 0.1118402365
+                      },
+                      {
+                        "year": 2025,
+                        "total": 0.1701901525
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.0215896554
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.0354361454
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "region": "SE",
+                "indicatorGroups": [
+                  {
+                    "indicatorGroup": "NOX",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 6.1396136314
+                      },
+                      {
+                        "year": 2020,
+                        "total": 5.4629600383
+                      },
+                      {
+                        "year": 2025,
+                        "total": 4.9652810367
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.8139766859
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.5145189903
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "PM2.5",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 0.5221075449
+                      },
+                      {
+                        "year": 2020,
+                        "total": 0.1537513015
+                      },
+                      {
+                        "year": 2025,
+                        "total": 0.1086821271
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.221194854
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.1132826405
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "SO2",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 2.4479574253
+                      },
+                      {
+                        "year": 2020,
+                        "total": 0.6850087568
+                      },
+                      {
+                        "year": 2025,
+                        "total": 0.5782956679
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.3865453987
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.2100560926
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "indicator": "Heating devices air pollution (kt)",
+            "regions": [
+              {
+                "region": "DE",
+                "indicatorGroups": [
+                  {
+                    "indicatorGroup": "NOX",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 168.6144804946
+                      },
+                      {
+                        "year": 2020,
+                        "total": 136.6165583368
+                      },
+                      {
+                        "year": 2025,
+                        "total": 47.0448624908
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "PM2.5",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 36.5766720329
+                      },
+                      {
+                        "year": 2020,
+                        "total": 38.0909206798
+                      },
+                      {
+                        "year": 2025,
+                        "total": 17.4954325261
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "SO2",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 238.1185390807
+                      },
+                      {
+                        "year": 2020,
+                        "total": 179.5767384925
+                      },
+                      {
+                        "year": 2025,
+                        "total": 68.4793585859
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "region": "DK",
+                "indicatorGroups": [
+                  {
+                    "indicatorGroup": "NOX",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 6.4825356195
+                      },
+                      {
+                        "year": 2020,
+                        "total": 5.274328615
+                      },
+                      {
+                        "year": 2025,
+                        "total": 2.298112077
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "PM2.5",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 6.409604302
+                      },
+                      {
+                        "year": 2020,
+                        "total": 7.239434145
+                      },
+                      {
+                        "year": 2025,
+                        "total": 3.2994450899
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "SO2",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 7.4211453497
+                      },
+                      {
+                        "year": 2020,
+                        "total": 4.7706761845
+                      },
+                      {
+                        "year": 2025,
+                        "total": 1.5954363379
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "region": "FR",
+                "indicatorGroups": [
+                  {
+                    "indicatorGroup": "NOX",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 130.1926787398
+                      },
+                      {
+                        "year": 2020,
+                        "total": 91.8398635198
+                      },
+                      {
+                        "year": 2025,
+                        "total": 37.6804134175
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "PM2.5",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 35.2864554346
+                      },
+                      {
+                        "year": 2020,
+                        "total": 42.6914658374
+                      },
+                      {
+                        "year": 2025,
+                        "total": 20.7556989016
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "SO2",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 124.1667653908
+                      },
+                      {
+                        "year": 2020,
+                        "total": 74.6065706261
+                      },
+                      {
+                        "year": 2025,
+                        "total": 28.8896084426
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "region": "HR",
+                "indicatorGroups": [
+                  {
+                    "indicatorGroup": "NOX",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 4.9954670832
+                      },
+                      {
+                        "year": 2020,
+                        "total": 3.9167627449
+                      },
+                      {
+                        "year": 2025,
+                        "total": 1.82591229
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.0985966243
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "PM2.5",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 8.4822537271
+                      },
+                      {
+                        "year": 2020,
+                        "total": 7.3538529203
+                      },
+                      {
+                        "year": 2025,
+                        "total": 3.986436764
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.1835556848
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "SO2",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 4.0452659771
+                      },
+                      {
+                        "year": 2020,
+                        "total": 3.0942070557
+                      },
+                      {
+                        "year": 2025,
+                        "total": 1.6681605136
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.0740590029
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "region": "IT",
+                "indicatorGroups": [
+                  {
+                    "indicatorGroup": "NOX",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 95.4347675283
+                      },
+                      {
+                        "year": 2020,
+                        "total": 72.3862211435
+                      },
+                      {
+                        "year": 2025,
+                        "total": 25.5921597031
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "PM2.5",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 24.68046745
+                      },
+                      {
+                        "year": 2020,
+                        "total": 32.4397066273
+                      },
+                      {
+                        "year": 2025,
+                        "total": 16.226186012
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "SO2",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 23.5019928328
+                      },
+                      {
+                        "year": 2020,
+                        "total": 17.0812734418
+                      },
+                      {
+                        "year": 2025,
+                        "total": 8.5393820583
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "region": "NL",
+                "indicatorGroups": [
+                  {
+                    "indicatorGroup": "NOX",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 18.4541924174
+                      },
+                      {
+                        "year": 2020,
+                        "total": 14.8615345039
+                      },
+                      {
+                        "year": 2025,
+                        "total": 5.1388646802
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "PM2.5",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 2.3893351383
+                      },
+                      {
+                        "year": 2020,
+                        "total": 2.4992095286
+                      },
+                      {
+                        "year": 2025,
+                        "total": 1.2432888139
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "SO2",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 1.6069853971
+                      },
+                      {
+                        "year": 2020,
+                        "total": 1.3170839679
+                      },
+                      {
+                        "year": 2025,
+                        "total": 0.6587874564
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "region": "SE",
+                "indicatorGroups": [
+                  {
+                    "indicatorGroup": "NOX",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 6.3491295828
+                      },
+                      {
+                        "year": 2020,
+                        "total": 3.5207551182
+                      },
+                      {
+                        "year": 2025,
+                        "total": 1.6967186029
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "PM2.5",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 5.0639263202
+                      },
+                      {
+                        "year": 2020,
+                        "total": 4.051132806
+                      },
+                      {
+                        "year": 2025,
+                        "total": 1.8445218008
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "SO2",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 6.6642602238
+                      },
+                      {
+                        "year": 2020,
+                        "total": 2.5871844263
+                      },
+                      {
+                        "year": 2025,
+                        "total": 1.2822930482
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "scenario": "FutureDH_WEO-NP",
+        "indicators": [
+          {
+            "indicator": "District Heat production air pollution (kt)",
+            "regions": [
+              {
+                "region": "DE",
+                "indicatorGroups": [
+                  {
+                    "indicatorGroup": "NOX",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 9.3901364127
+                      },
+                      {
+                        "year": 2020,
+                        "total": 18.3392632656
+                      },
+                      {
+                        "year": 2025,
+                        "total": 33.9133893203
+                      },
+                      {
+                        "year": 2030,
+                        "total": 47.7369562151
+                      },
+                      {
+                        "year": 2035,
+                        "total": 29.6490963083
+                      },
+                      {
+                        "year": 2040,
+                        "total": 27.1129284258
+                      },
+                      {
+                        "year": 2045,
+                        "total": 23.7479462106
+                      },
+                      {
+                        "year": 2050,
+                        "total": 22.0498579787
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "PM2.5",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 0.110587628
+                      },
+                      {
+                        "year": 2020,
+                        "total": 0.1468455527
+                      },
+                      {
+                        "year": 2025,
+                        "total": 1.1868562123
+                      },
+                      {
+                        "year": 2030,
+                        "total": 1.9299595756
+                      },
+                      {
+                        "year": 2035,
+                        "total": 1.9130768164
+                      },
+                      {
+                        "year": 2040,
+                        "total": 1.6258500766
+                      },
+                      {
+                        "year": 2045,
+                        "total": 1.4335492537
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.9953254529
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "SO2",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 1.4305176236
+                      },
+                      {
+                        "year": 2020,
+                        "total": 2.1687683524
+                      },
+                      {
+                        "year": 2025,
+                        "total": 10.9039238123
+                      },
+                      {
+                        "year": 2030,
+                        "total": 19.9117021122
+                      },
+                      {
+                        "year": 2035,
+                        "total": 19.3203159294
+                      },
+                      {
+                        "year": 2040,
+                        "total": 16.4656765679
+                      },
+                      {
+                        "year": 2045,
+                        "total": 14.412450185
+                      },
+                      {
+                        "year": 2050,
+                        "total": 10.2707848733
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "region": "DK",
+                "indicatorGroups": [
+                  {
+                    "indicatorGroup": "NOX",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 5.6759247485
+                      },
+                      {
+                        "year": 2020,
+                        "total": 3.9706346155
+                      },
+                      {
+                        "year": 2025,
+                        "total": 4.361277437
+                      },
+                      {
+                        "year": 2030,
+                        "total": 4.4529058907
+                      },
+                      {
+                        "year": 2035,
+                        "total": 4.147964467
+                      },
+                      {
+                        "year": 2040,
+                        "total": 4.1003086954
+                      },
+                      {
+                        "year": 2045,
+                        "total": 3.3968859604
+                      },
+                      {
+                        "year": 2050,
+                        "total": 2.9690985829
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "PM2.5",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 0.1809806247
+                      },
+                      {
+                        "year": 2020,
+                        "total": 0.0784308606
+                      },
+                      {
+                        "year": 2025,
+                        "total": 0.1304752021
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.1294271244
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.1169384878
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0992487842
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0719181923
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0462335625
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "SO2",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 2.1915465841
+                      },
+                      {
+                        "year": 2020,
+                        "total": 0.8951134558
+                      },
+                      {
+                        "year": 2025,
+                        "total": 1.114989042
+                      },
+                      {
+                        "year": 2030,
+                        "total": 1.1653667859
+                      },
+                      {
+                        "year": 2035,
+                        "total": 1.0662969546
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.9934617312
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.6610820433
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.4322790836
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "region": "FR",
+                "indicatorGroups": [
+                  {
+                    "indicatorGroup": "NOX",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 3.4385015415
+                      },
+                      {
+                        "year": 2020,
+                        "total": 9.0782787197
+                      },
+                      {
+                        "year": 2025,
+                        "total": 22.2634187798
+                      },
+                      {
+                        "year": 2030,
+                        "total": 28.8321970577
+                      },
+                      {
+                        "year": 2035,
+                        "total": 21.5815726714
+                      },
+                      {
+                        "year": 2040,
+                        "total": 19.4296843301
+                      },
+                      {
+                        "year": 2045,
+                        "total": 16.3284590068
+                      },
+                      {
+                        "year": 2050,
+                        "total": 13.8255102628
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "PM2.5",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 0.058497406
+                      },
+                      {
+                        "year": 2020,
+                        "total": 0.0291671262
+                      },
+                      {
+                        "year": 2025,
+                        "total": 0.7698792595
+                      },
+                      {
+                        "year": 2030,
+                        "total": 1.215413861
+                      },
+                      {
+                        "year": 2035,
+                        "total": 1.1788465125
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.9957813607
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.9043587989
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.65768862
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "SO2",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 0.8370746859
+                      },
+                      {
+                        "year": 2020,
+                        "total": 0.743721879
+                      },
+                      {
+                        "year": 2025,
+                        "total": 6.1226902005
+                      },
+                      {
+                        "year": 2030,
+                        "total": 10.8007915435
+                      },
+                      {
+                        "year": 2035,
+                        "total": 10.5644736823
+                      },
+                      {
+                        "year": 2040,
+                        "total": 8.9726515553
+                      },
+                      {
+                        "year": 2045,
+                        "total": 8.0652567196
+                      },
+                      {
+                        "year": 2050,
+                        "total": 5.9618080022
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "region": "HR",
+                "indicatorGroups": [
+                  {
+                    "indicatorGroup": "NOX",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 0.4718175395
+                      },
+                      {
+                        "year": 2020,
+                        "total": 0.4063140308
+                      },
+                      {
+                        "year": 2025,
+                        "total": 0.5933837096
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.9166886715
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.6681366109
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.6085179719
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.4822394457
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.4194681708
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "PM2.5",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 0.0023463982
+                      },
+                      {
+                        "year": 2020,
+                        "total": 0.0008206638
+                      },
+                      {
+                        "year": 2025,
+                        "total": 0.0168442624
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.0367273876
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.0353060003
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0299893306
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0275365626
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0212271365
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "SO2",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 0.0284602103
+                      },
+                      {
+                        "year": 2020,
+                        "total": 0.0334975106
+                      },
+                      {
+                        "year": 2025,
+                        "total": 0.1524451654
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.3328550221
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.3226184533
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.2741036797
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.2513606908
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.1930473388
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "region": "IT",
+                "indicatorGroups": [
+                  {
+                    "indicatorGroup": "NOX",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 1.2085886114
+                      },
+                      {
+                        "year": 2020,
+                        "total": 10.5986474287
+                      },
+                      {
+                        "year": 2025,
+                        "total": 19.3919816007
+                      },
+                      {
+                        "year": 2030,
+                        "total": 29.2590269283
+                      },
+                      {
+                        "year": 2035,
+                        "total": 22.0053701539
+                      },
+                      {
+                        "year": 2040,
+                        "total": 21.2542948186
+                      },
+                      {
+                        "year": 2045,
+                        "total": 17.7023261479
+                      },
+                      {
+                        "year": 2050,
+                        "total": 19.3296338264
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "PM2.5",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 0.022791695
+                      },
+                      {
+                        "year": 2020,
+                        "total": 0.0688372768
+                      },
+                      {
+                        "year": 2025,
+                        "total": 0.6973953977
+                      },
+                      {
+                        "year": 2030,
+                        "total": 1.0335220844
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.9813122165
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.7872720746
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.702076483
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.3836049728
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "SO2",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 0.2961527975
+                      },
+                      {
+                        "year": 2020,
+                        "total": 0.4435372213
+                      },
+                      {
+                        "year": 2025,
+                        "total": 4.8187842033
+                      },
+                      {
+                        "year": 2030,
+                        "total": 8.3945250314
+                      },
+                      {
+                        "year": 2035,
+                        "total": 8.2493213291
+                      },
+                      {
+                        "year": 2040,
+                        "total": 6.5219776547
+                      },
+                      {
+                        "year": 2045,
+                        "total": 5.8489159295
+                      },
+                      {
+                        "year": 2050,
+                        "total": 2.9460266852
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "region": "NL",
+                "indicatorGroups": [
+                  {
+                    "indicatorGroup": "NOX",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 0.7843402294
+                      },
+                      {
+                        "year": 2020,
+                        "total": 1.3519491219
+                      },
+                      {
+                        "year": 2025,
+                        "total": 4.4543745264
+                      },
+                      {
+                        "year": 2030,
+                        "total": 7.5248550769
+                      },
+                      {
+                        "year": 2035,
+                        "total": 5.2849573328
+                      },
+                      {
+                        "year": 2040,
+                        "total": 4.7177412068
+                      },
+                      {
+                        "year": 2045,
+                        "total": 3.9128879739
+                      },
+                      {
+                        "year": 2050,
+                        "total": 3.5575365601
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "PM2.5",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 0.0023927402
+                      },
+                      {
+                        "year": 2020,
+                        "total": 0.0045153711
+                      },
+                      {
+                        "year": 2025,
+                        "total": 0.2224297815
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.4115117324
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.3859136488
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.3332851239
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.2907563023
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.1672915695
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "SO2",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 0.0468251794
+                      },
+                      {
+                        "year": 2020,
+                        "total": 0.0836639042
+                      },
+                      {
+                        "year": 2025,
+                        "total": 1.487323144
+                      },
+                      {
+                        "year": 2030,
+                        "total": 3.1761302934
+                      },
+                      {
+                        "year": 2035,
+                        "total": 3.1118138929
+                      },
+                      {
+                        "year": 2040,
+                        "total": 2.6918817838
+                      },
+                      {
+                        "year": 2045,
+                        "total": 2.3412080927
+                      },
+                      {
+                        "year": 2050,
+                        "total": 1.3972045322
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "region": "SE",
+                "indicatorGroups": [
+                  {
+                    "indicatorGroup": "NOX",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 6.5379097467
+                      },
+                      {
+                        "year": 2020,
+                        "total": 3.3886349246
+                      },
+                      {
+                        "year": 2025,
+                        "total": 3.1317741571
+                      },
+                      {
+                        "year": 2030,
+                        "total": 3.2681270926
+                      },
+                      {
+                        "year": 2035,
+                        "total": 3.0366147307
+                      },
+                      {
+                        "year": 2040,
+                        "total": 2.5666184935
+                      },
+                      {
+                        "year": 2045,
+                        "total": 2.4839856285
+                      },
+                      {
+                        "year": 2050,
+                        "total": 2.4059280952
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "PM2.5",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 1.1963197625
+                      },
+                      {
+                        "year": 2020,
+                        "total": 0.3126060293
+                      },
+                      {
+                        "year": 2025,
+                        "total": 0.2350151571
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.2002077532
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.1495679001
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0396615596
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0396572275
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0400967729
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "SO2",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 2.2299665357
+                      },
+                      {
+                        "year": 2020,
+                        "total": 0.7026438422
+                      },
+                      {
+                        "year": 2025,
+                        "total": 0.5847715238
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.5449301354
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.4507958209
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.2521350519
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.2468942392
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.2450869239
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "indicator": "Heating devices air pollution (kt)",
+            "regions": [
+              {
+                "region": "DE",
+                "indicatorGroups": [
+                  {
+                    "indicatorGroup": "NOX",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 162.6172412488
+                      },
+                      {
+                        "year": 2020,
+                        "total": 130.3920633266
+                      },
+                      {
+                        "year": 2025,
+                        "total": 49.4762950082
+                      },
+                      {
+                        "year": 2030,
+                        "total": 1.0213940018
+                      },
+                      {
+                        "year": 2035,
+                        "total": 1.0213940018
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.8528037163
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.2042788004
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "PM2.5",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 48.1800511837
+                      },
+                      {
+                        "year": 2020,
+                        "total": 37.8530418896
+                      },
+                      {
+                        "year": 2025,
+                        "total": 18.9949595915
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.0013972558
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.0013972558
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0011666262
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0011666262
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "SO2",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 204.5167065571
+                      },
+                      {
+                        "year": 2020,
+                        "total": 167.127748472
+                      },
+                      {
+                        "year": 2025,
+                        "total": 71.5350795565
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "region": "DK",
+                "indicatorGroups": [
+                  {
+                    "indicatorGroup": "NOX",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 5.6392281016
+                      },
+                      {
+                        "year": 2020,
+                        "total": 4.6052007245
+                      },
+                      {
+                        "year": 2025,
+                        "total": 2.1876366674
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.0937845351
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.0937845351
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0937845351
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "PM2.5",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 7.8151949518
+                      },
+                      {
+                        "year": 2020,
+                        "total": 7.2127968882
+                      },
+                      {
+                        "year": 2025,
+                        "total": 3.0396826093
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.0003699452
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.0003699452
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0003699452
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "SO2",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 4.5151359782
+                      },
+                      {
+                        "year": 2020,
+                        "total": 3.2651384311
+                      },
+                      {
+                        "year": 2025,
+                        "total": 1.5571231737
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "region": "FR",
+                "indicatorGroups": [
+                  {
+                    "indicatorGroup": "NOX",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 130.1926787398
+                      },
+                      {
+                        "year": 2020,
+                        "total": 93.8927615791
+                      },
+                      {
+                        "year": 2025,
+                        "total": 43.3620429084
+                      },
+                      {
+                        "year": 2030,
+                        "total": 4.1507857354
+                      },
+                      {
+                        "year": 2035,
+                        "total": 4.1507857354
+                      },
+                      {
+                        "year": 2040,
+                        "total": 3.8268068795
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.7653613759
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "PM2.5",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 35.2864554346
+                      },
+                      {
+                        "year": 2020,
+                        "total": 42.7647836252
+                      },
+                      {
+                        "year": 2025,
+                        "total": 19.9301006763
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.00829535
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.00829535
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0076478779
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0076478779
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "SO2",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 124.1667653908
+                      },
+                      {
+                        "year": 2020,
+                        "total": 78.1991422299
+                      },
+                      {
+                        "year": 2025,
+                        "total": 29.8589067459
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "region": "HR",
+                "indicatorGroups": [
+                  {
+                    "indicatorGroup": "NOX",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 4.9954670832
+                      },
+                      {
+                        "year": 2020,
+                        "total": 4.3341190268
+                      },
+                      {
+                        "year": 2025,
+                        "total": 1.9962409613
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.0214970659
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.0214970659
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0214970659
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0042994132
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "PM2.5",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 8.4822537271
+                      },
+                      {
+                        "year": 2020,
+                        "total": 7.3845884605
+                      },
+                      {
+                        "year": 2025,
+                        "total": 3.6769631042
+                      },
+                      {
+                        "year": 2030,
+                        "total": 4.13319e-05
+                      },
+                      {
+                        "year": 2035,
+                        "total": 4.13319e-05
+                      },
+                      {
+                        "year": 2040,
+                        "total": 4.13319e-05
+                      },
+                      {
+                        "year": 2045,
+                        "total": 4.13319e-05
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "SO2",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 4.0452659771
+                      },
+                      {
+                        "year": 2020,
+                        "total": 4.3462759012
+                      },
+                      {
+                        "year": 2025,
+                        "total": 1.5430093328
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "region": "IT",
+                "indicatorGroups": [
+                  {
+                    "indicatorGroup": "NOX",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 95.4347675283
+                      },
+                      {
+                        "year": 2020,
+                        "total": 73.8410907597
+                      },
+                      {
+                        "year": 2025,
+                        "total": 33.8088686966
+                      },
+                      {
+                        "year": 2030,
+                        "total": 2.1033536029
+                      },
+                      {
+                        "year": 2035,
+                        "total": 2.1033536029
+                      },
+                      {
+                        "year": 2040,
+                        "total": 1.9855327319
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.4206707206
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "PM2.5",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 24.68046745
+                      },
+                      {
+                        "year": 2020,
+                        "total": 32.4916662564
+                      },
+                      {
+                        "year": 2025,
+                        "total": 16.2502434512
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.0063012391
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.0063012391
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0059482706
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0059482706
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "SO2",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 23.5019928328
+                      },
+                      {
+                        "year": 2020,
+                        "total": 19.5129840862
+                      },
+                      {
+                        "year": 2025,
+                        "total": 8.5393820583
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "region": "NL",
+                "indicatorGroups": [
+                  {
+                    "indicatorGroup": "NOX",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 18.4541924174
+                      },
+                      {
+                        "year": 2020,
+                        "total": 16.384941976
+                      },
+                      {
+                        "year": 2025,
+                        "total": 8.4231082292
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.5162796244
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.4734431991
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.2408956571
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "PM2.5",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 2.3893351383
+                      },
+                      {
+                        "year": 2020,
+                        "total": 2.5036661082
+                      },
+                      {
+                        "year": 2025,
+                        "total": 1.2213511037
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.0014191304
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.0013013832
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0006621651
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "SO2",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 1.6069853971
+                      },
+                      {
+                        "year": 2020,
+                        "total": 1.3170839679
+                      },
+                      {
+                        "year": 2025,
+                        "total": 0.6503797329
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "region": "SE",
+                "indicatorGroups": [
+                  {
+                    "indicatorGroup": "NOX",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 6.0947639288
+                      },
+                      {
+                        "year": 2020,
+                        "total": 3.5207551182
+                      },
+                      {
+                        "year": 2025,
+                        "total": 1.687822469
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.0470021309
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0470021309
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "PM2.5",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 6.0860066352
+                      },
+                      {
+                        "year": 2020,
+                        "total": 4.051132806
+                      },
+                      {
+                        "year": 2025,
+                        "total": 1.8347878512
+                      },
+                      {
+                        "year": 2030,
+                        "total": 9.26529e-05
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2040,
+                        "total": 9.26529e-05
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "SO2",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 5.6551504214
+                      },
+                      {
+                        "year": 2020,
+                        "total": 2.5871844263
+                      },
+                      {
+                        "year": 2025,
+                        "total": 1.2807937277
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "scenario": "FutureDH_WEO-SD",
+        "indicators": [
+          {
+            "indicator": "District Heat production air pollution (kt)",
+            "regions": [
+              {
+                "region": "DE",
+                "indicatorGroups": [
+                  {
+                    "indicatorGroup": "NOX",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 7.5220256732
+                      },
+                      {
+                        "year": 2020,
+                        "total": 21.0176927787
+                      },
+                      {
+                        "year": 2025,
+                        "total": 27.5834591424
+                      },
+                      {
+                        "year": 2030,
+                        "total": 34.3359944306
+                      },
+                      {
+                        "year": 2035,
+                        "total": 23.658222347
+                      },
+                      {
+                        "year": 2040,
+                        "total": 21.0823320185
+                      },
+                      {
+                        "year": 2045,
+                        "total": 13.2041861577
+                      },
+                      {
+                        "year": 2050,
+                        "total": 19.297815796
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "PM2.5",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 0.1046284367
+                      },
+                      {
+                        "year": 2020,
+                        "total": 0.1528797107
+                      },
+                      {
+                        "year": 2025,
+                        "total": 0.1705777903
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.2169356649
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.2102442761
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.1914068361
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.1581027958
+                      },
+                      {
+                        "year": 2050,
+                        "total": 2.0314299458
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "SO2",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 1.2049131349
+                      },
+                      {
+                        "year": 2020,
+                        "total": 2.2406536127
+                      },
+                      {
+                        "year": 2025,
+                        "total": 2.4395627962
+                      },
+                      {
+                        "year": 2030,
+                        "total": 2.9125104348
+                      },
+                      {
+                        "year": 2035,
+                        "total": 3.0028354922
+                      },
+                      {
+                        "year": 2040,
+                        "total": 2.800327106
+                      },
+                      {
+                        "year": 2045,
+                        "total": 1.8228306657
+                      },
+                      {
+                        "year": 2050,
+                        "total": 7.0820231109
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "region": "DK",
+                "indicatorGroups": [
+                  {
+                    "indicatorGroup": "NOX",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 5.6812467697
+                      },
+                      {
+                        "year": 2020,
+                        "total": 4.1035474132
+                      },
+                      {
+                        "year": 2025,
+                        "total": 4.0701647887
+                      },
+                      {
+                        "year": 2030,
+                        "total": 3.9491964998
+                      },
+                      {
+                        "year": 2035,
+                        "total": 3.7131225299
+                      },
+                      {
+                        "year": 2040,
+                        "total": 3.3614717364
+                      },
+                      {
+                        "year": 2045,
+                        "total": 2.2327456729
+                      },
+                      {
+                        "year": 2050,
+                        "total": 1.858882419
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "PM2.5",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 0.2468951213
+                      },
+                      {
+                        "year": 2020,
+                        "total": 0.06044985
+                      },
+                      {
+                        "year": 2025,
+                        "total": 0.0392885238
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.0375346838
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.0367300467
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.03499175
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.026650362
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0245132845
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "SO2",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 3.0699439878
+                      },
+                      {
+                        "year": 2020,
+                        "total": 0.6617389489
+                      },
+                      {
+                        "year": 2025,
+                        "total": 0.3514473421
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.3623246813
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.4055253021
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.4119308442
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.2443145476
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.2453586408
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "region": "FR",
+                "indicatorGroups": [
+                  {
+                    "indicatorGroup": "NOX",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 3.4385015415
+                      },
+                      {
+                        "year": 2020,
+                        "total": 11.2063626158
+                      },
+                      {
+                        "year": 2025,
+                        "total": 15.547761889
+                      },
+                      {
+                        "year": 2030,
+                        "total": 20.564034299
+                      },
+                      {
+                        "year": 2035,
+                        "total": 18.3720048561
+                      },
+                      {
+                        "year": 2040,
+                        "total": 15.392196735
+                      },
+                      {
+                        "year": 2045,
+                        "total": 9.2400731506
+                      },
+                      {
+                        "year": 2050,
+                        "total": 3.3142978006
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "PM2.5",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 0.058497406
+                      },
+                      {
+                        "year": 2020,
+                        "total": 0.0294810729
+                      },
+                      {
+                        "year": 2025,
+                        "total": 0.0490754379
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.0653412251
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.068706137
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0649516943
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.042864689
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0196685493
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "SO2",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 0.8370746859
+                      },
+                      {
+                        "year": 2020,
+                        "total": 0.7140934314
+                      },
+                      {
+                        "year": 2025,
+                        "total": 0.8020725414
+                      },
+                      {
+                        "year": 2030,
+                        "total": 1.0605848208
+                      },
+                      {
+                        "year": 2035,
+                        "total": 1.0639716266
+                      },
+                      {
+                        "year": 2040,
+                        "total": 1.1504889496
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.6632360885
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.2700754074
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "region": "HR",
+                "indicatorGroups": [
+                  {
+                    "indicatorGroup": "NOX",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 0.4718175395
+                      },
+                      {
+                        "year": 2020,
+                        "total": 0.4453987985
+                      },
+                      {
+                        "year": 2025,
+                        "total": 0.4802991721
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.8288066691
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.6689068802
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.5181198558
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.2785949976
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.3579037059
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "PM2.5",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 0.0023463982
+                      },
+                      {
+                        "year": 2020,
+                        "total": 0.0008547677
+                      },
+                      {
+                        "year": 2025,
+                        "total": 0.0017726455
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.0022490995
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.0029076818
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0017792404
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0251679164
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "SO2",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 0.0284602103
+                      },
+                      {
+                        "year": 2020,
+                        "total": 0.0320301656
+                      },
+                      {
+                        "year": 2025,
+                        "total": 0.0337285786
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.0418753999
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.0387505869
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0350530908
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0164808978
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.2013433308
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "region": "IT",
+                "indicatorGroups": [
+                  {
+                    "indicatorGroup": "NOX",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 1.2085886114
+                      },
+                      {
+                        "year": 2020,
+                        "total": 8.5995282455
+                      },
+                      {
+                        "year": 2025,
+                        "total": 17.6677295576
+                      },
+                      {
+                        "year": 2030,
+                        "total": 27.2955848769
+                      },
+                      {
+                        "year": 2035,
+                        "total": 24.1461366086
+                      },
+                      {
+                        "year": 2040,
+                        "total": 18.6423922703
+                      },
+                      {
+                        "year": 2045,
+                        "total": 10.5083184946
+                      },
+                      {
+                        "year": 2050,
+                        "total": 13.2291463877
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "PM2.5",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 0.022791695
+                      },
+                      {
+                        "year": 2020,
+                        "total": 0.0566241514
+                      },
+                      {
+                        "year": 2025,
+                        "total": 0.1333647096
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.2081642927
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.1860314042
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.1379196039
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0801349559
+                      },
+                      {
+                        "year": 2050,
+                        "total": 1.0151030608
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "SO2",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 0.2961527975
+                      },
+                      {
+                        "year": 2020,
+                        "total": 0.3693106369
+                      },
+                      {
+                        "year": 2025,
+                        "total": 0.6129281564
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.9724485767
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.9191202636
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.7283255015
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.4246922987
+                      },
+                      {
+                        "year": 2050,
+                        "total": 6.3784630971
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "region": "NL",
+                "indicatorGroups": [
+                  {
+                    "indicatorGroup": "NOX",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 0.7843402294
+                      },
+                      {
+                        "year": 2020,
+                        "total": 1.3214396934
+                      },
+                      {
+                        "year": 2025,
+                        "total": 2.9135038045
+                      },
+                      {
+                        "year": 2030,
+                        "total": 4.7506166807
+                      },
+                      {
+                        "year": 2035,
+                        "total": 4.7433954614
+                      },
+                      {
+                        "year": 2040,
+                        "total": 3.2828009361
+                      },
+                      {
+                        "year": 2045,
+                        "total": 1.698648581
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.7804272826
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "PM2.5",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 0.0023927402
+                      },
+                      {
+                        "year": 2020,
+                        "total": 0.0041817025
+                      },
+                      {
+                        "year": 2025,
+                        "total": 0.0102618284
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.0170201513
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.0169834012
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0118691678
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0061120726
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0096742313
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "SO2",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 0.0468251794
+                      },
+                      {
+                        "year": 2020,
+                        "total": 0.081511078
+                      },
+                      {
+                        "year": 2025,
+                        "total": 0.1773996268
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.3025623287
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.3031038045
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.211865363
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.1088648179
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.1072919715
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "region": "SE",
+                "indicatorGroups": [
+                  {
+                    "indicatorGroup": "NOX",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 6.1396136314
+                      },
+                      {
+                        "year": 2020,
+                        "total": 5.5024335588
+                      },
+                      {
+                        "year": 2025,
+                        "total": 4.7782801144
+                      },
+                      {
+                        "year": 2030,
+                        "total": 4.6430286864
+                      },
+                      {
+                        "year": 2035,
+                        "total": 3.9090820482
+                      },
+                      {
+                        "year": 2040,
+                        "total": 3.1900883775
+                      },
+                      {
+                        "year": 2045,
+                        "total": 2.6634255965
+                      },
+                      {
+                        "year": 2050,
+                        "total": 2.0909096864
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "PM2.5",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 0.5221075449
+                      },
+                      {
+                        "year": 2020,
+                        "total": 0.1343057003
+                      },
+                      {
+                        "year": 2025,
+                        "total": 0.0689958304
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.0964962525
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.0631373904
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0413575506
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0401058184
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0381057306
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "SO2",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 2.4479574253
+                      },
+                      {
+                        "year": 2020,
+                        "total": 0.6427807124
+                      },
+                      {
+                        "year": 2025,
+                        "total": 0.5067077443
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.5266226713
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.4128856651
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.3172255439
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.2649527969
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.2084591445
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "indicator": "Heating devices air pollution (kt)",
+            "regions": [
+              {
+                "region": "DE",
+                "indicatorGroups": [
+                  {
+                    "indicatorGroup": "NOX",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 168.6144804946
+                      },
+                      {
+                        "year": 2020,
+                        "total": 118.6497693511
+                      },
+                      {
+                        "year": 2025,
+                        "total": 47.8107824217
+                      },
+                      {
+                        "year": 2030,
+                        "total": 1.0213940018
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "PM2.5",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 36.5766720329
+                      },
+                      {
+                        "year": 2020,
+                        "total": 37.4042918013
+                      },
+                      {
+                        "year": 2025,
+                        "total": 17.2824529868
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.0013972558
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "SO2",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 238.1185390807
+                      },
+                      {
+                        "year": 2020,
+                        "total": 143.643160521
+                      },
+                      {
+                        "year": 2025,
+                        "total": 71.1424754731
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "region": "DK",
+                "indicatorGroups": [
+                  {
+                    "indicatorGroup": "NOX",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 6.4825356195
+                      },
+                      {
+                        "year": 2020,
+                        "total": 4.6052007245
+                      },
+                      {
+                        "year": 2025,
+                        "total": 2.1876366674
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.0937845351
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "PM2.5",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 6.409604302
+                      },
+                      {
+                        "year": 2020,
+                        "total": 7.2127968882
+                      },
+                      {
+                        "year": 2025,
+                        "total": 3.0396826093
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.0003699452
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "SO2",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 7.4211453497
+                      },
+                      {
+                        "year": 2020,
+                        "total": 3.2651384311
+                      },
+                      {
+                        "year": 2025,
+                        "total": 1.5571231737
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "region": "FR",
+                "indicatorGroups": [
+                  {
+                    "indicatorGroup": "NOX",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 130.1926787398
+                      },
+                      {
+                        "year": 2020,
+                        "total": 85.1985529763
+                      },
+                      {
+                        "year": 2025,
+                        "total": 42.370664087
+                      },
+                      {
+                        "year": 2030,
+                        "total": 4.1507857354
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "PM2.5",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 35.2864554346
+                      },
+                      {
+                        "year": 2020,
+                        "total": 42.4542761751
+                      },
+                      {
+                        "year": 2025,
+                        "total": 17.4187549636
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.00829535
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "SO2",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 124.1667653908
+                      },
+                      {
+                        "year": 2020,
+                        "total": 62.9842771749
+                      },
+                      {
+                        "year": 2025,
+                        "total": 29.3141571662
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "region": "HR",
+                "indicatorGroups": [
+                  {
+                    "indicatorGroup": "NOX",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 4.9954670832
+                      },
+                      {
+                        "year": 2020,
+                        "total": 3.9167627449
+                      },
+                      {
+                        "year": 2025,
+                        "total": 1.9089192517
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.0214970659
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "PM2.5",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 8.4822537271
+                      },
+                      {
+                        "year": 2020,
+                        "total": 7.3538529203
+                      },
+                      {
+                        "year": 2025,
+                        "total": 3.3767740461
+                      },
+                      {
+                        "year": 2030,
+                        "total": 4.13319e-05
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "SO2",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 4.0452659771
+                      },
+                      {
+                        "year": 2020,
+                        "total": 3.0942070557
+                      },
+                      {
+                        "year": 2025,
+                        "total": 1.4775180506
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "region": "IT",
+                "indicatorGroups": [
+                  {
+                    "indicatorGroup": "NOX",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 95.4347675283
+                      },
+                      {
+                        "year": 2020,
+                        "total": 72.3862211435
+                      },
+                      {
+                        "year": 2025,
+                        "total": 32.0098498496
+                      },
+                      {
+                        "year": 2030,
+                        "total": 2.1033536029
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "PM2.5",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 24.68046745
+                      },
+                      {
+                        "year": 2020,
+                        "total": 32.4397066273
+                      },
+                      {
+                        "year": 2025,
+                        "total": 13.8624168855
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.0063012391
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "SO2",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 23.5019928328
+                      },
+                      {
+                        "year": 2020,
+                        "total": 17.0812734418
+                      },
+                      {
+                        "year": 2025,
+                        "total": 8.3292463646
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "region": "NL",
+                "indicatorGroups": [
+                  {
+                    "indicatorGroup": "NOX",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 18.4541924174
+                      },
+                      {
+                        "year": 2020,
+                        "total": 15.5762665534
+                      },
+                      {
+                        "year": 2025,
+                        "total": 7.7566912464
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.5162796244
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "PM2.5",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 2.3893351383
+                      },
+                      {
+                        "year": 2020,
+                        "total": 2.5013004073
+                      },
+                      {
+                        "year": 2025,
+                        "total": 0.6393307731
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.0014191304
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "SO2",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 1.6069853971
+                      },
+                      {
+                        "year": 2020,
+                        "total": 1.3170839679
+                      },
+                      {
+                        "year": 2025,
+                        "total": 0.4898508711
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "region": "SE",
+                "indicatorGroups": [
+                  {
+                    "indicatorGroup": "NOX",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 6.3491295828
+                      },
+                      {
+                        "year": 2020,
+                        "total": 3.4640146842
+                      },
+                      {
+                        "year": 2025,
+                        "total": 1.7629378826
+                      },
+                      {
+                        "year": 2030,
+                        "total": 0.0470021309
+                      },
+                      {
+                        "year": 2035,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2040,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2045,
+                        "total": 0.0
+                      },
+                      {
+                        "year": 2050,
+                        "total": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "indicatorGroup": "PM2.5",
+                    "indicatorGroupValues": [
+                      {
+                        "year": 2015,
+                        "total": 5.0639263202
+                      },
+                      {
+                        "year": 2020,
+                        "total": 4.0510141033
+                      },
+                      {
+                        "year": 2025,
+                        "total": 2.0355829562
+                      },
+                      {
+                        "year": 2030,
+                        "total": 9.26529e-05
                       },
                       {
                         "year": 2035,
