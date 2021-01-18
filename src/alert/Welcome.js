@@ -5,7 +5,8 @@ import Octicon from "react-octicon";
 import { useTranslation } from "react-i18next";
 
 const AlertContainer = styled.div`
-  position: relative;
+  position: ${props => props.isOpen ? 'relative' : 'absolute'};
+  right: ${props => props.isOpen ? null : '30px'};
   padding: 20px;
   padding-top: 35px;
   margin-bottom: 30px;
@@ -20,6 +21,7 @@ const AlertContainer = styled.div`
   align-content: flex-start;
   justify-content: space-between;
   flex-direction: column;
+  width: ${props => props.isOpen ? null : '20px'};
 `;
 AlertContainer.displayName = "AlertContainer";
 const AlertBody = styled.div`
@@ -51,18 +53,19 @@ CloseWindowIcon.displayName = "CloseWindowIcon";
 
 function Welcome(props) {
   const { t } = useTranslation();
+  console.log("Welcome props: ", props)
   return (
-    <AlertContainer>
-      <AlertTitle>{t("welcome-text-" + props.tab + ".welcome-1")}</AlertTitle>
-      <AlertBody>
+    <AlertContainer isOpen={props.isOpen}>
+      {props.isOpen && <AlertTitle>{t("welcome-text-" + props.tab + ".welcome-1")}</AlertTitle>}
+      {props.isOpen && <AlertBody>
         <AlertBodyParagraph>{t("welcome-text-" + props.tab + ".welcome-2")}</AlertBodyParagraph>
         <AlertBodyParagraph>{t("welcome-text-" + props.tab + ".welcome-3")}</AlertBodyParagraph>
         <AlertBodyParagraph>{t("welcome-text-" + props.tab + ".welcome-4")}</AlertBodyParagraph>
-      </AlertBody>
+      </AlertBody>}
       <CloseWindowIcon
-        onClick={event => props.closeWelcome(event, "showWelcome", false)}
+        onClick={() => props.closeWelcome(!props.isOpen)}
       >
-        <Octicon name="x" />
+        {props.isOpen ? <Octicon name="x" /> : <Octicon name="chevron-left" />}
       </CloseWindowIcon>
     </AlertContainer>
   );

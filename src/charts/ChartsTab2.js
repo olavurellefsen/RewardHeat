@@ -15,9 +15,11 @@ const Charts = props => {
 
   return (
     <MainArea>
-      {props.scenarioSelection.showWelcome === true && (
-        <Welcome closeWelcome={props.closeWelcome} tab="tab2" />
-      )}
+        <Welcome 
+          closeWelcome={props.closeWelcome} 
+          isOpen={props.scenarioSelection.showWelcome}
+          tab="tab2" />
+      
       {(props.scenarioSelection.showDifference === false ||
         (props.scenarioSelection.showDifference === true &&
           selectedScenario2 === '')) && (

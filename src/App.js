@@ -179,10 +179,10 @@ export class App extends React.Component {
   }
 
 
-  CloseWelcomeWidget = () => {
-    this.setState({ showWelcome: false })
+  CloseWelcomeWidget = (value = false) => {
+    this.setState({ showWelcome: value })
   }
-
+  
   ToggleDifference = e => {
     e.preventDefault()
     this.setState({ showDifference: !this.state.showDifference })
@@ -296,46 +296,7 @@ export class App extends React.Component {
                   />
                 )}
               />
-              <Route
-                path="/tab4"
-                render={() => (
-                  <ChartsTab4
-                    scenarioSelection={this.state}
-                    closeWelcome={this.CloseWelcomeWidget}
-                    selectedCountries={this.state.selectedCountries}
-                  />
-                )}
-              />
-              <Route
-                path="/tab5"
-                render={() => (
-                  <ChartsTab5
-                    scenarioSelection={this.state}
-                    closeWelcome={this.CloseWelcomeWidget}
-                    selectedCountries={this.state.selectedCountries}
-                  />
-                )}
-              />
-              <Route
-                path="/tab6"
-                render={() => (
-                  <ChartsTab6
-                    scenarioSelection={this.state}
-                    closeWelcome={this.CloseWelcomeWidget}
-                    selectedCountries={this.state.selectedCountries}
-                  />
-                )}
-              />
-              <Route
-                path="/tab7"
-                render={() => (
-                  <ChartsTab7
-                    scenarioSelection={this.state}
-                    closeWelcome={this.CloseWelcomeWidget}
-                    selectedCountries={this.state.selectedCountries}
-                  />
-                )}
-              />
+              
               <Route
                 path="/about"
                 render={() => {
