@@ -144,28 +144,6 @@ const ScenarioSelectionList = props => {
                 <FontAwesomeIcon icon={faBolt} />
                 <FontAwesomeIcon icon={faCar} />
               </Icon>
-              <Icon
-                available={
-                  scenarioCombinations.optionsAvailable[optionValue].opt3
-                }
-                onClick={event => {
-                  if (scenarioCombinations.optionsAvailable[optionValue].opt3) {
-                    props.toggleOption(optionValue, "opt3");
-                  }
-                  cancelBubble(event); //prevent onclick for scenario being fired
-                }}
-                data-tip={
-                  t("options.opt3") +
-                  " " +
-                  (!scenarioCombinations.optionsAvailable[optionValue].opt3
-                    ? t("options.unavailable")
-                    : "")
-                }
-                selected={scenarioSwitches[scenarioName].opt3}
-              >
-                <FontAwesomeIcon icon={faUserFriends} />
-                <FontAwesomeIcon icon={faCar} />
-              </Icon>
               <ReactTooltip
                 multiline={true}
                 place="top"

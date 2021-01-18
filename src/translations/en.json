@@ -28,7 +28,7 @@
     "opt2": "ELC",
     "opt3": "SAC",
     "scenario-difference": "Scenario difference",
-    "red-minus-green": "(red minus green)",
+    "orange-minus-green": "(orange minus green)",
     "tokni": "Tokni",
     "developed-by": "Developed by",
     "countries": "Countries"
@@ -62,11 +62,11 @@
   },
   "tabs": {
     "tab1": "Main results",
-    "tab2": "Emission",
+    "tab2": "Air pollution",
     "tab3": "Cost",
     "mobile": {
       "tab1": "Main",
-      "tab2": "Emission",
+      "tab2": "Air pol",
       "tab3": "Cost"
     }
   },

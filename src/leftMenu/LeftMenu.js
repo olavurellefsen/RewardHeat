@@ -247,7 +247,7 @@ function ScenarioSelectionMenu(props) {
         singleMode={props.scenarioSelection.scenarioSelection2 === ""}
         selected={props.scenarioSelection.showDifference}
       >
-        {t("general.red-minus-green")}
+        {t("general.orange-minus-green")}
       </ScenarioDifferenceText>
       <MenuSeparatorLine /></>}
       <MenuFooter>

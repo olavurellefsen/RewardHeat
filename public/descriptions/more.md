@@ -7,3 +7,5 @@ Find out more about:
 - TIMES model for the project - contact IVL [Akram Sandvall](mailto:akram.sandvall@ivl.se)
 
 - The web tool – [contact Tokni](https://www.tokni.com)
+
+![Carstock](./images/Carstock.png)

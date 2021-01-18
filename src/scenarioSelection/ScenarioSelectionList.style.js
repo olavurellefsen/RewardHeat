@@ -31,12 +31,12 @@ export const ScenarioOption = styled.div`
   width: 100%;
   border-radius: 0;
   background-color: ${props =>
-    props.selected ? "#285c6a" : props.selected2 ? "#ff5555" : "inherit"};
+    props.selected ? "#ff5555" : props.selected2 ? "#285c6a" : "inherit"};
   color: ${props =>
     props.selected ? "white" : props.selected2 ? "white" : "rgb(184,176,183)"};
   &:hover {
     background-color: ${props =>
-      props.selected ? "#285c6a" : props.selected2 ? "#ff5555" : "#555"};
+      props.selected ? "#ff5555" : props.selected2 ? "#285c6a" : "#555"};
     > * {
       font-weight: ${props =>
         props.selected ? "bold" : props.selected2 ? "bold" : "normal"};
@@ -58,7 +58,7 @@ export const ScenarioNameContainer = styled.div`
 
 export const IconContainer = styled.div`
   display: flex;
-  padding: ${props => (props.narrowVersion ? "10px" : "0px")};
+  padding: ${props => (props.narrowVersion ? "0px" : "5px 12px 5px 15px")};
   `;
 
 export const Icon = styled.div`
