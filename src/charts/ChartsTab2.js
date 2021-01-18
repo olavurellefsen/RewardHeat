@@ -75,6 +75,3 @@ Charts.propTypes = {
 }
 
 export default Charts
-
-
-
