@@ -15,18 +15,18 @@
     }
   },
   "options": {
-    "opt0": "Include CCS technologies",
-    "opt1": "Restrict biomass import",
-    "opt2": "Increase cost of electrict vehicles",
-    "opt3": "Include shared autonomous cars",
+    "opt0": "Ambitous",
+    "opt1": "WEO-SD",
+    "opt2": "WEO-NP",
+    "opt3": ".",
     "unavailable": "(unavailable)"
   },
   "general": {
     "scenarios": "Scenarios",
-    "opt0": "CCS",
-    "opt1": "BIO",
-    "opt2": "ELC",
-    "opt3": "SAC",
+    "opt0": "Amb",
+    "opt1": "SD",
+    "opt2": "NP",
+    "opt3": ".",
     "scenario-difference": "Scenario difference",
     "orange-minus-green": "(orange minus green)",
     "tokni": "Tokni",
@@ -78,7 +78,7 @@
   },
   "welcome-text-tab2": {
     "welcome-1": "REWARDHeat project scenario interface.",
-    "welcome-2": "Air pollutants",
+    "welcome-2": "Air pollution",
     "welcome-3": "Change text in ./translation/en.json line 80-83",
     "welcome-4": "Close this window and start exploring..."
   },
