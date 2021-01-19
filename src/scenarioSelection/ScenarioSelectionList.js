@@ -18,7 +18,6 @@ import {
   faDatabase,
   faBolt,
   faCar,
-  faUserFriends
 } from "@fortawesome/free-solid-svg-icons";
 
 function cancelBubble(e) {
@@ -38,19 +37,29 @@ const ScenarioSelectionList = props => {
   const { scenarioCombinations, dimensionTitle, narrowVersion } = props;
   let stringValue = props.selectedValue.toString();
   let stringValue2 = props.selectedValue2.toString();
-  //console.log("scenarioSwitches: ", scenarioSwitches)
-  //console.log("scenarioCombinations: ", scenarioCombinations)
-  let scenarioOptions = scenarioCombinations.scenarioOptions
+  let OptionDisplay = []
+  scenarioCombinations.scenarioOptions
     .filter(s => {
-      //console.log("s: ", !s.opt0 && !s.opt1 && !s.opt2 && !s.opt3)
-      //console.log("s.opt0: ", s.opt0)
-      return(s.opt0 && !s.opt1 && !s.opt2 && !s.opt3)
-    }) //ensure that each scenario is only listed once
-    .map(option => {
-      /* let optionValue = option.nameNoOptions; */
+      return (
+        s.opt0 && 
+        !s.opt1 && 
+        !s.opt2 && 
+        !s.opt3) //ensure that each scenario is only listed once
+    }).forEach((element)=>{
+      let newOption = scenarioCombinations.scenarioOptions.find((option) => {
+        return(
+          option.nameNoOptions === element.nameNoOptions &&
+          option.opt0===props.options[element.nameNoOptions].opt0 && 
+          option.opt1===props.options[element.nameNoOptions].opt1 && 
+          option.opt2===props.options[element.nameNoOptions].opt2 && 
+          option.opt3===props.options[element.nameNoOptions].opt3
+        )
+      })
+      OptionDisplay.push(newOption)
+    })
+  let scenarioOptions = OptionDisplay.map(option => {
       let optionValue = option.nameNoOptions;
       let scenarioName = option.nameNoOptions;
-      //console.log("option.nameNoOptions: ", option.nameNoOptions)
       if (optionValue === "division_line") {
         return <MenuSeparatorLine key={option.id} />;
       } else {
@@ -64,7 +73,7 @@ const ScenarioSelectionList = props => {
             
           >
             <ScenarioNameContainer
-              data-tip={t("scenario." + option.desc)}
+              data-tip={option.desc}
               narrowVersion={narrowVersion}
               onClick={event => {
               handleChange(event, optionValue);
@@ -72,11 +81,9 @@ const ScenarioSelectionList = props => {
             >
               {narrowVersion === false &&
                 option.short_description
-                //t("scenario." + option.short_description)
                 }
               {narrowVersion === true &&
                 option.ultra_short_description
-                //t("scenario." + option.ultra_short_description)
                 }
             </ScenarioNameContainer>
             <IconContainer narrowVersion={narrowVersion}>

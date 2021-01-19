@@ -10,10 +10,6 @@ import TabsMobile from './tabs/Tabs.mobile'
 import ChartsTab1 from './charts/ChartsTab1'
 import ChartsTab2 from './charts/ChartsTab2'
 import ChartsTab3 from './charts/ChartsTab3'
-import ChartsTab4 from './charts/ChartsTab4'
-import ChartsTab5 from './charts/ChartsTab5'
-import ChartsTab6 from './charts/ChartsTab6'
-import ChartsTab7 from './charts/ChartsTab7'
 import PageRenderer from './pages/PageRenderer'
 import scenarioCombinations from './data/scenarioCombinations'
 
@@ -122,7 +118,19 @@ export class App extends React.Component {
       }
     })
     this.setState(state => {
+      console.log("setting sc2")
+      console.log("state.scenarioSelectionNoOptions2: ", state.scenarioSelectionNoOptions2)
       
+      let t = state.scenarioSelectionNoOptions2 !== ''
+      ? state.scenarioSelectionNoOptions2 +
+        (state.options[state.scenarioSelectionNoOptions2].opt0
+          ? '_Ambitious'
+          : '') +
+        (state.options[state.scenarioSelectionNoOptions2].opt1 ? '_WEO-SD' : '') +
+        (state.options[state.scenarioSelectionNoOptions2].opt2 ? '_WEO-NP' : '') +
+        (state.options[state.scenarioSelectionNoOptions2].opt3 ? '_SAC' : '')
+      : ''
+      console.log("new sc2 select: ", t)
       return {
         scenarioSelection2:
           state.scenarioSelectionNoOptions2 !== ''
@@ -149,8 +157,11 @@ export class App extends React.Component {
   UpdateScenarioSelection = (e, name, value) => {
     e.preventDefault()
     console.log("update scenario selection: ", value)
+    console.log("this.state.scenarioSelectionNoOptions: ", this.state.scenarioSelectionNoOptions)
+    console.log("this.state.scenarioSelectionNoOptions2: ", this.state.scenarioSelectionNoOptions2)
     if (this.state.scenarioSelectionNoOptions2 !== '') {
       if (value === this.state.scenarioSelectionNoOptions) {
+        console.log("toggle1 and 2")
         this.setState(
           changeScenario(
             'scenarioSelectionNoOptions',
@@ -158,18 +169,20 @@ export class App extends React.Component {
           )
         )
         this.setState(changeScenario('scenarioSelectionNoOptions2', ''))
-        this.unselectToggles(this.state.scenarioSelectionNoOptions2)
+        //this.unselectToggles(this.state.scenarioSelectionNoOptions2)
         this.setState({ showDifference: false })
       } else {
+        console.log("off 2")
         if (value === this.state.scenarioSelectionNoOptions2) {
           this.setState(changeScenario('scenarioSelectionNoOptions2', ''))
-          this.unselectToggles(this.state.scenarioSelectionNoOptions2)
+          //this.unselectToggles(this.state.scenarioSelectionNoOptions2)
           this.setState({ showDifference: false })
         } else {
           this.setState(changeScenario('scenarioSelectionNoOptions2', value))
         }
       }
     } else {
+      console.log("on2")
       if (value !== this.state.scenarioSelectionNoOptions) {
         this.setState(changeScenario('scenarioSelectionNoOptions2', value), ()=>{
         })
