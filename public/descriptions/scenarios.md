@@ -24,7 +24,7 @@ Key aspects (options) for the emission reduction that can be varied in our scena
 
 **WEO-SD - World Energy Oulook Sustainable Development Scenario total CO2 reduction by 95% by 2050 compared to 2015** Local and international CO2 emission reduction of 95% by 2050 compared to 2015
 
-**WEO-NP - World Energy Oulook Nwe Policies Scenario total CO2 reduction by 60% by 2050 compared to 2015** Local and international CO2 emission reduction of 60% by 2050 compared to 2015
+**WEO-NP - World Energy Oulook New Policies Scenario total CO2 reduction by 60% by 2050 compared to 2015** Local and international CO2 emission reduction of 60% by 2050 compared to 2015
 
 ![Climate_policy_options_graph](./images/Climate_policy_options_graph.png)
 
