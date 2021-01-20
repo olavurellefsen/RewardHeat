@@ -1,46 +1,65 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { useTranslation } from "react-i18next";
-//import ReactTooltip from "react-tooltip";
+import ReactTooltip from "react-tooltip";
 import {
   ScenarioList,
   ScenarioDivider,
   ScenarioHeader,
   ScenarioOption,
   MenuSeparatorLine,
-  //IconContainer,
-  //Icon,
+  IconContainer,
+  Icon,
   ScenarioNameContainer
 } from "./ScenarioSelectionList.style";
-/* import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faLeaf,
   faDatabase,
   faBolt,
   faCar,
-  faUserFriends
-} from "@fortawesome/free-solid-svg-icons"; */
+} from "@fortawesome/free-solid-svg-icons";
 
-/* function cancelBubble(e) {
+function cancelBubble(e) {
   //Stop propagation to the underlying div
   //(used to prevent onclick for scenario being fired when clicking on an option)
   e.cancelBubble = true;
   if (e.stopPropagation) e.stopPropagation();
-} */
+}
 
 const ScenarioSelectionList = props => {
   const { t } = useTranslation();
   const handleChange = (event, value) => {
     props.updateScenarioSelection(event, props.name, value);
   };
-  //const scenarioSwitches = props.options;
+  const scenarioSwitches = props.options;
+
   const { scenarioCombinations, dimensionTitle, narrowVersion } = props;
   let stringValue = props.selectedValue.toString();
   let stringValue2 = props.selectedValue2.toString();
-  let scenarioOptions = scenarioCombinations.scenarioOptions
-    .filter(s => !s.opt0 && !s.opt1 && !s.opt2 && !s.opt3) //ensure that each scenario is only listed once
-    .map(option => {
+  let OptionDisplay = []
+  scenarioCombinations.scenarioOptions
+    .filter(s => {
+      return (
+        s.opt0 && 
+        !s.opt1 && 
+        !s.opt2 && 
+        !s.opt3) //ensure that each scenario is only listed once
+    }).forEach((element)=>{
+      let newOption = scenarioCombinations.scenarioOptions.find((option) => {
+        return(
+          option.nameNoOptions === element.nameNoOptions &&
+          option.opt0===props.options[element.nameNoOptions].opt0 && 
+          option.opt1===props.options[element.nameNoOptions].opt1 && 
+          option.opt2===props.options[element.nameNoOptions].opt2 && 
+          option.opt3===props.options[element.nameNoOptions].opt3
+        )
+      })
+      OptionDisplay.push(newOption)
+    })
+  let scenarioOptions = OptionDisplay.map(option => {
       let optionValue = option.nameNoOptions;
+      let scenarioName = option.nameNoOptions;
       if (optionValue === "division_line") {
         return <MenuSeparatorLine key={option.id} />;
       } else {
@@ -54,7 +73,7 @@ const ScenarioSelectionList = props => {
             
           >
             <ScenarioNameContainer
-              data-tip={t("scenario." + option.desc)}
+              data-tip={option.desc}
               narrowVersion={narrowVersion}
               onClick={event => {
               handleChange(event, optionValue);
@@ -62,14 +81,12 @@ const ScenarioSelectionList = props => {
             >
               {narrowVersion === false &&
                 option.short_description
-                //t("scenario." + option.short_description)
                 }
               {narrowVersion === true &&
                 option.ultra_short_description
-                //t("scenario." + option.ultra_short_description)
                 }
             </ScenarioNameContainer>
-            {/* <IconContainer narrowVersion={narrowVersion}>
+            <IconContainer narrowVersion={narrowVersion}>
               <Icon
                 available={
                   scenarioCombinations.optionsAvailable[optionValue].opt0
@@ -87,7 +104,7 @@ const ScenarioSelectionList = props => {
                     ? t("options.unavailable")
                     : "")
                 }
-                selected={scenarioSwitches[optionValue].opt0}
+                selected={scenarioSwitches[scenarioName].opt0}
               >
                 <FontAwesomeIcon icon={faDatabase} />
               </Icon>
@@ -108,7 +125,7 @@ const ScenarioSelectionList = props => {
                     ? t("options.unavailable")
                     : "")
                 }
-                selected={scenarioSwitches[optionValue].opt1}
+                selected={scenarioSwitches[scenarioName].opt1}
               >
                 <FontAwesomeIcon icon={faLeaf} />
               </Icon>
@@ -129,31 +146,9 @@ const ScenarioSelectionList = props => {
                     ? t("options.unavailable")
                     : "")
                 }
-                selected={scenarioSwitches[optionValue].opt2}
+                selected={scenarioSwitches[scenarioName].opt2}
               >
                 <FontAwesomeIcon icon={faBolt} />
-                <FontAwesomeIcon icon={faCar} />
-              </Icon>
-              <Icon
-                available={
-                  scenarioCombinations.optionsAvailable[optionValue].opt3
-                }
-                onClick={event => {
-                  if (scenarioCombinations.optionsAvailable[optionValue].opt3) {
-                    props.toggleOption(optionValue, "opt3");
-                  }
-                  cancelBubble(event); //prevent onclick for scenario being fired
-                }}
-                data-tip={
-                  t("options.opt3") +
-                  " " +
-                  (!scenarioCombinations.optionsAvailable[optionValue].opt3
-                    ? t("options.unavailable")
-                    : "")
-                }
-                selected={scenarioSwitches[optionValue].opt3}
-              >
-                <FontAwesomeIcon icon={faUserFriends} />
                 <FontAwesomeIcon icon={faCar} />
               </Icon>
               <ReactTooltip
@@ -162,7 +157,7 @@ const ScenarioSelectionList = props => {
                 type="dark"
                 effect="solid"
               />
-            </IconContainer> */}
+            </IconContainer>
           </ScenarioOption>
         );
       }

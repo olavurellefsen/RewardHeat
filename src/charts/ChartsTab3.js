@@ -18,7 +18,7 @@ const Charts = ({selectedCountries, costData, closeWelcome, scenarioSelection}) 
   })
 
   useEffect(() => {
-    csv("costData.csv").then(data=>
+    csv("costData20210118.csv").then(data=>
       {
         let newRegionData = []
         data.forEach(row => {
@@ -33,9 +33,12 @@ const Charts = ({selectedCountries, costData, closeWelcome, scenarioSelection}) 
   console.log("region data: ", regionData)
   return (
     <MainArea>
-      {scenarioSelection.showWelcome === true && (
-        <Welcome closeWelcome={closeWelcome} tab="tab3"/>
-      )}
+      
+        <Welcome 
+          isOpen={scenarioSelection.showWelcome}
+          closeWelcome={closeWelcome} 
+          tab="tab3"/>
+      
       <Flex>
         {<CostChart 
           title={"Average annual cost changes 2020-2050 " + mapRegionToDataRegions.find((region)=>region.path_id === selectedCountries[0]).country}
