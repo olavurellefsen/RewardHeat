@@ -24,7 +24,7 @@ const CountryList = ({
           >
             <Radio 
               type="radio" 
-              checked={country === selectedCountries[0]}
+              checked={selectedCountries.includes(country)}
               
             />
             <Flag src={"./images/flags/" + country + ".png"} />

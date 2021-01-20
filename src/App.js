@@ -80,6 +80,7 @@ export class App extends React.Component {
       scenarioSelectionNoOptions: default_scenario.nameNoOptions,
       scenarioSelectionNoOptions2: '',
       selectedCountries: default_countries,
+      selectedCountriesCost: default_countries,
   }
     this.scenarioCombinations = scenarioCombinations.scenarioCombinations
   }
@@ -237,7 +238,17 @@ export class App extends React.Component {
         selectedCountries: [country],
       })
     }
-    
+  }
+  selectCountryCost = country => {
+    let newSelectedCountriesCost = this.state.selectedCountriesCost
+    if (newSelectedCountriesCost.includes(country)) {
+      newSelectedCountriesCost = newSelectedCountriesCost.filter(c => c !== country)
+    } else {
+      newSelectedCountriesCost.push(country)
+    } 
+   this.setState({
+      selectedCountriesCost: newSelectedCountriesCost,
+    })
   }
   
   render() {
@@ -255,7 +266,9 @@ export class App extends React.Component {
               toggleOption={this.ToggleOption}
               countries={countries}
               selectedCountries={this.state.selectedCountries}
+              selectedCountriesCost={this.state.selectedCountriesCost}
               selectCountry={this.selectCountry}
+              selectCountryCost={this.selectCountryCost}
             />
             <LeftMenuMobile
               selectedChartgroup={this.state.scenarioSelection}
@@ -267,7 +280,9 @@ export class App extends React.Component {
               toggleOption={this.ToggleOption}
               countries={countries}
               selectedCountries={this.state.selectedCountries}
+              selectedCountriesCost={this.state.selectedCountriesCost}
               selectCountry={this.selectCountry}
+              selectCountryCost={this.selectCountryCost}
             />
           </Content>
         </LeftColumn>

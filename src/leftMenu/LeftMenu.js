@@ -207,8 +207,8 @@ function ScenarioSelectionMenu(props) {
       /> */}
       <CountryList 
         countries={props.countries}
-        selectedCountries={props.selectedCountries}
-        selectCountry={props.selectCountry}
+        selectedCountries={props.selectedCountriesCost}
+        selectCountry={props.selectCountryCost}
         />
       <MenuSeparatorLine />
       {location.pathname !== "/tab3" && <><ScenarioSelection>

@@ -22,7 +22,7 @@ const Charts = ({selectedCountries, costData, closeWelcome, scenarioSelection}) 
       {
         let newRegionData = []
         data.forEach(row => {
-          if (row.Region === selectedDataRegions[0])
+          if (selectedDataRegions.includes(row.Region)) 
             newRegionData.push(row)
         })
         if (JSON.stringify(newRegionData) !== JSON.stringify(regionData))
