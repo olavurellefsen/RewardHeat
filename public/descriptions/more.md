@@ -8,4 +8,3 @@ Find out more about:
 
 - The web tool – [contact Tokni](https://www.tokni.com)
 
-![Carstock](./images/Carstock.png)
