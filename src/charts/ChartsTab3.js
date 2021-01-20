@@ -31,30 +31,37 @@ const Charts = ({selectedCountries, costData, closeWelcome, scenarioSelection}) 
     )
   }, [selectedCountries, selectedDataRegions, regionData])
   console.log("region data: ", regionData)
+  console.log("selectedDataRegions: ", selectedDataRegions)
+  let costList = []
+  selectedDataRegions.forEach((region)=>{
+    let dataByCountry = regionData.filter((element)=>{
+      console.log("region: ", region)
+      return(element.Region === region)})
+    console.log("dataByCountry: ", dataByCountry)
+    costList.push(<Flex>
+      {<CostChart 
+        title={"Average annual cost changes 2020-2050 " + mapRegionToDataRegions.find((mapRegion)=>mapRegion.data_regions.includes(region)).country}
+        subTitle="WEO-SD"
+        costChartData={dataByCountry?.slice(0,8)}
+        bar1Subtitle={["Transition DH compared to", "Conventional DH"]}
+        bar2Subtitle={["4th Generation DH compared to", "Conventional DH"]}
+      ></CostChart>}
+      {<CostChart 
+        title={"Average annual cost changes 2020-2050 "  + mapRegionToDataRegions.find((mapRegion)=>mapRegion.data_regions.includes(region)).country}
+        subTitle="WEO-NP"
+        costChartData={dataByCountry?.slice(8,16)}
+        bar1Subtitle={["Transition DH compared to", "Conventional DH"]}
+        bar2Subtitle={["4th Generation DH compared to", "Conventional DH"]}
+      />}
+    </Flex>)
+  })
   return (
     <MainArea>
-      
         <Welcome 
           isOpen={scenarioSelection.showWelcome}
           closeWelcome={closeWelcome} 
           tab="tab3"/>
-      
-      <Flex>
-        {<CostChart 
-          title={"Average annual cost changes 2020-2050 " + mapRegionToDataRegions.find((region)=>region.path_id === selectedCountries[0]).country}
-          subTitle="WEO-SD"
-          costChartData={regionData?.slice(0,8)}
-          bar1Subtitle={["Transition DH compared to", "Conventional DH"]}
-          bar2Subtitle={["4th Generation DH compared to", "Conventional DH"]}
-        ></CostChart>}
-        {<CostChart 
-          title={"Average annual cost changes 2020-2050 "  + mapRegionToDataRegions.find((region)=>region.path_id === selectedCountries[0]).country}
-          subTitle="WEO-NP"
-          costChartData={regionData?.slice(8,16)}
-          bar1Subtitle={["Transition DH compared to", "Conventional DH"]}
-          bar2Subtitle={["4th Generation DH compared to", "Conventional DH"]}
-        />}
-      </Flex>
+      {costList}
     </MainArea>
   )
 }

@@ -1,24 +1,24 @@
 export default [
     {
-        country: "Germany",
-        path_id : "de", 
-        data_regions: ["DE"],
-    }, 
+        country: "Croatia",
+        path_id : "hr", 
+        data_regions: ["HR"],
+    },
     {
         country: "Denmark",
         path_id : "dk", 
         data_regions: ["DK"],
-    }, 
+    },
     {
         country: "France",
         path_id : "fr", 
         data_regions: ["FR"],
     },
     {
-        country: "Croatia",
-        path_id : "hr", 
-        data_regions: ["HR"],
-    },
+        country: "Germany",
+        path_id : "de", 
+        data_regions: ["DE"],
+    }, 
     {
         country: "Faroe Islands",
         path_id : "fo", 

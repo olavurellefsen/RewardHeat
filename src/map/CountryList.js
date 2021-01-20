@@ -11,7 +11,7 @@ const CountryList = ({
 }) => {
   //console.log("countries: ", countries)
   //console.log("mapRegions: ", mapRegions)
-  //console.log("selectedCountries: ", selectedCountries)
+  console.log("selectedCountries: ", selectedCountries)
   return (
     <Container>
       {countries.map((country, i)=>{

@@ -220,15 +220,6 @@ export class App extends React.Component {
   }
 
   selectCountry = country => {
-    /* let newSelectedCountries = this.state.selectedCountries
-    if (newSelectedCountries.includes(country)) {
-      newSelectedCountries = newSelectedCountries.filter(c => c !== country)
-    } else {
-      newSelectedCountries.push(country)
-    } */
-    /* this.setState({
-      selectedCountries: newSelectedCountries,
-    }) */
     if(this.state.selectedCountries.includes(country)) {
       this.setState({
         selectedCountries: [],
@@ -320,7 +311,7 @@ export class App extends React.Component {
                     countries={countries}
                     scenarioSelection={this.state}
                     closeWelcome={this.CloseWelcomeWidget}
-                    selectedCountries={this.state.selectedCountries}
+                    selectedCountries={this.state.selectedCountriesCost}
                   />
                 )}
               />
