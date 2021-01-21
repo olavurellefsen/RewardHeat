@@ -88,18 +88,6 @@
     "welcome-3": "The model calculates total system cost discounted to 2015 as well as undiscounted variable costs (including energy flow cost, activity cost and taxes and subsidies), fixed operation and maintenance, and capital costs for each demo-city and each model year. From the model results, average annual system cost savings for each demo-city is calculated based on equations (3) and (4):  Average annual cost (j) saving (year 2020 to 2050) = (Averagecost (j) (year 2020 to 2050, Climate policy (i,ConventionalDH)) – Average cost (j) (year 2020 to 2050, Climatepolicy (i,TransitionDH or 4thGenerationDH))) / Average total heat supply [kEUR 2015/PJ heat] (3) Average annual system costs savings (year 2020 to 2050) = ∑Average annual cost (j) saving (year 2020 to 2050) 𝑗 [kEUR 2015/PJ heat] (4) Where: “i” is either WEO-SD or WEO-NP “j”:  variable cost, fixed operation and maintenance cost or capital costs",
     "welcome-4": "Close this window and start exploring..."
   },
-  "welcome-text-tab2": {
-    "welcome-1": "REWARDHeat project scenario interface.",
-    "welcome-2": "Emission",
-    "welcome-3": "Change text in ./translation/en.json line 80-83",
-    "welcome-4": "Close this window and start exploring..."
-  },
-  "welcome-text-tab3": {
-    "welcome-1": "REWARDHeat project scenario interface.",
-    "welcome-2": "Cost",
-    "welcome-3": "The model calculates total system cost discounted to 2015 as well as undiscounted variable costs (including energy flow cost, activity cost and taxes and subsidies), fixed operation and maintenance, and capital costs for each demo-city and each model year. From the model results, average annual system cost savings for each demo-city is calculated based on equations (3) and (4): Average annual cost (j) saving (year 2020 to 2050) = (Averagecost (j) (year 2020 to 2050, Climate policy (i,ConventionalDH)) – Average cost (j) (year 2020 to 2050, Climatepolicy (i,TransitionDH or 4thGenerationDH))) / Average total heat supply [kEUR 2015/PJ heat] (3) Average annual system costs savings (year 2020 to 2050) = ∑Average annual cost (j) saving (year 2020 to 2050) 𝑗 [kEUR 2015/PJ heat] (4) Where: “i” is either WEO-SD or WEO-NP “j”:  variable cost, fixed operation and maintenance cost or capital costs",
-    "welcome-4": "Close this window and start exploring..."
-  },
   "chartTitle": {
     
   },
