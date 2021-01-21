@@ -26,7 +26,7 @@ export const ScenarioOption = styled.div`
   flex-direction: ${props => (props.narrowVersion ? "column" : "row")};
   align-items: flex-start;
   ${'' /* height: 36px; */}
-  padding: ${props => (props.narrowVersion ? "5px" : "0 12px 0 0px")};
+  ${'' /* padding: ${props => (props.narrowVersion ? "5px" : "0 12px 0 0px")}; */}
   position: relative;
   width: 100%;
   border-radius: 0;
@@ -58,13 +58,15 @@ export const ScenarioNameContainer = styled.div`
 
 export const IconContainer = styled.div`
   display: flex;
-  padding: ${props => (props.narrowVersion ? "0px" : "5px 12px 5px 15px")};
+  padding: ${props => (props.narrowVersion ? "0px" : "5px 12px 5px 0px")};
   `;
 
 export const Icon = styled.div`
   display: flex;
   align-items: center;
-  padding-right: 5px;
+  justify-content: center;
+  width: 18px;
+  ${'' /* padding-right: 5px; */}
   &:hover {
     cursor: ${props =>
     props.available ? "pointer" :  "default"};
@@ -72,7 +74,11 @@ export const Icon = styled.div`
     props.available ? "black" :  "default"};;
   }
   color: ${props =>
-    props.selected ? "blue" :  "rgb(184,176,183)"};
+    props.selected ? "#80655F" :  "rgb(184,176,183)"};
+  border: ${props =>
+    props.selected ? "1px solid #80655F" :  "1px solid rgb(184,176,183)"};;
+  margin-left: 3px;
+  margin-right: 3px;
 `;
 
 export const MenuSeparatorLine = styled.hr`

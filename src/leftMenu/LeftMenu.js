@@ -16,7 +16,7 @@ const MenuLayout = styled.div`
   ${breakpoint("desktop")`
     display: flex;
     flex-direction: column;
-    width: 220px;
+    width: 230px;
     color: white;
     background: rgb(50, 50, 50);
     visibility: visible;

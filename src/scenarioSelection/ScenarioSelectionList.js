@@ -106,7 +106,8 @@ const ScenarioSelectionList = props => {
                 }
                 selected={scenarioSwitches[scenarioName].opt0}
               >
-                <FontAwesomeIcon icon={faDatabase} />
+                {/* <FontAwesomeIcon icon={faDatabase} /> */}
+                A
               </Icon>
               <Icon
                 available={
@@ -127,7 +128,8 @@ const ScenarioSelectionList = props => {
                 }
                 selected={scenarioSwitches[scenarioName].opt1}
               >
-                <FontAwesomeIcon icon={faLeaf} />
+                {/* <FontAwesomeIcon icon={faLeaf} /> */}
+                SD
               </Icon>
               <Icon
                 available={
@@ -148,8 +150,9 @@ const ScenarioSelectionList = props => {
                 }
                 selected={scenarioSwitches[scenarioName].opt2}
               >
-                <FontAwesomeIcon icon={faBolt} />
-                <FontAwesomeIcon icon={faCar} />
+                {/* <FontAwesomeIcon icon={faBolt} />
+                <FontAwesomeIcon icon={faCar} /> */}
+                NP
               </Icon>
               <ReactTooltip
                 multiline={true}

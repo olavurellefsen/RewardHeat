@@ -53,12 +53,12 @@ CloseWindowIcon.displayName = "CloseWindowIcon";
 
 function Welcome(props) {
   const { t } = useTranslation();
-  console.log("Welcome props: ", props)
   return (
     <AlertContainer isOpen={props.isOpen}>
       {props.isOpen && <AlertTitle>{t("welcome-text-" + props.tab + ".welcome-1")}</AlertTitle>}
       {props.isOpen && <AlertBody>
         <AlertBodyParagraph>{t("welcome-text-" + props.tab + ".welcome-2")}</AlertBodyParagraph>
+        <AlertBodyParagraph><img src="images/Cost_formula_orange_background.png" /></AlertBodyParagraph>
         <AlertBodyParagraph>{t("welcome-text-" + props.tab + ".welcome-3")}</AlertBodyParagraph>
         <AlertBodyParagraph>{t("welcome-text-" + props.tab + ".welcome-4")}</AlertBodyParagraph>
       </AlertBody>}

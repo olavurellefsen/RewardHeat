@@ -24,14 +24,10 @@ const CostChart = ({
     bar1Subtitle,
     bar2Subtitle
   }) => {
-  console.log("title: ", title)
-  console.log("costChartData: ", costChartData)
-  console.log("costChartData[3]?.PV: ", costChartData[3]?.PV)
-  console.log("costChartData[7]?.PV: ", costChartData[7]?.PV)
   return(
     <Container> 
-    <Title x={150} y={16} text={title} style={{fontSize: "18px", fontFamily: "Ropa Sans"}}/>
-    <VictoryChart
+    <div style={{fontSize: "18px", fontFamily: "Ropa Sans", fontWeight: "bold"}}>{title}</div>
+    {costChartData.length !== 0 && <VictoryChart
         domainPadding={20}
         width={550}
         height={550}
@@ -40,10 +36,10 @@ const CostChart = ({
         // domain={{ y: yDomain }} //removed to fix issue with axis labels not being updated
       >
       
-      <VictoryAxis key={0} 
+      <VictoryAxis key={"axis0"} 
         tickValues={["p","a","f","g","b","q"]} 
-        tickFormat={["", bar1Subtitle,"","", bar2Subtitle, ""]} 
-        tickLabelComponent={<BarSubtitle dy={-110} style={{fontSize: "12px", fontFamily: "Open Sans"}}/>}
+        tickFormat={[["",""], bar1Subtitle,["",""],["",""], bar2Subtitle, ["",""]]}
+        tickLabelComponent={<VictoryLabel dy={-110} style={{fontSize: "12px", fontFamily: "Open Sans", fontWeight: 'bold'}}/>}
         axisLabelComponent={<VictoryLabel dy={-160} dx={0} style={{fontSize: "16px", fontFamily: "Open Sans"}}/>}
         label={subTitle}/>
       <VictoryAxis
@@ -55,6 +51,7 @@ const CostChart = ({
           tickValues={[-2.25,-2,-1.75,-1.5,-1.25,-1,-0.75, -0.5, -0.25, 0, 0.25, 0.5, 0.75]}
           label="MEUR/PJ"
         />
+      
       <VictoryStack>
         <VictoryBar 
           data={[{ x: "p", y: 0 },
@@ -92,7 +89,7 @@ const CostChart = ({
         }
       />
     <VictoryLegend
-          x={140}
+          x={140} 
           y={540}
           orientation="horizontal"
           gutter={20}
@@ -115,7 +112,7 @@ const CostChart = ({
             }} />
           }
         />
-    </VictoryChart>
+    </VictoryChart>}
     </Container>
     )
 }
@@ -125,17 +122,4 @@ const Container = styled.div`
   flex-direction: column;
   align-items: center;
 `
-
-const BarSubtitle = styled(VictoryLabel)`
-  ${'' /* text-anchor: start;
-  fill: #000000;
-  font-family: inherit; */}
-  font-size: 18px;
-  font-weight: bold;
-`
-const Title = styled(VictoryLabel)`
-  font-size: 24px;
-  font-weight: bold;
-`
-
 export default CostChart

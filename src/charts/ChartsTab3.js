@@ -30,15 +30,11 @@ const Charts = ({selectedCountries, costData, closeWelcome, scenarioSelection}) 
       }
     )
   }, [selectedCountries, selectedDataRegions, regionData])
-  console.log("region data: ", regionData)
-  console.log("selectedDataRegions: ", selectedDataRegions)
   let costList = []
   selectedDataRegions.forEach((region)=>{
     let dataByCountry = regionData.filter((element)=>{
-      console.log("region: ", region)
       return(element.Region === region)})
-    console.log("dataByCountry: ", dataByCountry)
-    costList.push(<Flex>
+    costList.push(<Flex key={"costFlex" + region}>
       {<CostChart 
         title={"Average annual cost changes 2020-2050 " + mapRegionToDataRegions.find((mapRegion)=>mapRegion.data_regions.includes(region)).country}
         subTitle="WEO-SD"

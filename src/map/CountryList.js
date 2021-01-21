@@ -9,16 +9,11 @@ const CountryList = ({
   selectCountry,
   narrowVersion = false
 }) => {
-  //console.log("countries: ", countries)
-  //console.log("mapRegions: ", mapRegions)
-  console.log("selectedCountries: ", selectedCountries)
   return (
     <Container>
       {countries.map((country, i)=>{
-        //console.log("country name: ", mapRegions.find((region)=>region.path_id === country).country)
-        //console.log("country === selectedCountries[0]: ", country === selectedCountries[0])
         return(
-          <CountryContainer
+          <CountryContainer key={"couti" + i}
             onClick={()=>{
               selectCountry(country)}}
           >
@@ -31,7 +26,6 @@ const CountryList = ({
             {!narrowVersion && <div 
               key={"LeftMenuContry"+i}>{mapRegions.find((region)=>region.path_id === country).country}
             </div>}
-            
           </CountryContainer>
         )
       })}
