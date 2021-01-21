@@ -58,7 +58,7 @@ function Welcome(props) {
       {props.isOpen && <AlertTitle>{t("welcome-text-" + props.tab + ".welcome-1")}</AlertTitle>}
       {props.isOpen && <AlertBody>
         <AlertBodyParagraph>{t("welcome-text-" + props.tab + ".welcome-2")}</AlertBodyParagraph>
-        <AlertBodyParagraph><img src="images/Cost_formula_orange_background.png" /></AlertBodyParagraph>
+        {props.tab === "tab3" && <AlertBodyParagraph><img src="images/Cost_formula_orange_background.png" alt="Cost_formula"/></AlertBodyParagraph>}
         <AlertBodyParagraph>{t("welcome-text-" + props.tab + ".welcome-3")}</AlertBodyParagraph>
         <AlertBodyParagraph>{t("welcome-text-" + props.tab + ".welcome-4")}</AlertBodyParagraph>
       </AlertBody>}
