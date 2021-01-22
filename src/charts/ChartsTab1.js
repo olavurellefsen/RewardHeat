@@ -11,17 +11,15 @@ import indicators from '../data/indicatorsTab1'
 import scenarioCombinations from "../data/scenarioCombinations"
 
 const Scenario1Description = styled.div`
-  background-color: #ff5555;
+  background-color: #EA6443;
   max-width: 45%;
   padding: 15px 25px;
-  margin: 5px;
   color: white;
 `
 const Scenario2Description = styled.div`
   background-color: #285c6a;
   max-width: 45%;
   padding: 15px 25px;
-  margin: 5px;
   color: white;
 `
 
@@ -36,7 +34,7 @@ const Charts = props => {
           isOpen={props.scenarioSelection.showWelcome}
           closeWelcome={props.closeWelcome} 
           tab="tab1" />
-        <Flex direction="ncolumn">
+        <Flex style={{flex: 1, justifyContent: "space-between" }}>
           <Scenario1Description>
             {scenarioCombinations.scenarioCombinations.scenarioOptions.find(
               (option)=>option.name === selectedScenario).desc

@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
+import parseHtml from 'html-react-parser'
 //import { useTranslation } from 'react-i18next'
 import {
   VictoryChart,
@@ -19,6 +20,7 @@ import periods from './../data/years'
 import "@fontsource/ropa-sans"
 import "@fontsource/open-sans"
 import mapRegions from "../data/mapRegionToDataRegions"
+import { text } from '@fortawesome/fontawesome-svg-core'
 
 const ChartHeader = styled(VictoryLabel)`
   text-anchor: start;
@@ -36,6 +38,17 @@ const ChartTitle = styled.div`
   font-weight: bold;
   font-family: Ropa Sans;
 `
+const MyCustomHTMLLabel = props => {
+  console.log("Befroe: ", props.text)
+  const text = props.text.replaceAll('§', '')
+  console.log("After: ", text)
+
+  return (
+    <foreignObject x={props.x+3} y={props.y-9} width={600} height={700}>
+      <div style={{ fontSize: '12px', fontFamily: "Open Sans" }}>{parseHtml(text)}</div>
+    </foreignObject>
+  );
+};
 
 const StackedBarChart = props => {
   //const { t } = useTranslation()
@@ -176,11 +189,11 @@ const StackedBarChart = props => {
           colorScale={colors}
           data={Array.from(legends).map((legend, i) => ({
               name: legend
-                .concat('        ')
+                .concat('§§§§§§§§§§§§')
                 .substr(0, 16),
               fill: colors[i],
             }))}
-          labelComponent={<VictoryLabel style={{ fontSize: '12px', fontFamily: "Open Sans" }} />}
+          labelComponent={<MyCustomHTMLLabel  />}
         />
         
         <VictoryGroup offset={15} style={{ data: { width: 15 } }}>

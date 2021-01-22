@@ -11,7 +11,7 @@ export default {
                 "region": "DE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -85,7 +85,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -127,7 +127,7 @@ export default {
                 "region": "DK",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -201,7 +201,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -243,7 +243,7 @@ export default {
                 "region": "FR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -317,7 +317,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -359,7 +359,7 @@ export default {
                 "region": "HR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -433,7 +433,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -475,7 +475,7 @@ export default {
                 "region": "IT",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -549,7 +549,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -591,7 +591,7 @@ export default {
                 "region": "NL",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -665,7 +665,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -707,7 +707,7 @@ export default {
                 "region": "SE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -781,7 +781,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -828,7 +828,7 @@ export default {
                 "region": "DE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -902,7 +902,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -944,7 +944,7 @@ export default {
                 "region": "DK",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -1018,7 +1018,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -1060,7 +1060,7 @@ export default {
                 "region": "FR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -1134,7 +1134,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -1176,7 +1176,7 @@ export default {
                 "region": "HR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -1250,7 +1250,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -1292,7 +1292,7 @@ export default {
                 "region": "IT",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -1366,7 +1366,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -1408,7 +1408,7 @@ export default {
                 "region": "NL",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -1482,7 +1482,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -1524,7 +1524,7 @@ export default {
                 "region": "SE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -1598,7 +1598,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -1650,7 +1650,7 @@ export default {
                 "region": "DE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -1724,7 +1724,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -1766,7 +1766,7 @@ export default {
                 "region": "DK",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -1840,7 +1840,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -1882,7 +1882,7 @@ export default {
                 "region": "FR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -1956,7 +1956,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -1998,7 +1998,7 @@ export default {
                 "region": "HR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -2072,7 +2072,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -2114,7 +2114,7 @@ export default {
                 "region": "IT",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -2188,7 +2188,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -2230,7 +2230,7 @@ export default {
                 "region": "NL",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -2304,7 +2304,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -2346,7 +2346,7 @@ export default {
                 "region": "SE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -2420,7 +2420,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -2467,7 +2467,7 @@ export default {
                 "region": "DE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -2541,7 +2541,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -2583,7 +2583,7 @@ export default {
                 "region": "DK",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -2657,7 +2657,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -2699,7 +2699,7 @@ export default {
                 "region": "FR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -2773,7 +2773,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -2815,7 +2815,7 @@ export default {
                 "region": "HR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -2889,7 +2889,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -2931,7 +2931,7 @@ export default {
                 "region": "IT",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -3005,7 +3005,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -3047,7 +3047,7 @@ export default {
                 "region": "NL",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -3121,7 +3121,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -3163,7 +3163,7 @@ export default {
                 "region": "SE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -3237,7 +3237,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -3289,7 +3289,7 @@ export default {
                 "region": "DE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -3363,7 +3363,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -3405,7 +3405,7 @@ export default {
                 "region": "DK",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -3479,7 +3479,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -3521,7 +3521,7 @@ export default {
                 "region": "FR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -3595,7 +3595,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -3637,7 +3637,7 @@ export default {
                 "region": "HR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -3711,7 +3711,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -3753,7 +3753,7 @@ export default {
                 "region": "IT",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -3827,7 +3827,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -3869,7 +3869,7 @@ export default {
                 "region": "NL",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -3943,7 +3943,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -3985,7 +3985,7 @@ export default {
                 "region": "SE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -4059,7 +4059,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -4106,7 +4106,7 @@ export default {
                 "region": "DE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -4180,7 +4180,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -4222,7 +4222,7 @@ export default {
                 "region": "DK",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -4296,7 +4296,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -4338,7 +4338,7 @@ export default {
                 "region": "FR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -4412,7 +4412,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -4454,7 +4454,7 @@ export default {
                 "region": "HR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -4528,7 +4528,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -4570,7 +4570,7 @@ export default {
                 "region": "IT",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -4644,7 +4644,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -4686,7 +4686,7 @@ export default {
                 "region": "NL",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -4760,7 +4760,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -4802,7 +4802,7 @@ export default {
                 "region": "SE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -4876,7 +4876,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -4928,7 +4928,7 @@ export default {
                 "region": "DE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -5002,7 +5002,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -5044,7 +5044,7 @@ export default {
                 "region": "DK",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -5118,7 +5118,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -5160,7 +5160,7 @@ export default {
                 "region": "FR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -5234,7 +5234,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -5276,7 +5276,7 @@ export default {
                 "region": "HR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -5350,7 +5350,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -5392,7 +5392,7 @@ export default {
                 "region": "IT",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -5466,7 +5466,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -5508,7 +5508,7 @@ export default {
                 "region": "NL",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -5582,7 +5582,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -5624,7 +5624,7 @@ export default {
                 "region": "SE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -5698,7 +5698,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -5745,7 +5745,7 @@ export default {
                 "region": "DE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -5819,7 +5819,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -5861,7 +5861,7 @@ export default {
                 "region": "DK",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -5935,7 +5935,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -5977,7 +5977,7 @@ export default {
                 "region": "FR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -6051,7 +6051,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -6093,7 +6093,7 @@ export default {
                 "region": "HR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -6167,7 +6167,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -6209,7 +6209,7 @@ export default {
                 "region": "IT",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -6283,7 +6283,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -6325,7 +6325,7 @@ export default {
                 "region": "NL",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -6399,7 +6399,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -6441,7 +6441,7 @@ export default {
                 "region": "SE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -6515,7 +6515,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -6567,7 +6567,7 @@ export default {
                 "region": "DE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -6641,7 +6641,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -6683,7 +6683,7 @@ export default {
                 "region": "DK",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -6757,7 +6757,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -6799,7 +6799,7 @@ export default {
                 "region": "FR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -6873,7 +6873,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -6915,7 +6915,7 @@ export default {
                 "region": "HR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -6989,7 +6989,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -7031,7 +7031,7 @@ export default {
                 "region": "IT",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -7105,7 +7105,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -7147,7 +7147,7 @@ export default {
                 "region": "NL",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -7221,7 +7221,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -7263,7 +7263,7 @@ export default {
                 "region": "SE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -7337,7 +7337,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -7384,7 +7384,7 @@ export default {
                 "region": "DE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -7458,7 +7458,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -7500,7 +7500,7 @@ export default {
                 "region": "DK",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -7574,7 +7574,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -7616,7 +7616,7 @@ export default {
                 "region": "FR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -7690,7 +7690,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -7732,7 +7732,7 @@ export default {
                 "region": "HR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -7806,7 +7806,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -7848,7 +7848,7 @@ export default {
                 "region": "IT",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -7922,7 +7922,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -7964,7 +7964,7 @@ export default {
                 "region": "NL",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -8038,7 +8038,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -8080,7 +8080,7 @@ export default {
                 "region": "SE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -8154,7 +8154,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -8206,7 +8206,7 @@ export default {
                 "region": "DE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -8280,7 +8280,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -8322,7 +8322,7 @@ export default {
                 "region": "DK",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -8396,7 +8396,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -8438,7 +8438,7 @@ export default {
                 "region": "FR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -8512,7 +8512,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -8554,7 +8554,7 @@ export default {
                 "region": "HR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -8628,7 +8628,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -8670,7 +8670,7 @@ export default {
                 "region": "IT",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -8744,7 +8744,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -8786,7 +8786,7 @@ export default {
                 "region": "NL",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -8860,7 +8860,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -8902,7 +8902,7 @@ export default {
                 "region": "SE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -8976,7 +8976,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -9023,7 +9023,7 @@ export default {
                 "region": "DE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -9097,7 +9097,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -9139,7 +9139,7 @@ export default {
                 "region": "DK",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -9213,7 +9213,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -9255,7 +9255,7 @@ export default {
                 "region": "FR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -9329,7 +9329,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -9371,7 +9371,7 @@ export default {
                 "region": "HR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -9445,7 +9445,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -9487,7 +9487,7 @@ export default {
                 "region": "IT",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -9561,7 +9561,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -9603,7 +9603,7 @@ export default {
                 "region": "NL",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -9677,7 +9677,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -9719,7 +9719,7 @@ export default {
                 "region": "SE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -9793,7 +9793,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -9845,7 +9845,7 @@ export default {
                 "region": "DE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -9919,7 +9919,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -9961,7 +9961,7 @@ export default {
                 "region": "DK",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -10035,7 +10035,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -10077,7 +10077,7 @@ export default {
                 "region": "FR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -10151,7 +10151,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -10193,7 +10193,7 @@ export default {
                 "region": "HR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -10267,7 +10267,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -10309,7 +10309,7 @@ export default {
                 "region": "IT",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -10383,7 +10383,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -10425,7 +10425,7 @@ export default {
                 "region": "NL",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -10499,7 +10499,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -10541,7 +10541,7 @@ export default {
                 "region": "SE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -10615,7 +10615,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -10662,7 +10662,7 @@ export default {
                 "region": "DE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -10736,7 +10736,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -10778,7 +10778,7 @@ export default {
                 "region": "DK",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -10852,7 +10852,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -10894,7 +10894,7 @@ export default {
                 "region": "FR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -10968,7 +10968,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -11010,7 +11010,7 @@ export default {
                 "region": "HR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -11084,7 +11084,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -11126,7 +11126,7 @@ export default {
                 "region": "IT",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -11200,7 +11200,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -11242,7 +11242,7 @@ export default {
                 "region": "NL",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -11316,7 +11316,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -11358,7 +11358,7 @@ export default {
                 "region": "SE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -11432,7 +11432,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -11484,7 +11484,7 @@ export default {
                 "region": "DE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -11558,7 +11558,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -11600,7 +11600,7 @@ export default {
                 "region": "DK",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -11674,7 +11674,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -11716,7 +11716,7 @@ export default {
                 "region": "FR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -11790,7 +11790,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -11832,7 +11832,7 @@ export default {
                 "region": "HR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -11906,7 +11906,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -11948,7 +11948,7 @@ export default {
                 "region": "IT",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -12022,7 +12022,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -12064,7 +12064,7 @@ export default {
                 "region": "NL",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -12138,7 +12138,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -12180,7 +12180,7 @@ export default {
                 "region": "SE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -12254,7 +12254,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -12301,7 +12301,7 @@ export default {
                 "region": "DE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -12375,7 +12375,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -12417,7 +12417,7 @@ export default {
                 "region": "DK",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -12491,7 +12491,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -12533,7 +12533,7 @@ export default {
                 "region": "FR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -12607,7 +12607,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -12649,7 +12649,7 @@ export default {
                 "region": "HR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -12723,7 +12723,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -12765,7 +12765,7 @@ export default {
                 "region": "IT",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -12839,7 +12839,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -12881,7 +12881,7 @@ export default {
                 "region": "NL",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -12955,7 +12955,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -12997,7 +12997,7 @@ export default {
                 "region": "SE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -13071,7 +13071,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -13123,7 +13123,7 @@ export default {
                 "region": "DE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -13197,7 +13197,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -13239,7 +13239,7 @@ export default {
                 "region": "DK",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -13313,7 +13313,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -13355,7 +13355,7 @@ export default {
                 "region": "FR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -13429,7 +13429,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -13471,7 +13471,7 @@ export default {
                 "region": "HR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -13545,7 +13545,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -13587,7 +13587,7 @@ export default {
                 "region": "IT",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -13661,7 +13661,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -13703,7 +13703,7 @@ export default {
                 "region": "NL",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -13777,7 +13777,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -13819,7 +13819,7 @@ export default {
                 "region": "SE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -13893,7 +13893,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -13940,7 +13940,7 @@ export default {
                 "region": "DE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -14014,7 +14014,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -14056,7 +14056,7 @@ export default {
                 "region": "DK",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -14130,7 +14130,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -14172,7 +14172,7 @@ export default {
                 "region": "FR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -14246,7 +14246,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -14288,7 +14288,7 @@ export default {
                 "region": "HR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -14362,7 +14362,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -14404,7 +14404,7 @@ export default {
                 "region": "IT",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -14478,7 +14478,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -14520,7 +14520,7 @@ export default {
                 "region": "NL",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -14594,7 +14594,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -14636,7 +14636,7 @@ export default {
                 "region": "SE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NOX",
+                    "indicatorGroup": "NO<sub>x</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -14710,7 +14710,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO2",
+                    "indicatorGroup": "SO<sub>2</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,

@@ -149,7 +149,7 @@ const Header = styled.div`
   margin: 0;
   height: 26px;
   align-self: flex-start;
-  font-family: Ropa Sans;
+  font-family: Ropa Sans; 
 `;
 function ScenarioSelectionMenu(props) {
   const { t } = useTranslation();

@@ -11,10 +11,10 @@ const AlertContainer = styled.div`
   padding-top: 35px;
   margin-bottom: 30px;
   border-width: 1px;
-  border-color: rgb(234, 100, 67);
+  border-color: rgb(178, 106, 91);
   border-style: solid;
   color: white;
-  background-color: rgb(234, 100, 67);
+  background-color: rgb(178, 106, 91);
   display: flex;
   flex: 1;
   flex-wrap: wrap;
