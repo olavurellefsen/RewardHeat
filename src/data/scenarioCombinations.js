@@ -85,7 +85,7 @@ export default {
 					"opt1": false, 
 					"opt2": false, 
 					"opt3": false, 
-				},
+				}, 
 				{ 
 					"id": 7, 
 					"name": "FutureDH_WEO-SD", 
@@ -109,22 +109,58 @@ export default {
 					"opt1": false, 
 					"opt2": true, 
 					"opt3": false, 
-				}
+				}, 
 			], 
 			optionsAvailable: { 
-				"ConventionalDH": { 
+				"ConventionalDH_Ambitious": { 
 					"opt0": true,
 					"opt1": true,
 					"opt2": true,
 					"opt3": false,
 					}, 
-				"TransitionDH": { 
+				"ConventionalDH_WEO-SD": { 
 					"opt0": true,
 					"opt1": true,
 					"opt2": true,
 					"opt3": false,
 					}, 
-				"FutureDH": { 
+				"ConventionalDH_WEO-NP": { 
+					"opt0": true,
+					"opt1": true,
+					"opt2": true,
+					"opt3": false,
+					}, 
+				"TransitionDH_Ambitious": { 
+					"opt0": true,
+					"opt1": true,
+					"opt2": true,
+					"opt3": false,
+					}, 
+				"TransitionDH_WEO-SD": { 
+					"opt0": true,
+					"opt1": true,
+					"opt2": true,
+					"opt3": false,
+					}, 
+				"TransitionDH_WEO-NP": { 
+					"opt0": true,
+					"opt1": true,
+					"opt2": true,
+					"opt3": false,
+					}, 
+				"FutureDH_Ambitious": { 
+					"opt0": true,
+					"opt1": true,
+					"opt2": true,
+					"opt3": false,
+					}, 
+				"FutureDH_WEO-SD": { 
+					"opt0": true,
+					"opt1": true,
+					"opt2": true,
+					"opt3": false,
+					}, 
+				"FutureDH_WEO-NP": { 
 					"opt0": true,
 					"opt1": true,
 					"opt2": true,
