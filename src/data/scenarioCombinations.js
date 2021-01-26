@@ -112,60 +112,24 @@ export default {
 				}, 
 			], 
 			optionsAvailable: { 
-				"ConventionalDH_Ambitious": { 
+				"ConventionalDH": { 
 					"opt0": true,
 					"opt1": true,
 					"opt2": true,
 					"opt3": false,
 					}, 
-				"ConventionalDH_WEO-SD": { 
+				"TransitionDH": { 
 					"opt0": true,
 					"opt1": true,
 					"opt2": true,
 					"opt3": false,
 					}, 
-				"ConventionalDH_WEO-NP": { 
+				"FutureDH": { 
 					"opt0": true,
 					"opt1": true,
 					"opt2": true,
 					"opt3": false,
-					}, 
-				"TransitionDH_Ambitious": { 
-					"opt0": true,
-					"opt1": true,
-					"opt2": true,
-					"opt3": false,
-					}, 
-				"TransitionDH_WEO-SD": { 
-					"opt0": true,
-					"opt1": true,
-					"opt2": true,
-					"opt3": false,
-					}, 
-				"TransitionDH_WEO-NP": { 
-					"opt0": true,
-					"opt1": true,
-					"opt2": true,
-					"opt3": false,
-					}, 
-				"FutureDH_Ambitious": { 
-					"opt0": true,
-					"opt1": true,
-					"opt2": true,
-					"opt3": false,
-					}, 
-				"FutureDH_WEO-SD": { 
-					"opt0": true,
-					"opt1": true,
-					"opt2": true,
-					"opt3": false,
-					}, 
-				"FutureDH_WEO-NP": { 
-					"opt0": true,
-					"opt1": true,
-					"opt2": true,
-					"opt3": false,
-					}, 
+					},
 			} 
 		} 
 	};

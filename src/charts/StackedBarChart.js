@@ -20,7 +20,6 @@ import periods from './../data/years'
 import "@fontsource/ropa-sans"
 import "@fontsource/open-sans"
 import mapRegions from "../data/mapRegionToDataRegions"
-import { text } from '@fortawesome/fontawesome-svg-core'
 
 const ChartHeader = styled(VictoryLabel)`
   text-anchor: start;
