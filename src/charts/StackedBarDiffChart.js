@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
+import parseHtml from 'html-react-parser'
 import years from "../data/years"
 //import { useTranslation } from 'react-i18next'
 import {
@@ -15,15 +16,17 @@ import {
   VictoryTooltip,
 } from 'victory'
 import {createAccumulatedData} from './Tools'
+import "@fontsource/ropa-sans"
+import "@fontsource/open-sans"
+import mapRegions from "../data/mapRegionToDataRegions"
 
-const ChartHeader = styled(VictoryLabel)`
-  text-anchor: start;
-  fill: #000000;
-  font-family: inherit;
+const ChartTitle = styled.div`
+  margin-left: 70px;
+  margin-top: 20px;
   font-size: 18px;
   font-weight: bold;
+  font-family: Ropa Sans;
 `
-ChartHeader.displayName = 'ChartHeader'
 
 const StackedBarChart = props => {
   //const { t } = useTranslation()
@@ -146,18 +149,29 @@ const StackedBarChart = props => {
     '#7346fa',
     '#82627f',
   ]
-
+  const MyCustomHTMLLabel = props => {
+    console.log("Befroe: ", props.text)
+    const text = props.text.replaceAll('§', '')
+    console.log("After: ", text)
+  
+    return (
+      <foreignObject x={props.x+3} y={props.y-9} width={600} height={700}>
+        <div style={{ fontSize: '12px', fontFamily: "Open Sans" }}>{parseHtml(text)}</div>
+      </foreignObject>
+    );
+  };
   return (
     <div>
+    <ChartTitle>{chartTitle} ---  {mapRegions.find((countryCode)=>countryCode.path_id === props.selectedCountries[0]).country}</ChartTitle>
       <VictoryChart
         domainPadding={20}
-        width={380}
-        height={380}
+        width={550}
+        height={550}
         padding={{ left: 80, right: 50, top: 50, bottom: 50 }}
         theme={VictoryTheme.material}
         domain={{ y: yDomain }}
       >
-        <ChartHeader x={90} y={24} text={chartTitle} />
+        
         <VictoryAxis key={0} tickValues={periods} tickFormat={periods} />
         <VictoryAxis
           dependentAxis
@@ -174,32 +188,35 @@ const StackedBarChart = props => {
                 '%'
               )
             }
-            return Math.round((tick * maxValue) / props.divideValues, 0)
+            console.log("charttitle: ", chartTitle)
+            console.log("tick: ", (tick * maxValue) / props.divideValues)
+            console.log("round: ", Math.round((tick * maxValue) / props.divideValues, 1))
+            return (tick * maxValue) / props.divideValues
           }}
           tickValues={[-1,-0.75, -0.5, -0.25, 0, 0.25, 0.5, 0.75,1]}
           label={props.label}
         />
         <VictoryLegend
           x={90}
-          y={50}
+          y={0}
           orientation="horizontal"
-          gutter={gutter}
-          rowGutter={rowGutter}
+          gutter={0}
+          rowGutter={0}
           symbolSpacer={4}
-          itemsPerRow={3}
+          itemsPerRow={4}
           style={{
             title: { fontSize: 14, leftPadding: -10 },
           }}
           colorScale={colors}
           data={Object.keys(diffData).map((indicatorName, i) => ({
             name: indicatorName
-              .concat('        ')
+              .concat('§§§§§§§§§§§§')
               .substr(0, 16),
             fill: colors[i],
           }))}
-          labelComponent={<VictoryLabel style={{ fontSize: '9px' }} />}
+          labelComponent={<MyCustomHTMLLabel  />}
         />
-        <VictoryGroup offset={10} style={{ data: { width: 10 } }}>
+        <VictoryGroup offset={15} style={{ data: { width: 15 } }}>
           <VictoryStack>
             {Object.keys(diffData).map((indicatorName, i) => {
               console.log("indicatorName: ", indicatorName)
