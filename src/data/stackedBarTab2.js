@@ -48,7 +48,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -164,7 +164,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -280,7 +280,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -396,7 +396,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -512,7 +512,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -628,7 +628,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -744,7 +744,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -865,7 +865,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -981,7 +981,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -1097,7 +1097,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -1213,7 +1213,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -1329,7 +1329,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -1445,7 +1445,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -1561,7 +1561,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -1682,7 +1682,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -1798,7 +1798,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -1914,7 +1914,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -2030,7 +2030,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -2146,7 +2146,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -2262,7 +2262,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -2378,7 +2378,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -2504,7 +2504,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -2620,7 +2620,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -2736,7 +2736,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -2852,7 +2852,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -2968,7 +2968,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -3084,7 +3084,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -3200,7 +3200,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -3321,7 +3321,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -3437,7 +3437,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -3553,7 +3553,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -3669,7 +3669,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -3785,7 +3785,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -3901,7 +3901,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -4017,7 +4017,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -4138,7 +4138,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -4254,7 +4254,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -4370,7 +4370,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -4486,7 +4486,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -4602,7 +4602,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -4718,7 +4718,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -4834,7 +4834,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -4960,7 +4960,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -5076,7 +5076,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -5192,7 +5192,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -5308,7 +5308,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -5424,7 +5424,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -5540,7 +5540,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -5656,7 +5656,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -5777,7 +5777,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -5893,7 +5893,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -6009,7 +6009,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -6125,7 +6125,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -6241,7 +6241,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -6357,7 +6357,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -6473,7 +6473,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -6594,7 +6594,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -6710,7 +6710,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -6826,7 +6826,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -6942,7 +6942,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -7058,7 +7058,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -7174,7 +7174,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -7290,7 +7290,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -7416,7 +7416,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -7532,7 +7532,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -7648,7 +7648,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -7764,7 +7764,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -7880,7 +7880,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -7996,7 +7996,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -8112,7 +8112,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -8233,7 +8233,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -8349,7 +8349,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -8465,7 +8465,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -8581,7 +8581,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -8697,7 +8697,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -8813,7 +8813,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -8929,7 +8929,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -9050,7 +9050,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -9166,7 +9166,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -9282,7 +9282,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -9398,7 +9398,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -9514,7 +9514,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -9630,7 +9630,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -9746,7 +9746,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -9872,7 +9872,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -9988,7 +9988,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -10104,7 +10104,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -10220,7 +10220,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -10336,7 +10336,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -10452,7 +10452,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -10568,7 +10568,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -10689,7 +10689,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -10805,7 +10805,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -10921,7 +10921,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -11037,7 +11037,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -11153,7 +11153,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -11269,7 +11269,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -11385,7 +11385,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -11506,7 +11506,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -11622,7 +11622,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -11738,7 +11738,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -11854,7 +11854,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -11970,7 +11970,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -12086,7 +12086,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -12202,7 +12202,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -12328,7 +12328,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -12444,7 +12444,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -12560,7 +12560,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -12676,7 +12676,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -12792,7 +12792,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -12908,7 +12908,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -13024,7 +13024,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -13145,7 +13145,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -13261,7 +13261,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -13377,7 +13377,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -13493,7 +13493,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -13609,7 +13609,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -13725,7 +13725,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -13841,7 +13841,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -13962,7 +13962,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -14078,7 +14078,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -14194,7 +14194,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -14310,7 +14310,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -14426,7 +14426,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -14542,7 +14542,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -14658,7 +14658,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -14784,7 +14784,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -14900,7 +14900,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -15016,7 +15016,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -15132,7 +15132,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -15248,7 +15248,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -15364,7 +15364,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -15480,7 +15480,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -15601,7 +15601,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -15717,7 +15717,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -15833,7 +15833,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -15949,7 +15949,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -16065,7 +16065,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -16181,7 +16181,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -16297,7 +16297,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -16418,7 +16418,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -16534,7 +16534,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -16650,7 +16650,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -16766,7 +16766,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -16882,7 +16882,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -16998,7 +16998,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -17114,7 +17114,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -17240,7 +17240,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -17356,7 +17356,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -17472,7 +17472,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -17588,7 +17588,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -17704,7 +17704,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -17820,7 +17820,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -17936,7 +17936,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -18057,7 +18057,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -18173,7 +18173,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -18289,7 +18289,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -18405,7 +18405,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -18521,7 +18521,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -18637,7 +18637,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -18753,7 +18753,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -18874,7 +18874,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -18990,7 +18990,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -19106,7 +19106,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -19222,7 +19222,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -19338,7 +19338,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -19454,7 +19454,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -19570,7 +19570,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -19696,7 +19696,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -19812,7 +19812,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -19928,7 +19928,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -20044,7 +20044,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -20160,7 +20160,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -20276,7 +20276,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -20392,7 +20392,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -20513,7 +20513,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -20629,7 +20629,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -20745,7 +20745,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -20861,7 +20861,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -20977,7 +20977,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -21093,7 +21093,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -21209,7 +21209,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -21330,7 +21330,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -21446,7 +21446,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -21562,7 +21562,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -21678,7 +21678,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -21794,7 +21794,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -21910,7 +21910,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -22026,7 +22026,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM2.5",
+                    "indicatorGroup": "PM<sub>2.5</sub>",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
