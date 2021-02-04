@@ -11,7 +11,7 @@ export default {
                 "region": "DE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -48,7 +48,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -85,7 +85,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -127,7 +127,7 @@ export default {
                 "region": "DK",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -164,7 +164,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -201,7 +201,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -243,7 +243,7 @@ export default {
                 "region": "FR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -280,7 +280,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -317,7 +317,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -359,7 +359,7 @@ export default {
                 "region": "HR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -396,7 +396,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -433,7 +433,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -475,7 +475,7 @@ export default {
                 "region": "IT",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -512,7 +512,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -549,7 +549,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -591,7 +591,7 @@ export default {
                 "region": "NL",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -628,7 +628,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -665,7 +665,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -707,7 +707,7 @@ export default {
                 "region": "SE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -744,7 +744,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -781,7 +781,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -828,7 +828,7 @@ export default {
                 "region": "DE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -865,7 +865,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -902,7 +902,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -944,7 +944,7 @@ export default {
                 "region": "DK",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -981,7 +981,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -1018,7 +1018,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -1060,7 +1060,7 @@ export default {
                 "region": "FR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -1097,7 +1097,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -1134,7 +1134,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -1176,7 +1176,7 @@ export default {
                 "region": "HR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -1213,7 +1213,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -1250,7 +1250,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -1292,7 +1292,7 @@ export default {
                 "region": "IT",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -1329,7 +1329,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -1366,7 +1366,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -1408,7 +1408,7 @@ export default {
                 "region": "NL",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -1445,7 +1445,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -1482,7 +1482,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -1524,7 +1524,7 @@ export default {
                 "region": "SE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -1561,7 +1561,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -1598,7 +1598,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -1645,7 +1645,7 @@ export default {
                 "region": "DE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -1682,7 +1682,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -1719,7 +1719,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -1761,7 +1761,7 @@ export default {
                 "region": "DK",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -1798,7 +1798,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -1835,7 +1835,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -1877,7 +1877,7 @@ export default {
                 "region": "FR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -1914,7 +1914,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -1951,7 +1951,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -1993,7 +1993,7 @@ export default {
                 "region": "HR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -2030,7 +2030,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -2067,7 +2067,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -2109,7 +2109,7 @@ export default {
                 "region": "IT",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -2146,7 +2146,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -2183,7 +2183,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -2225,7 +2225,7 @@ export default {
                 "region": "NL",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -2262,7 +2262,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -2299,7 +2299,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -2341,7 +2341,7 @@ export default {
                 "region": "SE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -2378,7 +2378,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -2415,7 +2415,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -2467,7 +2467,7 @@ export default {
                 "region": "DE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -2504,7 +2504,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -2541,7 +2541,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -2583,7 +2583,7 @@ export default {
                 "region": "DK",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -2620,7 +2620,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -2657,7 +2657,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -2699,7 +2699,7 @@ export default {
                 "region": "FR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -2736,7 +2736,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -2773,7 +2773,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -2815,7 +2815,7 @@ export default {
                 "region": "HR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -2852,7 +2852,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -2889,7 +2889,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -2931,7 +2931,7 @@ export default {
                 "region": "IT",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -2968,7 +2968,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -3005,7 +3005,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -3047,7 +3047,7 @@ export default {
                 "region": "NL",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -3084,7 +3084,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -3121,7 +3121,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -3163,7 +3163,7 @@ export default {
                 "region": "SE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -3200,7 +3200,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -3237,7 +3237,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -3284,7 +3284,7 @@ export default {
                 "region": "DE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -3321,7 +3321,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -3358,7 +3358,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -3400,7 +3400,7 @@ export default {
                 "region": "DK",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -3437,7 +3437,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -3474,7 +3474,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -3516,7 +3516,7 @@ export default {
                 "region": "FR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -3553,7 +3553,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -3590,7 +3590,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -3632,7 +3632,7 @@ export default {
                 "region": "HR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -3669,7 +3669,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -3706,7 +3706,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -3748,7 +3748,7 @@ export default {
                 "region": "IT",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -3785,7 +3785,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -3822,7 +3822,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -3864,7 +3864,7 @@ export default {
                 "region": "NL",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -3901,7 +3901,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -3938,7 +3938,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -3980,7 +3980,7 @@ export default {
                 "region": "SE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -4017,7 +4017,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -4054,7 +4054,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -4101,7 +4101,7 @@ export default {
                 "region": "DE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -4138,7 +4138,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -4175,7 +4175,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -4217,7 +4217,7 @@ export default {
                 "region": "DK",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -4254,7 +4254,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -4291,7 +4291,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -4333,7 +4333,7 @@ export default {
                 "region": "FR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -4370,7 +4370,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -4407,7 +4407,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -4449,7 +4449,7 @@ export default {
                 "region": "HR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -4486,7 +4486,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -4523,7 +4523,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -4565,7 +4565,7 @@ export default {
                 "region": "IT",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -4602,7 +4602,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -4639,7 +4639,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -4681,7 +4681,7 @@ export default {
                 "region": "NL",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -4718,7 +4718,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -4755,7 +4755,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -4797,7 +4797,7 @@ export default {
                 "region": "SE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -4834,7 +4834,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -4871,7 +4871,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -4923,7 +4923,7 @@ export default {
                 "region": "DE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -4960,7 +4960,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -4997,7 +4997,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -5039,7 +5039,7 @@ export default {
                 "region": "DK",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -5076,7 +5076,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -5113,7 +5113,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -5155,7 +5155,7 @@ export default {
                 "region": "FR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -5192,7 +5192,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -5229,7 +5229,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -5271,7 +5271,7 @@ export default {
                 "region": "HR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -5308,7 +5308,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -5345,7 +5345,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -5387,7 +5387,7 @@ export default {
                 "region": "IT",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -5424,7 +5424,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -5461,7 +5461,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -5503,7 +5503,7 @@ export default {
                 "region": "NL",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -5540,7 +5540,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -5577,7 +5577,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -5619,7 +5619,7 @@ export default {
                 "region": "SE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -5656,7 +5656,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -5693,7 +5693,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -5740,7 +5740,7 @@ export default {
                 "region": "DE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -5777,7 +5777,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -5814,7 +5814,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -5856,7 +5856,7 @@ export default {
                 "region": "DK",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -5893,7 +5893,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -5930,7 +5930,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -5972,7 +5972,7 @@ export default {
                 "region": "FR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -6009,7 +6009,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -6046,7 +6046,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -6088,7 +6088,7 @@ export default {
                 "region": "HR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -6125,7 +6125,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -6162,7 +6162,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -6204,7 +6204,7 @@ export default {
                 "region": "IT",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -6241,7 +6241,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -6278,7 +6278,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -6320,7 +6320,7 @@ export default {
                 "region": "NL",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -6357,7 +6357,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -6394,7 +6394,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -6436,7 +6436,7 @@ export default {
                 "region": "SE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -6473,7 +6473,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -6510,7 +6510,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -6557,7 +6557,7 @@ export default {
                 "region": "DE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -6594,7 +6594,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -6631,7 +6631,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -6673,7 +6673,7 @@ export default {
                 "region": "DK",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -6710,7 +6710,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -6747,7 +6747,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -6789,7 +6789,7 @@ export default {
                 "region": "FR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -6826,7 +6826,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -6863,7 +6863,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -6905,7 +6905,7 @@ export default {
                 "region": "HR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -6942,7 +6942,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -6979,7 +6979,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -7021,7 +7021,7 @@ export default {
                 "region": "IT",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -7058,7 +7058,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -7095,7 +7095,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -7137,7 +7137,7 @@ export default {
                 "region": "NL",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -7174,7 +7174,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -7211,7 +7211,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -7253,7 +7253,7 @@ export default {
                 "region": "SE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -7290,7 +7290,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -7327,7 +7327,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -7379,7 +7379,7 @@ export default {
                 "region": "DE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -7416,7 +7416,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -7453,7 +7453,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -7495,7 +7495,7 @@ export default {
                 "region": "DK",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -7532,7 +7532,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -7569,7 +7569,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -7611,7 +7611,7 @@ export default {
                 "region": "FR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -7648,7 +7648,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -7685,7 +7685,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -7727,7 +7727,7 @@ export default {
                 "region": "HR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -7764,7 +7764,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -7801,7 +7801,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -7843,7 +7843,7 @@ export default {
                 "region": "IT",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -7880,7 +7880,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -7917,7 +7917,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -7959,7 +7959,7 @@ export default {
                 "region": "NL",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -7996,7 +7996,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -8033,7 +8033,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -8075,7 +8075,7 @@ export default {
                 "region": "SE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -8112,7 +8112,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -8149,7 +8149,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -8196,7 +8196,7 @@ export default {
                 "region": "DE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -8233,7 +8233,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -8270,7 +8270,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -8312,7 +8312,7 @@ export default {
                 "region": "DK",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -8349,7 +8349,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -8386,7 +8386,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -8428,7 +8428,7 @@ export default {
                 "region": "FR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -8465,7 +8465,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -8502,7 +8502,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -8544,7 +8544,7 @@ export default {
                 "region": "HR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -8581,7 +8581,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -8618,7 +8618,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -8660,7 +8660,7 @@ export default {
                 "region": "IT",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -8697,7 +8697,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -8734,7 +8734,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -8776,7 +8776,7 @@ export default {
                 "region": "NL",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -8813,7 +8813,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -8850,7 +8850,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -8892,7 +8892,7 @@ export default {
                 "region": "SE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -8929,7 +8929,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -8966,7 +8966,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -9013,7 +9013,7 @@ export default {
                 "region": "DE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -9050,7 +9050,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -9087,7 +9087,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -9129,7 +9129,7 @@ export default {
                 "region": "DK",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -9166,7 +9166,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -9203,7 +9203,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -9245,7 +9245,7 @@ export default {
                 "region": "FR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -9282,7 +9282,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -9319,7 +9319,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -9361,7 +9361,7 @@ export default {
                 "region": "HR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -9398,7 +9398,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -9435,7 +9435,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -9477,7 +9477,7 @@ export default {
                 "region": "IT",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -9514,7 +9514,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -9551,7 +9551,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -9593,7 +9593,7 @@ export default {
                 "region": "NL",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -9630,7 +9630,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -9667,7 +9667,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -9709,7 +9709,7 @@ export default {
                 "region": "SE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -9746,7 +9746,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -9783,7 +9783,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -9835,7 +9835,7 @@ export default {
                 "region": "DE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -9872,7 +9872,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -9909,7 +9909,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -9951,7 +9951,7 @@ export default {
                 "region": "DK",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -9988,7 +9988,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -10025,7 +10025,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -10067,7 +10067,7 @@ export default {
                 "region": "FR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -10104,7 +10104,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -10141,7 +10141,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -10183,7 +10183,7 @@ export default {
                 "region": "HR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -10220,7 +10220,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -10257,7 +10257,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -10299,7 +10299,7 @@ export default {
                 "region": "IT",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -10336,7 +10336,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -10373,7 +10373,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -10415,7 +10415,7 @@ export default {
                 "region": "NL",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -10452,7 +10452,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -10489,7 +10489,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -10531,7 +10531,7 @@ export default {
                 "region": "SE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -10568,7 +10568,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -10605,7 +10605,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -10652,7 +10652,7 @@ export default {
                 "region": "DE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -10689,7 +10689,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -10726,7 +10726,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -10768,7 +10768,7 @@ export default {
                 "region": "DK",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -10805,7 +10805,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -10842,7 +10842,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -10884,7 +10884,7 @@ export default {
                 "region": "FR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -10921,7 +10921,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -10958,7 +10958,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -11000,7 +11000,7 @@ export default {
                 "region": "HR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -11037,7 +11037,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -11074,7 +11074,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -11116,7 +11116,7 @@ export default {
                 "region": "IT",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -11153,7 +11153,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -11190,7 +11190,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -11232,7 +11232,7 @@ export default {
                 "region": "NL",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -11269,7 +11269,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -11306,7 +11306,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -11348,7 +11348,7 @@ export default {
                 "region": "SE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -11385,7 +11385,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -11422,7 +11422,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -11469,7 +11469,7 @@ export default {
                 "region": "DE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -11506,7 +11506,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -11543,7 +11543,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -11585,7 +11585,7 @@ export default {
                 "region": "DK",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -11622,7 +11622,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -11659,7 +11659,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -11701,7 +11701,7 @@ export default {
                 "region": "FR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -11738,7 +11738,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -11775,7 +11775,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -11817,7 +11817,7 @@ export default {
                 "region": "HR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -11854,7 +11854,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -11891,7 +11891,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -11933,7 +11933,7 @@ export default {
                 "region": "IT",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -11970,7 +11970,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -12007,7 +12007,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -12049,7 +12049,7 @@ export default {
                 "region": "NL",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -12086,7 +12086,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -12123,7 +12123,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -12165,7 +12165,7 @@ export default {
                 "region": "SE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -12202,7 +12202,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -12239,7 +12239,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -12291,7 +12291,7 @@ export default {
                 "region": "DE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -12328,7 +12328,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -12365,7 +12365,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -12407,7 +12407,7 @@ export default {
                 "region": "DK",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -12444,7 +12444,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -12481,7 +12481,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -12523,7 +12523,7 @@ export default {
                 "region": "FR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -12560,7 +12560,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -12597,7 +12597,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -12639,7 +12639,7 @@ export default {
                 "region": "HR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -12676,7 +12676,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -12713,7 +12713,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -12755,7 +12755,7 @@ export default {
                 "region": "IT",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -12792,7 +12792,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -12829,7 +12829,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -12871,7 +12871,7 @@ export default {
                 "region": "NL",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -12908,7 +12908,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -12945,7 +12945,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -12987,7 +12987,7 @@ export default {
                 "region": "SE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -13024,7 +13024,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -13061,7 +13061,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -13108,7 +13108,7 @@ export default {
                 "region": "DE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -13145,7 +13145,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -13182,7 +13182,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -13224,7 +13224,7 @@ export default {
                 "region": "DK",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -13261,7 +13261,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -13298,7 +13298,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -13340,7 +13340,7 @@ export default {
                 "region": "FR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -13377,7 +13377,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -13414,7 +13414,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -13456,7 +13456,7 @@ export default {
                 "region": "HR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -13493,7 +13493,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -13530,7 +13530,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -13572,7 +13572,7 @@ export default {
                 "region": "IT",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -13609,7 +13609,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -13646,7 +13646,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -13688,7 +13688,7 @@ export default {
                 "region": "NL",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -13725,7 +13725,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -13762,7 +13762,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -13804,7 +13804,7 @@ export default {
                 "region": "SE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -13841,7 +13841,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -13878,7 +13878,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -13925,7 +13925,7 @@ export default {
                 "region": "DE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -13962,7 +13962,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -13999,7 +13999,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -14041,7 +14041,7 @@ export default {
                 "region": "DK",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -14078,7 +14078,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -14115,7 +14115,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -14157,7 +14157,7 @@ export default {
                 "region": "FR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -14194,7 +14194,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -14231,7 +14231,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -14273,7 +14273,7 @@ export default {
                 "region": "HR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -14310,7 +14310,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -14347,7 +14347,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -14389,7 +14389,7 @@ export default {
                 "region": "IT",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -14426,7 +14426,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -14463,7 +14463,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -14505,7 +14505,7 @@ export default {
                 "region": "NL",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -14542,7 +14542,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -14579,7 +14579,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -14621,7 +14621,7 @@ export default {
                 "region": "SE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -14658,7 +14658,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -14695,7 +14695,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -14747,7 +14747,7 @@ export default {
                 "region": "DE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -14784,7 +14784,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -14821,7 +14821,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -14863,7 +14863,7 @@ export default {
                 "region": "DK",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -14900,7 +14900,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -14937,7 +14937,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -14979,7 +14979,7 @@ export default {
                 "region": "FR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -15016,7 +15016,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -15053,7 +15053,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -15095,7 +15095,7 @@ export default {
                 "region": "HR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -15132,7 +15132,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -15169,7 +15169,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -15211,7 +15211,7 @@ export default {
                 "region": "IT",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -15248,7 +15248,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -15285,7 +15285,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -15327,7 +15327,7 @@ export default {
                 "region": "NL",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -15364,7 +15364,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -15401,7 +15401,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -15443,7 +15443,7 @@ export default {
                 "region": "SE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -15480,7 +15480,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -15517,7 +15517,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -15564,7 +15564,7 @@ export default {
                 "region": "DE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -15601,7 +15601,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -15638,7 +15638,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -15680,7 +15680,7 @@ export default {
                 "region": "DK",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -15717,7 +15717,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -15754,7 +15754,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -15796,7 +15796,7 @@ export default {
                 "region": "FR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -15833,7 +15833,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -15870,7 +15870,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -15912,7 +15912,7 @@ export default {
                 "region": "HR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -15949,7 +15949,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -15986,7 +15986,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -16028,7 +16028,7 @@ export default {
                 "region": "IT",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -16065,7 +16065,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -16102,7 +16102,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -16144,7 +16144,7 @@ export default {
                 "region": "NL",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -16181,7 +16181,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -16218,7 +16218,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -16260,7 +16260,7 @@ export default {
                 "region": "SE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -16297,7 +16297,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -16334,7 +16334,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -16381,7 +16381,7 @@ export default {
                 "region": "DE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -16418,7 +16418,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -16455,7 +16455,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -16497,7 +16497,7 @@ export default {
                 "region": "DK",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -16534,7 +16534,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -16571,7 +16571,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -16613,7 +16613,7 @@ export default {
                 "region": "FR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -16650,7 +16650,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -16687,7 +16687,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -16729,7 +16729,7 @@ export default {
                 "region": "HR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -16766,7 +16766,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -16803,7 +16803,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -16845,7 +16845,7 @@ export default {
                 "region": "IT",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -16882,7 +16882,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -16919,7 +16919,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -16961,7 +16961,7 @@ export default {
                 "region": "NL",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -16998,7 +16998,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -17035,7 +17035,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -17077,7 +17077,7 @@ export default {
                 "region": "SE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -17114,7 +17114,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -17151,7 +17151,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -17203,7 +17203,7 @@ export default {
                 "region": "DE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -17240,7 +17240,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -17277,7 +17277,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -17319,7 +17319,7 @@ export default {
                 "region": "DK",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -17356,7 +17356,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -17393,7 +17393,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -17435,7 +17435,7 @@ export default {
                 "region": "FR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -17472,7 +17472,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -17509,7 +17509,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -17551,7 +17551,7 @@ export default {
                 "region": "HR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -17588,7 +17588,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -17625,7 +17625,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -17667,7 +17667,7 @@ export default {
                 "region": "IT",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -17704,7 +17704,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -17741,7 +17741,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -17783,7 +17783,7 @@ export default {
                 "region": "NL",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -17820,7 +17820,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -17857,7 +17857,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -17899,7 +17899,7 @@ export default {
                 "region": "SE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -17936,7 +17936,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -17973,7 +17973,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -18020,7 +18020,7 @@ export default {
                 "region": "DE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -18057,7 +18057,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -18094,7 +18094,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -18136,7 +18136,7 @@ export default {
                 "region": "DK",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -18173,7 +18173,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -18210,7 +18210,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -18252,7 +18252,7 @@ export default {
                 "region": "FR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -18289,7 +18289,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -18326,7 +18326,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -18368,7 +18368,7 @@ export default {
                 "region": "HR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -18405,7 +18405,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -18442,7 +18442,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -18484,7 +18484,7 @@ export default {
                 "region": "IT",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -18521,7 +18521,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -18558,7 +18558,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -18600,7 +18600,7 @@ export default {
                 "region": "NL",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -18637,7 +18637,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -18674,7 +18674,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -18716,7 +18716,7 @@ export default {
                 "region": "SE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -18753,7 +18753,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -18790,7 +18790,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -18837,7 +18837,7 @@ export default {
                 "region": "DE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -18874,7 +18874,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -18911,7 +18911,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -18953,7 +18953,7 @@ export default {
                 "region": "DK",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -18990,7 +18990,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -19027,7 +19027,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -19069,7 +19069,7 @@ export default {
                 "region": "FR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -19106,7 +19106,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -19143,7 +19143,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -19185,7 +19185,7 @@ export default {
                 "region": "HR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -19222,7 +19222,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -19259,7 +19259,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -19301,7 +19301,7 @@ export default {
                 "region": "IT",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -19338,7 +19338,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -19375,7 +19375,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -19417,7 +19417,7 @@ export default {
                 "region": "NL",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -19454,7 +19454,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -19491,7 +19491,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -19533,7 +19533,7 @@ export default {
                 "region": "SE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -19570,7 +19570,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -19607,7 +19607,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -19659,7 +19659,7 @@ export default {
                 "region": "DE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -19696,7 +19696,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -19733,7 +19733,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -19775,7 +19775,7 @@ export default {
                 "region": "DK",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -19812,7 +19812,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -19849,7 +19849,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -19891,7 +19891,7 @@ export default {
                 "region": "FR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -19928,7 +19928,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -19965,7 +19965,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -20007,7 +20007,7 @@ export default {
                 "region": "HR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -20044,7 +20044,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -20081,7 +20081,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -20123,7 +20123,7 @@ export default {
                 "region": "IT",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -20160,7 +20160,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -20197,7 +20197,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -20239,7 +20239,7 @@ export default {
                 "region": "NL",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -20276,7 +20276,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -20313,7 +20313,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -20355,7 +20355,7 @@ export default {
                 "region": "SE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -20392,7 +20392,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -20429,7 +20429,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -20476,7 +20476,7 @@ export default {
                 "region": "DE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -20513,7 +20513,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -20550,7 +20550,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -20592,7 +20592,7 @@ export default {
                 "region": "DK",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -20629,7 +20629,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -20666,7 +20666,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -20708,7 +20708,7 @@ export default {
                 "region": "FR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -20745,7 +20745,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -20782,7 +20782,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -20824,7 +20824,7 @@ export default {
                 "region": "HR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -20861,7 +20861,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -20898,7 +20898,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -20940,7 +20940,7 @@ export default {
                 "region": "IT",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -20977,7 +20977,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -21014,7 +21014,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -21056,7 +21056,7 @@ export default {
                 "region": "NL",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -21093,7 +21093,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -21130,7 +21130,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -21172,7 +21172,7 @@ export default {
                 "region": "SE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -21209,7 +21209,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -21246,7 +21246,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -21293,7 +21293,7 @@ export default {
                 "region": "DE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -21330,7 +21330,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -21367,7 +21367,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -21409,7 +21409,7 @@ export default {
                 "region": "DK",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -21446,7 +21446,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -21483,7 +21483,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -21525,7 +21525,7 @@ export default {
                 "region": "FR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -21562,7 +21562,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -21599,7 +21599,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -21641,7 +21641,7 @@ export default {
                 "region": "HR",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -21678,7 +21678,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -21715,7 +21715,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -21757,7 +21757,7 @@ export default {
                 "region": "IT",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -21794,7 +21794,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -21831,7 +21831,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -21873,7 +21873,7 @@ export default {
                 "region": "NL",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -21910,7 +21910,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -21947,7 +21947,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -21989,7 +21989,7 @@ export default {
                 "region": "SE",
                 "indicatorGroups": [
                   {
-                    "indicatorGroup": "NO<sub>x</sub>",
+                    "indicatorGroup": "NOx",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -22026,7 +22026,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "PM<sub>2.5</sub>",
+                    "indicatorGroup": "PM2.5",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
@@ -22063,7 +22063,7 @@ export default {
                     ]
                   },
                   {
-                    "indicatorGroup": "SO<sub>2</sub>",
+                    "indicatorGroup": "SO2",
                     "indicatorGroupValues": [
                       {
                         "year": 2015,
