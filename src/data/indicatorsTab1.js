@@ -7,6 +7,5 @@ export default
 		"End-use heat demand (PJ)",
 		"Excess heat use (PJ)",
 		"Primary energy use (PJ)",
-		"Total  air pollution (kt)",
 		"Urban excess heat use (PJ)",
 	 ]
