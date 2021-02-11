@@ -51,8 +51,8 @@ const StackedBarChart = props => {
     gutter = 0
     rowGutter = 0
   } else {
-    gutter = -40
-    rowGutter = -5
+    gutter = -0
+    rowGutter = -0
   }
 
   let maxY2 = 1
@@ -200,8 +200,8 @@ const StackedBarChart = props => {
           x={90}
           y={0}
           orientation="horizontal"
-          gutter={0}
-          rowGutter={0}
+          gutter={gutter}
+          rowGutter={rowGutter}
           symbolSpacer={4}
           itemsPerRow={4}
           style={{

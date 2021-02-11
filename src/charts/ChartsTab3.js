@@ -18,7 +18,7 @@ const Charts = ({selectedCountries, costData, closeWelcome, scenarioSelection}) 
   })
 
   useEffect(() => {
-    csv("costData20210118.csv").then(data=>
+    csv("costData20210210.csv").then(data=>
       {
         let newRegionData = []
         data.forEach(row => {

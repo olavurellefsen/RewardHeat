@@ -1,0 +1,113 @@
+﻿Scenario,Region,Commodity,Period,PV,Option 
+Transition DH compared to Conventional DH,DE,Variable costs ,-,0.005215371,WEO-SD
+Transition DH compared to Conventional DH,DE,Fixed O&M costs,-,-0.144691999,WEO-SD
+Transition DH compared to Conventional DH,DE,Capital costs ,-,0.047851849,WEO-SD
+Transition DH compared to Conventional DH,DE,Net ,-,-0.091624779,WEO-SD
+Future DH compared to Conventional DH,DE,Variable costs ,-,-0.583465929,WEO-SD
+Future DH compared to Conventional DH,DE,Fixed O&M costs,-,-0.135569492,WEO-SD
+Future DH compared to Conventional DH,DE,Capital costs ,-,-0.226590626,WEO-SD
+Future DH compared to Conventional DH,DE,Net ,-,-0.945626047,WEO-SD
+Transition DH compared to Conventional DH,DE,Variable costs ,-,-0.174540158,WEO-NP
+Transition DH compared to Conventional DH,DE,Fixed O&M costs,-,-0.001996211,WEO-NP
+Transition DH compared to Conventional DH,DE,Capital costs ,-,0.03828094,WEO-NP
+Transition DH compared to Conventional DH,DE,Net ,-,-0.138255428,WEO-NP
+Future DH compared to Conventional DH,DE,Variable costs ,-,-0.987802502,WEO-NP
+Future DH compared to Conventional DH,DE,Fixed O&M costs,-,0.000801386,WEO-NP
+Future DH compared to Conventional DH,DE,Capital costs ,-,0.357511264,WEO-NP
+Future DH compared to Conventional DH,DE,Net ,-,-0.629489851,WEO-NP
+Transition DH compared to Conventional DH,DK,Variable costs ,-,-0.302094974,WEO-SD
+Transition DH compared to Conventional DH,DK,Fixed O&M costs,-,0.076645943,WEO-SD
+Transition DH compared to Conventional DH,DK,Capital costs ,-,0.21449007,WEO-SD
+Transition DH compared to Conventional DH,DK,Net ,-,-0.010958961,WEO-SD
+Future DH compared to Conventional DH,DK,Variable costs ,-,-0.175972969,WEO-SD
+Future DH compared to Conventional DH,DK,Fixed O&M costs,-,-0.101894197,WEO-SD
+Future DH compared to Conventional DH,DK,Capital costs ,-,-0.556783554,WEO-SD
+Future DH compared to Conventional DH,DK,Net ,-,-0.834650719,WEO-SD
+Transition DH compared to Conventional DH,DK,Variable costs ,-,-0.033278128,WEO-NP
+Transition DH compared to Conventional DH,DK,Fixed O&M costs,-,0.010111813,WEO-NP
+Transition DH compared to Conventional DH,DK,Capital costs ,-,0.031974408,WEO-NP
+Transition DH compared to Conventional DH,DK,Net ,-,0.008808092,WEO-NP
+Future DH compared to Conventional DH,DK,Variable costs ,-,-1.019109172,WEO-NP
+Future DH compared to Conventional DH,DK,Fixed O&M costs,-,0.048676137,WEO-NP
+Future DH compared to Conventional DH,DK,Capital costs ,-,0.322399755,WEO-NP
+Future DH compared to Conventional DH,DK,Net ,-,-0.64803328,WEO-NP
+Transition DH compared to Conventional DH,FR,Variable costs ,-,-0.14520937,WEO-SD
+Transition DH compared to Conventional DH,FR,Fixed O&M costs,-,-0.053042359,WEO-SD
+Transition DH compared to Conventional DH,FR,Capital costs ,-,0.121994457,WEO-SD
+Transition DH compared to Conventional DH,FR,Net ,-,-0.076257272,WEO-SD
+Future DH compared to Conventional DH,FR,Variable costs ,-,-0.554393331,WEO-SD
+Future DH compared to Conventional DH,FR,Fixed O&M costs,-,-0.138832118,WEO-SD
+Future DH compared to Conventional DH,FR,Capital costs ,-,-0.031229279,WEO-SD
+Future DH compared to Conventional DH,FR,Net ,-,-0.724454727,WEO-SD
+Transition DH compared to Conventional DH,FR,Variable costs ,-,-0.067342879,WEO-NP
+Transition DH compared to Conventional DH,FR,Fixed O&M costs,-,-0.017550943,WEO-NP
+Transition DH compared to Conventional DH,FR,Capital costs ,-,-0.025998769,WEO-NP
+Transition DH compared to Conventional DH,FR,Net ,-,-0.110892591,WEO-NP
+Future DH compared to Conventional DH,FR,Variable costs ,-,-0.599990006,WEO-NP
+Future DH compared to Conventional DH,FR,Fixed O&M costs,-,-0.027883749,WEO-NP
+Future DH compared to Conventional DH,FR,Capital costs ,-,0.074600818,WEO-NP
+Future DH compared to Conventional DH,FR,Net ,-,-0.553272937,WEO-NP
+Transition DH compared to Conventional DH,HR,Variable costs ,-,-0.0958479,WEO-SD
+Transition DH compared to Conventional DH,HR,Fixed O&M costs,-,-0.006847336,WEO-SD
+Transition DH compared to Conventional DH,HR,Capital costs ,-,0.080595825,WEO-SD
+Transition DH compared to Conventional DH,HR,Net ,-,-0.022099411,WEO-SD
+Future DH compared to Conventional DH,HR,Variable costs ,-,-0.745366871,WEO-SD
+Future DH compared to Conventional DH,HR,Fixed O&M costs,-,-0.031695384,WEO-SD
+Future DH compared to Conventional DH,HR,Capital costs ,-,-0.033258383,WEO-SD
+Future DH compared to Conventional DH,HR,Net ,-,-0.810320637,WEO-SD
+Transition DH compared to Conventional DH,HR,Variable costs ,-,0.011729555,WEO-NP
+Transition DH compared to Conventional DH,HR,Fixed O&M costs,-,-0.009511155,WEO-NP
+Transition DH compared to Conventional DH,HR,Capital costs ,-,-0.028010264,WEO-NP
+Transition DH compared to Conventional DH,HR,Net ,-,-0.025791864,WEO-NP
+Future DH compared to Conventional DH,HR,Variable costs ,-,-0.670326464,WEO-NP
+Future DH compared to Conventional DH,HR,Fixed O&M costs,-,-0.017297521,WEO-NP
+Future DH compared to Conventional DH,HR,Capital costs ,-,0.073714015,WEO-NP
+Future DH compared to Conventional DH,HR,Net ,-,-0.613909969,WEO-NP
+Transition DH compared to Conventional DH,IT,Variable costs ,-,-0.343278503,WEO-SD
+Transition DH compared to Conventional DH,IT,Fixed O&M costs,-,-0.097727786,WEO-SD
+Transition DH compared to Conventional DH,IT,Capital costs ,-,0.280428836,WEO-SD
+Transition DH compared to Conventional DH,IT,Net ,-,-0.160577454,WEO-SD
+Future DH compared to Conventional DH,IT,Variable costs ,-,-1.036547804,WEO-SD
+Future DH compared to Conventional DH,IT,Fixed O&M costs,-,-0.134325531,WEO-SD
+Future DH compared to Conventional DH,IT,Capital costs ,-,0.106832671,WEO-SD
+Future DH compared to Conventional DH,IT,Net ,-,-1.064040664,WEO-SD
+Transition DH compared to Conventional DH,IT,Variable costs ,-,-0.352344412,WEO-NP
+Transition DH compared to Conventional DH,IT,Fixed O&M costs,-,-0.002536109,WEO-NP
+Transition DH compared to Conventional DH,IT,Capital costs ,-,0.200991867,WEO-NP
+Transition DH compared to Conventional DH,IT,Net ,-,-0.153888654,WEO-NP
+Future DH compared to Conventional DH,IT,Variable costs ,-,-0.865783802,WEO-NP
+Future DH compared to Conventional DH,IT,Fixed O&M costs,-,-0.014216056,WEO-NP
+Future DH compared to Conventional DH,IT,Capital costs ,-,0.174685206,WEO-NP
+Future DH compared to Conventional DH,IT,Net ,-,-0.705314652,WEO-NP
+Transition DH compared to Conventional DH,NL,Variable costs ,-,-0.501983627,WEO-SD
+Transition DH compared to Conventional DH,NL,Fixed O&M costs,-,-0.097810002,WEO-SD
+Transition DH compared to Conventional DH,NL,Capital costs ,-,0.318359643,WEO-SD
+Transition DH compared to Conventional DH,NL,Net ,-,-0.281433986,WEO-SD
+Future DH compared to Conventional DH,NL,Variable costs ,-,-0.402179154,WEO-SD
+Future DH compared to Conventional DH,NL,Fixed O&M costs,-,-0.084701032,WEO-SD
+Future DH compared to Conventional DH,NL,Capital costs ,-,-0.583523367,WEO-SD
+Future DH compared to Conventional DH,NL,Net ,-,-1.070403553,WEO-SD
+Transition DH compared to Conventional DH,NL,Variable costs ,-,-0.142951263,WEO-NP
+Transition DH compared to Conventional DH,NL,Fixed O&M costs,-,-0.001386009,WEO-NP
+Transition DH compared to Conventional DH,NL,Capital costs ,-,0.067848694,WEO-NP
+Transition DH compared to Conventional DH,NL,Net ,-,-0.076488578,WEO-NP
+Future DH compared to Conventional DH,NL,Variable costs ,-,-0.650869653,WEO-NP
+Future DH compared to Conventional DH,NL,Fixed O&M costs,-,-0.02605027,WEO-NP
+Future DH compared to Conventional DH,NL,Capital costs ,-,0.125498049,WEO-NP
+Future DH compared to Conventional DH,NL,Net ,-,-0.551421874,WEO-NP
+Transition DH compared to Conventional DH,SE,Variable costs ,-,0.375466947,WEO-SD
+Transition DH compared to Conventional DH,SE,Fixed O&M costs,-,-0.501279239,WEO-SD
+Transition DH compared to Conventional DH,SE,Capital costs ,-,-0.082573274,WEO-SD
+Transition DH compared to Conventional DH,SE,Net ,-,-0.208385566,WEO-SD
+Future DH compared to Conventional DH,SE,Variable costs ,-,-0.761785208,WEO-SD
+Future DH compared to Conventional DH,SE,Fixed O&M costs,-,-0.514258292,WEO-SD
+Future DH compared to Conventional DH,SE,Capital costs ,-,-0.268770167,WEO-SD
+Future DH compared to Conventional DH,SE,Net ,-,-1.544813667,WEO-SD
+Transition DH compared to Conventional DH,SE,Variable costs ,-,-0.725174294,WEO-NP
+Transition DH compared to Conventional DH,SE,Fixed O&M costs,-,-0.372992875,WEO-NP
+Transition DH compared to Conventional DH,SE,Capital costs ,-,-0.033981406,WEO-NP
+Transition DH compared to Conventional DH,SE,Net ,-,-1.132148575,WEO-NP
+Future DH compared to Conventional DH,SE,Variable costs ,-,-2.071200374,WEO-NP
+Future DH compared to Conventional DH,SE,Fixed O&M costs,-,-0.38304814,WEO-NP
+Future DH compared to Conventional DH,SE,Capital costs ,-,0.543091813,WEO-NP
+Future DH compared to Conventional DH,SE,Net ,-,-1.911156701,WEO-NP
