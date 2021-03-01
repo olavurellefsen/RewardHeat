@@ -12,19 +12,24 @@ export function createAccumulatedData(data, scenario, percentage, chartName, sel
   })
 
     //Useful when finding axis range
-    let totalYearValues = {}
+    let totalYearValuesPositive = {}
+    let totalYearValuesNegative = {}
     years.forEach(year => {
-        totalYearValues[year] = 0
+        totalYearValuesPositive[year] = 0
+        totalYearValuesNegative[year] = 0
     })
     if (!scenario) return undefined //this will be the case for sceanrio2 if only one scenario is selected
     let accumulatedData = {}
-    if (scenario.substring(3, 8) === "_copy")
+    //if (scenario.substring(3, 8) === "_copy")
+    if (scenario.includes("_copy"))
       scenario = scenario.replace("_copy", "")
     let scen = data.scenarios
     .find(o => o.scenario.toLowerCase() === scenario.toLowerCase())
     //console.log("data: ", data)
     //console.log("scenario: ", scenario)
     let ind = scen.indicators.find(o => o.indicator === chartName)
+        //console.log("ind: ", ind)
+        //console.log("chartName: ", chartName)
         ind.regions.forEach(r => {
             r.indicatorGroups.forEach(indicatorGroup => {
               if (!accumulatedData[indicatorGroup.indicatorGroup]) {
@@ -41,12 +46,15 @@ export function createAccumulatedData(data, scenario, percentage, chartName, sel
                     console.log("Error in array indexing")
                   }
                   accumulatedData[indicatorGroup.indicatorGroup][index].total += percentage ? value.total/selectedCountries.length : value.total
-                  totalYearValues[value.year] += percentage ? value.total/selectedCountries.length : value.total
+                  if (value.total > 0)
+                    totalYearValuesPositive[value.year] += percentage ? value.total/selectedCountries.length : value.total
+                  else
+                    totalYearValuesNegative[value.year] += percentage ? value.total/selectedCountries.length : value.total
                 })
               }
             })
         })
-        return [accumulatedData, totalYearValues]
+        return [accumulatedData, totalYearValuesPositive, totalYearValuesNegative]
 }
 
 // export function getMinMaxStackedValues(yearValues1, yearValues2) {

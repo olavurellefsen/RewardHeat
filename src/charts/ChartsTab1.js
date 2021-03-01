@@ -34,7 +34,7 @@ const Charts = props => {
           isOpen={props.scenarioSelection.showWelcome}
           closeWelcome={props.closeWelcome} 
           tab="tab1" />
-        <Flex style={{flex: 1, justifyContent: "space-between" }}>
+        <ScenarioDescriptionsContainer isWelcomeOpen={props.scenarioSelection.showWelcome}>
           <Scenario1Description>
             {scenarioCombinations.scenarioCombinations.scenarioOptions.find(
               (option)=>option.name === selectedScenario).desc
@@ -45,7 +45,7 @@ const Charts = props => {
               (option)=>option.name === selectedScenario2
             )?.desc
           }</Scenario2Description>}
-        </Flex>  
+        </ScenarioDescriptionsContainer>  
       {(props.scenarioSelection.showDifference === false ||
         (props.scenarioSelection.showDifference === true &&
           selectedScenario2 === '')) && (
@@ -101,5 +101,11 @@ Charts.propTypes = {
   closeWelcome: PropTypes.func.isRequired,
   selectedCountries: PropTypes.array.isRequired,
 }
+
+const ScenarioDescriptionsContainer = styled(Flex)`
+  flex: 1;
+  justify-content: space-between;
+  max-width: ${props => props.isWelcomeOpen ? "100%" : "90%"};
+`
 
 export default Charts
