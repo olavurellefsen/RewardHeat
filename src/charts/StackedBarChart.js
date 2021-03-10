@@ -173,9 +173,7 @@ const StackedBarChart = props => {
   //console.log("indiacator: ", chartTitle)
   //console.log("base: ", base)
 
-  const descriptor = id_desc.find((descriptor)=>{
-    return(descriptor.name === chartTitle)
-    })
+
   return (
     <div>
       <ChartTitle>{chartTitle} ---  {mapRegions.find((countryCode)=>countryCode.path_id === props.selectedCountries[0]).country}</ChartTitle>

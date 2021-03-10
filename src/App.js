@@ -10,8 +10,8 @@ import TabsMobile from './tabs/Tabs.mobile'
 import ChartsTab1 from './charts/ChartsTab1'
 import ChartsTab2 from './charts/ChartsTab2'
 import ChartsTab3 from './charts/ChartsTab3'
-import dataTab1 from './data/stackedBarTab1'
-import dataTab2 from './data/stackedBarTab2'
+//import dataTab1 from './data/stackedBarTab1'
+//import dataTab2 from './data/stackedBarTab2'
 import PageRenderer from './pages/PageRenderer'
 import scenarioCombinations from './data/scenarioCombinations'
 
@@ -245,7 +245,7 @@ export class App extends React.Component {
   }
 
   render() {
-    createMaxValueJson()
+    //createMaxValueJson()
     return (
       <Page>
         <LeftColumn>
@@ -369,10 +369,11 @@ export class App extends React.Component {
 
 export default withRouter(App)
 
-const createMaxValueJson = () => {
+/* const createMaxValueJson = () => {
   dataTab1.data.scenarios.map((d)=>{
-    console.log("d: ", d)
+    //console.log("d: ", d)
+    return 1
   })
   //console.log("dataTab1: ", dataTab1)
-  console.log("{}")
-}
+  //console.log("{}")
+} */
