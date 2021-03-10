@@ -5,7 +5,6 @@ export default
 		"District heat production (PJ)",
 		"End-use devices capacity (GW)",
 		"End-use heat demand (PJ)",
-		"Excess heat use (PJ)",
-		"Primary energy use (PJ)",
-		"Urban excess heat use (PJ)",
+		"All excess heat use (PJ)",
+		"Low temperature heat use (PJ)",
 	 ]
