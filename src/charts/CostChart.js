@@ -118,6 +118,7 @@ const CostChart = ({
 }
 const Container = styled.div`
   margin-top: 50px;
+  margin-left: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;

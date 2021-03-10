@@ -8,6 +8,7 @@ import { MainArea, Flex } from './Charts.style'
 import stackedBar from '../data/stackedBarTab2'
 //import line from '../data/line'
 import indicators from '../data/indicatorsTab2'
+import indicatorsDescriptors from '../data/indicatorsTab2MaxValue'
 import scenarioCombinations from "../data/scenarioCombinations"
 
 const Scenario1Description = styled.div`
@@ -34,7 +35,7 @@ const Charts = props => {
           closeWelcome={props.closeWelcome} 
           isOpen={props.scenarioSelection.showWelcome}
           tab="tab2" />
-        <Flex style={{flex: 1, justifyContent: "space-between" }}>
+        <ScenarioDescriptionsContainer isWelcomeOpen={props.scenarioSelection.showWelcome}>
           <Scenario1Description>
             {scenarioCombinations.scenarioCombinations.scenarioOptions.find(
               (option)=>option.name === selectedScenario).desc
@@ -45,7 +46,7 @@ const Charts = props => {
               (option)=>option.name === selectedScenario2
             )?.desc
           }</Scenario2Description>}
-        </Flex>  
+        </ScenarioDescriptionsContainer> 
       {(props.scenarioSelection.showDifference === false ||
         (props.scenarioSelection.showDifference === true &&
           selectedScenario2 === '')) && (
@@ -65,6 +66,9 @@ const Charts = props => {
                 stackedBar={stackedBar}
                 //line={line}
                 countries={props.countries}
+                description={indicatorsDescriptors.find(
+                  (descriptor)=>(descriptor.name === i))?.description
+                  }
               />
             )
           }
@@ -101,5 +105,11 @@ Charts.propTypes = {
   closeWelcome: PropTypes.func.isRequired,
   selectedCountries: PropTypes.array.isRequired,
 }
+
+const ScenarioDescriptionsContainer = styled(Flex)`
+  flex: 1;
+  justify-content: space-between;
+  max-width: ${props => props.isWelcomeOpen ? "100%" : "90%"};
+`
 
 export default Charts

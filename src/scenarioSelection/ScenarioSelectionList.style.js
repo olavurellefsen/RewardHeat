@@ -74,9 +74,11 @@ export const Icon = styled.div`
     props.available ? "black" :  "default"};;
   }
   color: ${props =>
-    props.selected ? "#80655F" :  "rgb(184,176,183)"};
+    props.selected ? "#000000" :  "rgb(184,176,183)"};
   border: ${props =>
-    props.selected ? "1px solid #80655F" :  "1px solid rgb(184,176,183)"};;
+    props.selected ? "1px solid #000000" :  "1px solid rgb(184,176,183)"};
+    font-weight: ${props =>
+        props.selected ? "bold" : props.selected2 ? "bold" : "normal"};
   margin-left: 3px;
   margin-right: 3px;
 `;

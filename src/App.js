@@ -10,6 +10,8 @@ import TabsMobile from './tabs/Tabs.mobile'
 import ChartsTab1 from './charts/ChartsTab1'
 import ChartsTab2 from './charts/ChartsTab2'
 import ChartsTab3 from './charts/ChartsTab3'
+import dataTab1 from './data/stackedBarTab1'
+import dataTab2 from './data/stackedBarTab2'
 import PageRenderer from './pages/PageRenderer'
 import scenarioCombinations from './data/scenarioCombinations'
 
@@ -241,8 +243,9 @@ export class App extends React.Component {
       selectedCountriesCost: newSelectedCountriesCost,
     })
   }
-  
+
   render() {
+    createMaxValueJson()
     return (
       <Page>
         <LeftColumn>
@@ -348,6 +351,14 @@ export class App extends React.Component {
                   )
                 }}
               />
+              <Route
+                path="/contact"
+                render={() => {
+                  return (
+                    <PageRenderer markdownFiles={['descriptions/contact.md']} />
+                  )
+                }}
+              />
             </MainSwitch>
           </Content>
         </RightColumn>
@@ -357,3 +368,11 @@ export class App extends React.Component {
 }
 
 export default withRouter(App)
+
+const createMaxValueJson = () => {
+  dataTab1.data.scenarios.map((d)=>{
+    console.log("d: ", d)
+  })
+  //console.log("dataTab1: ", dataTab1)
+  console.log("{}")
+}

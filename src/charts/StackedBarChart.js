@@ -20,6 +20,7 @@ import periods from './../data/years'
 import "@fontsource/ropa-sans"
 import "@fontsource/open-sans"
 import mapRegions from "../data/mapRegionToDataRegions"
+import id_desc from "../data/indicatorsTab1MaxValue"
 
 const ChartHeader = styled(VictoryLabel)`
   text-anchor: start;
@@ -171,13 +172,18 @@ const StackedBarChart = props => {
   }
   //console.log("indiacator: ", chartTitle)
   //console.log("base: ", base)
+
+  const descriptor = id_desc.find((descriptor)=>{
+    return(descriptor.name === chartTitle)
+    })
   return (
     <div>
       <ChartTitle>{chartTitle} ---  {mapRegions.find((countryCode)=>countryCode.path_id === props.selectedCountries[0]).country}</ChartTitle>
+      <div>
       <VictoryChart
         domainPadding={20}
         width={550}
-        height={550}
+        height={450}
         padding={{ left: 80, right: 50, top: 50, bottom: 50 }}
         theme={VictoryTheme.material}
         // domain={{ y: yDomain }} //removed to fix issue with axis labels not being updated
@@ -223,7 +229,7 @@ const StackedBarChart = props => {
         )}
         <VictoryLegend
           x={90}
-          y={0}
+          y={5}
           orientation="horizontal"
           gutter={0}
           rowGutter={0}
@@ -306,7 +312,12 @@ const StackedBarChart = props => {
             </VictoryStack>
           )}
         </VictoryGroup>
-      </VictoryChart>
+      </VictoryChart></div>
+      {console.log("chartName: ", chartName)}
+      {console.log("id_desc: ", id_desc.find((descriptor)=>{
+        return(descriptor.name === chartTitle)
+        }))}
+      <p style={{width: "550px"}}>{props.description}</p>
     </div>
   )
 }

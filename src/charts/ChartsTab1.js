@@ -8,6 +8,7 @@ import { MainArea, Flex } from './Charts.style'
 import stackedBar from '../data/stackedBarTab1'
 //import line from '../data/line'
 import indicators from '../data/indicatorsTab1'
+import indicatorsDescriptors from '../data/indicatorsTab1MaxValue'
 import scenarioCombinations from "../data/scenarioCombinations"
 
 const Scenario1Description = styled.div`
@@ -65,6 +66,9 @@ const Charts = props => {
                 stackedBar={stackedBar}
                 //line={line}
                 countries={props.countries}
+                description={indicatorsDescriptors.find(
+                  (descriptor)=>(descriptor.name === i))?.description
+                  }
               />
             )
           }
@@ -75,6 +79,7 @@ const Charts = props => {
         <Flex>
           {
             indicators.map(i => 
+            <div>
               <StackedBarDiffChart
                 chartName={i}
                 chartTitle={i}
@@ -87,11 +92,16 @@ const Charts = props => {
                 stackedBar={stackedBar}
                 //line={line}
                 countries={props.countries}
+                description={indicatorsDescriptors.find(
+                  (descriptor)=>(descriptor.name === i))?.description
+                  }
               />
+            </div>
             )
           }
           </Flex>
         )}
+        
     </MainArea>
   )
 }
