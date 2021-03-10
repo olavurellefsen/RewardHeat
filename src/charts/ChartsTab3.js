@@ -18,11 +18,11 @@ const Charts = ({selectedCountries, costData, closeWelcome, scenarioSelection}) 
   })
 
   useEffect(() => {
-    csv("costData.csv").then(data=>
+    csv("costData20210210.csv").then(data=>
       {
         let newRegionData = []
         data.forEach(row => {
-          if (row.Region === selectedDataRegions[0])
+          if (selectedDataRegions.includes(row.Region)) 
             newRegionData.push(row)
         })
         if (JSON.stringify(newRegionData) !== JSON.stringify(regionData))
@@ -30,28 +30,34 @@ const Charts = ({selectedCountries, costData, closeWelcome, scenarioSelection}) 
       }
     )
   }, [selectedCountries, selectedDataRegions, regionData])
-  console.log("region data: ", regionData)
+  let costList = []
+  selectedDataRegions.forEach((region)=>{
+    let dataByCountry = regionData.filter((element)=>{
+      return(element.Region === region)})
+    costList.push(<Flex key={"costFlex" + region}>
+      {<CostChart 
+        title={"Average annual cost changes 2020-2050 " + mapRegionToDataRegions.find((mapRegion)=>mapRegion.data_regions.includes(region)).country}
+        subTitle="WEO-SD"
+        costChartData={dataByCountry?.slice(0,8)}
+        bar1Subtitle={["Transition DH compared to", "Conventional DH"]}
+        bar2Subtitle={["4th Generation DH compared to", "Conventional DH"]}
+      ></CostChart>}
+      {<CostChart 
+        title={"Average annual cost changes 2020-2050 "  + mapRegionToDataRegions.find((mapRegion)=>mapRegion.data_regions.includes(region)).country}
+        subTitle="WEO-NP"
+        costChartData={dataByCountry?.slice(8,16)}
+        bar1Subtitle={["Transition DH compared to", "Conventional DH"]}
+        bar2Subtitle={["4th Generation DH compared to", "Conventional DH"]}
+      />}
+    </Flex>)
+  })
   return (
     <MainArea>
-      {scenarioSelection.showWelcome === true && (
-        <Welcome closeWelcome={closeWelcome} tab="tab3"/>
-      )}
-      <Flex>
-        {<CostChart 
-          title={"Average annual cost changes 2020-2050 " + mapRegionToDataRegions.find((region)=>region.path_id === selectedCountries[0]).country}
-          subTitle="WEO-SD"
-          costChartData={regionData?.slice(0,8)}
-          bar1Subtitle={["Transition DH compared to", "Conventional DH"]}
-          bar2Subtitle={["4th Generation DH compared to", "Conventional DH"]}
-        ></CostChart>}
-        {<CostChart 
-          title={"Average annual cost changes 2020-2050 "  + mapRegionToDataRegions.find((region)=>region.path_id === selectedCountries[0]).country}
-          subTitle="WEO-NP"
-          costChartData={regionData?.slice(8,16)}
-          bar1Subtitle={["Transition DH compared to", "Conventional DH"]}
-          bar2Subtitle={["4th Generation DH compared to", "Conventional DH"]}
-        />}
-      </Flex>
+        <Welcome 
+          isOpen={scenarioSelection.showWelcome}
+          closeWelcome={closeWelcome} 
+          tab="tab3"/>
+      {costList}
     </MainArea>
   )
 }

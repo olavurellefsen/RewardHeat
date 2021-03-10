@@ -1,9 +1,7 @@
 export default 
  	 [ 
-		"Import/Export of biofuels",
-		"Primary biomass supply",
-		"RE refineries input",
-		"RE refineries output",
-		"RE_refineries_by_type",
-		"Supply annual system costs",
+		"District Heat production air pollution (kt)",
+		"Heating devices air pollution (kt)",
+		"Net electiricity use air pollution (kt)",
+		"Total  air pollution (kt)",
 	 ]

@@ -3,23 +3,26 @@ import PropTypes from "prop-types";
 import styled from "styled-components";
 import Octicon from "react-octicon";
 import { useTranslation } from "react-i18next";
+import { Flex } from "../charts/Charts.style";
 
 const AlertContainer = styled.div`
-  position: relative;
+  position: ${props => props.isOpen ? 'relative' : 'absolute'};
+  right: ${props => props.isOpen ? null : '30px'};
   padding: 20px;
   padding-top: 35px;
   margin-bottom: 30px;
   border-width: 1px;
-  border-color: rgb(234, 100, 67);
+  border-color: rgb(178, 106, 91);
   border-style: solid;
   color: white;
-  background-color: rgb(234, 100, 67);
+  background-color: rgb(178, 106, 91);
   display: flex;
   flex: 1;
   flex-wrap: wrap;
   align-content: flex-start;
   justify-content: space-between;
   flex-direction: column;
+  width: ${props => props.isOpen ? null : '20px'};
 `;
 AlertContainer.displayName = "AlertContainer";
 const AlertBody = styled.div`
@@ -52,17 +55,29 @@ CloseWindowIcon.displayName = "CloseWindowIcon";
 function Welcome(props) {
   const { t } = useTranslation();
   return (
-    <AlertContainer>
-      <AlertTitle>{t("welcome-text-" + props.tab + ".welcome-1")}</AlertTitle>
-      <AlertBody>
+    <AlertContainer isOpen={props.isOpen}>
+      {props.isOpen && <AlertTitle>{t("welcome-text-" + props.tab + ".welcome-1")}</AlertTitle>}
+      {props.isOpen && <AlertBody>
         <AlertBodyParagraph>{t("welcome-text-" + props.tab + ".welcome-2")}</AlertBodyParagraph>
+        {props.tab === "tab3" && 
+          <AlertBodyParagraph>
+            <img src="images/Cost_formula_brown_background.png" alt="Cost_formula"/>
+          </AlertBodyParagraph>}
         <AlertBodyParagraph>{t("welcome-text-" + props.tab + ".welcome-3")}</AlertBodyParagraph>
+        {props.tab === "tab1" && <WelcomeImageContainer>
+          <AlertBodyParagraph>
+          <img width="500" height="250" src="images/Scenarios_Options_scheme.PNG" alt="Scenarios_Options_scheme"/>
+          </AlertBodyParagraph>
+          <AlertBodyParagraph>
+          <img width="500" height="250" src="images/Climate_policy_options_graph.png" alt="Climate_policy_options_graph"/>
+          </AlertBodyParagraph>
+        </WelcomeImageContainer>}
         <AlertBodyParagraph>{t("welcome-text-" + props.tab + ".welcome-4")}</AlertBodyParagraph>
-      </AlertBody>
+      </AlertBody>}
       <CloseWindowIcon
-        onClick={event => props.closeWelcome(event, "showWelcome", false)}
+        onClick={() => props.closeWelcome(!props.isOpen)}
       >
-        <Octicon name="x" />
+        {props.isOpen ? <Octicon name="x" /> : <Octicon name="chevron-left" />}
       </CloseWindowIcon>
     </AlertContainer>
   );
@@ -71,5 +86,10 @@ function Welcome(props) {
 Welcome.propTypes = {
   closeWelcome: PropTypes.func.isRequired
 };
+
+const WelcomeImageContainer = styled(Flex)`
+  justify-content: space-around;
+  align-items: center;
+`
 
 export default Welcome;

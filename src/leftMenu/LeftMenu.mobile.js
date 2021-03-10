@@ -192,6 +192,12 @@ function ScenarioSelectionMenu(props) {
           >
             {t("menu.mobile.subscribe")}
           </MenuItem>
+          <MenuItem
+            to="/contact"
+            selected={props.selectedChartgroup === "/contact"}
+          >
+            {t("menu.mobile.contact")}
+          </MenuItem>
         </MenuRoutes>
       </MenuHeader>
       <MenuSeparatorLine />
@@ -237,7 +243,11 @@ function ScenarioSelectionMenu(props) {
         singleMode={props.scenarioSelection.scenarioSelection2 === ""}
         selected={props.scenarioSelection.showDifference}
       >
-        {t("general.red-minus-green")}
+      {props.scenarioSelection.scenarioSelection2 && <div>
+        <p>{props.scenarioSelection.scenarioSelection}</p>
+        <p>minus</p>
+        <p>{props.scenarioSelection.scenarioSelection2}</p>
+      </div>}
       </ScenarioDifferenceText>
       
       <MenuFooter>

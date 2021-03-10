@@ -10,10 +10,8 @@ import TabsMobile from './tabs/Tabs.mobile'
 import ChartsTab1 from './charts/ChartsTab1'
 import ChartsTab2 from './charts/ChartsTab2'
 import ChartsTab3 from './charts/ChartsTab3'
-import ChartsTab4 from './charts/ChartsTab4'
-import ChartsTab5 from './charts/ChartsTab5'
-import ChartsTab6 from './charts/ChartsTab6'
-import ChartsTab7 from './charts/ChartsTab7'
+//import dataTab1 from './data/stackedBarTab1'
+//import dataTab2 from './data/stackedBarTab2'
 import PageRenderer from './pages/PageRenderer'
 import scenarioCombinations from './data/scenarioCombinations'
 
@@ -51,10 +49,12 @@ const MainSwitch = styled(Switch)`
   align-content: flex-start;
 `
 
-export const changeScenario = (name, value) => ({
+export const changeScenario = (name, value) => {
+  console.log("change name and value: ", {name, value})
+  return({
   [name]: value,
-})
-const default_scenario = scenarioCombinations.scenarioCombinations.scenarioOptions[0].name;
+})}
+const default_scenario = scenarioCombinations.scenarioCombinations.scenarioOptions[0];
 const countries = ['hr', 'dk', 'fr', 'de', 'it', 'nl', 'se' ];
 
 const default_countries = ['hr'];
@@ -64,7 +64,7 @@ scenarioCombinations.scenarioCombinations.scenarioOptions
   .filter(s => !s.opt0 && !s.op1 && !s.opt2 && !s.opt3)
   .forEach(s => {
     options[s.nameNoOptions] = {}
-    options[s.nameNoOptions]['opt0'] = false
+    options[s.nameNoOptions]['opt0'] = true
     options[s.nameNoOptions]['opt1'] = false
     options[s.nameNoOptions]['opt2'] = false
     options[s.nameNoOptions]['opt3'] = false
@@ -74,14 +74,15 @@ export class App extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      scenarioSelection: default_scenario,
+      scenarioSelection: default_scenario.name,
       scenarioSelection2: '',
       showWelcome: true,
       showDifference: false,
       options: options,
-      scenarioSelectionNoOptions: default_scenario,
+      scenarioSelectionNoOptions: default_scenario.nameNoOptions,
       scenarioSelectionNoOptions2: '',
       selectedCountries: default_countries,
+      selectedCountriesCost: default_countries,
   }
     this.scenarioCombinations = scenarioCombinations.scenarioCombinations
   }
@@ -94,26 +95,54 @@ export class App extends React.Component {
     
     this.setState(state => {
       console.log("state: ", state)
+      /* return {
+        scenarioSelection:
+          state.scenarioSelectionNoOptions +
+          (state.options[state.scenarioSelectionNoOptions].opt0 ? '_cns' : '') +
+          (state.options[state.scenarioSelectionNoOptions].opt1 ? '_bio' : '') +
+          (state.options[state.scenarioSelectionNoOptions].opt2 ? '_ELC' : '') +
+          (state.options[state.scenarioSelectionNoOptions].opt3 ? '_SAC' : ''),
+      } */
+      /* let ret = state.scenarioSelectionNoOptions
+      if (state.options[state.scenarioSelectionNoOptions].opt0)
+        ret += '_Ambitious'
+      else if (state.options[state.scenarioSelectionNoOptions].opt0)
+        ret += '_WEO-SD'
+      elseif (state.options[state.scenarioSelectionNoOptions].opt0)
+        ret += '_WEO-NP'
+      console.log("ret********************  ", ret) */
       return {
         scenarioSelection:
           state.scenarioSelectionNoOptions +
-          (state.options[state.scenarioSelectionNoOptions].op0 ? '_cns' : '') +
-          (state.options[state.scenarioSelectionNoOptions].opt1 ? '_bio' : '') +
-          (state.options[state.scenarioSelectionNoOptions].opt2 ? '_ELC' : '') +
+          (state.options[state.scenarioSelectionNoOptions].opt0 ? '_Ambitious' : '') +
+          (state.options[state.scenarioSelectionNoOptions].opt1 ? '_WEO-SD' : '') +
+          (state.options[state.scenarioSelectionNoOptions].opt2 ? '_WEO-NP' : '') +
           (state.options[state.scenarioSelectionNoOptions].opt3 ? '_SAC' : ''),
       }
     })
     this.setState(state => {
+      console.log("setting sc2")
+      console.log("state.scenarioSelectionNoOptions2: ", state.scenarioSelectionNoOptions2)
       
+      let t = state.scenarioSelectionNoOptions2 !== ''
+      ? state.scenarioSelectionNoOptions2 +
+        (state.options[state.scenarioSelectionNoOptions2].opt0
+          ? '_Ambitious'
+          : '') +
+        (state.options[state.scenarioSelectionNoOptions2].opt1 ? '_WEO-SD' : '') +
+        (state.options[state.scenarioSelectionNoOptions2].opt2 ? '_WEO-NP' : '') +
+        (state.options[state.scenarioSelectionNoOptions2].opt3 ? '_SAC' : '')
+      : ''
+      console.log("new sc2 select: ", t)
       return {
         scenarioSelection2:
           state.scenarioSelectionNoOptions2 !== ''
             ? state.scenarioSelectionNoOptions2 +
               (state.options[state.scenarioSelectionNoOptions2].opt0
-                ? '_cns'
+                ? '_Ambitious'
                 : '') +
-              (state.options[state.scenarioSelectionNoOptions2].opt1 ? '_bio' : '') +
-              (state.options[state.scenarioSelectionNoOptions2].opt2 ? '_ELC' : '') +
+              (state.options[state.scenarioSelectionNoOptions2].opt1 ? '_WEO-SD' : '') +
+              (state.options[state.scenarioSelectionNoOptions2].opt2 ? '_WEO-NP' : '') +
               (state.options[state.scenarioSelectionNoOptions2].opt3 ? '_SAC' : '')
             : '',
       }
@@ -131,8 +160,11 @@ export class App extends React.Component {
   UpdateScenarioSelection = (e, name, value) => {
     e.preventDefault()
     console.log("update scenario selection: ", value)
+    console.log("this.state.scenarioSelectionNoOptions: ", this.state.scenarioSelectionNoOptions)
+    console.log("this.state.scenarioSelectionNoOptions2: ", this.state.scenarioSelectionNoOptions2)
     if (this.state.scenarioSelectionNoOptions2 !== '') {
       if (value === this.state.scenarioSelectionNoOptions) {
+        console.log("toggle1 and 2")
         this.setState(
           changeScenario(
             'scenarioSelectionNoOptions',
@@ -140,18 +172,20 @@ export class App extends React.Component {
           )
         )
         this.setState(changeScenario('scenarioSelectionNoOptions2', ''))
-        this.unselectToggles(this.state.scenarioSelectionNoOptions2)
+        //this.unselectToggles(this.state.scenarioSelectionNoOptions2)
         this.setState({ showDifference: false })
       } else {
+        console.log("off 2")
         if (value === this.state.scenarioSelectionNoOptions2) {
           this.setState(changeScenario('scenarioSelectionNoOptions2', ''))
-          this.unselectToggles(this.state.scenarioSelectionNoOptions2)
+          //this.unselectToggles(this.state.scenarioSelectionNoOptions2)
           this.setState({ showDifference: false })
         } else {
           this.setState(changeScenario('scenarioSelectionNoOptions2', value))
         }
       }
     } else {
+      console.log("on2")
       if (value !== this.state.scenarioSelectionNoOptions) {
         this.setState(changeScenario('scenarioSelectionNoOptions2', value), ()=>{
         })
@@ -161,10 +195,10 @@ export class App extends React.Component {
   }
 
 
-  CloseWelcomeWidget = () => {
-    this.setState({ showWelcome: false })
+  CloseWelcomeWidget = (value = false) => {
+    this.setState({ showWelcome: value })
   }
-
+  
   ToggleDifference = e => {
     e.preventDefault()
     this.setState({ showDifference: !this.state.showDifference })
@@ -174,7 +208,13 @@ export class App extends React.Component {
     console.log("scenario: ", scenario)
     console.log("option: ", option)
     let newOptions = this.state.options
+    console.log("Before options: ", this.state.options)
+    newOptions[scenario].opt0 = false;
+    newOptions[scenario].opt1 = false;
+    newOptions[scenario].opt2 = false;
     newOptions[scenario][option] = !this.state.options[scenario][option]
+
+    console.log("Aftr options: ", newOptions)
     this.setState({
       options: newOptions,
     })
@@ -182,15 +222,6 @@ export class App extends React.Component {
   }
 
   selectCountry = country => {
-    /* let newSelectedCountries = this.state.selectedCountries
-    if (newSelectedCountries.includes(country)) {
-      newSelectedCountries = newSelectedCountries.filter(c => c !== country)
-    } else {
-      newSelectedCountries.push(country)
-    } */
-    /* this.setState({
-      selectedCountries: newSelectedCountries,
-    }) */
     if(this.state.selectedCountries.includes(country)) {
       this.setState({
         selectedCountries: [],
@@ -200,10 +231,21 @@ export class App extends React.Component {
         selectedCountries: [country],
       })
     }
-    
   }
-  
+  selectCountryCost = country => {
+    let newSelectedCountriesCost = this.state.selectedCountriesCost
+    if (newSelectedCountriesCost.includes(country)) {
+      newSelectedCountriesCost = newSelectedCountriesCost.filter(c => c !== country)
+    } else {
+      newSelectedCountriesCost.push(country)
+    } 
+   this.setState({
+      selectedCountriesCost: newSelectedCountriesCost,
+    })
+  }
+
   render() {
+    //createMaxValueJson()
     return (
       <Page>
         <LeftColumn>
@@ -218,7 +260,9 @@ export class App extends React.Component {
               toggleOption={this.ToggleOption}
               countries={countries}
               selectedCountries={this.state.selectedCountries}
+              selectedCountriesCost={this.state.selectedCountriesCost}
               selectCountry={this.selectCountry}
+              selectCountryCost={this.selectCountryCost}
             />
             <LeftMenuMobile
               selectedChartgroup={this.state.scenarioSelection}
@@ -230,7 +274,9 @@ export class App extends React.Component {
               toggleOption={this.ToggleOption}
               countries={countries}
               selectedCountries={this.state.selectedCountries}
+              selectedCountriesCost={this.state.selectedCountriesCost}
               selectCountry={this.selectCountry}
+              selectCountryCost={this.selectCountryCost}
             />
           </Content>
         </LeftColumn>
@@ -268,50 +314,11 @@ export class App extends React.Component {
                     countries={countries}
                     scenarioSelection={this.state}
                     closeWelcome={this.CloseWelcomeWidget}
-                    selectedCountries={this.state.selectedCountries}
+                    selectedCountries={this.state.selectedCountriesCost}
                   />
                 )}
               />
-              <Route
-                path="/tab4"
-                render={() => (
-                  <ChartsTab4
-                    scenarioSelection={this.state}
-                    closeWelcome={this.CloseWelcomeWidget}
-                    selectedCountries={this.state.selectedCountries}
-                  />
-                )}
-              />
-              <Route
-                path="/tab5"
-                render={() => (
-                  <ChartsTab5
-                    scenarioSelection={this.state}
-                    closeWelcome={this.CloseWelcomeWidget}
-                    selectedCountries={this.state.selectedCountries}
-                  />
-                )}
-              />
-              <Route
-                path="/tab6"
-                render={() => (
-                  <ChartsTab6
-                    scenarioSelection={this.state}
-                    closeWelcome={this.CloseWelcomeWidget}
-                    selectedCountries={this.state.selectedCountries}
-                  />
-                )}
-              />
-              <Route
-                path="/tab7"
-                render={() => (
-                  <ChartsTab7
-                    scenarioSelection={this.state}
-                    closeWelcome={this.CloseWelcomeWidget}
-                    selectedCountries={this.state.selectedCountries}
-                  />
-                )}
-              />
+              
               <Route
                 path="/about"
                 render={() => {
@@ -344,6 +351,14 @@ export class App extends React.Component {
                   )
                 }}
               />
+              <Route
+                path="/contact"
+                render={() => {
+                  return (
+                    <PageRenderer markdownFiles={['descriptions/contact.md']} />
+                  )
+                }}
+              />
             </MainSwitch>
           </Content>
         </RightColumn>
@@ -353,3 +368,12 @@ export class App extends React.Component {
 }
 
 export default withRouter(App)
+
+/* const createMaxValueJson = () => {
+  dataTab1.data.scenarios.map((d)=>{
+    //console.log("d: ", d)
+    return 1
+  })
+  //console.log("dataTab1: ", dataTab1)
+  //console.log("{}")
+} */

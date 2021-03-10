@@ -1,0 +1,20 @@
+export default [
+  {
+    name: "Annual system cost (MEUR)", 
+    description: "",
+    Crotia: 2000,
+    Denmark: 100,
+    France: 100,
+    Germany: 100,
+    Italy: 100,
+    Netherlands: 100,
+    Sweden: 100,
+  },
+  {name: "District heat capacity (GW)", description: "", },
+  {name: "End-use devices capacity (GW)", description: "", },
+  {name: "District heat production (PJ)", description: "", },
+  {name: "End-use heat demand (PJ)", description: "", },
+  {name: "Excess heat use (PJ)", description: "", },
+  {name: "Primary energy use (PJ)", description: "", },
+  {name: "Urban excess heat use (PJ)", description: "", },
+]

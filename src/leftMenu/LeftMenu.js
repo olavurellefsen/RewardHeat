@@ -16,7 +16,7 @@ const MenuLayout = styled.div`
   ${breakpoint("desktop")`
     display: flex;
     flex-direction: column;
-    width: 220px;
+    width: 230px;
     color: white;
     background: rgb(50, 50, 50);
     visibility: visible;
@@ -149,7 +149,7 @@ const Header = styled.div`
   margin: 0;
   height: 26px;
   align-self: flex-start;
-  font-family: Ropa Sans;
+  font-family: Ropa Sans; 
 `;
 function ScenarioSelectionMenu(props) {
   const { t } = useTranslation();
@@ -197,6 +197,12 @@ function ScenarioSelectionMenu(props) {
           >
             {t("menu.desktop.subscribe")}
           </MenuItem>
+          <MenuItem
+            to="/contact"
+            selected={props.selectedChartgroup === "/contact"}
+          >
+            {t("menu.desktop.contact")}
+          </MenuItem>
         </MenuRoutes>
       </MenuHeader>
       <MenuSeparatorLine />
@@ -207,8 +213,8 @@ function ScenarioSelectionMenu(props) {
       /> */}
       <CountryList 
         countries={props.countries}
-        selectedCountries={props.selectedCountries}
-        selectCountry={props.selectCountry}
+        selectedCountries={location.pathname !== "/tab3" ? props.selectedCountries : props.selectedCountriesCost}
+        selectCountry={location.pathname !== "/tab3" ? props.selectCountry : props.selectCountryCost}
         />
       <MenuSeparatorLine />
       {location.pathname !== "/tab3" && <><ScenarioSelection>
@@ -247,7 +253,11 @@ function ScenarioSelectionMenu(props) {
         singleMode={props.scenarioSelection.scenarioSelection2 === ""}
         selected={props.scenarioSelection.showDifference}
       >
-        {t("general.red-minus-green")}
+      {props.scenarioSelection.scenarioSelection2 && <div>
+        <p>{props.scenarioSelection.scenarioSelection}</p>
+        <p>minus</p>
+        <p>{props.scenarioSelection.scenarioSelection2}</p>
+      </div>}
       </ScenarioDifferenceText>
       <MenuSeparatorLine /></>}
       <MenuFooter>

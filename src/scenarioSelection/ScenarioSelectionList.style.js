@@ -26,17 +26,17 @@ export const ScenarioOption = styled.div`
   flex-direction: ${props => (props.narrowVersion ? "column" : "row")};
   align-items: flex-start;
   ${'' /* height: 36px; */}
-  padding: ${props => (props.narrowVersion ? "5px" : "0 12px 0 0px")};
+  ${'' /* padding: ${props => (props.narrowVersion ? "5px" : "0 12px 0 0px")}; */}
   position: relative;
   width: 100%;
   border-radius: 0;
   background-color: ${props =>
-    props.selected ? "#285c6a" : props.selected2 ? "#ff5555" : "inherit"};
+    props.selected ? "#EA6443" : props.selected2 ? "#285c6a" : "inherit"};
   color: ${props =>
     props.selected ? "white" : props.selected2 ? "white" : "rgb(184,176,183)"};
   &:hover {
     background-color: ${props =>
-      props.selected ? "#285c6a" : props.selected2 ? "#ff5555" : "#555"};
+      props.selected ? "#EA6443" : props.selected2 ? "#285c6a" : "#555"};
     > * {
       font-weight: ${props =>
         props.selected ? "bold" : props.selected2 ? "bold" : "normal"};
@@ -58,13 +58,15 @@ export const ScenarioNameContainer = styled.div`
 
 export const IconContainer = styled.div`
   display: flex;
-  padding: ${props => (props.narrowVersion ? "10px" : "0px")};
+  padding: ${props => (props.narrowVersion ? "0px" : "5px 12px 5px 0px")};
   `;
 
 export const Icon = styled.div`
   display: flex;
   align-items: center;
-  padding-right: 5px;
+  justify-content: center;
+  width: 18px;
+  ${'' /* padding-right: 5px; */}
   &:hover {
     cursor: ${props =>
     props.available ? "pointer" :  "default"};
@@ -72,7 +74,13 @@ export const Icon = styled.div`
     props.available ? "black" :  "default"};;
   }
   color: ${props =>
-    props.selected ? "blue" :  "rgb(184,176,183)"};
+    props.selected ? "#000000" :  "rgb(184,176,183)"};
+  border: ${props =>
+    props.selected ? "1px solid #000000" :  "1px solid rgb(184,176,183)"};
+    font-weight: ${props =>
+        props.selected ? "bold" : props.selected2 ? "bold" : "normal"};
+  margin-left: 3px;
+  margin-right: 3px;
 `;
 
 export const MenuSeparatorLine = styled.hr`
