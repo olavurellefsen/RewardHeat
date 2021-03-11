@@ -1,0 +1,97 @@
+{
+  "title": "REWARDHeat",
+  "menu": {
+    "mobile": {
+      "about": "About REWARDHeat",
+      "scenarios": "Scenarios",
+      "findings": "Key findings",
+      "subscribe": "More"
+    },
+    "desktop": {
+      "about": "About the REWARDHeat project",
+      "scenarios": "Description of scenarios",
+      "findings": "REWARDHeat key findings",
+      "subscribe": "Find out more"
+    }
+  },
+  "options": {
+    "opt0": "Ambitous",
+    "opt1": "WEO-SD",
+    "opt2": "WEO-NP",
+    "opt3": ".",
+    "unavailable": "(unavailable)"
+  },
+  "general": {
+    "scenarios": "Scenarios",
+    "opt0": "Amb",
+    "opt1": "SD",
+    "opt2": "NP",
+    "opt3": ".",
+    "scenario-difference": "Scenario difference",
+    "orange-minus-green": "(orange minus green)",
+    "tokni": "Tokni",
+    "developed-by": "Developed by",
+    "countries": "Countries"
+  },
+  "scenario": {
+    "Shift and Avoid": "Shift & Avoid",
+    "Tech Focus": "Tech Focus",
+    "Shift": "Shift",
+    "Tech": "Tech",
+    "nordic_tech_desc":"This scenario has a technology focus and include a range of transport <br /> technology  options and future development of them. However, no external <br /> shift and avoid measures are assumed possible for meeting the CO2 target",
+    "nordic_shift_desc":"This scenario includes an alternative transport demand development considering <br /> external shift and avoid measures (i.e., shift to more energy-efficient modes <br /> and avoided travel demand), e.g., lower car traffic levels. <br /> It includes the same technology options and performance as Nordic_Tech",
+    "TBase": "CNS1",
+    "TBase2": "CNS2",
+    "B1": "C1",
+    "B2": "C2",
+    "times_desc": "Long eleoquent Times scenario description"
+  },
+  "scenario_code": {
+    "Reference": "Reference",
+    "Reference_ccs": "Reference",
+    "Reference_bio": "Reference",
+    "Reference_ccs_bio": "Reference",
+    "Share Optimism": "Share Optimism",
+    "Share Optimism_ccs": "Share Optimism",
+    "Share Optimism_bio": "Share Optimism",
+    "Share Optimism_ccs_bio": "Share Optimism",
+    "Technology Optimism": "Tech Optimism",
+    "Technology Optimism_ccs": "Technology Optimism",
+    "Technology Optimism_bio": "Technology Optimism",
+    "Technology Optimism_ccs_bio": "Technology Optimism"
+  },
+  "tabs": {
+    "tab1": "Main results",
+    "tab2": "Air pollution",
+    "tab3": "Cost",
+    "mobile": {
+      "tab1": "Main",
+      "tab2": "Air pol",
+      "tab3": "Cost"
+    }
+  },
+  "welcome-text-tab1": {
+    "welcome-1": "REWARDHeat project scenario interface.",
+    "welcome-2": "This webpage is developed within the REWARDHeat project, that focuses on demonstrating a new generation of low-temperature district heating and cooling networks. These networks will be able to recover renewable and waste heat which is available at low temperature. In the project, an energy system model of seven countries (Croatia, Denmark, France, Germany, Italy, Netherlands, Sweden) heating sector has been developed and used to explore the scenarios to explore scenarios for transition to low-temperature district heating and carbon neutrality in these countries.",
+    "welcome-3": "On this 'main results' page, you can compare scenarios and change assumptions (options) to explore how the energy system is changing within different scenarios. The scheme and the graph below inform you about the scenarios and options. For further information about these please go to the 'Description of the scenarios' tab on the left.",
+    "welcome-4": "If you are ready, you can close this window and start exploring."
+  },
+  "welcome-text-tab2": {
+    "welcome-1": "REWARDHeat project scenario interface.",
+    "welcome-2": "Air pollution",
+    "welcome-3": "Change text in ./translation/en.json line 80-83",
+    "welcome-4": "Close this window and start exploring..."
+  },
+  "welcome-text-tab3": {
+    "welcome-1": "REWARDHeat project scenario interface.",
+    "welcome-2": "Cost",
+    "welcome-3": "The model calculates total system cost discounted to 2015 as well as undiscounted variable costs (including energy flow cost, activity cost and taxes and subsidies), fixed operation and maintenance, and capital costs for each demo-city and each model year. From the model results, average annual system cost savings for each demo-city is calculated based on equations (3) and (4) where: “i” is either WEO-SD or WEO-NP “j”:  variable cost, fixed operation and maintenance cost or capital costs",
+    "welcome-4": "Close this window and start exploring..."
+  },
+  "chartTitle": {
+    
+  },
+  "legend": {
+    
+  }
+}
