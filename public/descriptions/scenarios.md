@@ -14,7 +14,7 @@ The first climate policy option is the "Ambitous", the target is net zero emissi
 
 **Transition DH - Conventional district heating with low temperature heat sources** In this scenario the current DH technologies are in place. In additon to this low temperature heating sources are introdcued to the system. 
 
-**Future DH - Low Temperature district heating without low temperature heat sources** Low temperature district heating technologies are introducted with the availability of low temperature heating sources.
+**Future DH - Low Temperature district heating with low temperature heat sources** Low temperature district heating technologies are introducted with the availability of low temperature heating sources.
 
 ## Three possible options
 
