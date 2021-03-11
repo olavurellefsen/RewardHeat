@@ -185,17 +185,18 @@ function ScenarioSelectionMenu(props) {
           >
             {t("menu.desktop.scenarios")}
           </MenuItem>
-          <MenuItem
-            to="/findings"
-            selected={props.selectedChartgroup === "/findings"}
-          >
-            {t("menu.desktop.findings")}
-          </MenuItem>
+          
           <MenuItem
             to="/subscribe"
             selected={props.selectedChartgroup === "/subscribe"}
           >
             {t("menu.desktop.subscribe")}
+          </MenuItem>
+          <MenuItem
+            to="/findings"
+            selected={props.selectedChartgroup === "/findings"}
+          >
+            {t("menu.desktop.findings")}
           </MenuItem>
           <MenuItem
             to="/contact"

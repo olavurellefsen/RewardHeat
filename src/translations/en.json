@@ -5,13 +5,15 @@
       "about": "About REWARDHeat",
       "scenarios": "Scenarios",
       "findings": "Key findings",
-      "subscribe": "More"
+      "subscribe": "The model",
+      "contact": "Contact"
     },
     "desktop": {
       "about": "About the REWARDHeat project",
       "scenarios": "Description of scenarios",
       "findings": "REWARDHeat key findings",
-      "subscribe": "Find out more"
+      "subscribe": "About the model",
+      "contact": "Contact"
     }
   },
   "options": {
