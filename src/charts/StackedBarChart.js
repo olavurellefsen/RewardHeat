@@ -39,9 +39,7 @@ const ChartTitle = styled.div`
   font-family: Ropa Sans;
 `
 const MyCustomHTMLLabel = props => {
-  //console.log("Befroe: ", props.text)
   const text = props.text.replaceAll('§', '')
-  //console.log("After: ", text)
 
   return (
     <foreignObject x={props.x+3} y={props.y-9} width={600} height={700}>
@@ -102,10 +100,8 @@ const StackedBarChart = props => {
   const descriptor = id_desc.find((descriptor)=>{
     return(descriptor.name === chartTitle)
   })
-  console.log("descriptor: ", descriptor)
   let current_country = mapRegions.find((countryCode)=>countryCode.path_id === props.selectedCountries[0]).country
   let maxY
-  console.log("current_country: ", current_country)
   if (descriptor)
     maxY = descriptor[current_country]
   let minY = Infinity
@@ -123,7 +119,6 @@ const StackedBarChart = props => {
       maxY = Math.max(maxY, totalYearValuesPositiveScenario1[year],
         scenario2 ? totalYearValuesPositiveScenario2[year] : -Infinity)
     })
-  //console.log("minY before: ", minY)
 
     let t = 1
     let i = 0
@@ -133,10 +128,6 @@ const StackedBarChart = props => {
       i++
     }
     maxY = t
-    
-    //console.log("maxY after: ", maxY)
-    //console.log("-------------------")
-  
   }
   let u=1
     let j=0
@@ -145,7 +136,6 @@ const StackedBarChart = props => {
       j++
     }
     minY = u
-    //console.log("j: ", j)
     //base is used in tickFormat
     if (maxY < -minY) 
       base = -minY
@@ -180,16 +170,8 @@ const StackedBarChart = props => {
             ret.unshift(-defTick[i+1])
       })
     }
-    //console.log("total pos sc1: ", totalYearValuesPositiveScenario1)
-    //console.log("total neg sc1: ", totalYearValuesNegativeScenario1)
-    //console.log("minY: ", minY)
-    //console.log("maxY: ", maxY)
-    //console.log("ticks: ", ret)
     return ret
   }
-  //console.log("indiacator: ", chartTitle)
-  //console.log("base: ", base)
-
 
   return (
     <div>
@@ -338,14 +320,6 @@ const StackedBarChart = props => {
 
         />
       </VictoryChart></div>
-      {console.log("chartName: ", chartName)}
-      {/* {console.log("id_desc: ", id_desc)} */}
-      {console.log("id_desc: ", id_desc.find((descriptor)=>{
-        console.log("selectedContries: ", mapRegions.find((countryCode)=>countryCode.path_id === props.selectedCountries[0]).country)
-        console.log("country max: ", descriptor[mapRegions.find((countryCode)=>countryCode.path_id === props.selectedCountries[0]).country])
-        console.log("ter: ", descriptor['name'])
-        return(descriptor.name === chartTitle)
-        }))}
       <p style={{width: "550px"}}>{props.description}</p>
     </div>
   )
