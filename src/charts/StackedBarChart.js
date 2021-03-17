@@ -99,41 +99,58 @@ const StackedBarChart = props => {
   const totalYearValuesNegativeScenario1 = dataScenario1[2]
   const totalYearValuesPositiveScenario2 = scenario2 ? dataScenario2[1] : undefined
   const totalYearValuesNegativeScenario2 = scenario2 ? dataScenario2[2] : undefined
-  let maxY = -Infinity
+  const descriptor = id_desc.find((descriptor)=>{
+    return(descriptor.name === chartTitle)
+  })
+  console.log("descriptor: ", descriptor)
+  let current_country = mapRegions.find((countryCode)=>countryCode.path_id === props.selectedCountries[0]).country
+  let maxY
+  console.log("current_country: ", current_country)
+  if (descriptor)
+    maxY = descriptor[current_country]
   let minY = Infinity
   let base = 0
-  
+  let range = [2,4,6,8,10]
   Object.keys(totalYearValuesPositiveScenario1).forEach(year => {
-    maxY = Math.max(maxY, totalYearValuesPositiveScenario1[year],
-      scenario2 ? totalYearValuesPositiveScenario2[year] : -Infinity)
     minY = Math.min(minY, totalYearValuesNegativeScenario1[year],
       scenario2 ? totalYearValuesNegativeScenario2[year] : Infinity)
   })
-//console.log("minY before: ", minY)
+  if (!maxY){
+    maxY = -Infinity
+    
+  
+    Object.keys(totalYearValuesPositiveScenario1).forEach(year => {
+      maxY = Math.max(maxY, totalYearValuesPositiveScenario1[year],
+        scenario2 ? totalYearValuesPositiveScenario2[year] : -Infinity)
+    })
+  //console.log("minY before: ", minY)
 
-  let t = 1
-  let i = 0
-  let range = [2,4,6,8,10]
-  while(maxY !== 0 && t < maxY) {
-    t = range[i%5]*Math.pow(range[4], Math.floor(i/5))
-    i++
+    let t = 1
+    let i = 0
+    
+    while(maxY !== 0 && t < maxY) {
+      t = range[i%5]*Math.pow(range[4], Math.floor(i/5))
+      i++
+    }
+    maxY = t
+    
+    //console.log("maxY after: ", maxY)
+    //console.log("-------------------")
+  
   }
-  maxY = t
   let u=1
-  let j=0
-  while(minY !== 0 && u > minY && j < 20) {
-    u = -range[j%5]*Math.pow(range[4], Math.floor(j/5))
-    j++
-  }
-  minY = u
-  console.log("j: ", j)
-  //base is used in tickFormat
-  if (maxY < -minY) 
-    base = -minY
-  else 
-    base = maxY
-  //console.log("maxY after: ", maxY)
-  //console.log("-------------------")
+    let j=0
+    while(minY !== 0 && u > minY && j < 20) {
+      u = -range[j%5]*Math.pow(range[4], Math.floor(j/5))
+      j++
+    }
+    minY = u
+    //console.log("j: ", j)
+    //base is used in tickFormat
+    if (maxY < -minY) 
+      base = -minY
+    else 
+      base = maxY
   
   let legends = new Set()
   
@@ -187,7 +204,7 @@ const StackedBarChart = props => {
         // domain={{ y: yDomain }} //removed to fix issue with axis labels not being updated
       >
         <VictoryLabel></VictoryLabel>
-        <VictoryAxis key={0} tickValues={periods} tickFormat={periods} />
+        
         <VictoryAxis
           dependentAxis
           axisLabelComponent={<VictoryLabel dx={120} dy={-30} />}
@@ -214,6 +231,7 @@ const StackedBarChart = props => {
               axisLabel: { fill: 'gray', padding: -50 },
               ticks: { padding: -25 },
               tickLabels: { fill: 'gray', textAnchor: 'start' },
+              zIndex: 10
             }}
             tickFormat={tick =>
               `${
@@ -310,9 +328,22 @@ const StackedBarChart = props => {
             </VictoryStack>
           )}
         </VictoryGroup>
+        <VictoryAxis 
+          key={0} 
+          tickValues={periods} 
+          tickFormat={periods} 
+          style={{
+          grid: { strokeWidth: 1 },
+        }}
+
+        />
       </VictoryChart></div>
       {console.log("chartName: ", chartName)}
+      {/* {console.log("id_desc: ", id_desc)} */}
       {console.log("id_desc: ", id_desc.find((descriptor)=>{
+        console.log("selectedContries: ", mapRegions.find((countryCode)=>countryCode.path_id === props.selectedCountries[0]).country)
+        console.log("country max: ", descriptor[mapRegions.find((countryCode)=>countryCode.path_id === props.selectedCountries[0]).country])
+        console.log("ter: ", descriptor['name'])
         return(descriptor.name === chartTitle)
         }))}
       <p style={{width: "550px"}}>{props.description}</p>
