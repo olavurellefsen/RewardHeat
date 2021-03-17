@@ -1,7 +1,7 @@
 export default [
   {
     name: "End-use devices capacity (GW)", 
-    description: "",
+    description: "fkjsdfjhgsdjfhgsdjfhgsdjfhg",
     Croatia: 30,
     Denmark: 45,
     France: 400,
