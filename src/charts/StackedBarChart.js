@@ -20,7 +20,7 @@ import periods from './../data/years'
 import "@fontsource/ropa-sans"
 import "@fontsource/open-sans"
 import mapRegions from "../data/mapRegionToDataRegions"
-import id_desc from "../data/indicatorsTab1MaxValue"
+//import id_desc from "../data/indicatorsTab1MaxValue"
 
 const ChartHeader = styled(VictoryLabel)`
   text-anchor: start;
@@ -58,6 +58,7 @@ const StackedBarChart = props => {
   //const chartTitle = t('chartTitle.' + props.chartTitle)
   const chartTitle = props.chartTitle
   const combinedChart = props.combinedChart
+  const descriptor = props.descriptor
 
   /* let gutter, rowGutter
   if (
@@ -97,20 +98,38 @@ const StackedBarChart = props => {
   const totalYearValuesNegativeScenario1 = dataScenario1[2]
   const totalYearValuesPositiveScenario2 = scenario2 ? dataScenario2[1] : undefined
   const totalYearValuesNegativeScenario2 = scenario2 ? dataScenario2[2] : undefined
-  const descriptor = id_desc.find((descriptor)=>{
+  /* const descriptor = descriptors.find((descriptor)=>{
     return(descriptor.name === chartTitle)
-  })
+  }) */
   let current_country = mapRegions.find((countryCode)=>countryCode.path_id === props.selectedCountries[0]).country
   let maxY
-  if (descriptor)
-    maxY = descriptor[current_country]
-  let minY = Infinity
+  let minY
+  if (descriptor) {
+    console.log("descriptor: ", descriptor)
+    if (descriptor[current_country].max) {
+      maxY = descriptor[current_country].max
+      minY = descriptor[current_country].min
+    } else {
+      maxY = descriptor[current_country]
+    }
+  }
+
   let base = 0
   let range = [2,4,6,8,10]
-  Object.keys(totalYearValuesPositiveScenario1).forEach(year => {
-    minY = Math.min(minY, totalYearValuesNegativeScenario1[year],
-      scenario2 ? totalYearValuesNegativeScenario2[year] : Infinity)
-  })
+  if (!minY) {
+    Object.keys(totalYearValuesPositiveScenario1).forEach(year => {
+      minY = Math.min(minY, totalYearValuesNegativeScenario1[year],
+        scenario2 ? totalYearValuesNegativeScenario2[year] : Infinity)
+    })
+    let u=1
+    let j=0
+    while(minY !== 0 && u > minY && j < 20) {
+      u = -range[j%5]*Math.pow(range[4], Math.floor(j/5))
+      j++
+    }
+    minY = u
+  }
+  
   if (!maxY){
     maxY = -Infinity
     
@@ -129,13 +148,7 @@ const StackedBarChart = props => {
     }
     maxY = t
   }
-  let u=1
-    let j=0
-    while(minY !== 0 && u > minY && j < 20) {
-      u = -range[j%5]*Math.pow(range[4], Math.floor(j/5))
-      j++
-    }
-    minY = u
+  
     //base is used in tickFormat
     if (maxY < -minY) 
       base = -minY
@@ -315,7 +328,7 @@ const StackedBarChart = props => {
           tickValues={periods} 
           tickFormat={periods} 
           style={{
-          grid: { strokeWidth: 1 },
+          grid: { strokeWidth: 0 },
         }}
 
         />

@@ -66,9 +66,10 @@ const Charts = props => {
                 stackedBar={stackedBar}
                 //line={line}
                 countries={props.countries}
-                description={indicatorsDescriptors.find(
-                  (descriptor)=>(descriptor.name === i))?.description
+                descriptor={indicatorsDescriptors.find(
+                  (descriptor)=>(descriptor.name === i))
                   }
+                
               />
             )
           }
