@@ -20,16 +20,11 @@ export function createAccumulatedData(data, scenario, percentage, chartName, sel
     })
     if (!scenario) return undefined //this will be the case for sceanrio2 if only one scenario is selected
     let accumulatedData = {}
-    //if (scenario.substring(3, 8) === "_copy")
     if (scenario.includes("_copy"))
       scenario = scenario.replace("_copy", "")
     let scen = data.scenarios
     .find(o => o.scenario.toLowerCase() === scenario.toLowerCase())
-    //console.log("data: ", data)
-    //console.log("scenario: ", scenario)
     let ind = scen.indicators.find(o => o.indicator === chartName)
-        //console.log("ind: ", ind)
-        //console.log("chartName: ", chartName)
         ind.regions.forEach(r => {
             r.indicatorGroups.forEach(indicatorGroup => {
               if (!accumulatedData[indicatorGroup.indicatorGroup]) {
@@ -39,7 +34,6 @@ export function createAccumulatedData(data, scenario, percentage, chartName, sel
                 })
               }
               if (selectedDataRegions.includes(r.region)) {//Only include selected countries
-                //console.log("indicatorGroup.indicatorGroup", indicatorGroup.indicatorGroup)
                 indicatorGroup.indicatorGroupValues.forEach((value, index) => {
                   if (accumulatedData[indicatorGroup.indicatorGroup][index].year !== value.year ) {
                      //Extra check we rely on the two arrays being indexed the same way
@@ -56,30 +50,3 @@ export function createAccumulatedData(data, scenario, percentage, chartName, sel
         })
         return [accumulatedData, totalYearValuesPositive, totalYearValuesNegative]
 }
-
-// export function getMinMaxStackedValues(yearValues1, yearValues2) {
-//   let minValue = -0.00001
-//   let maxValue = 0.00001
-//   for (var i = 0; i < years.length; i++) {
-//     let totalValuePos = 0
-//     let totalValueNeg = 0
-//     Object.keys(data).forEach(indicatorName => {
-//         let value = data[indicatorName][i].total
-//         if (value < 0) {
-//           totalValueNeg += value
-//         } else {
-//           totalValuePos += value
-//         }
-
-//     })
-//     if (totalValuePos > maxValue) {
-//       maxValue = totalValuePos
-//     }
-//     if (totalValueNeg < minValue) {
-//       minValue = totalValueNeg
-//     }
-//   }
-//   if (-minValue > maxValue) {
-//     maxValue = -minValue
-//   }
-// }

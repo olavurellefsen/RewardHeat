@@ -6,7 +6,6 @@ import StackedBarChart from './StackedBarChart'
 import StackedBarDiffChart from './StackedBarDiffChart'
 import { MainArea, Flex } from './Charts.style'
 import stackedBar from '../data/stackedBarTab2'
-//import line from '../data/line'
 import indicators from '../data/indicatorsTab2'
 import indicatorsDescriptors from '../data/indicatorsTab2MaxValue'
 import scenarioCombinations from "../data/scenarioCombinations"

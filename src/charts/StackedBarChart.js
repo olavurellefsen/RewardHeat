@@ -2,7 +2,6 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import parseHtml from 'html-react-parser'
-//import { useTranslation } from 'react-i18next'
 import {
   VictoryChart,
   VictoryLabel,
@@ -20,20 +19,20 @@ import periods from './../data/years'
 import "@fontsource/ropa-sans"
 import "@fontsource/open-sans"
 import mapRegions from "../data/mapRegionToDataRegions"
-//import id_desc from "../data/indicatorsTab1MaxValue"
+import { CSVLink } from 'react-csv'
 
-const ChartHeader = styled(VictoryLabel)`
-  text-anchor: start;
-  fill: #000000;
-  font-family: inherit;
-  font-size: 18px;
-  font-weight: bold;
+const ChartHeader = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 70px;
+  margin-right: 30px;
+  margin-top: 20px;
+  margin-bottom: 10px;
 `
-ChartHeader.displayName = 'ChartHeader'
 
 const ChartTitle = styled.div`
-  margin-left: 70px;
-  margin-top: 20px;
+  margin-left: 10px;
   font-size: 18px;
   font-weight: bold;
   font-family: Ropa Sans;
@@ -42,55 +41,38 @@ const MyCustomHTMLLabel = props => {
   const text = props.text.replaceAll('§', '')
 
   return (
-    <foreignObject x={props.x+3} y={props.y-9} width={600} height={700}>
+    <foreignObject x={props.x+3} y={props.y-9} width={100} height={50}>
       <div style={{ fontSize: '12px', fontFamily: "Open Sans" }}>{parseHtml(text)}</div>
     </foreignObject>
   );
 };
-
+const getCSVData = (accumulatedData1, scenarioName1, accumulatedData2, scenarioName2) => {
+  let ret = []
+  Object.entries(accumulatedData1).forEach((indicatorGroup) => {
+    indicatorGroup[1].forEach((item)=>{
+      ret.push({scenario: scenarioName1, indicatorGroup: indicatorGroup[0], year: item.year, value: item.total})
+    })
+  })
+  Object.entries(accumulatedData2).forEach((indicatorGroup) => {
+    indicatorGroup[1].forEach((item)=>{
+      ret.push({scenario: scenarioName2, indicatorGroup: indicatorGroup[0], year: item.year, value: item.total})
+    })
+  })
+  return ret
+}
 const StackedBarChart = props => {
-  //const { t } = useTranslation()
   const stackedBar = props.stackedBar
   const scenario = props.selectedScenario.substring(3, 8) === "_copy" ? props.selectedScenario.replace("_copy", "") : props.selectedScenario
   const scenario2 = props.selectedScenario2
   const selectedCountries = props.selectedCountries
   const chartName = props.chartName
-  //const chartTitle = t('chartTitle.' + props.chartTitle)
   const chartTitle = props.chartTitle
   const combinedChart = props.combinedChart
   const descriptor = props.descriptor
 
-  /* let gutter, rowGutter
-  if (
-    !process.env.NODE_ENV ||
-    process.env.NODE_ENV === 'development' ||
-    process.env.NODE_ENV === 'test'
-  ) {
-    gutter = 0
-    rowGutter = 0
-  } else {
-    gutter = -40
-    rowGutter = -5
-  }
- */
-   let maxY2 = 1
+  let maxY2 = 1
    
-  // let minY2 = 0
-  // if (combinedChart === true) {
-  //   maxY2 = props.maxY2
-  //   minY2 = props.minY2
-  // }
-
-  // let yDomain = [0, 1]
-  // if (props.minY < 0 || minY2 < 0) {
-  //   let stackedRatio = props.minY / props.maxY
-  //   let lineRatio = minY2 / maxY2
-  //   yDomain = stackedRatio < lineRatio ? [stackedRatio, 1] : [lineRatio, 1]
-  // }
-
-  
-
- const dataScenario1 = createAccumulatedData(stackedBar.data, scenario, false, chartName, selectedCountries)
+  const dataScenario1 = createAccumulatedData(stackedBar.data, scenario, false, chartName, selectedCountries)
   const dataScenario2 = createAccumulatedData(stackedBar.data, scenario2, false, chartName, selectedCountries)
   const accumulatedDataScenario1 = dataScenario1[0]
   const accumulatedDataScenario2 = scenario2 ? dataScenario2[0] : undefined
@@ -98,9 +80,7 @@ const StackedBarChart = props => {
   const totalYearValuesNegativeScenario1 = dataScenario1[2]
   const totalYearValuesPositiveScenario2 = scenario2 ? dataScenario2[1] : undefined
   const totalYearValuesNegativeScenario2 = scenario2 ? dataScenario2[2] : undefined
-  /* const descriptor = descriptors.find((descriptor)=>{
-    return(descriptor.name === chartTitle)
-  }) */
+  
   let current_country = mapRegions.find((countryCode)=>countryCode.path_id === props.selectedCountries[0]).country
   let maxY
   let minY
@@ -188,7 +168,15 @@ const StackedBarChart = props => {
 
   return (
     <div>
-      <ChartTitle>{chartTitle} ---  {mapRegions.find((countryCode)=>countryCode.path_id === props.selectedCountries[0]).country}</ChartTitle>
+      <ChartHeader>
+        <ChartTitle>{chartTitle} ---  {mapRegions.find((countryCode)=>countryCode.path_id === props.selectedCountries[0]).country}</ChartTitle>
+        <CSVLink 
+          data={getCSVData(accumulatedDataScenario1, scenario, dataScenario2 ? accumulatedDataScenario2 : [], scenario2)}
+          filename={chartTitle + " " + selectedCountries + ".csv"}
+          >
+            Download as CSV
+        </CSVLink>
+      </ChartHeader>
       <div>
       <VictoryChart
         domainPadding={20}
@@ -196,7 +184,6 @@ const StackedBarChart = props => {
         height={450}
         padding={{ left: 80, right: 50, top: 50, bottom: 50 }}
         theme={VictoryTheme.material}
-        // domain={{ y: yDomain }} //removed to fix issue with axis labels not being updated
       >
         <VictoryLabel></VictoryLabel>
         

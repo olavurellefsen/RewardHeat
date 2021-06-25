@@ -10,8 +10,6 @@ import TabsMobile from './tabs/Tabs.mobile'
 import ChartsTab1 from './charts/ChartsTab1'
 import ChartsTab2 from './charts/ChartsTab2'
 import ChartsTab3 from './charts/ChartsTab3'
-//import dataTab1 from './data/stackedBarTab1'
-//import dataTab2 from './data/stackedBarTab2'
 import PageRenderer from './pages/PageRenderer'
 import scenarioCombinations from './data/scenarioCombinations'
 
@@ -95,22 +93,6 @@ export class App extends React.Component {
     
     this.setState(state => {
       console.log("state: ", state)
-      /* return {
-        scenarioSelection:
-          state.scenarioSelectionNoOptions +
-          (state.options[state.scenarioSelectionNoOptions].opt0 ? '_cns' : '') +
-          (state.options[state.scenarioSelectionNoOptions].opt1 ? '_bio' : '') +
-          (state.options[state.scenarioSelectionNoOptions].opt2 ? '_ELC' : '') +
-          (state.options[state.scenarioSelectionNoOptions].opt3 ? '_SAC' : ''),
-      } */
-      /* let ret = state.scenarioSelectionNoOptions
-      if (state.options[state.scenarioSelectionNoOptions].opt0)
-        ret += '_Ambitious'
-      else if (state.options[state.scenarioSelectionNoOptions].opt0)
-        ret += '_WEO-SD'
-      elseif (state.options[state.scenarioSelectionNoOptions].opt0)
-        ret += '_WEO-NP'
-      console.log("ret********************  ", ret) */
       return {
         scenarioSelection:
           state.scenarioSelectionNoOptions +
@@ -245,7 +227,6 @@ export class App extends React.Component {
   }
 
   render() {
-    //createMaxValueJson()
     return (
       <Page>
         <LeftColumn>
@@ -369,11 +350,3 @@ export class App extends React.Component {
 
 export default withRouter(App)
 
-/* const createMaxValueJson = () => {
-  dataTab1.data.scenarios.map((d)=>{
-    //console.log("d: ", d)
-    return 1
-  })
-  //console.log("dataTab1: ", dataTab1)
-  //console.log("{}")
-} */

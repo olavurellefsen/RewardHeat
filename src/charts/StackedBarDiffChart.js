@@ -150,13 +150,11 @@ const StackedBarChart = props => {
     '#82627f',
   ]
   const MyCustomHTMLLabel = props => {
-    console.log("Befroe: ", props.text)
     const text = props.text.replaceAll('§', '')
-    console.log("After: ", text)
   
     return (
       <foreignObject x={props.x+3} y={props.y-9} width={600} height={700}>
-        <div style={{ fontSize: '12px', fontFamily: "Open Sans" }}>{parseHtml(text)}</div>
+        <div style={{ fontSize: '12px'}}>{parseHtml(text)}</div>
       </foreignObject>
     );
   };

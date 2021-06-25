@@ -12,13 +12,6 @@ import {
   Icon,
   ScenarioNameContainer
 } from "./ScenarioSelectionList.style";
-/* import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faLeaf,
-  faDatabase,
-  faBolt,
-  faCar,
-} from "@fortawesome/free-solid-svg-icons"; */
 
 function cancelBubble(e) {
   //Stop propagation to the underlying div

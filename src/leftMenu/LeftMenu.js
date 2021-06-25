@@ -6,7 +6,6 @@ import { Link, useLocation } from "react-router-dom";
 import ScenarioSelectionList from "../scenarioSelection/ScenarioSelectionList";
 import ToggleSwitch from "./ToggleSwitch";
 import { useTranslation } from "react-i18next";
-//import MapContainer from "../map/MapContainer";
 import CountryList from "../map/CountryList";
 import "@fontsource/ropa-sans"
 
@@ -91,12 +90,6 @@ const ToggleSwitchText = styled.div`
     props.singleMode ? "gray" : props.selected ? "#2196F3" : "white"};
   margin-left: 10px;
 `;
-
-// const ToggleLanguageText = styled.div`
-//   color: ${props => (props.selected ? "white" : "gray")};
-//   margin-left: 10px;
-//   margin-right: 10px;
-// `;
 
 const ScenarioDifferenceText = styled.div`
   font-size: 0.7em;
@@ -208,10 +201,6 @@ function ScenarioSelectionMenu(props) {
       </MenuHeader>
       <MenuSeparatorLine />
       <Header narrowVersion={false}>{t("general.countries")}</Header>
-      {/* <MapContainer
-        selectedCountries={props.selectedCountries}
-        selectCountry={props.selectCountry}
-      /> */}
       <CountryList 
         countries={props.countries}
         selectedCountries={location.pathname !== "/tab3" ? props.selectedCountries : props.selectedCountriesCost}
