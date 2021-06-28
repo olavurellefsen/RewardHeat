@@ -1,13 +1,27 @@
-# About the model 
+# The TIMES_Heat Model
 
-In the study, the well-established TIMES (The Integrated MARKAL-EFOM System) energy system model is used for the analysis (ETSAP, M. Gargiulo, 2009).
+In the RewardHeat project, the well-established TIMES (The Integrated MARKAL-EFOM System) energy system model generator is used for the analysis (ETSAP, M. Gargiulo, 2009). For the study, a heating sector model was developed and modeled for each demonstrator, and the model is named as TIMES_Heat. 
+The TIMES_Heat model represents the heating sectors in the studied countries, including the heat generation in district heating systems and individual heating units in buildings. The electricity system as well as international markets for fuels are treated exogenously. Heat demand in the studied counties is defined per timeslice. Energy efficiency measures and heat demand projections are provided as exogenous inputs to the model.  
 
-A TIMES model can be used to optimize energy systems over a mid- to long-term horizon. The model is driven by exogenously given demands for energy services and based on a perfect-foresight, linear programming bottom-up approach, where the objective function is minimization of the total system cost. The studied energy system is represented by different processes that are connected by flows of commodities. Each process (such as an energy conversion technology) is described, e.g., by its input and output commodities, efficiency, availability, lifetime and costs, whereas each commodity (such as a fuel) is described by its availability, extraction or import cost and environmental impacts.
+The TIMES_Heat model minimizes the cost to satisfy the heating demand for each country, considering the constraints that are defined in the model, for example, emissions, resource availability, etc. 
 
-For this study, a TIMES models representing the heat sectors of the studied countries was developed, hereafter referred to as the TIMES_Heat model. The TIMES_Heat model represents the heat sectors in the countries, including both the heat generation in DH systems and in individual heating units in buildings. The electricity system as well as international markets for fuels are treated exogenously.
+The start year (base year) of the model is 2015. In that year the heating sector is represented with the present fuel mix and existing heat generation units in that year. The existing technologies are phased out gradually and replaced with the new technologies towards the future within the model, considering the costs, technology efficiencies, availabilities, lifetimes, constraints in the model, etc. 
+
+- Start year of the model: 2015
+- Time horizon: 2015-2052
+- Time resolution: Eight time slices per year (four seasons, day and night)
+
+### Schematic representation
+
+![Heating_sector_scheme](./images/Heating_sector_scheme.png)
+ 
+**Figure 1.** Simplified representation of the heating sector in the TIMES_Heat model (TIMES-Heat model, Sandvall, 2020)
 
 
--
+For more information: 
 
-- 
+Link to the report where detailed information about the TIMES_Heat model and for each country that is modeled: https://www.rewardheat.eu/Download?id=file:83807000&s=-333193579074902488
 
+Short description of the TIMES modeling framework: https://iea-etsap.org/index.php/etsap-tools/model-generators/times
+
+Link to the TIMES model documentation, which contains information about the modeling framework and how to use the tool: https://iea-etsap.org/index.php/documentation
