@@ -15,7 +15,7 @@ The start year (base year) of the model is 2015. In that year the heating sector
 
 ![Heating_sector_scheme](./images/Heating_sector_scheme.png)
  
-Figure 1. Simplified representation of the heating sector in the TIMES_Heat model (TIMES-Heat model, Sandvall, 2020)
+**Figure 1.** Simplified representation of the heating sector in the TIMES_Heat model (TIMES-Heat model, Sandvall, 2020)
 
 
 For more information: 
