@@ -1,8 +1,6 @@
 # REWARDHeat scenario description
 
-....
-
-In the analysis, three climate policy options, combined into three heat supply scenarios (resulting in nine different scenarios), were designed and applied to assess the span of outcomes with regards to parameter values for which future levels are uncertain and of relevance for the present study.
+In the RewardHeat model, three climate policy options, combined into three heat supply scenarios (resulting in nine different scenarios), were designed and applied to assess the span of outcomes with regards to parameter values for which future levels are uncertain and of relevance for the present study.
 
 The first climate policy option is the "Ambitous", the target is net zero emission by 2030 compared to 2015. The two climate policy options chosen: "WEO-SD" and "WEO-NP", are in line with the Sustainable Development Scenario and the New Policies Scenario of the International Energy Agency (IEA)’s World Energy Outlook 2017 (WEO) report, respectively. The Sustainable Development scenario is a more ambitious climate policy option that starts with a certain vision of what the energy sector needs to achieve and then works back to the present. In contrast, The New Policies Scenario is a less ambitious climate policy option that aims to provide a sense of where today's policy ambitions seem likely to take the energy sector.
  
@@ -109,10 +107,5 @@ Key aspects (options) for the emission reduction that can be varied in our scena
  - Higher DH network investment costs and lower losses
  - Higher efficiencies of biomass and natural gas CHPs and boilers
  - Higher COP of large-scale heat pumps
-
-
-### Other explanations
-
-...
 
 
