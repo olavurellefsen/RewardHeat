@@ -7,9 +7,9 @@ The TIMES_Heat model minimizes the cost to satisfy the heating demand for each c
 
 The start year (base year) of the model is 2015. In that year the heating sector is represented with the present fuel mix and existing heat generation units in that year. The existing technologies are phased out gradually and replaced with the new technologies towards the future within the model, considering the costs, technology efficiencies, availabilities, lifetimes, constraints in the model, etc. 
 
-Start year of the model: 2015
-Time horizon: 2015-2052
-Time resolution: Eight time slices per year (four seasons, day and night)
+**Start year of the model: 2015
+**Time horizon: 2015-2052
+**Time resolution: Eight time slices per year (four seasons, day and night)
 
 ### Schematic representation
 
