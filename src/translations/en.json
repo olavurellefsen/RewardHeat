@@ -4,14 +4,14 @@
     "mobile": {
       "about": "About REWARDHeat",
       "scenarios": "Scenarios",
-      "findings": "Key findings",
+      "findings": "How to use",
       "subscribe": "The model",
       "contact": "Contact"
     },
     "desktop": {
       "about": "About the REWARDHeat project",
       "scenarios": "Description of scenarios",
-      "findings": "REWARDHeat key findings",
+      "findings": "How to use the webpage",
       "subscribe": "About the model",
       "contact": "Contact"
     }
