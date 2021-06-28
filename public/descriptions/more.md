@@ -11,9 +11,12 @@ Start year of the model: 2015
 Time horizon: 2015-2052
 Time resolution: Eight time slices per year (four seasons, day and night)
 
-Schematic representation
+### Schematic representation
+
+![Heating_sector_scheme](./images/Heating_sector_scheme.png)
  
 Figure 1. Simplified representation of the heating sector in the TIMES_Heat model (Sandvall, TIMES-Heat model, 2020)
+
 
 For more information: 
 
@@ -22,12 +25,3 @@ Link to the report where detailed information about the TIMES_Heat model and for
 Short description of the TIMES modeling framework: https://iea-etsap.org/index.php/etsap-tools/model-generators/times
 
 Link to the TIMES model documentation, which contains information about the modeling framework and how to use the tool: https://iea-etsap.org/index.php/documentation
-
-
-
-
-
--
-
-- 
-
