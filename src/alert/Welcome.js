@@ -68,7 +68,7 @@ const welcomeText = {
     "welcome1": <p>REWARDHeat project scenario interface.</p>,
     "welcome2": <p>Cost</p>,
     "welcome3": <p>The model calculates total system cost discounted to 2015 as well as undiscounted variable costs (including energy flow cost, activity cost and taxes and subsidies), fixed operation and maintenance, and capital costs for each demo-city and each model year. From the model results, average annual system cost savings for each demo-city is calculated based on equations (3) and (4) where: “i” is either WEO-SD or WEO-NP “j”:  variable cost, fixed operation and maintenance cost or capital costs</p>,
-    "welcome4": <p>Close this window and start exploring...</p>
+    "welcome4": <p>If you are ready, you can close this window and start exploring.</p>
   },
 }
 
