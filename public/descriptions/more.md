@@ -20,14 +20,19 @@ The start year (base year) of the model is 2015. In that year the heating sector
 
 ### Air pollutants 
 
+Three air pollutants emissions i) Nitrogen Oxides (NOx), ii) Sulfur Oxides (SOx) iii) particles less than 2.5 μm (PM2.5) were estimated for all heat production technologies that are supplying the heat demand for each scenario. The methodology used here is multiplication of heat output from the respective technologies (PJ) and emissions factor per each substance, technology and fuel (kt/PJ).
+
+*For air pollutant calculations the TIMES model is soft-linked with GAINS model (IIASA, 2018). Heat output is retrieved from the TIMES_Heat model and linked with the unique emission factor for respective technology defined in GAINS model.*
+
 For detailed explanation please refer to the respective report [1] section **17.11**. 
 
-For more information: 
 
-(hobbit hole) [1] Link to the report where detailed information about the TIMES_Heat model and for each country that is modeled: **https://www.rewardheat.eu/Download?id=file:83807000&s=-333193579074902488**
+**For more information:** 
 
-
-(hobbit hole) [2] Short description of the TIMES modeling framework: **https://iea-etsap.org/index.php/etsap-tools/model-generators/times**
+[1] Link to the report where detailed information about the TIMES_Heat model and for each country that is modeled: **https://www.rewardheat.eu/Download?id=file:83807000&s=-333193579074902488**
 
 
-(hobbit hole) [3] Link to the TIMES model documentation, which contains information about the modeling framework and how to use the tool: **https://iea-etsap.org/index.php/documentation**
+[2] Short description of the TIMES modeling framework: **https://iea-etsap.org/index.php/etsap-tools/model-generators/times**
+
+
+[3] Link to the TIMES model documentation, which contains information about the modeling framework and how to use the tool: **https://iea-etsap.org/index.php/documentation**
