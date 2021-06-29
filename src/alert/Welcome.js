@@ -59,10 +59,10 @@ const welcomeText = {
     "welcome4": <p>If you are ready, you can close this window and start exploring.</p>
   },
   "tab2": {
-    "welcome1": <p>REWARDHeat project scenario interface.</p>,
-    "welcome2": <p>Air pollution</p>,
-    "welcome3": <p>Change text in ./translation/en.json line 80-83</p>,
-    "welcome4": <p>Close this window and start exploring...</p>
+    "welcome1": <p>Air pollution.</p>,
+    "welcome2": <p>Following air pollutants emissions were estimated for each scenario that is studied in the model for all the countries studied in the RewardHeat project:</p>,
+    "welcome3": <p>i) Nitrogen Oxides (NOx), ii) Sulfur Oxides (SOx), iii) Particles smaller than 2.5 μm (PM2.5)</p>,
+    "welcome4": <p>If you are ready, you can close this window and start exploring.</p>
   },
   "tab3": {
     "welcome1": <p>REWARDHeat project scenario interface.</p>,
