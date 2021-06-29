@@ -71,7 +71,7 @@ export const Icon = styled.div`
     cursor: ${props =>
     props.available ? "pointer" :  "default"};
     color: ${props =>
-    props.available ? "black" :  "default"};;
+    props.available ? "black" :  "default"};
   }
   color: ${props =>
     props.selected ? "#000000" :  "rgb(184,176,183)"};

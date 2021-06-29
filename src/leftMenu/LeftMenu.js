@@ -37,6 +37,11 @@ const AppLogo = styled.img`
   max-width: 180px;
   border: 0;
   align-self: center;
+  transition: 0.2s;
+  :hover {
+    transform: scale(1.05);
+    cursor: pointer;
+  }
 `;
 
 
@@ -65,11 +70,13 @@ const MenuItem = styled(Link)`
   display: flex;
   align-items: center;
   text-decoration: none;
+  transition: 0.2s;
   :hover {
-    text-decoration: underline;
+    transform: scale(1.05);
     cursor: pointer;
   }
-  color: ${props => (props.selected ? "yellow" : "inherit")};
+  color: inherit;
+  opacity: ${props => (props.selected ? "1" : "0.8")};
 `;
 
 const ScenarioSelection = styled.div`
@@ -168,32 +175,32 @@ function ScenarioSelectionMenu(props) {
         <MenuRoutes>
           <MenuItem
             to="/about"
-            selected={props.selectedChartgroup === "/about"}
+            selected={props.selectedPage === "/about"}
           >
             {t("menu.desktop.about")}
           </MenuItem>
           <MenuItem
             to="/scenarios"
-            selected={props.selectedChartgroup === "/scenarios"}
+            selected={props.selectedPage === "/scenarios"}
           >
             {t("menu.desktop.scenarios")}
           </MenuItem>
           
           <MenuItem
             to="/subscribe"
-            selected={props.selectedChartgroup === "/subscribe"}
+            selected={props.selectedPage === "/subscribe"}
           >
             {t("menu.desktop.subscribe")}
           </MenuItem>
           <MenuItem
             to="/findings"
-            selected={props.selectedChartgroup === "/findings"}
+            selected={props.selectedPage === "/findings"}
           >
             {t("menu.desktop.findings")}
           </MenuItem>
           <MenuItem
             to="/contact"
-            selected={props.selectedChartgroup === "/contact"}
+            selected={props.selectedPage === "/contact"}
           >
             {t("menu.desktop.contact")}
           </MenuItem>

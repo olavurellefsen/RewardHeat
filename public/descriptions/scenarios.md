@@ -18,11 +18,11 @@ The first climate policy option is the "Ambitous", the target is net zero emissi
 
 Key aspects (options) for the emission reduction that can be varied in our scenarios include: 
 
-**Ambitious - Net zero emission by 2030 compared to 2015** Local and international CO2 emission reduction of 100% by 2030 compared to 2015
+**Ambitious - Net zero emission by 2030 compared to 2015** Local and international CO<sub>2</sub> emission reduction of 100% by 2030 compared to 2015
 
-**WEO-SD - World Energy Oulook Sustainable Development Scenario total CO2 reduction by 95% by 2050 compared to 2015** Local and international CO2 emission reduction of 95% by 2050 compared to 2015
+**WEO-SD - World Energy Oulook Sustainable Development Scenario total CO<sub>2</sub> reduction by 95% by 2050 compared to 2015** Local and international CO<sub>2</sub> emission reduction of 95% by 2050 compared to 2015
 
-**WEO-NP - World Energy Oulook New Policies Scenario total CO2 reduction by 60% by 2050 compared to 2015** Local and international CO2 emission reduction of 60% by 2050 compared to 2015
+**WEO-NP - World Energy Oulook New Policies Scenario total CO<sub>2</sub> reduction by 60% by 2050 compared to 2015** Local and international CO<sub>2</sub> emission reduction of 60% by 2050 compared to 2015
 
 ![Climate_policy_options_graph](./images/Climate_policy_options_graph.png)
 
@@ -30,7 +30,7 @@ Key aspects (options) for the emission reduction that can be varied in our scena
 
 **Conventional DH + Ambitious**
  - High rate of heat demand reduction by 2050
- - Local and international CO2 emission reduction of 100% by 2030 compared to 2015
+ - Local and international CO<sub>2</sub> emission reduction of 100% by 2030 compared to 2015
  - Faster rate of renewable electricity generation by 2050
  - Lower cost of fossil fuels and higher cost of biomass
  - Lower DH network investment costs and higher losses
@@ -39,7 +39,7 @@ Key aspects (options) for the emission reduction that can be varied in our scena
 
 #### Conventional DH + WEO-SD
  - High rate of heat demand reduction by 2050
- - Local and international CO2 emission reduction of 95% by 2050 compared to 2015
+ - Local and international CO<sub>2</sub> emission reduction of 95% by 2050 compared to 2015
  - Faster rate of renewable electricity generation by 2050
  - Lower cost of fossil fuels and higher cost of biomass
  - Lower DH network investment costs and higher losses
@@ -48,7 +48,7 @@ Key aspects (options) for the emission reduction that can be varied in our scena
 
 #### Conventional DH + WEO-NP 
  - Low rate of heat demand reduction by 2050
- - Local and international CO2 emission reduction of 60% by 2050 compared to 2015
+ - Local and international CO<sub>2</sub> emission reduction of 60% by 2050 compared to 2015
  - Slower rate of renewable electricity generation by 2050
  - Higher cost of fossil fuels and lower cost of biomass
  - Lower DH network investment costs and higher losses
@@ -56,7 +56,7 @@ Key aspects (options) for the emission reduction that can be varied in our scena
 
 #### Transition DH + Ambitious
  - High rate of heat demand reduction by 2050
- - Local and international CO2 emission reduction of 100% by 2030 compared to 2015
+ - Local and international CO<sub>2</sub> emission reduction of 100% by 2030 compared to 2015
  - Faster rate of renewable electricity generation by 2050
  - Lower cost of fossil fuels and higher cost of biomass
  - Lower DH network investment costs and higher losses
@@ -65,7 +65,7 @@ Key aspects (options) for the emission reduction that can be varied in our scena
 
 #### Transition DH+ WEO-SD
  - High rate of heat demand reduction by 2050
- - Local and international CO2 emission reduction of 95% by 2050 compared to 2015
+ - Local and international CO<sub>2</sub> emission reduction of 95% by 2050 compared to 2015
  - Faster rate of renewable electricity generation by 2050
  - Lower cost of fossil fuels and higher cost of biomass
  - Lower DH network investment costs and higher losses
@@ -74,7 +74,7 @@ Key aspects (options) for the emission reduction that can be varied in our scena
 
 #### Transition DH + WEO-NP
  - Low rate of heat demand reduction by 2050
- - Local and international CO2 emission reduction of 60% by 2050 compared to 2015
+ - Local and international CO<sub>2</sub> emission reduction of 60% by 2050 compared to 2015
  - Slower rate of renewable electricity generation by 2050
  - Higher cost of fossil fuels and lower cost of biomass
  - Lower DH network investment costs and higher losses
@@ -83,7 +83,7 @@ Key aspects (options) for the emission reduction that can be varied in our scena
 
 #### Future DH + Ambitious
  - High rate of heat demand reduction by 2050
- - Local and international CO2 emission reduction of 100% by 2030 compared to 2015
+ - Local and international CO<sub>2</sub> emission reduction of 100% by 2030 compared to 2015
  - Faster rate of renewable electricity generation by 2050
  - Lower cost of fossil fuels and higher cost of biomass
  - Higher DH network investment costs and lower losses 
@@ -92,7 +92,7 @@ Key aspects (options) for the emission reduction that can be varied in our scena
 
 #### Future DH+ WEO-SD
  - High rate of heat demand reduction by 2050
- - Local and international CO2 emission reduction of 95% by 2050 compared to 2015
+ - Local and international CO<sub>2</sub> emission reduction of 95% by 2050 compared to 2015
  - Faster rate of renewable electricity generation by 2050
  - Lower cost of fossil fuels and higher cost of biomass
  - Higher DH network investment costs and lower losses 
@@ -101,7 +101,7 @@ Key aspects (options) for the emission reduction that can be varied in our scena
 
 #### Future DH + WEO-NP
  - Low rate of heat demand reduction by 2050
- - Local and international CO2 emission reduction of 60% by 2050 compared to 2015
+ - Local and international CO<sub>2</sub> emission reduction of 60% by 2050 compared to 2015
  - Slower rate of renewable electricity generation by 2050
  - Higher cost of fossil fuels and lower cost of biomass
  - Higher DH network investment costs and lower losses

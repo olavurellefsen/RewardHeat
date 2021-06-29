@@ -29,8 +29,10 @@ class ScenarioDescriptions extends Component {
     this.updateContent();
   }
 
-  componentDidUpdate() {
-    this.updateContent();
+  componentDidUpdate(prevProps) {
+    if (this.props.markdownFiles[0] !== prevProps.markdownFiles[0]) {
+      this.updateContent();
+    }
   }
 
   render() {

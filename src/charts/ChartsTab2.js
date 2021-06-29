@@ -9,6 +9,7 @@ import stackedBar from '../data/stackedBarTab2'
 import indicators from '../data/indicatorsTab2'
 import indicatorsDescriptors from '../data/indicatorsTab2MaxValue'
 import scenarioCombinations from "../data/scenarioCombinations"
+import parseHtml from 'html-react-parser';
 
 const Scenario1Description = styled.div`
   background-color: #EA6443;
@@ -36,16 +37,16 @@ const Charts = props => {
           tab="tab2" />
         <ScenarioDescriptionsContainer isWelcomeOpen={props.scenarioSelection.showWelcome}>
           <Scenario1Description>
-            {scenarioCombinations.scenarioCombinations.scenarioOptions.find(
-              (option)=>option.name === selectedScenario).desc
+            {parseHtml(scenarioCombinations.scenarioCombinations.scenarioOptions.find(
+              (option)=>option.name === selectedScenario).desc.replace("CO2", "CO<sub>2</sub>"))
             }
           </Scenario1Description>
           {selectedScenario2 && <Scenario2Description>{
-            scenarioCombinations.scenarioCombinations.scenarioOptions.find(
+            parseHtml(scenarioCombinations.scenarioCombinations.scenarioOptions.find(
               (option)=>option.name === selectedScenario2
-            )?.desc
+            )?.desc.replace("CO2", "CO<sub>2</sub>"))
           }</Scenario2Description>}
-        </ScenarioDescriptionsContainer> 
+        </ScenarioDescriptionsContainer>  
       {(props.scenarioSelection.showDifference === false ||
         (props.scenarioSelection.showDifference === true &&
           selectedScenario2 === '')) && (

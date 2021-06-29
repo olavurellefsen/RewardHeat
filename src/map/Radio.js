@@ -26,9 +26,11 @@ const Container = styled.label`
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  transition: 0.2s;
 
   &:hover {
     background-color: #ccc;
+    transform: scale(1.1);
   }
   &:checked {
     background-color: #80655F;

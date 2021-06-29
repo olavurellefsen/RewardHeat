@@ -233,6 +233,7 @@ export class App extends React.Component {
           <Content>
             <LeftMenu
               selectedChartgroup={this.state.scenarioSelection}
+              selectedPage={this.props.location.pathname}
               scenarioSelection={this.state}
               scenarioCombinations={this.scenarioCombinations}
               updateScenarioSelection={this.UpdateScenarioSelection}
@@ -247,6 +248,7 @@ export class App extends React.Component {
             />
             <LeftMenuMobile
               selectedChartgroup={this.state.scenarioSelection}
+              selectedPage={this.props.location.pathname}
               scenarioSelection={this.state}
               scenarioCombinations={this.scenarioCombinations}
               updateScenarioSelection={this.UpdateScenarioSelection}

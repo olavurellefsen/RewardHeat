@@ -39,10 +39,11 @@ const ChartTitle = styled.div`
 `
 const MyCustomHTMLLabel = props => {
   const text = props.text.replaceAll('§', '')
+  const textsub = text.replace("NOx", "NO<sub>x</sub>").replace("PM2.5", "PM<sub>2.5</sub>").replace("SO2", "SO<sub>2</sub>")
 
   return (
     <foreignObject x={props.x+3} y={props.y-9} width={100} height={50}>
-      <div style={{ fontSize: '12px', fontFamily: "Open Sans" }}>{parseHtml(text)}</div>
+      <div style={{ fontSize: '12px', fontFamily: "Open Sans" }}>{parseHtml(textsub)}</div>
     </foreignObject>
   );
 };
@@ -101,13 +102,15 @@ const StackedBarChart = props => {
       minY = Math.min(minY, totalYearValuesNegativeScenario1[year],
         scenario2 ? totalYearValuesNegativeScenario2[year] : Infinity)
     })
-    let u=1
+    console.log("minY data: ", minY)
+    let u=0
     let j=0
-    while(minY !== 0 && u > minY && j < 20) {
+    while(u > minY && j < 60) {
       u = -range[j%5]*Math.pow(range[4], Math.floor(j/5))
       j++
     }
     minY = u
+    console.log("minY pretty: ", minY)
   }
   
   if (!maxY){
@@ -134,7 +137,7 @@ const StackedBarChart = props => {
       base = -minY
     else 
       base = maxY
-  
+  console.log("base: ", base)
   let legends = new Set()
   
   stackedBar.data.scenarios
@@ -158,18 +161,21 @@ const StackedBarChart = props => {
     else {
       ret=[0, 0.25, 0.5, 0.75]
       defTick.forEach((tick, i)=> {
+        console.log("tick*maxY + maxY*0.05: ", tick*maxY + maxY*0.05)
+        console.log("-minY: ", -minY)
         if (tick !== 0.75)
           if (tick*maxY + maxY*0.05 < -minY)
             ret.unshift(-defTick[i+1])
       })
     }
+    console.log("tick: ", ret)
     return ret
   }
 
   return (
     <div>
       <ChartHeader>
-        <ChartTitle>{chartTitle} ---  {mapRegions.find((countryCode)=>countryCode.path_id === props.selectedCountries[0]).country}</ChartTitle>
+        <ChartTitle>{parseHtml(chartTitle.replaceAll("NOx", "CO<sub>2</sub>"))} ---  {mapRegions.find((countryCode)=>countryCode.path_id === props.selectedCountries[0]).country}</ChartTitle>
         <CSVLink 
           data={getCSVData(accumulatedDataScenario1, scenario, dataScenario2 ? accumulatedDataScenario2 : [], scenario2)}
           filename={chartTitle + " " + selectedCountries + ".csv"}
