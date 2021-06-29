@@ -1,4 +1,4 @@
-# How to use the RewardHeat TIMES_Heat model webpage
+# How to use the RewardHeat TIMES_Heat model results webpage
 
 You can explore the results of the RewardHeat model by selecting individual countries on the map. 
 
