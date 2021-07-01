@@ -11,17 +11,28 @@ The start year (base year) of the model is 2015. In that year the heating sector
 - Time horizon: 2015-2052
 - Time resolution: Eight time slices per year (four seasons, day and night)
 
-### Schematic representation
+### Schematic representation of heat sector in TIMES_Heat model 
 
 ![Heating_sector_scheme](./images/Heating_sector_scheme_resized.png)
  
 **Figure 1.** Simplified representation of the heating sector in the TIMES_Heat model (TIMES-Heat model, Sandvall, 2020)
 
 
-For more information: 
+### Air pollutants 
 
-Link to the report where detailed information about the TIMES_Heat model and for each country that is modeled: https://www.rewardheat.eu/Download?id=file:83807000&s=-333193579074902488
+Three air pollutants emissions i) Nitrogen Oxides (NOx), ii) Sulfur Oxides (SOx) iii) particles less than 2.5 μm (PM2.5) were estimated for all heat production technologies that are supplying the heat demand for each scenario. The methodology used here is multiplication of heat output from the respective technologies (PJ) and emissions factor per each substance, technology and fuel (kt/PJ).
 
-Short description of the TIMES modeling framework: https://iea-etsap.org/index.php/etsap-tools/model-generators/times
+*For air pollutant calculations the TIMES model is soft-linked with GAINS model (IIASA, 2018). Heat output is retrieved from the TIMES_Heat model and linked with the unique emission factor for respective technology defined in GAINS model.*
 
-Link to the TIMES model documentation, which contains information about the modeling framework and how to use the tool: https://iea-etsap.org/index.php/documentation
+For detailed explanation please refer to the respective report [1] section **17.11**. 
+
+
+**For more information:** 
+
+[1] Link to the report where detailed information about the TIMES_Heat model and for each country that is modeled: **https://www.rewardheat.eu/Download?id=file:83807000&s=-333193579074902488**
+
+
+[2] Short description of the TIMES modeling framework: **https://iea-etsap.org/index.php/etsap-tools/model-generators/times**
+
+
+[3] Link to the TIMES model documentation, which contains information about the modeling framework and how to use the tool: **https://iea-etsap.org/index.php/documentation**
