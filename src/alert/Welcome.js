@@ -87,10 +87,10 @@ function Welcome(props) {
         <AlertBodyParagraph>{welcomeText[props.tab].welcome3}</AlertBodyParagraph>
         {props.tab === "tab1" && <WelcomeImageContainer>
           <AlertBodyParagraph>
-          <img width="500" height="250" src="images/Scenario Options main page_I.PNG" alt="Scenarios_Options_scheme"/>
+          <img width="500" height="250" src="images/Main_results_page_scenario_options.PNG" alt="Scenarios_Options_scheme"/>
           </AlertBodyParagraph>
           <AlertBodyParagraph>
-          <img width="500" height="250" src="images/Climate_policy_options_graph.png" alt="Climate_policy_options_graph"/>
+          <img width="500" height="250" src="images/Main_results_page_climate_policy_options.png" alt="Climate_policy_options_graph"/>
           </AlertBodyParagraph>
         </WelcomeImageContainer>}
         <AlertBodyParagraph>{welcomeText[props.tab].welcome4}</AlertBodyParagraph>
@@ -98,7 +98,7 @@ function Welcome(props) {
         {
           props.tab === "tab2" && 
           <AlertBodyParagraph style={{marginLeft: "50px"}}>
-            <img src="images/AirPollutionWelcome.png" alt="Cost_formula"/>
+            <img width="700" height="150" src="images/Air_pollutant_formula.png" alt="Cost_formula"/>
           </AlertBodyParagraph>
         }
         <AlertBodyParagraph>{welcomeText[props.tab].welcome6}</AlertBodyParagraph>
