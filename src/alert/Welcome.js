@@ -90,7 +90,7 @@ function Welcome(props) {
           <img width="500" height="331" src="images/Main_results_page_scenario_options.PNG" alt="Scenarios_Options_scheme"/>
           </AlertBodyParagraph>
           <AlertBodyParagraph>
-          <img width="500" height="250" src="images/Main_results_page_climate_policy_options.png" alt="Climate_policy_options_graph"/>
+          <img width="634" height="331" src="images/Main_results_page_climate_policy_options.png" alt="Climate_policy_options_graph"/>
           </AlertBodyParagraph>
         </WelcomeImageContainer>}
         <AlertBodyParagraph>{welcomeText[props.tab].welcome4}</AlertBodyParagraph>
