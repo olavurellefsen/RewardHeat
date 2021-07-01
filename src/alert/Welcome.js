@@ -87,7 +87,7 @@ function Welcome(props) {
         <AlertBodyParagraph>{welcomeText[props.tab].welcome3}</AlertBodyParagraph>
         {props.tab === "tab1" && <WelcomeImageContainer>
           <AlertBodyParagraph>
-          <img width="500" height="331" src="images/Main_results_page_scenario_options.PNG" alt="Scenarios_Options_scheme"/>
+          <img width="500" height="331" src="images/Scenario Options main page_III.PNG" alt="Scenarios_Options_scheme"/>
           </AlertBodyParagraph>
           <AlertBodyParagraph>
           <img width="634" height="331" src="images/Main_results_page_climate_policy_options.png" alt="Climate_policy_options_graph"/>
