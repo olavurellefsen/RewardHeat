@@ -59,10 +59,12 @@ const welcomeText = {
     "welcome4": <p>If you are ready, you can close this window and start exploring.</p>
   },
   "tab2": {
-    "welcome1": <p>REWARDHeat project scenario interface.</p>,
-    "welcome2": <p>Air pollution</p>,
-    "welcome3": <p>Change text in ./translation/en.json line 80-83</p>,
-    "welcome4": <p>Close this window and start exploring...</p>
+    "welcome1": <p>Air Pollutants</p>,
+    "welcome2": <p>Following air pollutants emissions were estimated for each scenario that is studied in the model for all the countries studied in the RewardHeat project:</p>,
+    "welcome3": <p> - Nitrogen Oxides (NO<sub>x</sub>),<br /> - Sulfur Oxides (SO<sub>x</sub>),<br /> - Particles less than 2.5 μm (PM<sub>2.5</sub>). </p>,
+    "welcome4": <p>The principle for the calculation of the emissions is the multiplication of the heat output (PJ) from the technologies satisfying the heat demand with a unique emission factor for the respective technology and fuel used (kt/PJ).</p>,
+    "welcome5": <p>For the emission calculations, the TIMES_Heat model is soft linked with the GAINS model which is a model that is developed by IIASA*.</p>,
+    "welcome6": <p>*IIASA GAINS model: <a href="https://iiasa.ac.at/web/home/research/researchPrograms/air/GAINS.html" style={{color: "white"}}>https://iiasa.ac.at/web/home/research/researchPrograms/air/GAINS.html</a></p>
   },
   "tab3": {
     "welcome1": <p>REWARDHeat project scenario interface.</p>,
@@ -92,6 +94,14 @@ function Welcome(props) {
           </AlertBodyParagraph>
         </WelcomeImageContainer>}
         <AlertBodyParagraph>{welcomeText[props.tab].welcome4}</AlertBodyParagraph>
+        <AlertBodyParagraph>{welcomeText[props.tab].welcome5}</AlertBodyParagraph>
+        {
+          props.tab === "tab2" && 
+          <AlertBodyParagraph style={{marginLeft: "50px"}}>
+            <img src="images/AirPollutionWelcome.png" alt="Cost_formula"/>
+          </AlertBodyParagraph>
+        }
+        <AlertBodyParagraph>{welcomeText[props.tab].welcome6}</AlertBodyParagraph>
       </AlertBody>}
       <CloseWindowIcon
         onClick={() => props.closeWelcome(!props.isOpen)}
