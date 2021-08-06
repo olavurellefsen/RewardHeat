@@ -7,15 +7,13 @@ For the purposes of RewardHeat project, 9 senarios were developed and modeled in
 
 ## Three heat supply scenarios
 
-**Conventional DH - Conventional district heating without low temperature heat sources** In this scenario the current DH systems remains without low temperature heating sources.
+**Conventional DH - Conventional district heating without low temperature heat sources** In this scenario, the current DH systems remain without low temperature heating sources.
 
-**Transition DH - Conventional district heating with low temperature heat sources** In this scenario the current DH technologies are in place. In additon to this low temperature heating sources are introdcued to the system. 
+**Transition DH - Conventional district heating with low temperature heat sources** In this scenario, the current DH systems remain. In additon to this low temperature heating sources are introduced to the system. 
 
-**Future DH - Low Temperature district heating with low temperature heat sources** Low temperature district heating technologies are introducted with the availability of low temperature heating sources.
+**Future DH - Low Temperature district heating with low temperature heat sources** Low temperature district heating technologies are introduced with the availability of low temperature heating sources.
 
 ## Three climate policy options
-
-Key aspects (options) for the emission reduction that can be varied in our scenarios include: 
 
 **Ambitious - Net zero emission by 2030 compared to 2015** Local and international CO<sub>2</sub> emission reduction of 100% by 2030 compared to 2015
 
