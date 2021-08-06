@@ -10,4 +10,4 @@ You can view one scenario or two scenarios for results comparison. When viewing 
 
 #### Options
 
-Options refer to different climate policy targets in this model. The Ambitions option (A) is selected by default for each scenario. World Energy Outlook 2017 Sustainable Development (SD) and New Policy (NP) options are available as well. By clicking the icons you can explore the different model results to achieve each target (option). For detailed explanation of the scenarios see ‘Description of scenarios’. 
+Options refer to different climate policy targets in this model. The Ambitios (A) option is selected by default for each scenario. World Energy Outlook 2017 Sustainable Development (SD) and New Policy (NP) options are available as well. By clicking the icons you can explore the different model results to achieve each target (option). For detailed explanation of the scenarios see ‘Description of scenarios’. 
