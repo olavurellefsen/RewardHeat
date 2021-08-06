@@ -1,12 +1,12 @@
 # REWARDHeat scenario description
 
-In the RewardHeat model, three climate policy options, combined into three heat supply scenarios (resulting in nine different scenarios), were designed and applied to assess the span of outcomes with regards to parameter values for which future levels are uncertain and of relevance for the present study.
+For the purposes of RewardHeat project, 9 senarios were developed and modeled in TIMES model generator. These 9 scenarios result from a combination of 3 heat supply scenarios and 3 climate policy options. 
 
-The first climate policy option is the "Ambitous", the target is net zero emission by 2030 compared to 2015. The two climate policy options chosen: "WEO-SD" and "WEO-NP", are in line with the Sustainable Development Scenario and the New Policies Scenario of the International Energy Agency (IEA)’s World Energy Outlook 2017 (WEO) report, respectively. The Sustainable Development scenario is a more ambitious climate policy option that starts with a certain vision of what the energy sector needs to achieve and then works back to the present. In contrast, The New Policies Scenario is a less ambitious climate policy option that aims to provide a sense of where today's policy ambitions seem likely to take the energy sector.
+The first climate policy option is called "Ambitous" and the target is net zero emissions by 2030. The two climate policy options chosen: "WEO-SD" and "WEO-NP", are in line with the Sustainable Development Scenario and the New Policies Scenario of the International Energy Agency (IEA)’s World Energy Outlook 2017 (WEO) report, respectively. The Sustainable Development scenario is an ambitious climate policy option that starts with a certain vision of what the energy sector needs to achieve net zer. The New Policies Scenario is a less ambitious climate policy option that aims to provide a sense of where today's policy ambitions seem to take the energy sector in the future.
  
 ![Scenarios_Options_scheme](./images/Scenarios_Options_scheme.png)
 
-## Three scenarios
+## Three heat supply scenarios
 
 **Conventional DH - Conventional district heating without low temperature heat sources** In this scenario the current DH systems remains without low temperature heating sources.
 
@@ -14,7 +14,7 @@ The first climate policy option is the "Ambitous", the target is net zero emissi
 
 **Future DH - Low Temperature district heating with low temperature heat sources** Low temperature district heating technologies are introducted with the availability of low temperature heating sources.
 
-## Three possible options
+## Three climate policy options
 
 Key aspects (options) for the emission reduction that can be varied in our scenarios include: 
 
