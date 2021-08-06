@@ -2,7 +2,6 @@
 
 For the purposes of RewardHeat project, 9 senarios were developed and modeled in TIMES model generator. These 9 scenarios result from a combination of 3 heat supply scenarios and 3 climate policy options. 
 
-The first climate policy option is called "Ambitous" and the target is net zero emissions by 2030. The two climate policy options chosen: "WEO-SD" and "WEO-NP", are in line with the Sustainable Development Scenario and the New Policies Scenario of the International Energy Agency (IEA)’s World Energy Outlook 2017 (WEO) report, respectively. The Sustainable Development scenario is an ambitious climate policy option that starts with a certain vision of what the energy sector needs to achieve net zer. The New Policies Scenario is a less ambitious climate policy option that aims to provide a sense of where today's policy ambitions seem to take the energy sector in the future.
  
 ![Scenarios_Options_scheme](./images/Scenarios_Options_scheme.png)
 
