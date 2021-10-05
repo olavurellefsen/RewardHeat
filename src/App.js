@@ -46,6 +46,15 @@ const MainSwitch = styled(Switch)`
   flex-wrap: wrap;
   align-content: flex-start;
 `
+const FundingText = styled.div`
+  display: flex;
+  justify-content: center;
+`
+const Bold = styled.span`
+  font-weight: bold;
+  padding-left: 5px;
+  margin-bottom: 5px;
+`
 
 export const changeScenario = (name, value) => {
   console.log("change name and value: ", {name, value})
@@ -343,6 +352,8 @@ export class App extends React.Component {
                 }}
               />
             </MainSwitch>
+            <FundingText>This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement <Bold> N. 857811.</Bold></FundingText>
+            <FundingText>The content of this website reflects only the author’s view only and the European Commission is not responsible for any use that may be made of the information it contains.</FundingText>
           </Content>
         </RightColumn>
       </Page>
