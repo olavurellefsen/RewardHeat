@@ -74,8 +74,8 @@
   },
   "welcome-text-tab1": {
     "welcome-1": "REWARDHeat project scenario interface.",
-    "welcome-2": "This webpage is developed within the REWARDHeat project, that focuses on demonstrating a new generation of low-temperature district heating and cooling networks. These networks will be able to recover renewable and waste heat which is available at low temperature. In the project, an energy system model of seven countries (Croatia, Denmark, France, Germany, Italy, Netherlands, Sweden) heating sector has been developed and used to explore the scenarios to explore scenarios for transition to low-temperature district heating and carbon neutrality in these countries.",
-    "welcome-3": "On this 'main results' page, you can compare scenarios and change assumptions (options) to explore how the energy system is changing within different scenarios. The scheme and the graph below inform you about the scenarios and options. For further information about these please go to the 'Description of the scenarios' tab on the left.",
+    "welcome-2": "This webpage is developed within the REWARDHeat project, which focuses on demonstrating a new generation of low-temperature district heating and cooling networks. These networks will be able to recover renewable and waste heat, which is available at low temperature. In the project, an energy system model of the heating sectors of the seven countries (Croatia, Denmark, France, Germany, Italy, the Netherlands, Sweden) has been developed and used to explore scenarios for transition to low-temperature district heating and carbon neutrality in these countries.",
+    "welcome-3": "On this 'main results' page, you can compare scenarios and change assumptions (options) to explore how the energy systems are changing within different scenarios. The scheme and the graph below inform you about the scenarios and options. For further information about these, please go to the 'Description of the scenarios' tab on the left.",
     "welcome-4": "If you are ready, you can close this window and start exploring."
   },
   "welcome-text-tab2": {

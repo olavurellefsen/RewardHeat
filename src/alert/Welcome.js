@@ -54,16 +54,16 @@ CloseWindowIcon.displayName = "CloseWindowIcon";
 const welcomeText = {
   "tab1": {
     "welcome1": <p>REWARDHeat project scenario interface.</p>,
-    "welcome2": <p>This webpage is developed within the REWARDHeat project, that focuses on demonstrating a new generation of low-temperature district heating and cooling networks. These networks will be able to recover renewable and waste heat which is available at low temperature. In the project, an energy system model of seven countries (Croatia, Denmark, France, Germany, Italy, Netherlands, Sweden) heating sector has been developed and used to explore scenarios for transition to low-temperature district heating and carbon neutrality in these countries.</p>,
-    "welcome3": <p>On this 'main results' page, you can compare scenarios and change assumptions (options) to explore how the energy system is changing within different scenarios. The scheme and the graph below inform you about the scenarios and options. For further information about these please go to the 'Description of the scenarios' tab on the left.</p>,
+    "welcome2": <p>This webpage is developed within the REWARDHeat project, which focuses on demonstrating a new generation of low-temperature district heating and cooling networks. These networks will be able to recover renewable and waste heat, which is available at low temperature. In the project, an energy system model of heating sectors of seven countries (Croatia, Denmark, France, Germany, Italy, Netherlands, Sweden) has been developed and used to explore scenarios for transition to low-temperature district heating and carbon neutrality in these countries.</p>,
+    "welcome3": <p>On this 'main results' page, you can compare scenarios and change assumptions (options) to explore how the energy systems are changing within different scenarios for each country. The scheme and the graph below inform you about the scenarios and options. For further information about these please go to the 'Description of the scenarios' tab on the left.</p>,
     "welcome4": <p>If you are ready, you can close this window and start exploring.</p>
   },
   "tab2": {
     "welcome1": <p>Air Pollutants</p>,
-    "welcome2": <p>Following air pollutants emissions were estimated for each scenario that is studied in the model for all the countries studied in the REWARDHeat project:</p>,
+    "welcome2": <p>Following air pollutants were estimated for each scenario, which is studied in the model, for all the countries investigated in the REWARDHeat project:</p>,
     "welcome3": <p> - Nitrogen Oxides (NO<sub>x</sub>),<br /> - Sulfur Oxides (SO<sub>x</sub>),<br /> - Particles less than 2.5 μm (PM<sub>2.5</sub>). </p>,
     "welcome4": <p>The principle for the calculation of the emissions is the multiplication of the heat output (PJ) from the technologies satisfying the heat demand with a unique emission factor for the respective technology and fuel used (kt/PJ).</p>,
-    "welcome5": <p>For the emission calculations, the TIMES_Heat model is soft linked with the GAINS model which is a model that is developed by IIASA*.</p>,
+    "welcome5": <p>For the emission calculations, the TIMES_Heat model is soft-linked to the GAINS model, which is a model that is developed by IIASA*.</p>,
     "welcome6": <p>*IIASA GAINS model: <a href="https://iiasa.ac.at/web/home/research/researchPrograms/air/GAINS.html" style={{color: "white"}}>https://iiasa.ac.at/web/home/research/researchPrograms/air/GAINS.html</a></p>
   },
   "tab3": {

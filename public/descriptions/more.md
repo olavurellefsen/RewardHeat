@@ -1,11 +1,11 @@
 # The TIMES_Heat Model
 
-In the RewardHeat project, the well-established TIMES (The Integrated MARKAL-EFOM System) energy system model generator is used for the analysis (ETSAP, M. Gargiulo, 2009). For the study, a heating sector model was developed and modeled for each demonstrator, and the model is named as TIMES_Heat. 
-The TIMES_Heat model represents the heating sectors in the studied countries, including the heat generation in district heating systems and individual heating units in buildings. The electricity system as well as international markets for fuels are treated exogenously. Heat demand in the studied counties is defined per timeslice. Energy efficiency measures and heat demand projections are provided as exogenous inputs to the model.  
+In the RewardHeat project, the well-established TIMES (The Integrated MARKAL-EFOM System) energy system model generator is used for the analysis (ETSAP, M. Gargiulo, 2009). For the study, a heating sector model (TIMES_Heat) was developed and applied for each demonstrator. 
+The TIMES_Heat model represents the heating sectors in the studied countries, including the heat generation in district heating systems and individual heating units in buildings. The electricity system as well as international markets for fuels are treated exogenously. Energy efficiency measures and heat demand projections are provided as exogenous inputs to the model.  
 
-The TIMES_Heat model minimizes the cost to satisfy the heating demand for each country, considering the constraints that are defined in the model, for example, emissions, resource availability, etc. 
+The TIMES_Heat model minimizes the cost of satisfying the heating demand for each country, considering the constraints that are defined in the model, for example, emissions, resource availability, etc. 
 
-The start year (base year) of the model is 2015. In that year the heating sector is represented with the present fuel mix and existing heat generation units in that year. The existing technologies are phased out gradually and replaced with the new technologies towards the future within the model, considering the costs, technology efficiencies, availabilities, lifetimes, constraints in the model, etc. 
+The start year of the model is 2015. In that year, the heating sector is represented with exisiting fuel mix and heat generation units. The existing technologies are phased out gradually and are replaced with the new technologies, considering their costs, efficiencies, availabilities, lifetimes, etc. 
 
 - Start year of the model: 2015
 - Time horizon: 2015-2052
@@ -20,9 +20,9 @@ The start year (base year) of the model is 2015. In that year the heating sector
 
 ### Air pollutants 
 
-Three air pollutants emissions i) Nitrogen Oxides (NOx), ii) Sulfur Oxides (SOx) iii) particles less than 2.5 μm (PM2.5) were estimated for all heat production technologies that are supplying the heat demand for each scenario. The methodology used here is multiplication of heat output from the respective technologies (PJ) and emissions factor per each substance, technology and fuel (kt/PJ).
+Three air pollutants i) Nitrogen Oxides (NOx), ii) Sulfur Oxides (SOx) iii) particles less than 2.5 μm (PM2.5) were estimated for all heat production technologies that are supplying the heat demand for each scenario. The methodology used here is multiplication of heat output from the respective technologies (PJ) and emissions factor per each substance, technology and fuel (kt/PJ).
 
-*For air pollutant calculations the TIMES model is soft-linked with GAINS model (IIASA, 2018). Heat output is retrieved from the TIMES_Heat model and linked with the unique emission factor for respective technology defined in GAINS model.*
+*For air pollutant calculations, the TIMES model is soft-linked with the GAINS model (IIASA, 2018). Heat output is retrieved from the TIMES_Heat model and linked with the unique emission factor for respective technology defined in the GAINS model.*
 
 For detailed explanation please refer to the respective report [1] section **17.11**. 
 
