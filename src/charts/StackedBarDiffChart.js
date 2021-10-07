@@ -3,7 +3,6 @@ import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import parseHtml from 'html-react-parser'
 import years from "../data/years"
-//import { useTranslation } from 'react-i18next'
 import {
   VictoryChart,
   VictoryLabel,
@@ -29,13 +28,11 @@ const ChartTitle = styled.div`
 `
 
 const StackedBarChart = props => {
-  //const { t } = useTranslation()
   const stackedBar = props.stackedBar
   const scenario = props.selectedScenario
   const scenario2 = props.selectedScenario2
   const selectedCountries = props.selectedCountries
   const chartName = props.chartName
-  //const chartTitle = t('chartTitle.' + props.chartTitle)
   const chartTitle = props.chartTitle
   const combinedChart = props.combinedChart
   const periods = years
@@ -186,9 +183,6 @@ const StackedBarChart = props => {
                 '%'
               )
             }
-            console.log("charttitle: ", chartTitle)
-            console.log("tick: ", (tick * maxValue) / props.divideValues)
-            console.log("round: ", Math.round((tick * maxValue) / props.divideValues, 1))
             return (tick * maxValue) / props.divideValues
           }}
           tickValues={[-1,-0.75, -0.5, -0.25, 0, 0.25, 0.5, 0.75,1]}
@@ -217,27 +211,11 @@ const StackedBarChart = props => {
         <VictoryGroup offset={15} style={{ data: { width: 15 } }}>
           <VictoryStack>
             {Object.keys(diffData).map((indicatorName, i) => {
-              console.log("indicatorName: ", indicatorName)
-              console.log("bars: ", diffData[indicatorName])
               return(
                 <VictoryBar
                   key={indicatorName}
                   data={diffData[indicatorName].map(chartGroupValue => {
-                    console.log("return: ", {
-                    ...chartGroupValue,
-                    label:
-                      'Difference: ' +
-                      indicatorName +
-                      ': ' +
-                      (props.YPercentage
-                        ? (
-                            (chartGroupValue.total * 100) /
-                            props.divideValues
-                          ).toFixed(0) + '%'
-                        : (chartGroupValue.total / props.divideValues).toFixed(
-                            1
-                          )),
-                  })
+                    
                     return({
                     ...chartGroupValue,
                     label:

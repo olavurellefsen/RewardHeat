@@ -64,7 +64,6 @@ const Charts = props => {
                 minY={0}
                 maxY={1500}
                 stackedBar={stackedBar}
-                //line={line}
                 countries={props.countries}
                 descriptor={indicatorsDescriptors.find(
                   (descriptor)=>(descriptor.name === i))
@@ -89,7 +88,6 @@ const Charts = props => {
                 minY={-1}
                 maxY={1}
                 stackedBar={stackedBar}
-                //line={line}
                 countries={props.countries}
               />
             )

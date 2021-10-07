@@ -8,7 +8,6 @@ const Radio = ({checked}) => {
       <Box 
         checked={checked}
         disabled={true}
-        //onChange={(e)=>{e.preventDefault()}}  
       ></Box>
       <Indicator></Indicator>
     </Container>
@@ -27,6 +26,7 @@ const Container = styled.label`
   -ms-user-select: none;
   user-select: none;
   transition: 0.2s;
+  width: 0px;
 
   &:hover {
     background-color: #ccc;
@@ -40,8 +40,8 @@ const Box = styled.input.attrs({type: 'radio'})`
   position: absolute;
   opacity: 0;
   cursor: pointer;
-  height: 1;
-  width: 1;
+  height: 1px;
+  width: 1px;
   margin-left: 30px;
 
   &:checked {

@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import styled from "styled-components";
 import breakpoint from "styled-components-breakpoint";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import ScenarioSelectionList from "../scenarioSelection/ScenarioSelectionList";
 import ToggleSwitch from "./ToggleSwitch";
 import { useTranslation } from "react-i18next";
@@ -11,6 +11,7 @@ import "@fontsource/ropa-sans"
 
 const MenuLayout = styled.div`
   display: none;
+  height: calc(100vh);
   ${breakpoint("mobile", "desktop")`
     display: flex;  
     min-height: 100vh;
@@ -27,6 +28,12 @@ const AppLogo = styled.img`
   max-width: 75px;
   margin: 5px;
   border: 0;
+  align-self: center;
+  transition: 0.2s;
+  :hover {
+    transform: scale(1.05);
+    cursor: pointer;
+  }
 `;
 
 const MenuHeader = styled.div`
@@ -62,12 +69,13 @@ const MenuItem = styled(Link)`
   width: 100%;
   display: flex;
   align-items: center;
-  color: ${props => (props.selected ? "yellow" : "inherit")};
+  color: inherit;
   text-decoration: none;
   :hover {
-    text-decoration: underline;
+    transform: scale(1.05);
     cursor: pointer;
   }
+  opacity: ${props => (props.selected ? "1" : "0.8")};
 `;
 
 const ScenarioSelection = styled.div`
@@ -90,13 +98,6 @@ const ToggleSwitchText = styled.div`
     props.singleMode ? "gray" : props.selected ? "#2196F3" : "white"};
   margin-top: 5px;
 `;
-
-// const ToggleLanguageText = styled.div`
-//   font-size: 0.7em;
-//   color: ${props => (props.selected ? "white" : "gray")};
-//   margin-left: 3px;
-//   margin-right: 3px;
-// `;
 
 const ScenarioDifferenceText = styled.div`
   font-size: 0.7em;
@@ -149,22 +150,15 @@ const CopyrightItem = styled.div`
 `;
 function ScenarioSelectionMenu(props) {
   const { t } = useTranslation();
-  // const language = i18n.language;
-
-  // const toggleLanguage = e => {
-  //   e.preventDefault();
-  //   if (language === "en") {
-  //     i18n.changeLanguage("dk");
-  //   } else {
-  //     i18n.changeLanguage("en");
-  //   }
-  // };
+  const location = useLocation()
 
   return (
     <MenuLayout>
       <MenuHeader>
         <ExternalLink href="http://www.nordicenergy.org/flagship/project-shift/">
-          <AppLogo src="./images/shift_logo_white.png" alt="logo" />
+          <AppLogo 
+            src="./images/rewardheatlogo.jpg"
+            alt="REWARDHeat" />
         </ExternalLink>
         <MenuRoutes>
           <MenuItem
@@ -201,18 +195,14 @@ function ScenarioSelectionMenu(props) {
       </MenuHeader>
       <MenuSeparatorLine />
       <Header narrowVersion={true}> {t("general.countries")}</Header>
-      {/* <MapContainer
-        selectedCountries={props.selectedCountries}
-        selectCountry={props.selectCountry}
-      /> */}
       <CountryList 
         countries={props.countries}
-        selectedCountries={props.selectedCountries}
-        selectCountry={props.selectCountry}
+        selectedCountries={location.pathname !== "/tab3" ? props.selectedCountries : props.selectedCountriesCost}
+        selectCountry={location.pathname !== "/tab3" ? props.selectCountry : props.selectCountryCost}
         narrowVersion={true}
         />
       <MenuSeparatorLine />
-      <ScenarioSelection>
+      {location.pathname !== "/tab3" && <><ScenarioSelection>
         <ScenarioSelectionList
           updateScenarioSelection={props.updateScenarioSelection}
           name="scenarioSelection"
@@ -248,7 +238,7 @@ function ScenarioSelectionMenu(props) {
         <p>{props.scenarioSelection.scenarioSelection2}</p>
       </div>}
       </ScenarioDifferenceText>
-      
+      <MenuSeparatorLine /></>}
       <MenuFooter>
         <CopyrightNotice>
           <Header narrowVersion={true}> {t("general.developed-by")}</Header>

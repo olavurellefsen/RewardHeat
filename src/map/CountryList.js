@@ -23,9 +23,9 @@ const CountryList = ({
               
             />
             <Flag src={"./images/flags/" + country + ".png"} />
-            {!narrowVersion && <div 
+            {!narrowVersion && <CountryName 
               key={"LeftMenuContry"+i}>{mapRegions.find((region)=>region.path_id === country).country}
-            </div>}
+            </CountryName>}
           </CountryContainer>
         )
       })}
@@ -42,9 +42,20 @@ const CountryContainer = styled.div`
   align-items: center;
   margin-left: 15px;
   z-index: 10;
+  cursor: pointer;
+  opacity: 0.8;
+  &:hover {
+    ${'' /* background-color: #ccc; */}
+    ${'' /* transform: scale(1.1); */}
+    opacity: 1;
+  }
+  
 `
 const Flag = styled.img`
   padding: 3px;
+  
+`
+const CountryName = styled.div`
 `
 
 

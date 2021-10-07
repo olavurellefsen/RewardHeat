@@ -154,14 +154,6 @@ const Header = styled.div`
 function ScenarioSelectionMenu(props) {
   const { t } = useTranslation();
   const location = useLocation()
-  // const toggleLanguage = e => {
-  //   e.preventDefault();
-  //   if (language === "en") {
-  //     i18n.changeLanguage("dk");
-  //   } else {
-  //     i18n.changeLanguage("en");
-  //   }
-  // };
 
   return (
     <MenuLayout>

@@ -82,11 +82,12 @@ const StackedBarChart = props => {
   const totalYearValuesPositiveScenario2 = scenario2 ? dataScenario2[1] : undefined
   const totalYearValuesNegativeScenario2 = scenario2 ? dataScenario2[2] : undefined
   
-  let current_country = mapRegions.find((countryCode)=>countryCode.path_id === props.selectedCountries[0]).country
+  let current_country = mapRegions.find((countryCode)=>{
+    return(countryCode.path_id === props.selectedCountries[0])
+  }).country
   let maxY
   let minY
   if (descriptor) {
-    console.log("descriptor: ", descriptor)
     if (descriptor[current_country].max) {
       maxY = descriptor[current_country].max
       minY = descriptor[current_country].min
@@ -102,7 +103,6 @@ const StackedBarChart = props => {
       minY = Math.min(minY, totalYearValuesNegativeScenario1[year],
         scenario2 ? totalYearValuesNegativeScenario2[year] : Infinity)
     })
-    console.log("minY data: ", minY)
     let u=0
     let j=0
     while(u > minY && j < 60) {
@@ -110,7 +110,6 @@ const StackedBarChart = props => {
       j++
     }
     minY = u
-    console.log("minY pretty: ", minY)
   }
   
   if (!maxY){
@@ -137,7 +136,6 @@ const StackedBarChart = props => {
       base = -minY
     else 
       base = maxY
-  console.log("base: ", base)
   let legends = new Set()
   
   stackedBar.data.scenarios
@@ -161,14 +159,11 @@ const StackedBarChart = props => {
     else {
       ret=[0, 0.25, 0.5, 0.75]
       defTick.forEach((tick, i)=> {
-        console.log("tick*maxY + maxY*0.05: ", tick*maxY + maxY*0.05)
-        console.log("-minY: ", -minY)
         if (tick !== 0.75)
           if (tick*maxY + maxY*0.05 < -minY)
             ret.unshift(-defTick[i+1])
       })
     }
-    console.log("tick: ", ret)
     return ret
   }
 

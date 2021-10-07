@@ -36,6 +36,8 @@ const RightColumn = styled.div`
   background: white;
 `
 const Content = styled.div`
+  display:flex;
+  flex-direction: column;
   flex-grow: 1; /*ensures that the container will take up the full height of the parent container*/
   overflow-y: auto; /*adds scroll to this container*/
   overflow-x: hidden;
@@ -57,7 +59,6 @@ const Bold = styled.span`
 `
 
 export const changeScenario = (name, value) => {
-  console.log("change name and value: ", {name, value})
   return({
   [name]: value,
 })}
@@ -101,7 +102,6 @@ export class App extends React.Component {
   UpdateScenarioNames = () => {
     
     this.setState(state => {
-      console.log("state: ", state)
       return {
         scenarioSelection:
           state.scenarioSelectionNoOptions +
@@ -112,19 +112,6 @@ export class App extends React.Component {
       }
     })
     this.setState(state => {
-      console.log("setting sc2")
-      console.log("state.scenarioSelectionNoOptions2: ", state.scenarioSelectionNoOptions2)
-      
-      let t = state.scenarioSelectionNoOptions2 !== ''
-      ? state.scenarioSelectionNoOptions2 +
-        (state.options[state.scenarioSelectionNoOptions2].opt0
-          ? '_Ambitious'
-          : '') +
-        (state.options[state.scenarioSelectionNoOptions2].opt1 ? '_WEO-SD' : '') +
-        (state.options[state.scenarioSelectionNoOptions2].opt2 ? '_WEO-NP' : '') +
-        (state.options[state.scenarioSelectionNoOptions2].opt3 ? '_SAC' : '')
-      : ''
-      console.log("new sc2 select: ", t)
       return {
         scenarioSelection2:
           state.scenarioSelectionNoOptions2 !== ''
@@ -150,12 +137,8 @@ export class App extends React.Component {
   }
   UpdateScenarioSelection = (e, name, value) => {
     e.preventDefault()
-    console.log("update scenario selection: ", value)
-    console.log("this.state.scenarioSelectionNoOptions: ", this.state.scenarioSelectionNoOptions)
-    console.log("this.state.scenarioSelectionNoOptions2: ", this.state.scenarioSelectionNoOptions2)
     if (this.state.scenarioSelectionNoOptions2 !== '') {
       if (value === this.state.scenarioSelectionNoOptions) {
-        console.log("toggle1 and 2")
         this.setState(
           changeScenario(
             'scenarioSelectionNoOptions',
@@ -166,7 +149,6 @@ export class App extends React.Component {
         //this.unselectToggles(this.state.scenarioSelectionNoOptions2)
         this.setState({ showDifference: false })
       } else {
-        console.log("off 2")
         if (value === this.state.scenarioSelectionNoOptions2) {
           this.setState(changeScenario('scenarioSelectionNoOptions2', ''))
           //this.unselectToggles(this.state.scenarioSelectionNoOptions2)
@@ -176,7 +158,6 @@ export class App extends React.Component {
         }
       }
     } else {
-      console.log("on2")
       if (value !== this.state.scenarioSelectionNoOptions) {
         this.setState(changeScenario('scenarioSelectionNoOptions2', value), ()=>{
         })
@@ -196,16 +177,12 @@ export class App extends React.Component {
   }
 
   ToggleOption = (scenario, option) => {
-    console.log("scenario: ", scenario)
-    console.log("option: ", option)
     let newOptions = this.state.options
-    console.log("Before options: ", this.state.options)
     newOptions[scenario].opt0 = false;
     newOptions[scenario].opt1 = false;
     newOptions[scenario].opt2 = false;
     newOptions[scenario][option] = !this.state.options[scenario][option]
 
-    console.log("Aftr options: ", newOptions)
     this.setState({
       options: newOptions,
     })
@@ -213,28 +190,22 @@ export class App extends React.Component {
   }
 
   selectCountry = country => {
-    if(this.state.selectedCountries.includes(country)) {
-      this.setState({
-        selectedCountries: [],
-      })
-    } else {
-      this.setState({
-        selectedCountries: [country],
-      })
-    }
+    this.setState({
+      selectedCountries: [country],
+    })
   }
   selectCountryCost = country => {
-    let newSelectedCountriesCost = this.state.selectedCountriesCost
+    let newSelectedCountriesCost = [...this.state.selectedCountriesCost]
     if (newSelectedCountriesCost.includes(country)) {
       newSelectedCountriesCost = newSelectedCountriesCost.filter(c => c !== country)
     } else {
-      newSelectedCountriesCost.push(country)
+      newSelectedCountriesCost = [...newSelectedCountriesCost, country] 
     } 
    this.setState({
       selectedCountriesCost: newSelectedCountriesCost,
     })
   }
-
+  
   render() {
     return (
       <Page>
