@@ -13,7 +13,7 @@ The start year of the model is 2015. In that year, the heating sector is represe
 
 ### Schematic representation of heat sector in TIMES_Heat model 
 
-![Heating_sector_scheme](./images/Heating_sector_scheme.png)
+![Heating_sector_scheme](./images/Heating_sector_scheme_resized.png)
  
 **Figure 1.** Simplified representation of the heating sector in the TIMES_Heat model (TIMES-Heat model, Sandvall, 2020)
 
