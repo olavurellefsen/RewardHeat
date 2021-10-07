@@ -57,6 +57,25 @@ const Bold = styled.span`
   padding-left: 5px;
   margin-bottom: 5px;
 `
+const AppLogo = styled.img`
+  padding: 10px;
+  max-width: 180px;
+  border: 0;
+  align-self: center;
+  transition: 0.2s;
+  transform: scale(0.70);
+  :hover {
+    transform: scale(0.72);
+    cursor: pointer;
+  }
+`;
+const ExternalLink = styled.a`
+  color: white;
+  text-decoration: none;
+  :hover {
+    text-decoration: underline;
+  }
+`;
 
 export const changeScenario = (name, value) => {
   return({
@@ -325,6 +344,14 @@ export class App extends React.Component {
             </MainSwitch>
             <FundingText>This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement <Bold> N. 857811.</Bold></FundingText>
             <FundingText>The content of this website reflects only the author’s view only and the European Commission is not responsible for any use that may be made of the information it contains.</FundingText>
+            <FundingText>
+              <ExternalLink href="https://europa.eu/">
+                <AppLogo
+                  src="./images/EU-logo.jpg"
+                  alt="REWARDHeat" 
+                />
+              </ExternalLink>
+            </FundingText>
           </Content>
         </RightColumn>
       </Page>
